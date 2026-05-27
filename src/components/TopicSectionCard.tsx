@@ -19,6 +19,7 @@ interface TopicSection {
   keyInfo: string;
   marketType: MarketType;
   companies: SectionCompany[];
+  relationships?: string[];
 }
 
 interface TopicSectionCardProps {
@@ -144,6 +145,29 @@ export default function TopicSectionCard({
           })}
         </div>
       </div>
+
+      {/* Relationships */}
+      {section.relationships && section.relationships.length > 0 && (
+        <div className="px-5 pb-4 border-t border-gray-100">
+          <div className="pt-3">
+            <p className="text-[11px] font-medium text-gray-400 mb-1.5 flex items-center gap-1">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              關聯關係
+            </p>
+            <div className="space-y-1">
+              {section.relationships.map((rel, i) => (
+                <p key={i} className="text-xs text-gray-500 leading-relaxed pl-3 border-l-2 border-gray-200">
+                  {rel}
+                </p>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

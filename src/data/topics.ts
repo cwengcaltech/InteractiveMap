@@ -16,6 +16,7 @@ export interface TopicSection {
   keyInfo: string;
   marketType: MarketType;
   companies: SectionCompany[];
+  relationships?: string[];
 }
 
 export interface Topic {
@@ -60,6 +61,11 @@ export const topics: Topic[] = [
           { id: "meta", name: "Meta", ticker: "META", country: "US", role: "MTIA v2 — 自研推論與訓練加速器" },
           { id: "tesla", name: "Tesla / xAI", ticker: "TSLA", country: "US", role: "Dojo D2 — 自研 AI 訓練晶片" },
         ],
+        relationships: [
+          "Google、Amazon、Microsoft、Meta 皆自研 XPU 以降低對 NVIDIA GPU 依賴",
+          "五大 Hyperscaler 的 XPU 均委託 Broadcom 或 Marvell 設計",
+          "所有 Hyperscaler XPU 皆依賴台積電先進製程代工",
+        ],
       },
       {
         id: "asic-design-tier1",
@@ -71,6 +77,11 @@ export const topics: Topic[] = [
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "Google TPU、Meta MTIA 設計夥伴，客製 AI ASIC 龍頭", marketShare: "~55%" },
           { id: "marvell", name: "Marvell", ticker: "MRVL", country: "US", role: "AWS Trainium、Microsoft Maia 設計夥伴", marketShare: "~25%" },
           { id: "mediatek", name: "聯發科", ticker: "2454.TW", country: "TW", role: "NVIDIA 合作開發 ARM 架構資料中心晶片" },
+        ],
+        relationships: [
+          "Broadcom 與 Marvell 在客製 ASIC 設計市場直接競爭，合計市佔超過 80%",
+          "Broadcom 為 Google TPU 與 Meta MTIA 設計夥伴，Marvell 服務 AWS 與 Microsoft",
+          "聯發科與 NVIDIA 合作開發 ARM 架構資料中心晶片，切入 ASIC 設計市場",
         ],
       },
       {
@@ -85,6 +96,11 @@ export const topics: Topic[] = [
           { id: "faraday", name: "智原科技", ticker: "3035.TW", country: "TW", role: "中階 ASIC 設計服務，專注 IoT 與車用領域" },
           { id: "socionext", name: "Socionext", ticker: "6526.T", country: "JP", role: "日本 ASIC 設計公司，車用與資料中心 SoC" },
         ],
+        relationships: [
+          "世芯與創意均為台積電先進製程 ASIC 設計服務商，彼此直接競爭",
+          "創意電子為台積電轉投資公司，取得先進製程 PDK 具先發優勢",
+          "台系 ASIC 設計公司受惠於 Broadcom/Marvell 產能溢出效應",
+        ],
       },
       {
         id: "asic-foundry",
@@ -96,6 +112,11 @@ export const topics: Topic[] = [
           { id: "tsmc", name: "台積電", ticker: "2330.TW", country: "TW", role: "N3E/N2 先進製程代工，XPU 晶片唯一代工選擇", marketShare: "~92%" },
           { id: "samsung", name: "Samsung Foundry", ticker: "005930.KS", country: "KR", role: "SF3/SF2 製程代工，積極爭取 AI 晶片訂單", marketShare: "~5%" },
           { id: "intel", name: "Intel Foundry", ticker: "INTC", country: "US", role: "Intel 18A 製程，爭取外部客戶代工訂單", marketShare: "~3%" },
+        ],
+        relationships: [
+          "台積電壟斷 XPU 先進製程代工，Samsung 與 Intel 極力爭取訂單",
+          "Samsung 與 Intel 均採用 GAA 架構追趕台積電，但良率仍有差距",
+          "台積電為 NVIDIA、AMD、Apple 等主要 Fabless 唯一代工選擇",
         ],
       },
       {
@@ -110,6 +131,11 @@ export const topics: Topic[] = [
           { id: "sk_hynix", name: "SK Hynix", ticker: "000660.KS", country: "KR", role: "HBM3E/HBM4 記憶體供應，TSV 堆疊整合", marketShare: "~53%" },
           { id: "micron", name: "Micron", ticker: "MU", country: "US", role: "HBM3E 量產，打入 NVIDIA 與 AMD 供應鏈", marketShare: "~15%" },
         ],
+        relationships: [
+          "台積電 CoWoS 壟斷 AI 晶片 2.5D 封裝，日月光承接溢出產能",
+          "SK Hynix 供應 HBM 晶粒至台積電 CoWoS 進行整合封裝",
+          "SK Hynix、Samsung、Micron 三家 HBM 供應商爭奪 NVIDIA 訂單",
+        ],
       },
       {
         id: "asic-xpu-products",
@@ -123,6 +149,11 @@ export const topics: Topic[] = [
           { id: "microsoft", name: "Azure Maia", ticker: "MSFT", country: "US", role: "Maia 100 加速器 — 搭載 Cobalt CPU 部署" },
           { id: "meta", name: "Meta MTIA", ticker: "META", country: "US", role: "MTIA v2 — 推薦系統與生成式 AI 推論" },
         ],
+        relationships: [
+          "Google TPU 與 AWS Trainium 為自研 XPU 規模最大的兩家",
+          "四大 Hyperscaler 的 XPU 均與自家 GPU 部署形成互補策略",
+          "Azure Maia 搭配自研 Cobalt ARM CPU，降低對 Intel Xeon 依賴",
+        ],
       },
       {
         id: "asic-tam-erosion",
@@ -134,6 +165,11 @@ export const topics: Topic[] = [
           { id: "nvidia", name: "NVIDIA", ticker: "NVDA", country: "US", role: "GPU 市場領導者，面臨 XPU 替代壓力" },
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "XPU 設計龍頭，AI 營收 FY2025 預估 $150 億" },
           { id: "marvell", name: "Marvell", ticker: "MRVL", country: "US", role: "客製化矽預計 FY2026 營收翻倍" },
+        ],
+        relationships: [
+          "Broadcom 與 Marvell 的 XPU 成長正侵蝕 NVIDIA GPU 市場份額",
+          "NVIDIA 面臨 XPU 替代壓力，但 CUDA 軟體生態系仍為最大護城河",
+          "XPU 預計 2026 年佔 AI 加速器 TAM 15-20%，GPU 仍佔主導",
         ],
       },
       {
@@ -147,6 +183,11 @@ export const topics: Topic[] = [
           { id: "sifive", name: "SiFive", ticker: "Private", country: "US", role: "RISC-V CPU IP — 開源 ISA 替代方案" },
           { id: "andes", name: "晶心科技", ticker: "6533.TW", country: "TW", role: "RISC-V CPU IP 供應商，嵌入式與 AI 加速應用" },
         ],
+        relationships: [
+          "Arm 壟斷 XPU 搭載的 CPU 核心 IP，SiFive 與晶心以 RISC-V 挑戰",
+          "SiFive 與晶心科技在 RISC-V CPU IP 市場直接競爭",
+          "幾乎所有 Hyperscaler XPU 均採用 Arm Neoverse CSS 架構",
+        ],
       },
       {
         id: "asic-eda",
@@ -158,6 +199,11 @@ export const topics: Topic[] = [
           { id: "synopsys", name: "Synopsys", ticker: "SNPS", country: "US", role: "Fusion Compiler — 先進製程設計與 sign-off 工具", marketShare: "~55%" },
           { id: "cadence", name: "Cadence", ticker: "CDNS", country: "US", role: "Innovus/Cerebrus — AI 驅動 P&R 與 3DIC 設計", marketShare: "~35%" },
           { id: "siemens_eda", name: "Siemens EDA", ticker: "SIE.DE", country: "DE", role: "Calibre — 光罩驗證與 DFM 工具" },
+        ],
+        relationships: [
+          "Synopsys 與 Cadence 形成 EDA 雙寡佔，合計市佔超過 85%",
+          "Siemens EDA (前 Mentor) 在光罩驗證 Calibre 工具仍具壟斷地位",
+          "所有 ASIC 設計公司均高度依賴 Synopsys 與 Cadence 的 EDA 工具鏈",
         ],
       },
       {
@@ -172,6 +218,11 @@ export const topics: Topic[] = [
           { id: "alphawave", name: "Alphawave Semi", ticker: "AWE.L", country: "CA", role: "224G SerDes IP 與高速連接矽智財" },
           { id: "arm", name: "Arm", ticker: "ARM", country: "GB", role: "AMBA CHI 互連 IP — chiplet 通訊基礎" },
         ],
+        relationships: [
+          "Synopsys 與 Cadence 在 SerDes IP 市場同樣形成雙寡佔格局",
+          "Alphawave 以 224G SerDes IP 專精化策略挑戰 Synopsys/Cadence",
+          "Arm AMBA CHI 互連 IP 為 chiplet 間通訊的基礎標準",
+        ],
       },
       {
         id: "asic-envm-security",
@@ -183,6 +234,11 @@ export const topics: Topic[] = [
           { id: "synopsys", name: "Synopsys", ticker: "SNPS", country: "US", role: "嵌入式 Flash/SRAM/安全 IP 最大授權商" },
           { id: "rambus", name: "Rambus", ticker: "RMBS", country: "US", role: "安全/記憶體控制器 IP，支援 HBM/DDR5 介面" },
           { id: "kilopass", name: "Synopsys (原 Kilopass)", ticker: "SNPS", country: "US", role: "OTP/MTP 嵌入式 NVM IP" },
+        ],
+        relationships: [
+          "Synopsys 透過收購 Kilopass 壟斷嵌入式 NVM IP 與安全 IP 市場",
+          "Rambus 專注記憶體控制器與安全 IP，與 Synopsys 形成互補競爭",
+          "ASIC 設計複雜度提升推動嵌入式記憶體與安全 IP 授權需求激增",
         ],
       },
       {
@@ -196,6 +252,11 @@ export const topics: Topic[] = [
           { id: "credo", name: "Credo Technology", ticker: "CRDO", country: "US", role: "高速 SerDes 與 Active Electrical Cable (AEC)" },
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "PCIe Switch、光模組 DSP 與網路 ASIC" },
           { id: "marvell", name: "Marvell", ticker: "MRVL", country: "US", role: "PAM4 DSP、Ethernet Switch 與光模組方案" },
+        ],
+        relationships: [
+          "Astera Labs 與 Credo 在 PCIe/CXL Retimer 市場直接競爭",
+          "Broadcom 與 Marvell 同時供應網路 ASIC 與光模組 DSP 晶片",
+          "AI 叢集 800G/1.6T 互連需求帶動四家公司營收同步高速成長",
         ],
       },
     ],
@@ -227,6 +288,11 @@ export const topics: Topic[] = [
           { id: "samsung", name: "Samsung", ticker: "005930.KS", country: "KR", role: "HBM3E 12-Hi 量產，良率追趕中", marketShare: "~32%" },
           { id: "micron", name: "Micron", ticker: "MU", country: "US", role: "HBM3E 8-Hi/12-Hi 量產，打入 NVIDIA 供應鏈", marketShare: "~15%" },
         ],
+        relationships: [
+          "SK Hynix 技術領先，Samsung 良率追趕，Micron 為後進挑戰者",
+          "三家 HBM 廠商均爭取 NVIDIA 認證與供應份額",
+          "SK Hynix 與 Samsung 在 HBM3E/HBM4 世代轉換中激烈競爭",
+        ],
       },
       {
         id: "hbm-dram-manufacturing",
@@ -238,6 +304,11 @@ export const topics: Topic[] = [
           { id: "samsung", name: "Samsung Memory", ticker: "005930.KS", country: "KR", role: "全球最大 DRAM 廠商，1a/1b nm 製程量產", marketShare: "~40%" },
           { id: "sk_hynix", name: "SK Hynix", ticker: "000660.KS", country: "KR", role: "全球第二大 DRAM 廠商，HBM 技術領先", marketShare: "~35%" },
           { id: "micron", name: "Micron", ticker: "MU", country: "US", role: "美國唯一 DRAM 廠商，1-beta 製程量產", marketShare: "~25%" },
+        ],
+        relationships: [
+          "Samsung、SK Hynix、Micron 三家寡佔全球 DRAM 市場近 100%",
+          "三家 DRAM 廠同時是 HBM 唯一供應商，DRAM 產能正加速轉向 HBM",
+          "Micron 為美國唯一 DRAM 廠商，具地緣政治戰略重要性",
         ],
       },
       {
@@ -253,6 +324,11 @@ export const topics: Topic[] = [
           { id: "besi", name: "BE Semiconductor", ticker: "BESI.AS", country: "NL", role: "熱壓接合 (TCB) 設備龍頭，HBM die bonding 關鍵供應商" },
           { id: "evg", name: "EV Group", ticker: "Private", country: "AT", role: "晶圓級接合與光刻對準設備" },
         ],
+        relationships: [
+          "Lam Research 與 Applied Materials 在 TSV 蝕刻/沉積設備直接競爭",
+          "BESI 壟斷 HBM 熱壓接合設備，SK Hynix 與 Samsung 均為其客戶",
+          "EV Group 與 Tokyo Electron 在晶圓接合設備市場競爭",
+        ],
       },
       {
         id: "hbm-packaging-testing",
@@ -265,6 +341,11 @@ export const topics: Topic[] = [
           { id: "samsung", name: "Samsung (自有封裝)", ticker: "005930.KS", country: "KR", role: "自有 HBM 封裝產線" },
           { id: "ase", name: "日月光", ticker: "3711.TW", country: "TW", role: "HBM 測試與後端封裝服務" },
           { id: "advantest", name: "Advantest", ticker: "6857.T", country: "JP", role: "HBM 記憶體測試設備龍頭" },
+        ],
+        relationships: [
+          "SK Hynix 與 Samsung 自有封裝產線，日月光承接溢出測試訂單",
+          "Advantest 壟斷 HBM 測試設備，三大記憶體廠均為其客戶",
+          "HBM 封裝良率為成本關鍵，推動 Advantest 測試設備需求激增",
         ],
       },
       {
@@ -279,6 +360,11 @@ export const topics: Topic[] = [
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "XPU ASIC 整合 HBM，客戶包含 Google TPU" },
           { id: "intel", name: "Intel", ticker: "INTC", country: "US", role: "Gaudi 3 AI 加速器搭載 HBM" },
         ],
+        relationships: [
+          "NVIDIA 消耗全球約 60% HBM 產能，為三大記憶體廠最重要客戶",
+          "AMD MI 系列為第二大 HBM 客戶，與 NVIDIA 競爭 HBM 產能配額",
+          "Broadcom XPU 整合 HBM 需求快速成長，間接推動 HBM 產能吃緊",
+        ],
       },
       {
         id: "hbm-materials",
@@ -292,6 +378,11 @@ export const topics: Topic[] = [
           { id: "resonac", name: "Resonac (原昭和電工)", ticker: "4004.T", country: "JP", role: "HBM 接合材料 (NCF/DAF) 與化學品" },
           { id: "ajinomoto", name: "味之素精細科技", ticker: "2802.T", country: "JP", role: "ABF 載板材料 — AI 晶片封裝關鍵絕緣膜" },
         ],
+        relationships: [
+          "信越化學與 SUMCO 合計壟斷超過 55% 矽晶圓市場",
+          "味之素壟斷 ABF 絕緣膜供應，台積電 CoWoS 封裝高度依賴",
+          "Resonac 供應 HBM 接合材料 (NCF/DAF) 給 SK Hynix 與 Samsung",
+        ],
       },
       {
         id: "hbm-demand-outlook",
@@ -303,6 +394,11 @@ export const topics: Topic[] = [
           { id: "sk_hynix", name: "SK Hynix", ticker: "000660.KS", country: "KR", role: "計畫 2025 年 HBM 產能提升 150%，營收佔比過半" },
           { id: "samsung", name: "Samsung", ticker: "005930.KS", country: "KR", role: "加速 HBM3E 量產追趕，轉產 DRAM 產能至 HBM" },
           { id: "micron", name: "Micron", ticker: "MU", country: "US", role: "HBM 營收目標 FY2025 突破 $80 億" },
+        ],
+        relationships: [
+          "SK Hynix 計畫 HBM 產能年增 150%，引領市場供給擴張",
+          "Samsung 加速轉產 DRAM 至 HBM，縮小與 SK Hynix 的差距",
+          "三家廠商 2025 年 HBM 合計營收預估達 $350 億，年增超過 100%",
         ],
       },
     ],
@@ -334,6 +430,11 @@ export const topics: Topic[] = [
           { id: "samsung", name: "Samsung Foundry", ticker: "005930.KS", country: "KR", role: "SF3 量產中 → SF2 (GAA, 2025) → SF1.4 (2027)" },
           { id: "intel", name: "Intel Foundry", ticker: "INTC", country: "US", role: "Intel 18A (GAA RibbonFET, 2025) → Intel 14A (2026)" },
         ],
+        relationships: [
+          "台積電、Samsung、Intel 三家在 2nm GAA 節點展開技術競賽",
+          "Samsung 率先量產 GAA 3nm，但良率落後台積電 FinFET N3E",
+          "Intel 18A 以 RibbonFET GAA 架構試圖追趕台積電 N2 節點",
+        ],
       },
       {
         id: "advanced-euv",
@@ -347,6 +448,11 @@ export const topics: Topic[] = [
           { id: "trumpf", name: "TRUMPF", ticker: "Private", country: "DE", role: "EUV 光源 (CO2 雷射) 唯一供應商" },
           { id: "cymer", name: "Cymer (ASML 子公司)", ticker: "ASML", country: "US", role: "DUV 準分子雷射光源" },
         ],
+        relationships: [
+          "ASML 壟斷 EUV 光刻機，台積電、Samsung、Intel 均為其客戶",
+          "Zeiss 與 TRUMPF 為 ASML EUV 核心零組件唯一供應商",
+          "ASML 收購 Cymer 掌握 DUV 光源技術，垂直整合光刻供應鏈",
+        ],
       },
       {
         id: "advanced-foundry",
@@ -358,6 +464,11 @@ export const topics: Topic[] = [
           { id: "tsmc", name: "台積電", ticker: "2330.TW", country: "TW", role: "全球先進製程代工龍頭，Apple/NVIDIA/AMD 最大代工夥伴", marketShare: "~90%" },
           { id: "samsung", name: "Samsung Foundry", ticker: "005930.KS", country: "KR", role: "GAA 3nm 量產，Qualcomm/Google 部分訂單", marketShare: "~7%" },
           { id: "intel", name: "Intel Foundry", ticker: "INTC", country: "US", role: "18A 製程爭取外部客戶，Microsoft 為首批客戶", marketShare: "~3%" },
+        ],
+        relationships: [
+          "台積電壟斷先進製程代工，Apple/NVIDIA/AMD 高度依賴",
+          "Samsung 以 GAA 3nm 爭取 Qualcomm/Google 部分訂單",
+          "Intel Foundry 爭取 Microsoft 為首批外部客戶以證明製程能力",
         ],
       },
       {
@@ -372,6 +483,11 @@ export const topics: Topic[] = [
           { id: "tokyo_electron", name: "Tokyo Electron", ticker: "8035.T", country: "JP", role: "塗佈顯影設備壟斷、ALD/蝕刻設備主要供應商", marketShare: "~25%" },
           { id: "asm_international", name: "ASM International", ticker: "ASM.AS", country: "NL", role: "先進 ALD 設備龍頭，GAA 製程關鍵供應商" },
         ],
+        relationships: [
+          "Lam Research 與 Applied Materials 在蝕刻/沉積設備市場雙寡佔",
+          "Tokyo Electron 壟斷塗佈顯影設備，同時在蝕刻/ALD 競爭",
+          "ASM International 專精 ALD 設備，GAA 製程使其需求大幅提升",
+        ],
       },
       {
         id: "advanced-inspection",
@@ -385,6 +501,11 @@ export const topics: Topic[] = [
           { id: "applied_materials", name: "Applied Materials", ticker: "AMAT", country: "US", role: "電子束檢測與量測設備" },
           { id: "hitachi_hi_tech", name: "Hitachi High-Tech", ticker: "6501.T", country: "JP", role: "CD-SEM 關鍵尺寸量測設備" },
         ],
+        relationships: [
+          "KLA 壟斷半導體製程檢測設備，市佔率超過 55%",
+          "Applied Materials 同時供應蝕刻/沉積與電子束檢測設備",
+          "Hitachi High-Tech 的 CD-SEM 與 KLA 的光學檢測形成互補",
+        ],
       },
       {
         id: "advanced-eda",
@@ -396,6 +517,11 @@ export const topics: Topic[] = [
           { id: "synopsys", name: "Synopsys", ticker: "SNPS", country: "US", role: "數位設計全流程工具、DTCO 設計技術協同優化", marketShare: "~55%" },
           { id: "cadence", name: "Cadence", ticker: "CDNS", country: "US", role: "先進節點 P&R、熱/應力多物理模擬工具", marketShare: "~35%" },
           { id: "siemens_eda", name: "Siemens EDA", ticker: "SIE.DE", country: "DE", role: "Calibre 光罩驗證、PCB 與封裝設計工具", marketShare: "~10%" },
+        ],
+        relationships: [
+          "Synopsys 與 Cadence 雙寡佔先進製程 EDA 市場，合計超過 90%",
+          "2nm 設計成本超過 $5 億，推升 EDA 工具授權費與 IP 需求",
+          "Siemens EDA 以 Calibre 光罩驗證工具維持特定領域競爭力",
         ],
       },
       {
@@ -410,6 +536,11 @@ export const topics: Topic[] = [
           { id: "toppan", name: "Toppan", ticker: "7911.T", country: "JP", role: "光罩基板與先進光罩供應商" },
           { id: "hoya", name: "Hoya", ticker: "7741.T", country: "JP", role: "EUV 光罩空白基板壟斷供應商", marketShare: "~80%" },
         ],
+        relationships: [
+          "Hoya 壟斷 EUV 光罩空白基板，Photronics 與 DNP 依賴其供應",
+          "Photronics 與大日本印刷 (DNP) 在光罩製造市場直接競爭",
+          "日本廠商壟斷光罩供應鏈上游，具地緣政治戰略意義",
+        ],
       },
       {
         id: "advanced-wafer-materials",
@@ -422,6 +553,11 @@ export const topics: Topic[] = [
           { id: "sumco", name: "SUMCO", ticker: "3436.T", country: "JP", role: "全球第二大矽晶圓供應商", marketShare: "~25%" },
           { id: "sk_siltron", name: "SK Siltron", ticker: "Private", country: "KR", role: "SK 集團旗下矽晶圓廠商", marketShare: "~15%" },
           { id: "siltronic", name: "Siltronic", ticker: "WAF.DE", country: "DE", role: "歐洲最大矽晶圓供應商", marketShare: "~13%" },
+        ],
+        relationships: [
+          "信越化學與 SUMCO 合計供應全球超過 55% 的 300mm 矽晶圓",
+          "SK Siltron 為 SK 集團旗下，與 SK Hynix 形成垂直整合優勢",
+          "五大矽晶圓廠壟斷全球供應，新進者進入門檻極高",
         ],
       },
     ],
@@ -453,6 +589,11 @@ export const topics: Topic[] = [
           { id: "amd", name: "AMD", ticker: "AMD", country: "US", role: "MI300X → MI325X → MI400 系列，第二大 AI GPU 供應商", marketShare: "~10%" },
           { id: "intel", name: "Intel", ticker: "INTC", country: "US", role: "Gaudi 3 AI 加速器，主打性價比市場", marketShare: "~3%" },
         ],
+        relationships: [
+          "NVIDIA 壟斷 AI GPU 市場超過 85%，AMD 為唯一有效挑戰者",
+          "AMD MI300X 以 HBM 容量優勢切入推論市場挑戰 NVIDIA",
+          "Intel Gaudi 以性價比定位試圖打入 AI 加速器市場",
+        ],
       },
       {
         id: "gpu-design",
@@ -465,6 +606,11 @@ export const topics: Topic[] = [
           { id: "amd", name: "AMD", ticker: "AMD", country: "US", role: "CDNA 4 架構 (MI400)，ROCm 軟體生態系追趕中" },
           { id: "intel", name: "Intel", ticker: "INTC", country: "US", role: "Intel Xe GPU 架構 (Gaudi/Falcon Shores)" },
         ],
+        relationships: [
+          "NVIDIA CUDA 生態系是最深護城河，AMD ROCm 持續追趕中",
+          "NVIDIA Blackwell 雙晶粒設計推動封裝技術極限",
+          "AMD 與 Intel 均試圖打破 NVIDIA CUDA 軟體鎖定效應",
+        ],
       },
       {
         id: "gpu-foundry",
@@ -475,6 +621,11 @@ export const topics: Topic[] = [
         companies: [
           { id: "tsmc", name: "台積電", ticker: "2330.TW", country: "TW", role: "NVIDIA/AMD AI GPU 唯一代工夥伴，N4P/N3E 製程", marketShare: "~100%" },
           { id: "samsung", name: "Samsung Foundry", ticker: "005930.KS", country: "KR", role: "部分 NVIDIA 網通晶片代工" },
+        ],
+        relationships: [
+          "台積電為 NVIDIA 與 AMD AI GPU 唯一代工夥伴",
+          "NVIDIA/AMD 高度依賴台積電，代工集中度風險受市場關注",
+          "Samsung 僅承接 NVIDIA 部分網通晶片，尚未進入核心 GPU 代工",
         ],
       },
       {
@@ -488,6 +639,11 @@ export const topics: Topic[] = [
           { id: "micron", name: "Micron", ticker: "MU", country: "US", role: "HBM3E 第三供應商，NVIDIA 認證通過", marketShare: "~15%" },
           { id: "samsung", name: "Samsung", ticker: "005930.KS", country: "KR", role: "HBM3E 供應商，NVIDIA 良率驗證中", marketShare: "~32%" },
         ],
+        relationships: [
+          "SK Hynix 為 NVIDIA/AMD HBM 主要供應商，供貨優先權最高",
+          "Samsung HBM 仍在 NVIDIA 良率驗證階段，市佔有提升空間",
+          "HBM 記憶體成本佔 GPU 總成本 40%+，議價權影響 GPU 毛利",
+        ],
       },
       {
         id: "gpu-packaging",
@@ -499,6 +655,11 @@ export const topics: Topic[] = [
           { id: "tsmc", name: "台積電 CoWoS", ticker: "2330.TW", country: "TW", role: "CoWoS-S/CoWoS-L 封裝，AI GPU 2.5D 封裝壟斷", marketShare: "~90%" },
           { id: "ase", name: "日月光", ticker: "3711.TW", country: "TW", role: "GPU 後端封裝測試與 FCBGA 基板" },
           { id: "amkor", name: "Amkor", ticker: "AMKR", country: "US", role: "2.5D/3D 先進封裝技術，部分 GPU 封裝訂單" },
+        ],
+        relationships: [
+          "台積電 CoWoS 壟斷 AI GPU 封裝，日月光與 Amkor 承接溢出訂單",
+          "B200 GPU 採用 CoWoS-L 封裝面積達 5,000mm2，僅台積電可量產",
+          "日月光負責 GPU 後端封裝測試，與台積電形成上下游互補",
         ],
       },
       {
@@ -513,6 +674,11 @@ export const topics: Topic[] = [
           { id: "unimicron", name: "欣興電子", ticker: "3037.TW", country: "TW", role: "台灣最大 ABF 載板廠商，AMD/Intel 供應商", marketShare: "~15%" },
           { id: "nan_ya_pcb", name: "南亞電路板", ticker: "8046.TW", country: "TW", role: "ABF 載板與高階 HDI PCB" },
         ],
+        relationships: [
+          "Ibiden 與 Shinko 為日本 ABF 載板雙龍頭，合計市佔超過 50%",
+          "欣興與南亞電路板為台灣 ABF 載板代表，承接 AMD/Intel 訂單",
+          "ABF 載板供不應求，日系與台系廠商均大規模擴產中",
+        ],
       },
       {
         id: "gpu-server-odm",
@@ -525,6 +691,11 @@ export const topics: Topic[] = [
           { id: "quanta", name: "廣達電腦", ticker: "2382.TW", country: "TW", role: "AI 伺服器 ODM 大廠，NVIDIA 與雲端客戶主力供應商", marketShare: "~25%" },
           { id: "wistron", name: "緯創資通", ticker: "3231.TW", country: "TW", role: "AI 伺服器組裝，微軟與 Meta 供應商" },
           { id: "supermicro", name: "Supermicro", ticker: "SMCI", country: "US", role: "AI 伺服器直接銷售與客製化組裝" },
+        ],
+        relationships: [
+          "鴻海與廣達為 NVIDIA GB200 兩大組裝夥伴，合計市佔超過 65%",
+          "台灣 ODM 廠合計生產全球超過 90% AI 伺服器",
+          "Supermicro 為唯一自有品牌直銷 OEM，與台系 ODM 差異化競爭",
         ],
       },
       {
@@ -539,6 +710,11 @@ export const topics: Topic[] = [
           { id: "google", name: "Google / GCP", ticker: "GOOGL", country: "US", role: "GPU Cloud 服務與自研 TPU 並行策略" },
           { id: "amazon", name: "Amazon / AWS", ticker: "AMZN", country: "US", role: "GPU Cloud 最大平台，同時推 Trainium 替代方案" },
           { id: "oracle", name: "Oracle Cloud", ticker: "ORCL", country: "US", role: "OCI GPU 叢集快速擴張，服務 AI 新創客戶" },
+        ],
+        relationships: [
+          "Microsoft 為 NVIDIA GPU 最大買家，同時投資 OpenAI 鎖定 AI 算力",
+          "Google 與 Amazon 同時採購 GPU 並自研 XPU，雙軌策略降低依賴",
+          "四大 Hyperscaler 合計佔 NVIDIA 資料中心 GPU 採購量超過 50%",
         ],
       },
     ],
@@ -570,6 +746,11 @@ export const topics: Topic[] = [
           { id: "amd", name: "AMD", ticker: "AMD", country: "US", role: "Instinct MI300X/MI325X 平台，搭配 EPYC CPU" },
           { id: "intel", name: "Intel", ticker: "INTC", country: "US", role: "Gaudi 3 加速器搭配 Xeon CPU 平台" },
         ],
+        relationships: [
+          "NVIDIA 定義 AI 伺服器平台標準，AMD 與 Intel 追隨其規格",
+          "AMD 以 EPYC CPU + MI300X GPU 整合平台挑戰 NVIDIA 生態系",
+          "NVIDIA、AMD、Intel 三家平台在 AI 伺服器市場直接競爭",
+        ],
       },
       {
         id: "server-gpu-modules",
@@ -582,6 +763,11 @@ export const topics: Topic[] = [
           { id: "amd", name: "AMD", ticker: "AMD", country: "US", role: "MI300X OAM 加速模組", marketShare: "~10%" },
           { id: "google", name: "Google", ticker: "GOOGL", country: "US", role: "TPU v5p/v6 — 僅 Google Cloud 使用" },
           { id: "amazon", name: "AWS", ticker: "AMZN", country: "US", role: "Trainium2 / Inferentia2 — 僅 AWS 使用" },
+        ],
+        relationships: [
+          "NVIDIA 壟斷通用 AI 加速模組市場，市佔超過 85%",
+          "Google TPU 與 AWS Trainium 僅供自家雲端使用，不對外銷售",
+          "AMD MI300X 為 NVIDIA 外唯一可大規模部署的第三方 AI 加速器",
         ],
       },
       {
@@ -597,6 +783,11 @@ export const topics: Topic[] = [
           { id: "inventec", name: "英業達", ticker: "2356.TW", country: "TW", role: "AI 伺服器 ODM，HP 與 Dell 代工" },
           { id: "supermicro", name: "Supermicro", ticker: "SMCI", country: "US", role: "AI 伺服器直銷 OEM，自有品牌與客製化方案" },
         ],
+        relationships: [
+          "鴻海與廣達合計組裝超過 65% AI 伺服器，為 NVIDIA 核心夥伴",
+          "緯創與英業達分別服務 Meta/微軟與 HP/Dell 等不同客戶群",
+          "Supermicro 以自有品牌直銷模式與台灣 ODM 差異化競爭",
+        ],
       },
       {
         id: "server-networking",
@@ -609,6 +800,11 @@ export const topics: Topic[] = [
           { id: "arista", name: "Arista Networks", ticker: "ANET", country: "US", role: "資料中心 Ethernet Switch 龍頭，AI 後端網路" },
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "Tomahawk/Jericho 網路交換晶片，PCIe Switch" },
           { id: "cisco", name: "Cisco", ticker: "CSCO", country: "US", role: "資料中心 Ethernet 與 AI 網路方案" },
+        ],
+        relationships: [
+          "NVIDIA (Mellanox) 壟斷 InfiniBand AI 叢集互連，市佔超過 80%",
+          "Arista 與 Cisco 在資料中心 Ethernet 交換器市場直接競爭",
+          "Broadcom 供應網路交換晶片給 Arista，同時也是 Cisco 的競爭者",
         ],
       },
       {
@@ -623,6 +819,11 @@ export const topics: Topic[] = [
           { id: "vertiv", name: "Vertiv", ticker: "VRT", country: "US", role: "資料中心電源基礎設施與 UPS 系統" },
           { id: "eaton", name: "Eaton", ticker: "ETN", country: "US", role: "資料中心配電與 UPS 系統" },
         ],
+        relationships: [
+          "台達電與光寶科技在 AI 伺服器電源供應器市場直接競爭",
+          "Vertiv 與 Eaton 在資料中心 UPS 與配電系統市場雙寡佔",
+          "台達電為 NVIDIA AI 伺服器電源主要供應商，市佔率領先",
+        ],
       },
       {
         id: "server-cooling",
@@ -635,6 +836,11 @@ export const topics: Topic[] = [
           { id: "auras", name: "雙鴻科技", ticker: "3324.TW", country: "TW", role: "AI 伺服器散熱模組，NVIDIA 認證供應商" },
           { id: "vertiv", name: "Vertiv", ticker: "VRT", country: "US", role: "資料中心液冷 CDU 與精密空調系統" },
           { id: "schneider", name: "Schneider Electric", ticker: "SU.PA", country: "FR", role: "資料中心冷卻與電力基礎設施整合方案" },
+        ],
+        relationships: [
+          "雙鴻科技為 NVIDIA 認證散熱供應商，與 Cooler Master 競爭模組訂單",
+          "Vertiv 與 Schneider 在資料中心液冷與精密空調市場直接競爭",
+          "液冷技術需求激增，台系與美歐廠商同步擴產搶佔市場",
         ],
       },
       {
@@ -649,6 +855,11 @@ export const topics: Topic[] = [
           { id: "google", name: "Google Cloud", ticker: "GOOGL", country: "US", role: "第三大雲端平台，TPU + GPU 雙軌 AI 服務" },
           { id: "meta", name: "Meta", ticker: "META", country: "US", role: "自建大規模 AI 訓練資料中心，非公有雲模式" },
           { id: "oracle", name: "Oracle Cloud", ticker: "ORCL", country: "US", role: "OCI GPU 超級叢集，服務 AI 新創與企業客戶" },
+        ],
+        relationships: [
+          "AWS、Azure、GCP 三大雲端平台合計佔全球雲端市場超過 65%",
+          "Meta 為唯一非公有雲模式的大規模 AI 資料中心營運商",
+          "Oracle Cloud 以 GPU 超級叢集快速擴張，搶攻 AI 新創客戶",
         ],
       },
     ],
@@ -682,6 +893,12 @@ export const topics: Topic[] = [
           { id: "meta_ai", name: "Meta AI", ticker: "META", country: "US", role: "Llama 4 系列 — 全球最大開源模型生態系" },
           { id: "mistral", name: "Mistral AI", ticker: "Private", country: "FR", role: "歐洲最大 AI 模型公司，開源與商用雙軌策略" },
         ],
+        relationships: [
+          "OpenAI、Anthropic、Google DeepMind 形成閉源模型三強鼎立",
+          "Meta Llama 開源策略對 OpenAI/Anthropic 閉源模式形成競爭壓力",
+          "OpenAI 獲 Microsoft 投資，Anthropic 獲 Google/Amazon 投資",
+          "Mistral 以開源+商用雙軌策略挑戰美國 AI 模型公司主導地位",
+        ],
       },
       {
         id: "ai-cloud-infra",
@@ -694,6 +911,11 @@ export const topics: Topic[] = [
           { id: "microsoft", name: "Microsoft Azure", ticker: "MSFT", country: "US", role: "Azure OpenAI Service — 企業 AI 平台首選", marketShare: "~24%" },
           { id: "google", name: "Google Cloud", ticker: "GOOGL", country: "US", role: "Vertex AI — TPU/GPU 雲端 AI 訓練與推論", marketShare: "~11%" },
           { id: "oracle", name: "Oracle Cloud", ticker: "ORCL", country: "US", role: "OCI AI 服務 — GPU 超級叢集快速擴張" },
+        ],
+        relationships: [
+          "AWS、Azure、GCP 三大雲端平台寡佔 AI 基礎設施市場超過 65%",
+          "Azure 透過 OpenAI 獨家合作取得企業 AI 平台差異化優勢",
+          "Oracle Cloud 以 GPU 價格優勢快速擴張，搶攻 AI 新創市場",
         ],
       },
       {
@@ -708,6 +930,11 @@ export const topics: Topic[] = [
           { id: "nvidia_nemo", name: "NVIDIA (NeMo)", ticker: "NVDA", country: "US", role: "NeMo/Megatron-LM — 大規模 LLM 訓練框架" },
           { id: "huggingface", name: "Hugging Face", ticker: "Private", country: "US", role: "Transformers/Accelerate — 開源模型 Hub 與訓練工具" },
         ],
+        relationships: [
+          "Meta PyTorch 壟斷 AI 訓練框架市場，Google JAX 為主要挑戰者",
+          "NVIDIA NeMo 框架深度綁定 CUDA 生態系，強化 GPU 鎖定效應",
+          "Hugging Face 為開源模型中立平台，支援 PyTorch 與 JAX 框架",
+        ],
       },
       {
         id: "ai-model-serving",
@@ -720,6 +947,11 @@ export const topics: Topic[] = [
           { id: "vllm", name: "vLLM (UC Berkeley)", ticker: "Private", country: "US", role: "vLLM — 高效能開源 LLM 推論引擎，PagedAttention 技術" },
           { id: "together_ai", name: "Together AI", ticker: "Private", country: "US", role: "雲端推論 API 與開源模型託管平台" },
           { id: "fireworks_ai", name: "Fireworks AI", ticker: "Private", country: "US", role: "快速推論 API，支援 Function Calling 與多模態" },
+        ],
+        relationships: [
+          "NVIDIA TensorRT-LLM 為 GPU 推論優化標準，vLLM 為開源替代方案",
+          "Together AI 與 Fireworks AI 在雲端推論 API 市場直接競爭",
+          "vLLM 開源引擎降低推論成本，對 NVIDIA 閉源方案形成壓力",
         ],
       },
       {
@@ -734,6 +966,11 @@ export const topics: Topic[] = [
           { id: "servicenow", name: "ServiceNow", ticker: "NOW", country: "US", role: "Now Assist — 企業 IT 流程 AI 自動化" },
           { id: "databricks", name: "Databricks", ticker: "Private", country: "US", role: "Mosaic ML / DBRX — 企業級 AI 數據平台" },
         ],
+        relationships: [
+          "Microsoft Copilot 依賴 OpenAI 模型，Salesforce 則自建 AI 模型",
+          "Salesforce 與 ServiceNow 在企業 AI 自動化平台市場直接競爭",
+          "Databricks 以開源數據平台切入企業 AI，與雲端巨頭差異化競爭",
+        ],
       },
       {
         id: "ai-chip-software",
@@ -746,6 +983,11 @@ export const topics: Topic[] = [
           { id: "amd", name: "AMD (ROCm)", ticker: "AMD", country: "US", role: "ROCm / MIOpen — 開源 GPU 運算軟體堆疊" },
           { id: "intel", name: "Intel (oneAPI)", ticker: "INTC", country: "US", role: "oneAPI / OpenVINO — 跨平台 AI 加速軟體" },
           { id: "openai_triton", name: "OpenAI (Triton Lang)", ticker: "Private", country: "US", role: "Triton — 開源 GPU kernel 編程語言，降低 CUDA 依賴" },
+        ],
+        relationships: [
+          "NVIDIA CUDA 生態系壟斷 AI 軟體堆疊，AMD ROCm 為主要挑戰者",
+          "OpenAI Triton 語言旨在降低開發者對 CUDA 的直接依賴",
+          "AMD 與 Intel 均推開源軟體堆疊試圖打破 NVIDIA CUDA 鎖定",
         ],
       },
     ],
@@ -778,6 +1020,11 @@ export const topics: Topic[] = [
           { id: "amd", name: "AMD", ticker: "AMD", country: "US", role: "MI300X 採用 CoWoS-S 封裝整合 CPU+GPU+HBM chiplet" },
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "XPU ASIC 大量採用 CoWoS 封裝，推動 CoWoS-L 產能需求" },
         ],
+        relationships: [
+          "NVIDIA 與 Broadcom 為台積電 CoWoS 產能兩大爭奪者",
+          "台積電開發 CoWoS-L 技術以滿足 NVIDIA Blackwell 超大封裝需求",
+          "NVIDIA、AMD、Broadcom 均高度依賴台積電 CoWoS 封裝技術",
+        ],
       },
       {
         id: "cowos-interposer",
@@ -790,6 +1037,11 @@ export const topics: Topic[] = [
           { id: "umc", name: "聯電", ticker: "2303.TW", country: "TW", role: "成熟製程矽中介層代工，爭取 CoWoS 溢出產能訂單" },
           { id: "samsung", name: "Samsung Foundry", ticker: "005930.KS", country: "KR", role: "I-Cube / H-Cube 2.5D 封裝平台，開發自有中介層技術", marketShare: "~3%" },
         ],
+        relationships: [
+          "台積電壟斷矽中介層量產，聯電爭取溢出產能訂單",
+          "Samsung 以 I-Cube/H-Cube 自有平台試圖打破台積電壟斷",
+          "聯電以成熟製程中介層切入，與台積電形成產能互補",
+        ],
       },
       {
         id: "cowos-capacity",
@@ -801,6 +1053,11 @@ export const topics: Topic[] = [
           { id: "tsmc", name: "台積電 CoWoS", ticker: "2330.TW", country: "TW", role: "CoWoS-S/CoWoS-L 封裝產能壟斷者，持續擴產仍供不應求", marketShare: "~90%" },
           { id: "ase", name: "日月光", ticker: "3711.TW", country: "TW", role: "承接台積電 CoWoS 溢出產能，Fan-out 先進封裝產線擴建中" },
           { id: "amkor", name: "Amkor", ticker: "AMKR", country: "US", role: "2.5D 先進封裝產能擴充，承接部分 CoWoS 替代訂單" },
+        ],
+        relationships: [
+          "台積電 CoWoS 產能壟斷率達 90%，日月光與 Amkor 承接溢出訂單",
+          "日月光以 Fan-out 先進封裝技術爭取 CoWoS 替代方案訂單",
+          "CoWoS 產能為 AI 晶片供應鏈最大瓶頸，三家廠商均全力擴產",
         ],
       },
       {
@@ -815,6 +1072,11 @@ export const topics: Topic[] = [
           { id: "spil", name: "矽品精密 (SPIL)", ticker: "3711.TW", country: "TW", role: "日月光集團旗下，先進封裝產能擴充中", marketShare: "~15%" },
           { id: "jcet", name: "長電科技 (JCET)", ticker: "600584.SS", country: "CN", role: "中國最大 OSAT 廠，投資 2.5D 封裝技術追趕" },
         ],
+        relationships: [
+          "日月光為全球最大 OSAT 廠，矽品 (SPIL) 為其旗下子公司",
+          "日月光與 Amkor 在全球先進封裝委外市場直接競爭",
+          "長電科技為中國 OSAT 龍頭，技術追趕日月光與 Amkor",
+        ],
       },
       {
         id: "cowos-hbm-integration",
@@ -827,6 +1089,11 @@ export const topics: Topic[] = [
           { id: "samsung", name: "Samsung", ticker: "005930.KS", country: "KR", role: "HBM3E 封裝良率提升中，12-Hi 堆疊技術追趕 SK Hynix", marketShare: "~32%" },
           { id: "micron", name: "Micron", ticker: "MU", country: "US", role: "HBM3E 8-Hi/12-Hi 通過 NVIDIA 認證，與 CoWoS 封裝整合", marketShare: "~15%" },
           { id: "tsmc", name: "台積電", ticker: "2330.TW", country: "TW", role: "CoWoS 封裝時整合 HBM 晶粒到中介層上，為最終封裝整合者" },
+        ],
+        relationships: [
+          "SK Hynix 供應 HBM 晶粒，台積電負責 CoWoS 封裝整合",
+          "SK Hynix 與 Samsung 在 HBM 堆疊封裝技術上激烈競爭",
+          "台積電為 HBM 與邏輯晶片的最終整合者，掌握封裝話語權",
         ],
       },
       {
@@ -841,6 +1108,11 @@ export const topics: Topic[] = [
           { id: "asmpt", name: "ASMPT (ASM Pacific)", ticker: "0522.HK", country: "HK", role: "半導體封裝設備與 SMT 解決方案，die bonding 主要供應商", marketShare: "~25%" },
           { id: "evg", name: "EV Group", ticker: "Private", country: "AT", role: "晶圓接合與光刻對準設備，CoWoS 晶圓級封裝關鍵設備" },
         ],
+        relationships: [
+          "BESI 壟斷 TCB 熱壓接合設備，ASMPT 為第二大供應商",
+          "Kulicke & Soffa 從傳統打線接合轉型先進封裝 TCB 設備",
+          "EV Group 專精晶圓級接合設備，與 BESI 在不同製程環節互補",
+        ],
       },
       {
         id: "cowos-substrate-materials",
@@ -853,6 +1125,11 @@ export const topics: Topic[] = [
           { id: "shinko", name: "Shinko Electric", ticker: "6967.T", country: "JP", role: "ABF 載板第二大供應商，先進封裝基板技術領先", marketShare: "~20%" },
           { id: "ajinomoto", name: "味之素精細科技", ticker: "2802.T", country: "JP", role: "ABF (Ajinomoto Build-up Film) 絕緣膜壟斷供應商，先進封裝關鍵材料", marketShare: "~90%" },
           { id: "unimicron", name: "欣興電子", ticker: "3037.TW", country: "TW", role: "台灣最大 ABF 載板廠商，積極擴充 AI 晶片封裝基板產能", marketShare: "~15%" },
+        ],
+        relationships: [
+          "味之素壟斷 ABF 絕緣膜材料，Ibiden/Shinko/欣興均依賴其供應",
+          "Ibiden 與 Shinko 為日系 ABF 載板雙龍頭，合計市佔超過 50%",
+          "欣興電子為台灣最大 ABF 載板廠，積極擴產追趕日系廠商",
         ],
       },
       {
@@ -867,6 +1144,11 @@ export const topics: Topic[] = [
           { id: "cohu", name: "Cohu", ticker: "COHU", country: "US", role: "測試分選設備 (Handler) 與接觸器，後端測試自動化" },
           { id: "chroma", name: "致茂電子", ticker: "2360.TW", country: "TW", role: "系統級測試 (SLT) 與自動化測試設備，AI 伺服器電源測試" },
         ],
+        relationships: [
+          "Advantest 與 Teradyne 雙寡佔半導體測試設備市場，合計超過 85%",
+          "致茂電子專精系統級測試 (SLT)，與 Advantest ATE 形成互補",
+          "CoWoS 封裝測試時間與成本激增，推動四家測試設備廠營收成長",
+        ],
       },
       {
         id: "cowos-customers",
@@ -880,6 +1162,11 @@ export const topics: Topic[] = [
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "Google TPU / Meta MTIA 等 XPU 採用 CoWoS 封裝", marketShare: "~15%" },
           { id: "google", name: "Google", ticker: "GOOGL", country: "US", role: "TPU v5p/v6 採用 CoWoS 封裝，間接推動產能需求" },
           { id: "amazon", name: "Amazon", ticker: "AMZN", country: "US", role: "Trainium2 ASIC 採用先進封裝，貢獻 CoWoS 需求成長" },
+        ],
+        relationships: [
+          "NVIDIA 獨佔約 60% CoWoS 產能，與 Broadcom 合計超過 75%",
+          "Google TPU 與 Amazon Trainium 透過 Broadcom 間接使用 CoWoS",
+          "AMD MI 系列與 NVIDIA GPU 競爭 CoWoS 產能配額",
         ],
       },
     ],
@@ -912,6 +1199,11 @@ export const topics: Topic[] = [
           { id: "intel", name: "Intel", ticker: "INTC", country: "US", role: "矽光子先驅，開發整合式光學 I/O 與 CPO 解決方案" },
           { id: "cisco", name: "Cisco", ticker: "CSCO", country: "US", role: "收購 Acacia 進入矽光子市場，資料中心 CPO 方案開發中" },
         ],
+        relationships: [
+          "Broadcom 以 Tomahawk 交換晶片+CPO 平台整合方案領先業界",
+          "NVIDIA 與 Broadcom 在 AI 叢集光互連技術路線上競爭",
+          "Intel 為矽光子技術先驅，Cisco 透過收購 Acacia 進入市場",
+        ],
       },
       {
         id: "cpo-silicon-photonics",
@@ -925,6 +1217,11 @@ export const topics: Topic[] = [
           { id: "intel", name: "Intel", ticker: "INTC", country: "US", role: "自有矽光子晶圓廠，整合式光學收發器技術領先" },
           { id: "tower_semi", name: "Tower Semiconductor", ticker: "TSEM", country: "IL", role: "特殊製程矽光子代工，服務中小型光通訊客戶" },
         ],
+        relationships: [
+          "GlobalFoundries 與台積電在矽光子代工平台直接競爭",
+          "Intel 擁有自有矽光子晶圓廠，不依賴外部代工",
+          "Tower Semiconductor 以特殊製程服務中小型矽光子客戶",
+        ],
       },
       {
         id: "cpo-laser-sources",
@@ -937,6 +1234,11 @@ export const topics: Topic[] = [
           { id: "lumentum", name: "Lumentum", ticker: "LITE", country: "US", role: "高功率雷射與光子元件，VCSEL/DFB 雷射供應商", marketShare: "~25%" },
           { id: "source_photonics", name: "Source Photonics", ticker: "Private", country: "US", role: "光收發模組與光源元件供應商，專注資料中心市場" },
           { id: "neophotonics", name: "Lumentum (原 NeoPhotonics)", ticker: "LITE", country: "US", role: "高速光學元件技術，併入 Lumentum 後強化 CPO 元件佈局" },
+        ],
+        relationships: [
+          "Coherent 與 Lumentum 為 III-V 族雷射雙龍頭，合計市佔超過 60%",
+          "Lumentum 收購 NeoPhotonics 強化高速光學元件佈局",
+          "III-V 族雷射光源為矽光子晶片不可或缺的外部元件",
         ],
       },
       {
@@ -952,6 +1254,11 @@ export const topics: Topic[] = [
           { id: "coherent", name: "Coherent", ticker: "COHR", country: "US", role: "800G/1.6T 光收發模組與光學元件垂直整合供應商" },
           { id: "eoptolink", name: "易飛揚 (Eoptolink)", ticker: "300502.SZ", country: "CN", role: "800G 光模組中國第二大供應商，AI 資料中心客戶擴張中" },
         ],
+        relationships: [
+          "中際旭創為 800G 光模組出貨量冠軍，Coherent 為美系龍頭",
+          "Broadcom 與 Marvell 供應光模組 DSP 晶片給所有模組廠商",
+          "中系光模組廠 (中際旭創/易飛揚) 以價格優勢搶佔全球市場",
+        ],
       },
       {
         id: "cpo-fiber-connectors",
@@ -964,6 +1271,11 @@ export const topics: Topic[] = [
           { id: "amphenol", name: "Amphenol", ticker: "APH", country: "US", role: "高速光學連接器龍頭，CPO 與 800G 光模組連接方案" },
           { id: "te_connectivity", name: "TE Connectivity", ticker: "TEL", country: "CH", role: "光纖連接器與高速互連解決方案" },
           { id: "us_conec", name: "US Conec", ticker: "Private", country: "US", role: "多芯 (MPO/MTP) 光纖連接器專業供應商" },
+        ],
+        relationships: [
+          "Corning 壟斷光纖供應，Amphenol 與 TE 在連接器市場競爭",
+          "Amphenol 與 TE Connectivity 在高速光學連接器市場直接競爭",
+          "AI 資料中心光纖佈線需求爆發帶動四家廠商營收同步成長",
         ],
       },
       {
@@ -978,6 +1290,11 @@ export const topics: Topic[] = [
           { id: "intel", name: "Intel", ticker: "INTC", country: "US", role: "EMIB/Foveros 封裝技術應用於矽光子整合" },
           { id: "broadcom", name: "Broadcom", ticker: "AVGO", country: "US", role: "CPO 光學 die 與 switch die 共封裝設計與整合" },
         ],
+        relationships: [
+          "台積電 COUPE 平台與 Intel EMIB/Foveros 在 CPO 封裝技術競爭",
+          "Broadcom 設計 CPO 晶片，台積電負責光電共封裝製造",
+          "日月光積極開發光電整合 SiP 封裝，爭取 CPO 封裝訂單",
+        ],
       },
       {
         id: "cpo-eda-photonics",
@@ -991,6 +1308,11 @@ export const topics: Topic[] = [
           { id: "ansys", name: "Ansys (Synopsys 旗下)", ticker: "SNPS", country: "US", role: "Lumerical 光子模擬引擎 — 矽光子元件與系統級模擬領導者" },
           { id: "luceda", name: "Luceda Photonics", ticker: "Private", country: "BE", role: "IPKISS 光子 IC 設計框架，矽光子 PDK 開發工具" },
         ],
+        relationships: [
+          "Synopsys 收購 Ansys (含 Lumerical) 主導光子 EDA 市場",
+          "Synopsys 與 Cadence 從電子 EDA 延伸至光子 EDA 雙寡佔",
+          "Luceda 以開源光子 IC 設計框架在特定領域與巨頭差異化競爭",
+        ],
       },
       {
         id: "cpo-datacenter-customers",
@@ -1003,6 +1325,11 @@ export const topics: Topic[] = [
           { id: "google", name: "Google Cloud", ticker: "GOOGL", country: "US", role: "TPU Pod 光互連需求驅動 CPO 技術導入" },
           { id: "amazon", name: "AWS", ticker: "AMZN", country: "US", role: "資料中心光互連大規模升級，800G/1.6T 光模組主要買家" },
           { id: "meta", name: "Meta", ticker: "META", country: "US", role: "大規模 AI 訓練叢集光互連需求，推動 CPO 技術評估" },
+        ],
+        relationships: [
+          "四大 Hyperscaler 均評估 CPO 技術以因應 AI 叢集頻寬需求",
+          "Microsoft 與 Google 為 CPO 技術最積極的評估與導入者",
+          "Hyperscaler CPO 大規模導入預估 2027-2028 年，目前為驗證階段",
         ],
       },
     ],
@@ -1036,6 +1363,11 @@ export const topics: Topic[] = [
           { id: "google", name: "Google", ticker: "GOOGL", country: "US", role: "TPU v5p/v6 自研 AI 加速器設計，搭配 Arm CPU 核心" },
           { id: "amazon", name: "Amazon", ticker: "AMZN", country: "US", role: "Trainium2 / Inferentia 自研推論與訓練晶片設計" },
         ],
+        relationships: [
+          "NVIDIA 壟斷 AI 加速器設計市場，AMD 為唯一有效挑戰者",
+          "Google 與 Amazon 自研 AI 加速器，降低對 NVIDIA 設計依賴",
+          "所有 AI 加速器設計均高度依賴台積電先進製程與 EDA 工具",
+        ],
       },
       {
         id: "icdesign-mobile-soc",
@@ -1048,6 +1380,11 @@ export const topics: Topic[] = [
           { id: "mediatek", name: "聯發科", ticker: "2454.TW", country: "TW", role: "Dimensity 9400 — 中高階行動 SoC，全球出貨量第一", marketShare: "~38%" },
           { id: "apple", name: "Apple", ticker: "AAPL", country: "US", role: "A18 Pro / M4 系列 — 自研 ARM 架構晶片，台積電 3nm 製程", marketShare: "~20%" },
           { id: "samsung_lsi", name: "Samsung LSI", ticker: "005930.KS", country: "KR", role: "Exynos 2500 — 自研行動 SoC，Galaxy 系列部分機型搭載" },
+        ],
+        relationships: [
+          "Qualcomm 與聯發科在行動 SoC 市場直接競爭，合計市佔超過 70%",
+          "Apple 自研晶片僅供自家產品，但佔台積電先進製程最大產能",
+          "四家行動 SoC 設計公司均依賴 Arm CPU 架構 IP 授權",
         ],
       },
       {
@@ -1062,6 +1399,11 @@ export const topics: Topic[] = [
           { id: "cisco", name: "Cisco", ticker: "CSCO", country: "US", role: "Silicon One 自研交換晶片，資料中心網路設備龍頭" },
           { id: "arista", name: "Arista Networks", ticker: "ANET", country: "US", role: "雲端資料中心 Ethernet 交換器，搭配 Broadcom/自研晶片" },
         ],
+        relationships: [
+          "Broadcom 壟斷網路交換晶片市場，Arista 為其最大客戶之一",
+          "Cisco 自研 Silicon One 晶片以降低對 Broadcom 的依賴",
+          "Marvell 以 DPU 與客製化網路晶片挑戰 Broadcom 主導地位",
+        ],
       },
       {
         id: "icdesign-eda-tools",
@@ -1073,6 +1415,11 @@ export const topics: Topic[] = [
           { id: "synopsys", name: "Synopsys", ticker: "SNPS", country: "US", role: "Fusion Compiler / VCS / Design Compiler — 全球最大 EDA 公司", marketShare: "~55%" },
           { id: "cadence", name: "Cadence", ticker: "CDNS", country: "US", role: "Innovus / Genus / Cerebrus AI — 全球第二大 EDA 公司", marketShare: "~33%" },
           { id: "siemens_eda", name: "Siemens EDA", ticker: "SIE.DE", country: "DE", role: "Calibre 光罩驗證 / Questa 模擬 — 前 Mentor Graphics", marketShare: "~10%" },
+        ],
+        relationships: [
+          "Synopsys 與 Cadence 雙寡佔 EDA 市場，合計市佔超過 85%",
+          "全球所有 IC 設計公司均高度依賴 Synopsys 與 Cadence 工具鏈",
+          "Siemens EDA 以 Calibre 光罩驗證工具維持特定細分市場地位",
         ],
       },
       {
@@ -1087,6 +1434,11 @@ export const topics: Topic[] = [
           { id: "andes", name: "晶心科技", ticker: "6533.TW", country: "TW", role: "RISC-V CPU IP 供應商，AX45MP 多核心處理器 IP" },
           { id: "imagination", name: "Imagination Technologies", ticker: "Private", country: "GB", role: "GPU IP 授權 (PowerVR)，IMG DXT GPU IP 回歸高階市場" },
         ],
+        relationships: [
+          "Arm 壟斷行動與伺服器 CPU IP 授權，SiFive/晶心以 RISC-V 挑戰",
+          "SiFive 與晶心科技在 RISC-V CPU IP 市場直接競爭",
+          "Imagination 在 GPU IP 市場獨立於 Arm 生態系，提供替代方案",
+        ],
       },
       {
         id: "icdesign-interface-ip",
@@ -1100,6 +1452,11 @@ export const topics: Topic[] = [
           { id: "alphawave", name: "Alphawave Semi", ticker: "AWE.L", country: "CA", role: "224G SerDes IP 與高速連接矽智財，專注資料中心互連" },
           { id: "rambus", name: "Rambus", ticker: "RMBS", country: "US", role: "DDR5 / HBM 記憶體控制器 IP 與安全 IP" },
         ],
+        relationships: [
+          "Synopsys 與 Cadence 在 SerDes/PCIe IP 市場延續 EDA 雙寡佔格局",
+          "Alphawave 以 224G SerDes IP 專精策略挑戰 Synopsys/Cadence",
+          "Rambus 專注記憶體控制器 IP，與 Synopsys 在 DDR/HBM IP 競爭",
+        ],
       },
       {
         id: "icdesign-memory-ip",
@@ -1111,6 +1468,11 @@ export const topics: Topic[] = [
           { id: "ememory", name: "力旺電子 (eMemory)", ticker: "3529.TW", country: "TW", role: "嵌入式 OTP/MTP/PUF NVM IP 壟斷供應商，全球市佔率超過 70%", marketShare: "~70%" },
           { id: "synopsys", name: "Synopsys", ticker: "SNPS", country: "US", role: "嵌入式記憶體 IP (SRAM/ROM) 與安全 IP 授權" },
           { id: "rambus", name: "Rambus", ticker: "RMBS", country: "US", role: "安全記憶體控制器 IP、CryptoManager 安全引擎" },
+        ],
+        relationships: [
+          "力旺電子壟斷嵌入式 OTP/MTP NVM IP，全球市佔超過 70%",
+          "Synopsys 以 SRAM/ROM IP 與力旺在不同嵌入式記憶體類型互補",
+          "Rambus 專注安全記憶體控制器 IP，與 Synopsys 在安全 IP 競爭",
         ],
       },
       {
@@ -1125,6 +1487,11 @@ export const topics: Topic[] = [
           { id: "lattice", name: "Lattice Semiconductor", ticker: "LSCC", country: "US", role: "低功耗 FPGA 龍頭，專注邊緣 AI 與工業自動化", marketShare: "~8%" },
           { id: "efinix", name: "Efinix", ticker: "Private", country: "US", role: "Quantum 可程式加速器平台，RISC-V + FPGA 整合" },
         ],
+        relationships: [
+          "AMD (Xilinx) 與 Intel (Altera) 雙寡佔 FPGA 市場，合計超過 85%",
+          "Intel 分拆 Altera 獨立運營，與 AMD Xilinx 在 FPGA 直接競爭",
+          "Lattice 以低功耗 FPGA 差異化定位，避開與 AMD/Intel 正面競爭",
+        ],
       },
       {
         id: "icdesign-verification",
@@ -1136,6 +1503,11 @@ export const topics: Topic[] = [
           { id: "synopsys", name: "Synopsys", ticker: "SNPS", country: "US", role: "VCS 模擬器 / ZeBu 硬體加速模擬器 / Verdi 除錯工具", marketShare: "~45%" },
           { id: "cadence", name: "Cadence", ticker: "CDNS", country: "US", role: "Xcelium 模擬器 / Palladium Z3 硬體加速模擬器", marketShare: "~40%" },
           { id: "siemens_eda", name: "Siemens EDA", ticker: "SIE.DE", country: "DE", role: "Questa 模擬器 / Veloce 硬體加速模擬器" },
+        ],
+        relationships: [
+          "Synopsys 與 Cadence 在驗證/模擬工具市場同樣雙寡佔，合計超過 85%",
+          "Synopsys ZeBu 與 Cadence Palladium 在硬體模擬器市場激烈競爭",
+          "Siemens Veloce 為第三大硬體模擬器，在特定客戶群維持份額",
         ],
       },
       {
@@ -1150,6 +1522,11 @@ export const topics: Topic[] = [
           { id: "nxp", name: "NXP Semiconductors", ticker: "NXPI", country: "NL", role: "車用半導體龍頭，車用 MCU 與安全連接晶片", marketShare: "~8%" },
           { id: "infineon", name: "Infineon Technologies", ticker: "IFX.DE", country: "DE", role: "功率半導體與車用 MCU 龍頭，SiC/GaN 寬能隙材料" },
           { id: "renesas", name: "Renesas Electronics", ticker: "6723.T", country: "JP", role: "車用 MCU 全球第三大，類比與嵌入式處理器整合方案" },
+        ],
+        relationships: [
+          "TI 與 ADI 為全球類比 IC 雙龍頭，合計市佔超過 34%",
+          "NXP、Infineon、Renesas 三家在車用半導體市場激烈競爭",
+          "類比 IC 市場分散且產品長壽，與數位晶片快速迭代截然不同",
         ],
       },
     ],
