@@ -322,6 +322,7 @@ export default function TopicPage({
                 topicColor={topic.color}
                 onSelectCompany={handleSelectCompany}
                 selectedCompany={selectedCompany}
+                topicCategory={topic.category}
               />
             </div>
           ))}

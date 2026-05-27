@@ -1,6 +1,6 @@
 "use client";
 
-import { marketTypeLabels } from "@/data/categories";
+import { marketTypeLabels, healthMarketTypeLabels } from "@/data/categories";
 import type { MarketType } from "@/data/categories";
 
 interface SectionCompany {
@@ -26,6 +26,7 @@ interface TopicSectionCardProps {
   topicColor: string;
   onSelectCompany: (id: string) => void;
   selectedCompany: string | null;
+  topicCategory?: string;
 }
 
 const countryFlags: Record<string, string> = {
@@ -43,6 +44,13 @@ const countryFlags: Record<string, string> = {
   GB: "\u{1F1EC}\u{1F1E7}",
   IE: "\u{1F1EE}\u{1F1EA}",
   CA: "\u{1F1E8}\u{1F1E6}",
+  SP: "\u{1F48A}",
+  EX: "\u{1F3CB}",
+  BM: "\u{1F9EA}",
+  FD: "\u{1F957}",
+  MD: "\u{1F3E5}",
+  HA: "\u{1F9D8}",
+  RS: "\u{1F4CA}",
 };
 
 function getFlag(country: string): string {
@@ -54,8 +62,10 @@ export default function TopicSectionCard({
   topicColor,
   onSelectCompany,
   selectedCompany,
+  topicCategory,
 }: TopicSectionCardProps) {
-  const mtInfo = marketTypeLabels[section.marketType];
+  const labels = topicCategory === "hl" ? healthMarketTypeLabels : marketTypeLabels;
+  const mtInfo = labels[section.marketType];
 
   return (
     <div

@@ -45,6 +45,7 @@ export default function Home() {
 
   const hwTopics = useMemo(() => topics.filter((t) => t.category === "hw"), []);
   const swTopics = useMemo(() => topics.filter((t) => t.category === "sw"), []);
+  const hlTopics = useMemo(() => topics.filter((t) => t.category === "hl"), []);
 
   // Build a flat searchable list of all companies across all topics
   const allCompanies = useMemo(() => {
@@ -135,7 +136,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg text-gray-500">
-              AI &amp; 半導體供應鏈全景
+              AI・半導體・健康長壽 知識全景
             </p>
             <div className="flex items-center justify-center gap-4 mt-4 text-sm text-gray-400">
               <span>{topics.length} 個主題</span>
@@ -284,6 +285,22 @@ export default function Home() {
             </div>
           </section>
         )}
+
+        {/* Health & Longevity section */}
+        {hlTopics.length > 0 && (
+          <section className="mb-12">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-1 h-6 rounded-full bg-gradient-to-b from-[#22c55e] to-[#0ea5a0]" />
+              <h2 className="text-xl font-bold text-gray-900">健康與長壽知識</h2>
+              <span className="text-sm text-gray-400">{hlTopics.length} 個主題</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {hlTopics.map((topic) => (
+                <TopicCard key={topic.id} topic={topic} />
+              ))}
+            </div>
+          </section>
+        )}
       </main>
 
       {/* Footer */}
@@ -303,7 +320,7 @@ export default function Home() {
 interface TopicCardTopic {
   id: string;
   slug: string;
-  category: "hw" | "sw";
+  category: "hw" | "sw" | "hl";
   name: string;
   name_en: string;
   description: string;

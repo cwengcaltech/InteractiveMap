@@ -18,6 +18,14 @@ export const marketTypeLabels: Record<MarketType, { label: string; color: string
   emerging:    { label: "新興",   color: "#a78bfa", bg: "rgba(167,139,250,0.15)" },
 };
 
+export const healthMarketTypeLabels: Record<MarketType, { label: string; color: string; bg: string }> = {
+  monopoly:    { label: "強證據",   color: "#16a34a", bg: "rgba(22,163,74,0.12)" },
+  oligopoly:   { label: "中等證據", color: "#2563eb", bg: "rgba(37,99,235,0.12)" },
+  high_growth: { label: "熱門趨勢", color: "#f59e0b", bg: "rgba(245,158,11,0.12)" },
+  low_growth:  { label: "基礎保養", color: "#6b7280", bg: "rgba(107,114,128,0.12)" },
+  emerging:    { label: "前沿研究", color: "#a78bfa", bg: "rgba(167,139,250,0.12)" },
+};
+
 export const categories: Category[] = [
   {
     id: "materials",

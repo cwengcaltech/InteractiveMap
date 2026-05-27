@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互動式產業知識地圖 — 專案規劃書</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --surface2: #232736;
+            --border: #2e3347;
+            --accent: #6c8cff;
+            --accent2: #4ecdc4;
+            --accent3: #ff6b9d;
+            --text: #e4e6ef;
+            --text-dim: #8b8fa3;
+            --success: #4ecdc4;
+            --warn: #ffd93d;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            padding: 0;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a1d27 0%, #0f1117 50%, #1a1530 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 80px 40px 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 50%, rgba(108,140,255,0.06) 0%, transparent 60%),
+                        radial-gradient(ellipse at 70% 50%, rgba(78,205,196,0.04) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .hero h1 {
+            font-size: 2.8em;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 16px;
+            position: relative;
+        }
+        .hero .subtitle {
+            font-size: 1.2em;
+            color: var(--text-dim);
+            position: relative;
+        }
+        .hero .meta {
+            margin-top: 24px;
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        .hero .meta span {
+            background: var(--surface2);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: var(--text-dim);
+            border: 1px solid var(--border);
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        /* Section */
+        section {
+            margin-bottom: 56px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 28px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        .section-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.9em;
+            border-radius: 10px;
+            flex-shrink: 0;
+        }
+        .section-header h2 {
+            font-size: 1.6em;
+            font-weight: 600;
+        }
+
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+        .card h3 {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            color: var(--accent2);
+        }
+        .card p, .card li {
+            color: var(--text-dim);
+            font-size: 0.92em;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .card ul li {
+            padding: 4px 0;
+            padding-left: 16px;
+            position: relative;
+        }
+        .card ul li::before {
+            content: '>';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* Tech Stack */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+        }
+        .tech-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .tech-item .label {
+            font-size: 0.78em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+        .tech-item .value {
+            font-size: 1.05em;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .tech-item .desc {
+            font-size: 0.85em;
+            color: var(--text-dim);
+        }
+
+        /* Phase timeline */
+        .timeline {
+            position: relative;
+            padding-left: 32px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 11px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--accent), var(--accent2), var(--accent3));
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 32px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -27px;
+            top: 28px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--accent);
+            border: 3px solid var(--bg);
+        }
+        .timeline-item.phase-2::before { background: var(--accent2); }
+        .timeline-item.phase-3::before { background: var(--warn); }
+        .timeline-item.phase-4::before { background: var(--accent3); }
+        .phase-badge {
+            display: inline-block;
+            padding: 3px 12px;
+            border-radius: 6px;
+            font-size: 0.78em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+        .phase-1 .phase-badge { background: rgba(108,140,255,0.15); color: var(--accent); }
+        .phase-2 .phase-badge { background: rgba(78,205,196,0.15); color: var(--accent2); }
+        .phase-3 .phase-badge { background: rgba(255,217,61,0.15); color: var(--warn); }
+        .phase-4 .phase-badge { background: rgba(255,107,157,0.15); color: var(--accent3); }
+        .timeline-item h3 {
+            font-size: 1.15em;
+            margin-bottom: 10px;
+        }
+        .timeline-item ul {
+            list-style: none;
+            padding: 0;
+        }
+        .timeline-item ul li {
+            padding: 4px 0 4px 20px;
+            position: relative;
+            color: var(--text-dim);
+            font-size: 0.92em;
+        }
+        .timeline-item ul li::before {
+            content: '[ ]';
+            position: absolute;
+            left: 0;
+            color: var(--text-dim);
+            font-size: 0.75em;
+            font-family: monospace;
+        }
+
+        /* Comparison table */
+        .compare-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--surface);
+            border-radius: 14px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .compare-table th {
+            background: var(--surface2);
+            padding: 14px 20px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.9em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .compare-table td {
+            padding: 12px 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.92em;
+        }
+        .compare-table tr:hover td {
+            background: rgba(108,140,255,0.03);
+        }
+        .tag-good { color: var(--success); }
+        .tag-warn { color: var(--warn); }
+        .tag-bad { color: var(--accent3); }
+
+        /* Gemini section */
+        .gemini-box {
+            background: linear-gradient(135deg, rgba(108,140,255,0.06), rgba(78,205,196,0.06));
+            border: 1px solid rgba(108,140,255,0.2);
+            border-radius: 14px;
+            padding: 28px;
+            margin-bottom: 20px;
+        }
+        .gemini-box h3 {
+            color: var(--accent2);
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+        .gemini-box p, .gemini-box li {
+            color: var(--text-dim);
+            font-size: 0.92em;
+        }
+        .gemini-box ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+        .gemini-box ul li {
+            margin-bottom: 6px;
+        }
+        .gemini-label {
+            display: inline-block;
+            background: linear-gradient(135deg, #4285f4, #34a853);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Architecture diagram */
+        .arch-diagram {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 28px;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.82em;
+            line-height: 1.6;
+            color: var(--text-dim);
+            overflow-x: auto;
+            white-space: pre;
+        }
+        .arch-diagram .hl { color: var(--accent); }
+        .arch-diagram .hl2 { color: var(--accent2); }
+        .arch-diagram .hl3 { color: var(--accent3); }
+
+        /* Priority */
+        .priority-high { border-left: 3px solid var(--accent3); }
+        .priority-mid { border-left: 3px solid var(--warn); }
+        .priority-low { border-left: 3px solid var(--accent2); }
+
+        /* Callout */
+        .callout {
+            background: var(--surface2);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            margin: 20px 0;
+            font-size: 0.92em;
+            color: var(--text-dim);
+        }
+
+        /* Data source table */
+        .source-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 24px;
+            border-top: 1px solid var(--border);
+            color: var(--text-dim);
+            font-size: 0.85em;
+        }
+
+        @media (max-width: 768px) {
+            .hero { padding: 48px 20px 36px; }
+            .hero h1 { font-size: 1.8em; }
+            .container { padding: 24px 16px; }
+            .card-grid { grid-template-columns: 1fr; }
+            .tech-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ==================== Hero ==================== -->
+<div class="hero">
+    <h1>互動式產業知識地圖</h1>
+    <p class="subtitle">Interactive Industry Knowledge Map &mdash; 專案規劃書</p>
+    <div class="meta">
+        <span>2026-05-27</span>
+        <span>Claude Opus + Gemini 2.5 Pro 聯合規劃</span>
+        <span>參考: semiEE Supply Chain Map</span>
+    </div>
+</div>
+
+<div class="container">
+
+<!-- ==================== 1. 專案概述 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">1</span>
+        <h2>專案概述與目標</h2>
+    </div>
+
+    <p style="color:var(--text-dim); margin-bottom:20px;">
+        本專案旨在建立一個互動式產業知識地圖網站，以視覺化方式呈現特定產業的供應鏈關係、
+        關鍵公司及其財務數據。參考 <strong>semiEE</strong>（半導體供應鏈地圖）的架構，
+        但加入更深度的財務分析、未來預測、以及創新的互動體驗。
+    </p>
+
+    <div class="card-grid">
+        <div class="card">
+            <h3>核心目標</h3>
+            <ul>
+                <li>建立產業知識的互動式導航系統</li>
+                <li>展示關鍵公司的營收、利潤、成長率、毛利率</li>
+                <li>整合未來預測數據與趨勢分析</li>
+                <li>視覺化呈現公司間的上下游供應鏈關係</li>
+                <li>提供多維度的產業洞察與比較功能</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>目標用戶</h3>
+            <ul>
+                <li>產業分析師與研究員</li>
+                <li>投資人與基金經理</li>
+                <li>供應鏈管理人員</li>
+                <li>產業記者與顧問</li>
+                <li>對產業生態有興趣的一般用戶</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>與 semiEE 的差異化</h3>
+            <ul>
+                <li>從「靜態快照」進化為「動態時間軸」</li>
+                <li>從「關係呈現」升級為「財務洞察」</li>
+                <li>從「單一視角」擴展為「多維度圖層」</li>
+                <li>增加深度的公司詳情側邊面板</li>
+                <li>引入假設分析（What-If）模式</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== 2. 參考網站分析 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">2</span>
+        <h2>參考網站 semiEE 分析</h2>
+    </div>
+
+    <table class="compare-table">
+        <thead>
+            <tr>
+                <th>面向</th>
+                <th>semiEE 現況</th>
+                <th>本專案改進方向</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>內容架構</strong></td>
+                <td>16 個主題類別，涵蓋半導體製造全鏈（CoWoS、HBM、先進封裝等），每類約 300 節點</td>
+                <td>依產業選擇建立類別，同時附加 <span class="tag-good">財務數據圖層</span></td>
+            </tr>
+            <tr>
+                <td><strong>互動元素</strong></td>
+                <td>可點擊節點網路、公司篩選、上下游關係高亮</td>
+                <td>增加 <span class="tag-good">時間軸回放</span>、<span class="tag-good">What-If 模擬</span>、<span class="tag-good">多圖層疊加</span></td>
+            </tr>
+            <tr>
+                <td><strong>數據深度</strong></td>
+                <td>僅展示供應關係，<span class="tag-bad">無財務數據</span></td>
+                <td>整合營收、利潤、成長率、毛利率、<span class="tag-good">未來預測</span></td>
+            </tr>
+            <tr>
+                <td><strong>公司詳情</strong></td>
+                <td><span class="tag-bad">點擊後僅高亮關係，無進一步資訊</span></td>
+                <td>完整的 <span class="tag-good">側邊詳情面板</span>（概況/財務/供應鏈/新聞）</td>
+            </tr>
+            <tr>
+                <td><strong>時間維度</strong></td>
+                <td><span class="tag-bad">靜態快照，無歷史變化</span></td>
+                <td>時間軸滑桿，觀察 <span class="tag-good">產業演化過程</span></td>
+            </tr>
+            <tr>
+                <td><strong>分析功能</strong></td>
+                <td><span class="tag-warn">僅呈現數據，不提供洞察</span></td>
+                <td>關聯性分析、同業比較、<span class="tag-good">趨勢預測</span></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- ==================== 3. 技術架構 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">3</span>
+        <h2>技術架構方案</h2>
+    </div>
+
+    <div class="arch-diagram"><span class="hl">[ 前端展示層 ]</span>                     <span class="hl2">[ 資料視覺化層 ]</span>                <span class="hl3">[ 資料層 ]</span>
++-----------------------------+      +----------------------------+      +---------------------------+
+|  <span class="hl">React + Next.js</span>            |      |  <span class="hl2">ECharts / AntV G6</span>         |      |  <span class="hl3">JSON 靜態資料</span>            |
+|  - 頁面路由與 SSR           | <--> |  - 關係網路圖 (G6)         | <--> |  - companies.json         |
+|  - 響應式布局               |      |  - 財務圖表 (ECharts)      |      |  - relations.json         |
+|  - 側邊詳情面板             |      |  - 趨勢折線圖              |      |  - financials.json        |
+|  - 搜尋與篩選               |      |  - 時間軸控制              |      |  - predictions.json       |
++-----------------------------+      +----------------------------+      +---------------------------+
+         |                                    |                                    |
+         v                                    v                                    v
++---------------------------------------------------------------------------------------------------+
+|                              <span class="hl">部署: Vercel / GitHub Pages (靜態優先)</span>                              |
+|                              未來擴展: FastAPI 後端 + Neo4j + PostgreSQL                            |
++---------------------------------------------------------------------------------------------------+</div>
+
+    <div class="tech-grid" style="margin-top:24px;">
+        <div class="tech-item">
+            <div class="label">前端框架</div>
+            <div class="value">React + Next.js</div>
+            <div class="desc">SSR/SSG 支援，效能優異，生態系成熟。支援靜態匯出，可先部署為純前端網站。</div>
+        </div>
+        <div class="tech-item">
+            <div class="label">關係圖視覺化</div>
+            <div class="value">AntV G6</div>
+            <div class="desc">螞蟻集團出品，專為關係網路設計。API 友善、中文文檔完善，處理大規模節點性能優秀。</div>
+        </div>
+        <div class="tech-item">
+            <div class="label">財務圖表</div>
+            <div class="value">ECharts</div>
+            <div class="desc">百度出品，圖表類型豐富。長條圖、折線圖、雷達圖、Sparkline 一應俱全。</div>
+        </div>
+        <div class="tech-item">
+            <div class="label">樣式方案</div>
+            <div class="value">Tailwind CSS</div>
+            <div class="desc">Utility-first CSS 框架，快速構建響應式介面，配合深色主題設計。</div>
+        </div>
+        <div class="tech-item">
+            <div class="label">資料格式</div>
+            <div class="value">JSON (初期) / API (後期)</div>
+            <div class="desc">初期用靜態 JSON 檔案，降低架構複雜度。後期可遷移到 REST API + 圖形資料庫。</div>
+        </div>
+        <div class="tech-item">
+            <div class="label">部署平台</div>
+            <div class="value">Vercel</div>
+            <div class="desc">與 Next.js 深度整合，免費額度充足，自動 CI/CD，支援自訂域名。</div>
+        </div>
+        <div class="tech-item">
+            <div class="label">未來後端</div>
+            <div class="value">Python + FastAPI</div>
+            <div class="desc">數據抓取（Scrapy）、清洗（Pandas）、API 服務一站式解決。</div>
+        </div>
+        <div class="tech-item">
+            <div class="label">未來資料庫</div>
+            <div class="value">Neo4j + PostgreSQL</div>
+            <div class="desc">Neo4j 儲存供應鏈圖譜關係，PostgreSQL + TimescaleDB 儲存時間序列財務數據。</div>
+        </div>
+    </div>
+
+    <div class="callout" style="margin-top:20px;">
+        <strong>策略建議：</strong>採用「靜態優先」策略 — 初期所有數據以 JSON 檔案形式管理，
+        配合 Next.js 的 Static Site Generation 部署為純前端網站。待數據量和更新頻率增長後，
+        再引入後端服務和資料庫。這樣可以最快速度上線，同時保留完整的擴展空間。
+    </div>
+</section>
+
+<!-- ==================== 4. 網站架構與頁面設計 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">4</span>
+        <h2>網站架構與頁面設計</h2>
+    </div>
+
+    <div class="card-grid">
+        <div class="card priority-high">
+            <h3>首頁 / 產業總覽</h3>
+            <ul>
+                <li>產業類別卡片網格（如：IC 設計、製造、封測、設備、材料）</li>
+                <li>各類別的關鍵數據摘要（公司數量、總市值）</li>
+                <li>全局搜尋列 — 快速搜尋公司名稱或代碼</li>
+                <li>熱門公司快捷入口</li>
+                <li>最新產業動態提要</li>
+            </ul>
+        </div>
+        <div class="card priority-high">
+            <h3>互動式供應鏈地圖（核心頁面）</h3>
+            <ul>
+                <li>可縮放的關係網路圖（AntV G6）</li>
+                <li>節點大小 = 營收/市值（視覺權重）</li>
+                <li>節點顏色 = 子領域分類</li>
+                <li>連結粗細 = 供應關係強度</li>
+                <li>懸浮 Tooltip：公司名、市值、近四季營收 Sparkline</li>
+                <li>點擊展開側邊詳情面板</li>
+                <li>篩選器：按國家、市值範圍、成長率</li>
+            </ul>
+        </div>
+        <div class="card priority-mid">
+            <h3>公司詳情側邊面板</h3>
+            <ul>
+                <li>Tab 1 — 公司概況：簡介、產品、官網</li>
+                <li>Tab 2 — 財務數據：五年營收/淨利/毛利率圖表</li>
+                <li>Tab 3 — 同業比較：雷達圖對比核心指標</li>
+                <li>Tab 4 — 上下游關係：供應商/客戶清單</li>
+                <li>Tab 5 — 未來展望：分析師預測、成長預估</li>
+            </ul>
+        </div>
+        <div class="card priority-mid">
+            <h3>公司排行榜 / 比較頁</h3>
+            <ul>
+                <li>排行表格：依營收、成長率、毛利率排序</li>
+                <li>多公司對比：選取 2-5 家公司並列比較</li>
+                <li>氣泡圖：X 軸=成長率、Y 軸=毛利率、大小=營收</li>
+                <li>匯出功能：CSV / 圖片下載</li>
+            </ul>
+        </div>
+        <div class="card priority-low">
+            <h3>時間軸模式</h3>
+            <ul>
+                <li>底部時間滑桿（可拖動年份）</li>
+                <li>節點動態變化反映歷史演進</li>
+                <li>播放/暫停按鈕，自動演進動畫</li>
+                <li>關鍵事件標記（併購、IPO、重大政策）</li>
+            </ul>
+        </div>
+        <div class="card priority-low">
+            <h3>What-If 模擬模式（進階）</h3>
+            <ul>
+                <li>模擬斷鏈：關閉某節點，高亮受影響公司</li>
+                <li>模擬併購：合併節點，計算新實體數據</li>
+                <li>情境分析：匯率/關稅變動的影響推演</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== 5. 核心功能清單 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">5</span>
+        <h2>核心功能（按優先級）</h2>
+    </div>
+
+    <table class="compare-table">
+        <thead>
+            <tr>
+                <th>優先級</th>
+                <th>功能</th>
+                <th>說明</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="tag-bad">P0 必備</span></td>
+                <td>互動式關係網路圖</td>
+                <td>可縮放、拖動的節點圖，展示公司間供應鏈關係</td>
+            </tr>
+            <tr>
+                <td><span class="tag-bad">P0 必備</span></td>
+                <td>公司財務數據卡片</td>
+                <td>營收、利潤、成長率、毛利率的視覺化展示</td>
+            </tr>
+            <tr>
+                <td><span class="tag-bad">P0 必備</span></td>
+                <td>產業類別導航</td>
+                <td>階層式的產業分類瀏覽系統</td>
+            </tr>
+            <tr>
+                <td><span class="tag-bad">P0 必備</span></td>
+                <td>搜尋與篩選</td>
+                <td>全局搜尋、按地區/市值/成長率篩選</td>
+            </tr>
+            <tr>
+                <td><span class="tag-warn">P1 重要</span></td>
+                <td>側邊詳情面板</td>
+                <td>點擊節點後展開的完整公司資訊面板</td>
+            </tr>
+            <tr>
+                <td><span class="tag-warn">P1 重要</span></td>
+                <td>同業比較圖表</td>
+                <td>雷達圖 / 氣泡圖對比多家公司指標</td>
+            </tr>
+            <tr>
+                <td><span class="tag-warn">P1 重要</span></td>
+                <td>未來預測展示</td>
+                <td>分析師共識預估、營收預測曲線</td>
+            </tr>
+            <tr>
+                <td><span class="tag-warn">P1 重要</span></td>
+                <td>響應式設計</td>
+                <td>適配桌面、平板與手機瀏覽</td>
+            </tr>
+            <tr>
+                <td><span class="tag-good">P2 加分</span></td>
+                <td>時間軸回放</td>
+                <td>拖動時間滑桿觀察產業歷史演化</td>
+            </tr>
+            <tr>
+                <td><span class="tag-good">P2 加分</span></td>
+                <td>多圖層疊加</td>
+                <td>地理分佈、風險評估、專利分佈等圖層</td>
+            </tr>
+            <tr>
+                <td><span class="tag-good">P2 加分</span></td>
+                <td>What-If 模擬</td>
+                <td>供應斷鏈、併購等情境的影響模擬</td>
+            </tr>
+            <tr>
+                <td><span class="tag-good">P2 加分</span></td>
+                <td>新聞整合</td>
+                <td>公司相關即時新聞摘要與連結</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- ==================== 6. 資料策略 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">6</span>
+        <h2>資料策略</h2>
+    </div>
+
+    <div class="source-grid">
+        <div class="card">
+            <h3>財務數據來源</h3>
+            <ul>
+                <li><strong>SEC EDGAR</strong> — 美股上市公司年報/季報（免費、權威）</li>
+                <li><strong>公開資訊觀測站</strong> — 台股上市公司財報</li>
+                <li><strong>Alpha Vantage / IEX Cloud</strong> — 經濟實惠的金融數據 API</li>
+                <li><strong>Yahoo Finance</strong> — 基礎股價與財務摘要</li>
+                <li><strong>Bloomberg / Refinitiv</strong> — 專業級（付費，後期考慮）</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>供應鏈關係來源</h3>
+            <ul>
+                <li><strong>公司年報</strong> — 主要客戶/供應商揭露</li>
+                <li><strong>產業研究報告</strong> — Gartner、IDC、TrendForce</li>
+                <li><strong>新聞與公告</strong> — 合作協議、訂單公告</li>
+                <li><strong>專業資料庫</strong> — Bloomberg Supply Chain</li>
+                <li><strong>手動研究</strong> — 團隊深度產業調研</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>預測數據來源</h3>
+            <ul>
+                <li><strong>分析師共識預估</strong> — 各券商研究報告彙整</li>
+                <li><strong>公司 Guidance</strong> — 法說會展望</li>
+                <li><strong>產業趨勢報告</strong> — 產業研究機構預測</li>
+                <li><strong>自建模型</strong> — 基於歷史趨勢的統計預測</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>更新策略</h3>
+            <ul>
+                <li><strong>財務數據</strong> — 每季更新（跟隨財報季）</li>
+                <li><strong>供應鏈關係</strong> — 每半年全面審查，重大事件即時更新</li>
+                <li><strong>預測數據</strong> — 每季更新分析師共識</li>
+                <li><strong>數據版本控制</strong> — 保留歷史快照，支援時間軸功能</li>
+                <li><strong>品質管控</strong> — 所有數據標注來源與更新日期</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="callout">
+        <strong>初期策略：</strong>Phase 1 先以人工整理的 JSON 資料啟動，聚焦 20-30 家最關鍵的公司。
+        確保數據品質優先於數量。每筆資料附帶來源標註與更新日期，建立用戶信任。
+    </div>
+</section>
+
+<!-- ==================== 7. 開發階段規劃 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">7</span>
+        <h2>開發階段規劃</h2>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-item phase-1">
+            <span class="phase-badge">Phase 1 — 基礎骨架與 MVP</span>
+            <h3>核心地圖 + 基本財務數據</h3>
+            <ul>
+                <li>建立 Next.js 專案架構，設定 Tailwind CSS 深色主題</li>
+                <li>定義資料模型（JSON Schema）：公司、關係、財務數據</li>
+                <li>手動整理首批 20-30 家公司的資料</li>
+                <li>實作互動式關係網路圖（AntV G6）</li>
+                <li>實作產業類別首頁與導航</li>
+                <li>實作節點 Tooltip（營收、市值、Sparkline）</li>
+                <li>基本搜尋功能</li>
+                <li>部署至 Vercel</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item phase-2">
+            <span class="phase-badge">Phase 2 — 深度財務與詳情面板</span>
+            <h3>完整的公司財務展示</h3>
+            <ul>
+                <li>實作側邊詳情面板（公司概況、財務圖表、供應鏈關係）</li>
+                <li>ECharts 財務圖表：五年營收/淨利趨勢圖、毛利率變化</li>
+                <li>同業比較功能（雷達圖、排行榜）</li>
+                <li>未來預測數據展示（預測曲線，虛線呈現）</li>
+                <li>進階篩選器：地區、市值範圍、成長率區間</li>
+                <li>擴展公司資料至 50-100 家</li>
+                <li>響應式設計優化</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item phase-3">
+            <span class="phase-badge">Phase 3 — 時間軸與進階互動</span>
+            <h3>動態分析功能</h3>
+            <ul>
+                <li>時間軸回放功能（年度滑桿，觀察產業演化）</li>
+                <li>多維度圖層疊加（地理分佈、風險評估）</li>
+                <li>公司比較頁面（氣泡圖、多公司並排）</li>
+                <li>新聞整合模組</li>
+                <li>匯出功能（截圖、CSV）</li>
+                <li>效能優化（大量節點的虛擬化渲染）</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item phase-4">
+            <span class="phase-badge">Phase 4 — 智能分析與後端</span>
+            <h3>自動化 + AI 輔助</h3>
+            <ul>
+                <li>建立 FastAPI 後端服務</li>
+                <li>引入 Neo4j 圖形資料庫</li>
+                <li>自動化資料抓取與更新流程</li>
+                <li>What-If 模擬模式（斷鏈分析、併購模擬）</li>
+                <li>AI 產業洞察摘要（接入 LLM API）</li>
+                <li>用戶帳號與自訂關注清單</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== 8. Gemini 見解 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">8</span>
+        <h2>Gemini 2.5 Pro 獨特見解</h2>
+    </div>
+
+    <div class="gemini-box">
+        <span class="gemini-label">GEMINI INSIGHT</span>
+        <h3>關鍵成功因素：從「呈現」到「洞察」</h3>
+        <p>
+            semiEE 告訴我們「誰是誰的供應商」，但沒有回答<strong>「所以呢？」</strong>。
+            本專案的成功關鍵在於回答這個問題。
+        </p>
+        <ul>
+            <li>當用戶點擊台積電，不應只看到供應商是 ASML，而應能看到：台積電的營收成長與其資本支出的關聯性；
+                ASML 營收有多大比例依賴台積電；若台積電毛利率下降，對上游供應商的議價壓力如何變化。</li>
+            <li><strong>數據的關聯性分析，才是核心價值。</strong></li>
+        </ul>
+    </div>
+
+    <div class="gemini-box">
+        <span class="gemini-label">GEMINI INSIGHT</span>
+        <h3>創新互動：時間軸回放 + 假設分析</h3>
+        <p><strong>時間軸回放</strong> — 增加時間滑桿（2015-2026），拖動時節點動態變化：</p>
+        <ul>
+            <li>節點大小代表市值，直觀看到公司興衰</li>
+            <li>供應鏈關係遷移（貿易戰、新技術帶來的轉變）</li>
+            <li>新進入者何時出現、如何挑戰巨頭</li>
+        </ul>
+        <p style="margin-top:12px;"><strong>假設分析（What-If）</strong> — 提供沙盒模式：</p>
+        <ul>
+            <li>模擬併購：拖動公司 A 到公司 B，系統自動計算合併後的市佔率與營收</li>
+            <li>模擬斷鏈：關閉 ASML 節點，紅色高亮所有受影響的下游晶片製造商</li>
+            <li>這將工具從「回顧過去」進化為「推演未來」</li>
+        </ul>
+    </div>
+
+    <div class="gemini-box">
+        <span class="gemini-label">GEMINI INSIGHT</span>
+        <h3>多維度圖層疊加</h3>
+        <ul>
+            <li><strong>地理圖層</strong> — 將節點疊加在世界地圖上，顯示全球供應鏈的地理分佈</li>
+            <li><strong>風險圖層</strong> — 根據地緣政治、自然災害風險標示不同地區的風險等級</li>
+            <li><strong>技術專利圖層</strong> — 顯示哪些公司在特定技術領域擁有核心專利</li>
+            <li>這些跨領域的宏觀視角能幫助用戶發現單一維度下看不到的關聯和風險</li>
+        </ul>
+    </div>
+
+    <div class="gemini-box">
+        <span class="gemini-label">GEMINI INSIGHT</span>
+        <h3>技術選型建議</h3>
+        <p>Gemini 強烈建議從 <strong>AntV G6</strong> 或 <strong>ECharts</strong> 開始，而非直接使用 D3.js：</p>
+        <ul>
+            <li>G6/ECharts 能滿足 90% 的需求，且開發速度快數倍</li>
+            <li>D3.js 學習曲線極陡峭，開發週期長，適合追求極致客製化的後期階段</li>
+            <li>資料庫建議混合使用：<strong>Neo4j</strong>（圖譜關係）+ <strong>PostgreSQL + TimescaleDB</strong>（時序財務數據）</li>
+            <li>但初期可以用純 JSON 啟動，降低架構複雜度</li>
+        </ul>
+    </div>
+
+    <div class="gemini-box">
+        <span class="gemini-label">GEMINI INSIGHT</span>
+        <h3>領域專注策略</h3>
+        <p>
+            試圖涵蓋所有產業會導致深度不足。建議選擇一個最熟悉、最有數據資源的產業做深做透。
+            成為「某個領域的供應鏈權威」遠比成為「什麼都有但什麼都不精」的平台更有價值。
+            驗證產品後，再考慮橫向擴展。
+        </p>
+    </div>
+</section>
+
+<!-- ==================== 9. 展示層設計 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">9</span>
+        <h2>展示層設計建議</h2>
+    </div>
+
+    <div class="card-grid">
+        <div class="card">
+            <h3>視覺設計原則</h3>
+            <ul>
+                <li><strong>深色主題</strong>為主 — 專業感強，減少視覺疲勞</li>
+                <li>色彩編碼一致性 — 同一子領域全站使用相同顏色</li>
+                <li>資訊密度適中 — 避免過度擁擠</li>
+                <li>漸進式揭露 — 由概覽到細節的分層展示</li>
+                <li>動畫流暢 — 過渡動畫增強空間感</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>三層資訊架構</h3>
+            <ul>
+                <li><strong>第一層（全景）</strong>— 關係網路圖，節點大小代表市值</li>
+                <li><strong>第二層（懸浮）</strong>— Tooltip 展示核心指標 + Sparkline</li>
+                <li><strong>第三層（詳情）</strong>— 側邊面板完整公司分析</li>
+                <li>用戶可在不離開主視圖的情況下，漸進式獲取資訊</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>互動體驗原則</h3>
+            <ul>
+                <li>滑鼠懸停即時反饋 — Tooltip &lt; 100ms 出現</li>
+                <li>點擊反饋明確 — 選中節點高亮 + 關聯路徑淡化</li>
+                <li>平滑的縮放與平移 — 支援觸控板手勢</li>
+                <li>鍵盤導航 — Tab/方向鍵在節點間移動</li>
+                <li>載入進度指示 — 大量節點時顯示載入狀態</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== 10. 潛在挑戰 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">10</span>
+        <h2>潛在挑戰與解決方案</h2>
+    </div>
+
+    <table class="compare-table">
+        <thead>
+            <tr>
+                <th style="width:25%">挑戰</th>
+                <th style="width:35%">風險描述</th>
+                <th style="width:40%">解決方案</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>數據取得與品質</strong></td>
+                <td>財務數據來源分散、格式不一；部分非上市公司無公開數據</td>
+                <td>初期聚焦上市公司，使用標準化 JSON Schema；建立數據驗證流程；標注數據來源與日期</td>
+            </tr>
+            <tr>
+                <td><strong>數據時效性</strong></td>
+                <td>財務數據按季更新，供應鏈關係變動不定</td>
+                <td>建立季度更新排程；重大事件即時手動更新；所有數據帶時間戳</td>
+            </tr>
+            <tr>
+                <td><strong>大量節點效能</strong></td>
+                <td>數百個節點同時渲染可能導致頁面卡頓</td>
+                <td>AntV G6 內建虛擬化渲染；按類別分批載入；WebGL 渲染加速</td>
+            </tr>
+            <tr>
+                <td><strong>供應鏈關係準確性</strong></td>
+                <td>上下游關係常為非公開資訊，難以驗證</td>
+                <td>以公開年報揭露為主；標示「已確認」與「推測」關係；開放社群勘誤回報</td>
+            </tr>
+            <tr>
+                <td><strong>預測數據可信度</strong></td>
+                <td>預測本質上有不確定性，容易引起誤解</td>
+                <td>明確標示預測來源與假設條件；使用虛線/淡色區別預測與歷史數據；提供信賴區間</td>
+            </tr>
+            <tr>
+                <td><strong>跨裝置體驗</strong></td>
+                <td>複雜的關係網路圖在手機上難以操作</td>
+                <td>手機版提供簡化的清單視圖；桌面版才啟用完整互動地圖；觸控手勢優化</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- ==================== 11. 資料結構範例 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">11</span>
+        <h2>資料結構範例</h2>
+    </div>
+
+    <div class="arch-diagram" style="font-size:0.8em; line-height:1.5;">
+<span class="hl">// companies.json</span>
+{
+  "companies": [
+    {
+      "id": "tsmc",
+      "name": "台積電",
+      "name_en": "TSMC",
+      "ticker": "2330.TW",
+      "category": "foundry",
+      "country": "TW",
+      "description": "全球最大半導體代工廠...",
+      "website": "https://www.tsmc.com",
+      "logo": "/logos/tsmc.svg",
+      <span class="hl2">"financials"</span>: {
+        "currency": "TWD",
+        "unit": "billion",
+        "annual": [
+          { "year": 2024, "revenue": 2894, "net_income": 1152, "gross_margin": 0.572, "growth_rate": 0.339 },
+          { "year": 2023, "revenue": 2162, "net_income": 838,  "gross_margin": 0.543, "growth_rate": -0.046 }
+        ],
+        <span class="hl3">"predictions"</span>: [
+          { "year": 2025, "revenue_est": 3680, "growth_est": 0.272, "source": "分析師共識", "updated": "2025-Q1" },
+          { "year": 2026, "revenue_est": 4350, "growth_est": 0.182, "source": "分析師共識", "updated": "2025-Q1" }
+        ]
+      }
+    }
+  ]
+}
+
+<span class="hl">// relations.json</span>
+{
+  "relations": [
+    {
+      "from": "asml",
+      "to": "tsmc",
+      "type": "equipment_supplier",
+      "strength": "critical",       <span class="hl2">// critical | major | minor</span>
+      "description": "EUV 光刻機獨家供應商",
+      "since": 2017
+    }
+  ]
+}</div>
+</section>
+
+<!-- ==================== 12. 下一步行動 ==================== -->
+<section>
+    <div class="section-header">
+        <span class="section-num">12</span>
+        <h2>下一步行動建議</h2>
+    </div>
+
+    <div class="card-grid" style="grid-template-columns: 1fr;">
+        <div class="card">
+            <h3>立即可開始的事項</h3>
+            <ul>
+                <li><strong>決定產業領域</strong> — 確定要聚焦的產業（如半導體、電動車、AI、綠色能源）</li>
+                <li><strong>初始化專案</strong> — 建立 Next.js + Tailwind CSS + TypeScript 專案骨架</li>
+                <li><strong>資料收集</strong> — 開始手動整理首批 20-30 家核心公司的基礎數據</li>
+                <li><strong>原型設計</strong> — 用 AntV G6 製作最小可行的關係圖原型</li>
+                <li><strong>部署管線</strong> — 設定 Vercel 自動部署，確保每次推送即可預覽</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="callout" style="margin-top:20px;">
+        <strong>Claude + Gemini 共同建議：</strong>
+        以「最小可行產品」思維快速啟動。先用 20-30 家公司 + 靜態 JSON + 基本互動圖做出一個可用的版本，
+        部署上線取得回饋後，再逐步擴展數據量和進階功能。
+        <strong>做深做透一個領域，遠勝於淺嘗輒止涵蓋所有產業。</strong>
+    </div>
+</section>
+
+</div>
+
+<footer>
+    <p>本規劃書由 <strong>Claude Opus 4.7</strong> 與 <strong>Gemini 2.5 Pro</strong> 聯合生成</p>
+    <p style="margin-top:8px;">InteractiveMap Project &mdash; 2026-05-27</p>
+</footer>
+
+</body>
+</html>
