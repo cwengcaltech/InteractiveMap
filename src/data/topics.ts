@@ -7,6 +7,9 @@ export interface SectionCompany {
   country: string;
   role: string;
   marketShare?: string;
+  howTo?: string;
+  frequency?: string;
+  notes?: string;
 }
 
 export interface TopicSection {
@@ -1554,11 +1557,11 @@ export const topics: Topic[] = [
         keyInfo: "每週 150 分鐘中等強度有氧運動可降低阿茲海默症風險 45%（Lancet 2020 meta-analysis）",
         marketType: "monopoly",
         companies: [
-          { id: "omega3-dha", name: "Omega-3 DHA", ticker: "1-2g/day", country: "SP", role: "維持神經細胞膜流動性與突觸可塑性，降低神經發炎", marketShare: "Meta-analysis" },
-          { id: "curcumin", name: "薑黃素 (Curcumin)", ticker: "500mg/day", country: "SP", role: "抗氧化與抗神經發炎，促進 BDNF 分泌，需搭配黑胡椒素增吸收", marketShare: "多項 RCT" },
-          { id: "aerobic-neuro", name: "有氧運動", ticker: "150min/週", country: "EX", role: "增加腦源性神經營養因子 BDNF，促進海馬迴神經新生", marketShare: "Meta-analysis" },
-          { id: "blueberries", name: "藍莓 / 莓果類", ticker: "1杯/day", country: "FD", role: "花青素穿越血腦屏障，改善記憶與認知功能", marketShare: "多項 RCT" },
-          { id: "lion-mane", name: "猴頭菇 (Lion's Mane)", ticker: "500-1000mg/day", country: "SP", role: "刺激神經生長因子 NGF 合成，支持神經再生", marketShare: "觀察性研究" },
+          { id: "omega3-dha", name: "Omega-3 DHA", ticker: "1-2g/day", country: "SP", role: "維持神經細胞膜流動性與突觸可塑性，降低神經發炎", marketShare: "Meta-analysis", howTo: "選擇 DHA 含量較高的高純度魚油（DHA ≥ 500mg/粒），隨含脂肪餐服用以提升吸收。IFOS 或 USP 認證確保重金屬與氧化值合格。", frequency: "每日 1-2g 總 EPA+DHA，分早晚兩次隨餐", notes: "服用抗凝血藥（warfarin、阿斯匹靈）者應諮詢醫師。素食者可選藻油 DHA。打嗝有魚腥味可改用腸溶劑型或冷藏保存。" },
+          { id: "curcumin", name: "薑黃素 (Curcumin)", ticker: "500mg/day", country: "SP", role: "抗氧化與抗神經發炎，促進 BDNF 分泌，需搭配黑胡椒素增吸收", marketShare: "多項 RCT", howTo: "選擇含 piperine（黑胡椒素）或 Meriva/Longvida/BCM-95 高生物利用度配方，隨含脂肪餐服用以提升吸收 20 倍。", frequency: "每日 500-1000mg 標準化薑黃素，隨餐", notes: "服用抗凝血藥、膽結石、缺鐵者慎用，可能干擾鐵吸收。高劑量可能造成腸胃不適，從低劑量開始。" },
+          { id: "aerobic-neuro", name: "有氧運動", ticker: "150min/週", country: "EX", role: "增加腦源性神經營養因子 BDNF，促進海馬迴神經新生", marketShare: "Meta-analysis", howTo: "選擇快走、慢跑、騎車或游泳，維持心率 60-75% 最大心率（220-年齡）。可用心率錶監測，對話測試：能說完整句子但無法唱歌。", frequency: "每週 150-300 分鐘，可拆成 5 次 30 分鐘", notes: "心血管疾病或膝關節問題者先諮詢醫師。從每次 15 分鐘開始逐步增加。配合阻力訓練效果更佳。" },
+          { id: "blueberries", name: "藍莓 / 莓果類", ticker: "1杯/day", country: "FD", role: "花青素穿越血腦屏障，改善記憶與認知功能", marketShare: "多項 RCT", howTo: "新鮮或冷凍藍莓、草莓、黑莓、覆盆莓皆可，冷凍不損失花青素。可加入優格、燕麥或冰沙食用。", frequency: "每日 1 杯（約 150g），或每週 5-7 份莓果類", notes: "糖尿病患者注意整體碳水化合物攝取。有機莓果可降低農藥殘留（莓果為高農藥殘留作物之一）。" },
+          { id: "lion-mane", name: "猴頭菇 (Lion's Mane)", ticker: "500-1000mg/day", country: "SP", role: "刺激神經生長因子 NGF 合成，支持神經再生", marketShare: "觀察性研究", howTo: "選擇雙萃取（水萃+醇萃）的子實體萃取物，避免僅菌絲體米基產品。空腹或隨餐均可，效果通常 4-8 週後顯現。", frequency: "每日 500-3000mg 萃取物，可分 2 次", notes: "蘑菇過敏者避免。可能與抗凝血藥交互作用。少數人初期會有腸胃不適或皮膚癢，停用即恢復。" },
         ],
       },
       {
@@ -1568,10 +1571,10 @@ export const topics: Topic[] = [
         keyInfo: "持續性冥想練習可增加前額葉皮質灰質密度，8 週 MBSR 即可觀察到大腦結構變化",
         marketType: "oligopoly",
         companies: [
-          { id: "meditation", name: "冥想練習", ticker: "10-20min/day", country: "HA", role: "強化前額葉皮質功能，提升注意力與工作記憶容量", marketShare: "多項 RCT" },
-          { id: "new-skill", name: "學習新技能", ticker: "持續性", country: "HA", role: "建立新突觸連結，增強認知儲備 (cognitive reserve)", marketShare: "觀察性研究" },
-          { id: "dual-nback", name: "Dual N-back 訓練", ticker: "20min/day", country: "HA", role: "唯一有證據支持可遷移的工作記憶訓練方法", marketShare: "多項 RCT" },
-          { id: "social-engagement", name: "社交互動", ticker: "規律性", country: "HA", role: "多元社交活動活化大腦多區域網路，降低認知衰退風險", marketShare: "觀察性研究" },
+          { id: "meditation", name: "冥想練習", ticker: "10-20min/day", country: "HA", role: "強化前額葉皮質功能，提升注意力與工作記憶容量", marketShare: "多項 RCT", howTo: "找安靜空間舒適坐姿，閉眼專注呼吸或使用 app（Calm、Headspace、Insight Timer、潮汐）。從專注呼吸 5 分鐘開始逐步延長。", frequency: "每日 10-20 分鐘，固定時間（晨起或睡前）", notes: "有嚴重創傷或精神疾病史者建議在專業引導下進行。初期難以集中為正常現象，重點在持續性而非單次長度。" },
+          { id: "new-skill", name: "學習新技能", ticker: "持續性", country: "HA", role: "建立新突觸連結，增強認知儲備 (cognitive reserve)", marketShare: "觀察性研究", howTo: "選擇有挑戰性的新領域：學語言（Duolingo）、樂器、舞蹈、繪畫、編程。每週至少 3 次刻意練習並追求漸進進步。", frequency: "每週 3-5 次，每次 30-60 分鐘", notes: "選擇真正陌生的領域才有效果（如已會鋼琴改學繪畫）。受挫感是大腦正在重塑的信號，不應放棄。" },
+          { id: "dual-nback", name: "Dual N-back 訓練", ticker: "20min/day", country: "HA", role: "唯一有證據支持可遷移的工作記憶訓練方法", marketShare: "多項 RCT", howTo: "使用 Brain Workshop（免費）或 IQ Boost 等 app，從 N=2 開始逐步挑戰更高 N 值。需同時記憶視覺位置與聽覺序列。", frequency: "每日 20 分鐘，至少持續 19 天才見效", notes: "練習過程感到困難是正常的（應達 80% 錯誤率才有挑戰性）。研究效果有爭議，僅在持續訓練期間有效。" },
+          { id: "social-engagement", name: "社交互動", ticker: "規律性", country: "HA", role: "多元社交活動活化大腦多區域網路，降低認知衰退風險", marketShare: "觀察性研究", howTo: "參加讀書會、志工服務、興趣社團、定期家庭聚會。優先選擇面對面而非線上互動。", frequency: "每週至少 3 次有意義的社交互動", notes: "質比量重要：深度對話勝過淺層應酬。社交焦慮者可從小團體或一對一開始。獨居長者風險最高，需主動安排。" },
         ],
       },
       {
@@ -1581,10 +1584,10 @@ export const topics: Topic[] = [
         keyInfo: "大腦僅佔體重 2% 但消耗 20% 心輸出量，腦血流量每下降 10% 認知功能顯著下降",
         marketType: "oligopoly",
         companies: [
-          { id: "aerobic-brain", name: "有氧運動", ticker: "30min/day", country: "EX", role: "提升腦部血流量 15-20%，增加一氧化氮合成促進血管擴張", marketShare: "Meta-analysis" },
-          { id: "beetroot", name: "甜菜根汁", ticker: "250ml/day", country: "FD", role: "豐富硝酸鹽轉化為一氧化氮，改善腦部微循環", marketShare: "多項 RCT" },
-          { id: "ginkgo", name: "銀杏萃取物", ticker: "120-240mg/day", country: "SP", role: "改善末梢與腦部微循環，標準化萃取物 EGb 761 證據較佳", marketShare: "多項 RCT" },
-          { id: "deep-breathing", name: "深呼吸訓練", ticker: "5min/多次/day", country: "HA", role: "優化血氧濃度與自律神經平衡，間接改善腦部供氧", marketShare: "觀察性研究" },
+          { id: "aerobic-brain", name: "有氧運動", ticker: "30min/day", country: "EX", role: "提升腦部血流量 15-20%，增加一氧化氮合成促進血管擴張", marketShare: "Meta-analysis", howTo: "選擇中等強度持續運動（快走、慢跑、騎車、游泳），維持心率 60-75% 最大心率。室外運動同時獲得陽光與自然暴露效益。", frequency: "每日 30 分鐘以上，或每週累計 150 分鐘", notes: "心血管疾病者先評估運動能力。避免飯後立即運動。室外霧霾日改室內運動。" },
+          { id: "beetroot", name: "甜菜根汁", ticker: "250ml/day", country: "FD", role: "豐富硝酸鹽轉化為一氧化氮，改善腦部微循環", marketShare: "多項 RCT", howTo: "可選新鮮榨汁或市售濃縮汁（Beet It 等品牌），運動或腦力工作前 2-3 小時飲用效果最佳。也可選擇甜菜根粉沖泡。", frequency: "每日 250-500ml，或硝酸鹽 6-12 mmol", notes: "服用低血壓藥物者需注意疊加降壓效果。腎結石（草酸鈣型）患者限制攝取。尿液與糞便可能變紅是正常現象。" },
+          { id: "ginkgo", name: "銀杏萃取物", ticker: "120-240mg/day", country: "SP", role: "改善末梢與腦部微循環，標準化萃取物 EGb 761 證據較佳", marketShare: "多項 RCT", howTo: "選擇標準化 EGb 761 萃取物（含 24% 黃酮苷、6% 萜類），分兩次隨餐服用。需連續服用 4-6 週才見效。", frequency: "每日 120-240mg，分早晚兩次", notes: "服用抗凝血藥（warfarin、aspirin）或手術前 2 週須停用，可能增加出血風險。癲癇患者慎用。" },
+          { id: "deep-breathing", name: "深呼吸訓練", ticker: "5min/多次/day", country: "HA", role: "優化血氧濃度與自律神經平衡，間接改善腦部供氧", marketShare: "觀察性研究", howTo: "練習腹式呼吸：吸氣 4 秒讓腹部鼓起，吐氣 6 秒收縮腹部。或使用方框呼吸（4-4-4-4）。手放腹部感受起伏。", frequency: "每日多次，每次 5 分鐘；壓力時即刻使用", notes: "過度換氣會造成頭暈，發現不適時恢復正常呼吸即可。氣喘急性發作期間應使用救援吸入器而非呼吸練習。" },
         ],
       },
       {
@@ -1594,11 +1597,11 @@ export const topics: Topic[] = [
         keyInfo: "維生素 B12 缺乏與認知衰退顯著相關，全球約 20% 老年人 B12 不足",
         marketType: "monopoly",
         companies: [
-          { id: "vitb12", name: "維生素 B12", ticker: "500-1000mcg/day", country: "SP", role: "維持髓鞘完整性與甲基化反應，缺乏導致不可逆神經損傷", marketShare: "Meta-analysis" },
-          { id: "folate", name: "葉酸 (Methylfolate)", ticker: "400-800mcg/day", country: "SP", role: "與 B12 協同降低同半胱胺酸，保護腦血管健康", marketShare: "Meta-analysis" },
-          { id: "vitd-brain", name: "維生素 D", ticker: "2000-4000IU/day", country: "SP", role: "大腦廣泛分布維生素 D 受體，缺乏與失智風險增加 50% 相關", marketShare: "Meta-analysis" },
-          { id: "magnesium-brain", name: "鎂 (Mg-Threonate)", ticker: "2000mg/day", country: "SP", role: "L-Threonate 形式可穿越血腦屏障，提升突觸密度與記憶力", marketShare: "多項 RCT" },
-          { id: "choline", name: "膽鹼 (Choline)", ticker: "500mg/day", country: "SP", role: "乙醯膽鹼前驅物，影響記憶形成與肝臟健康", marketShare: "觀察性研究" },
+          { id: "vitb12", name: "維生素 B12", ticker: "500-1000mcg/day", country: "SP", role: "維持髓鞘完整性與甲基化反應，缺乏導致不可逆神經損傷", marketShare: "Meta-analysis", howTo: "優先選擇甲鈷胺 (methylcobalamin) 或氰鈷胺舌下錠/口含錠，吸收率較佳。素食者、50 歲以上、服 metformin 或 PPI 者需特別補充。", frequency: "每日 500-1000mcg，或每週 2000mcg 高劑量", notes: "幾乎無毒性風險（水溶性可排出）。MTHFR 基因變異者建議選甲鈷胺。檢測血清 B12 應 > 400 pg/mL，全血同半胱胺酸更準確。" },
+          { id: "folate", name: "葉酸 (Methylfolate)", ticker: "400-800mcg/day", country: "SP", role: "與 B12 協同降低同半胱胺酸，保護腦血管健康", marketShare: "Meta-analysis", howTo: "選擇 L-甲基葉酸 (5-MTHF) 形式，繞過 MTHFR 酶轉化障礙。可從深綠蔬菜（菠菜、蘆筍、扁豆）獲取天然葉酸。", frequency: "每日 400-800mcg（孕婦需 600-1000mcg）", notes: "必須與 B12 一起補充，否則可能掩蓋 B12 缺乏症狀。癌症患者使用前諮詢醫師（葉酸可能促進腫瘤生長）。" },
+          { id: "vitd-brain", name: "維生素 D", ticker: "2000-4000IU/day", country: "SP", role: "大腦廣泛分布維生素 D 受體，缺乏與失智風險增加 50% 相關", marketShare: "Meta-analysis", howTo: "選擇 D3 (cholecalciferol) 形式，與含脂餐一起服用提升吸收。理想配合 K2 (MK-7) 防止鈣異位沉積。先檢測 25(OH)D 血清濃度。", frequency: "每日 2000-4000 IU，血清目標 40-60 ng/mL", notes: "不可長期高劑量（>10000IU/day）未檢測，可能導致高鈣血症。檢測項目為 25(OH)D。深膚色與少日曬者需求較高。" },
+          { id: "magnesium-brain", name: "鎂 (Mg-Threonate)", ticker: "2000mg/day", country: "SP", role: "L-Threonate 形式可穿越血腦屏障，提升突觸密度與記憶力", marketShare: "多項 RCT", howTo: "選擇 Magtein 專利配方的 Magnesium L-Threonate（每日 1.5-2g 提供約 144mg 元素鎂），分兩次服用，晚間劑量可助眠。", frequency: "每日 1.5-2g L-Threonate，或晚餐+睡前各一次", notes: "腎功能不全者慎用。可能與抗生素（喹諾酮類、四環素類）交互作用，間隔 2-4 小時。腹瀉者改用甘胺酸鎂。" },
+          { id: "choline", name: "膽鹼 (Choline)", ticker: "500mg/day", country: "SP", role: "乙醯膽鹼前驅物，影響記憶形成與肝臟健康", marketShare: "觀察性研究", howTo: "食物來源最佳：蛋黃（一顆含 147mg）、牛肝、黃豆、花椰菜。補充劑可選 Alpha-GPC 或 CDP-Choline（Citicoline）認知效果較佳。", frequency: "男性 550mg、女性 425mg/day（孕婦 450mg）", notes: "高劑量可能造成魚腥體味、低血壓、腸胃不適。三甲胺氧化物 (TMAO) 升高可能與心血管風險相關，需均衡攝取。" },
         ],
       },
       {
@@ -1608,10 +1611,10 @@ export const topics: Topic[] = [
         keyInfo: "血液 BDNF 濃度與認知功能正相關，可作為運動與介入效果的追蹤指標",
         marketType: "oligopoly",
         companies: [
-          { id: "bdnf", name: "BDNF (腦源性神經營養因子)", ticker: "血液檢測", country: "BM", role: "反映神經可塑性與認知儲備量，運動後顯著上升", marketShare: "多項 RCT" },
-          { id: "homocysteine", name: "同半胱胺酸", ticker: "<10 μmol/L", country: "BM", role: "升高與腦萎縮及失智風險相關，B 群維生素可有效降低", marketShare: "Meta-analysis" },
-          { id: "brain-mri", name: "腦部 MRI", ticker: "每1-2年", country: "MD", role: "追蹤海馬迴體積、白質病變與腦萎縮程度", marketShare: "Meta-analysis" },
-          { id: "cognitive-test", name: "認知功能測試 (MoCA)", ticker: "每年", country: "MD", role: "蒙特利爾認知評估量表，篩檢輕度認知障礙", marketShare: "Meta-analysis" },
+          { id: "bdnf", name: "BDNF (腦源性神經營養因子)", ticker: "血液檢測", country: "BM", role: "反映神經可塑性與認知儲備量，運動後顯著上升", marketShare: "多項 RCT", howTo: "至研究型或自費健診中心檢驗血清 BDNF。理想範圍隨檢驗方法異，一般 >20 ng/mL 為佳。運動前後可比較變化。", frequency: "每 6-12 個月，運動介入後可重測", notes: "BDNF 受 24 小時內運動、睡眠、發炎狀態強烈影響，採檢前需穩定狀態。台灣目前以自費為主，並非常規檢項。" },
+          { id: "homocysteine", name: "同半胱胺酸", ticker: "<10 μmol/L", country: "BM", role: "升高與腦萎縮及失智風險相關，B 群維生素可有效降低", marketShare: "Meta-analysis", howTo: "空腹抽血檢測，可至診所健檢套餐或自費加項。理想 <8 μmol/L，>10 提示風險，>15 需積極介入。", frequency: "每年 1 次（高風險者每 6 個月）", notes: "升高者補充 B12、葉酸、B6 通常 3 個月內顯著下降。MTHFR 基因變異者需甲基化形式 B 群。應同時檢測 B12 排除缺乏。" },
+          { id: "brain-mri", name: "腦部 MRI", ticker: "每1-2年", country: "MD", role: "追蹤海馬迴體積、白質病變與腦萎縮程度", marketShare: "Meta-analysis", howTo: "至神經內科或自費健診中心預約。標準 1.5T 或 3T MRI 即可。可加做 MR angiography 評估腦血管狀況。", frequency: "高風險者每 1-2 年，一般人每 3-5 年", notes: "台灣自費約 1.5-3 萬。有金屬植入物（心臟節律器、人工耳蝸）者不可做。幽閉恐懼症者可使用開放式 MRI。" },
+          { id: "cognitive-test", name: "認知功能測試 (MoCA)", ticker: "每年", country: "MD", role: "蒙特利爾認知評估量表，篩檢輕度認知障礙", marketShare: "Meta-analysis", howTo: "至神經內科、精神科或記憶門診受測。或使用 MoCA 官方 app 自我練習版（僅供參考非診斷）。完整測試約 10-15 分鐘。", frequency: "60 歲後每年 1 次", notes: "正常 >26 分，<26 提示輕度認知障礙需進一步檢查。教育程度 ≤12 年加 1 分。憂鬱、睡眠不足、焦慮會影響成績。" },
         ],
       },
       {
@@ -1621,10 +1624,10 @@ export const topics: Topic[] = [
         keyInfo: "腸道微生物可透過迷走神經與代謝物影響大腦功能，90% 血清素由腸道合成",
         marketType: "emerging",
         companies: [
-          { id: "probiotics-brain", name: "精神益生菌 (Psychobiotics)", ticker: "特定菌株", country: "SP", role: "特定乳酸桿菌與雙歧桿菌株可改善焦慮與認知功能", marketShare: "觀察性研究" },
-          { id: "fermented-brain", name: "發酵食品", ticker: "每日攝取", country: "FD", role: "優格、味噌、泡菜等增加腸道菌相多樣性，間接改善腦功能", marketShare: "觀察性研究" },
-          { id: "vagus-nerve", name: "迷走神經刺激", ticker: "研究階段", country: "RS", role: "非侵入性迷走神經刺激 (tVNS) 可改善記憶與情緒調節", marketShare: "觀察性研究" },
-          { id: "fiber-brain", name: "膳食纖維", ticker: "25-35g/day", country: "FD", role: "短鏈脂肪酸 (SCFAs) 的前驅物質，支持腸腦軸訊號傳遞", marketShare: "多項 RCT" },
+          { id: "probiotics-brain", name: "精神益生菌 (Psychobiotics)", ticker: "特定菌株", country: "SP", role: "特定乳酸桿菌與雙歧桿菌株可改善焦慮與認知功能", marketShare: "觀察性研究", howTo: "選擇有臨床證據的菌株：Lactobacillus helveticus R0052 + Bifidobacterium longum R0175 組合或 B. longum 1714。空腹或睡前服用。", frequency: "每日 10-50 億 CFU，連續 4-8 週", notes: "免疫抑制患者、重症 ICU 患者慎用。冷藏保存以維持菌數活性。效果具菌株特異性，並非所有益生菌都有腦部效益。" },
+          { id: "fermented-brain", name: "發酵食品", ticker: "每日攝取", country: "FD", role: "優格、味噌、泡菜等增加腸道菌相多樣性，間接改善腦功能", marketShare: "觀察性研究", howTo: "每日攝取多元發酵食品：無糖優格 1 杯、味噌湯 1 碗、泡菜或酸菜 50g、康普茶 200ml、克菲爾乳。需含活菌（避免高溫滅菌產品）。", frequency: "每日 1-6 份不同來源發酵食品", notes: "高鈉者注意泡菜、味噌的鈉含量。組織胺不耐者可能誘發症狀。康普茶糖分需控制。" },
+          { id: "vagus-nerve", name: "迷走神經刺激", ticker: "研究階段", country: "RS", role: "非侵入性迷走神經刺激 (tVNS) 可改善記憶與情緒調節", marketShare: "觀察性研究", howTo: "可透過唱歌、漱口、冷水洗臉、深呼吸等天然方式刺激。商用設備（如 Nurosym、Pulsetto）刺激耳屏迷走神經分支。", frequency: "每日 15-30 分鐘（設備使用者），或日常多次自然刺激", notes: "心律不整、心臟節律器使用者諮詢醫師後使用設備。設備價格不菲（500-1000 美元），效果證據仍在累積中。" },
+          { id: "fiber-brain", name: "膳食纖維", ticker: "25-35g/day", country: "FD", role: "短鏈脂肪酸 (SCFAs) 的前驅物質，支持腸腦軸訊號傳遞", marketShare: "多項 RCT", howTo: "多元纖維來源：燕麥、奇亞籽、亞麻籽、豆類、全穀、根莖類、莓果類。逐步增加避免脹氣。每週嘗試 30 種以上植物。", frequency: "男性 35g/day、女性 25g/day", notes: "急性腸躁症（IBS）發作期可能需要短期低 FODMAP。突然增加纖維會脹氣，需配合多飲水（每 10g 纖維+250ml 水）。" },
         ],
       },
     ],
@@ -1652,11 +1655,11 @@ export const topics: Topic[] = [
         keyInfo: "心血管疾病為全球第一大死因，90% 心肌梗塞可歸因於 9 個可修正風險因子（INTERHEART 研究）",
         marketType: "monopoly",
         companies: [
-          { id: "ldl-risk", name: "LDL 膽固醇", ticker: "<100mg/dL", country: "BM", role: "動脈粥狀硬化的核心驅動因子，每降低 1 mmol/L 心血管事件降 22%", marketShare: "Meta-analysis" },
-          { id: "bp-risk", name: "血壓控制", ticker: "<120/80mmHg", country: "BM", role: "高血壓為中風與心衰竭最大風險因子，SPRINT 研究證實積極控制獲益大", marketShare: "Meta-analysis" },
-          { id: "smoking-risk", name: "戒菸", ticker: "完全戒除", country: "HA", role: "吸菸使心血管疾病風險增加 2-4 倍，戒菸 1 年後風險降一半", marketShare: "Meta-analysis" },
-          { id: "diabetes-risk", name: "血糖管理", ticker: "HbA1c<7%", country: "BM", role: "糖尿病使心血管風險增加 2-4 倍，良好血糖控制顯著降低風險", marketShare: "Meta-analysis" },
-          { id: "waist-risk", name: "腰圍 / 內臟脂肪", ticker: "男<90cm/女<80cm", country: "BM", role: "內臟脂肪分泌促炎因子，腹型肥胖為獨立心血管風險因子", marketShare: "Meta-analysis" },
+          { id: "ldl-risk", name: "LDL 膽固醇", ticker: "<100mg/dL", country: "BM", role: "動脈粥狀硬化的核心驅動因子，每降低 1 mmol/L 心血管事件降 22%", marketShare: "Meta-analysis", howTo: "標準血脂面板檢測，空腹 9-12 小時。一般目標 <100 mg/dL；有心血管疾病或糖尿病 <70 mg/dL；極高風險 <55 mg/dL。", frequency: "每年 1 次（治療中每 3-6 個月）", notes: "急性疾病或感染期 LDL 會暫時下降，應穩定後檢測。ApoB 比 LDL-C 更準確，建議加做。粒子數比濃度更重要。" },
+          { id: "bp-risk", name: "血壓控制", ticker: "<120/80mmHg", country: "BM", role: "高血壓為中風與心衰竭最大風險因子，SPRINT 研究證實積極控制獲益大", marketShare: "Meta-analysis", howTo: "在家用上臂式血壓計（OMRON、Microlife 認證機種），測量前靜坐 5 分鐘，連測 3 次取平均。早晚各測一次。", frequency: "每日早晚測量，記錄 7 天平均值", notes: "白袍高血壓現象普遍，居家血壓更準。手腕式準確度較差。咖啡因、運動後 30 分鐘內血壓會升高應避免測量。" },
+          { id: "smoking-risk", name: "戒菸", ticker: "完全戒除", country: "HA", role: "吸菸使心血管疾病風險增加 2-4 倍，戒菸 1 年後風險降一半", marketShare: "Meta-analysis", howTo: "可使用尼古丁替代療法（貼片+口含錠）、處方藥（Varenicline/Champix）或戒菸專線（0800-636363）。設定戒菸日，移除誘因。", frequency: "完全戒除，不可少量偶吸", notes: "電子菸非安全替代品，仍有心血管風險。戒斷症狀 2-4 週最強，3 個月明顯改善。二手菸風險同樣存在，需避免暴露。" },
+          { id: "diabetes-risk", name: "血糖管理", ticker: "HbA1c<7%", country: "BM", role: "糖尿病使心血管風險增加 2-4 倍，良好血糖控制顯著降低風險", marketShare: "Meta-analysis", howTo: "至檢驗所或診所抽血檢查 HbA1c，反映過去 3 個月平均血糖。目標：健康者 <5.7%；糖尿病患者 <7%（年長者可放寬至 <8%）。", frequency: "健康者每年 1 次；糖尿病患者每 3-6 個月", notes: "貧血、血紅蛋白變異、慢性腎病者結果可能不準確。空腹血糖+胰島素+HbA1c 整合解讀更佳。" },
+          { id: "waist-risk", name: "腰圍 / 內臟脂肪", ticker: "男<90cm/女<80cm", country: "BM", role: "內臟脂肪分泌促炎因子，腹型肥胖為獨立心血管風險因子", marketShare: "Meta-analysis", howTo: "站立放鬆，皮尺繞過肚臍水平線（肋骨下緣與骨盆上緣中點），於正常吐氣末測量。腰臀比（男 <0.9、女 <0.85）也是重要指標。", frequency: "每月 1 次自我追蹤", notes: "亞洲人標準較西方人嚴格（男 <90cm、女 <80cm）。生理期女性可能因水腫偏高。最準確為 DEXA 或 MRI 量內臟脂肪。" },
         ],
       },
       {
@@ -1666,11 +1669,11 @@ export const topics: Topic[] = [
         keyInfo: "地中海飲食可降低主要心血管事件 30%（PREDIMED 研究，N=7,447）",
         marketType: "monopoly",
         companies: [
-          { id: "mediterranean", name: "地中海飲食", ticker: "每日實踐", country: "FD", role: "大量蔬果、橄欖油、堅果、魚類，降低心血管事件與全因死亡率", marketShare: "Meta-analysis" },
-          { id: "dash-diet", name: "DASH 飲食", ticker: "每日實踐", country: "FD", role: "強調蔬果、低脂乳品、全穀物，可降低收縮壓 8-14 mmHg", marketShare: "Meta-analysis" },
-          { id: "omega3-fish", name: "富含 Omega-3 魚類", ticker: "2-3份/週", country: "FD", role: "鮭魚、鯖魚等富含 EPA/DHA，降低三酸甘油酯與心律不整風險", marketShare: "Meta-analysis" },
-          { id: "nuts-heart", name: "堅果", ticker: "30g/day", country: "FD", role: "每日一把堅果降低心血管死亡率 29%（PREDIMED 研究子分析）", marketShare: "Meta-analysis" },
-          { id: "fiber-heart", name: "膳食纖維", ticker: "25-35g/day", country: "FD", role: "可溶性纖維降低 LDL 膽固醇，每增加 7g/day 冠心病風險降 9%", marketShare: "Meta-analysis" },
+          { id: "mediterranean", name: "地中海飲食", ticker: "每日實踐", country: "FD", role: "大量蔬果、橄欖油、堅果、魚類，降低心血管事件與全因死亡率", marketShare: "Meta-analysis", howTo: "以蔬菜、全穀、豆類、堅果、特級初榨橄欖油為基底；每週吃魚 2-3 次；少量紅酒可選；限制紅肉與加工食品。每餐 1/2 蔬果、1/4 全穀、1/4 蛋白質。", frequency: "作為長期飲食模式，非短期計畫", notes: "橄欖油選冷壓初榨並避免高溫烹調（>180°C）。乳糜瀉患者需注意全穀選擇。可少量飲酒但非必須，不飲酒者不需開始。" },
+          { id: "dash-diet", name: "DASH 飲食", ticker: "每日實踐", country: "FD", role: "強調蔬果、低脂乳品、全穀物，可降低收縮壓 8-14 mmHg", marketShare: "Meta-analysis", howTo: "每日蔬菜 4-5 份、水果 4-5 份、低脂乳品 2-3 份、全穀 6-8 份、堅果豆類每週 4-5 次。鈉 <2300mg/day（理想 <1500mg）。", frequency: "每日實踐，4 週內可見血壓改善", notes: "腎功能不全者注意鉀攝取（柳橙、香蕉、菠菜）。乳品不耐受者可用無糖植物奶替代。需閱讀加工食品鈉含量標示。" },
+          { id: "omega3-fish", name: "富含 Omega-3 魚類", ticker: "2-3份/週", country: "FD", role: "鮭魚、鯖魚等富含 EPA/DHA，降低三酸甘油酯與心律不整風險", marketShare: "Meta-analysis", howTo: "選擇 SMASH 類小型魚（鮭魚 Salmon、鯖魚 Mackerel、鯷魚 Anchovies、沙丁魚 Sardines、鯡魚 Herring）汞含量低。烘烤或清蒸保留 Omega-3。", frequency: "每週 2-3 份，每份約 100-150g", notes: "孕婦、幼兒避免大型掠食魚（鮪魚、旗魚、鯊魚）汞含量高。痛風急性期限制沙丁魚（高普林）。野生捕撈優於養殖。" },
+          { id: "nuts-heart", name: "堅果", ticker: "30g/day", country: "FD", role: "每日一把堅果降低心血管死亡率 29%（PREDIMED 研究子分析）", marketShare: "Meta-analysis", howTo: "多元種類：杏仁、核桃、開心果、巴西堅果（含硒）、夏威夷豆。生堅果或低溫烘焙最佳，避免油炸與調味重的產品。", frequency: "每日 30g（約一把，掌心一捧）", notes: "堅果熱量密度高（170-200 大卡/30g），減重者需計算總熱量。堅果過敏者避免。巴西堅果硒含量高，每日 1-2 顆即足。" },
+          { id: "fiber-heart", name: "膳食纖維", ticker: "25-35g/day", country: "FD", role: "可溶性纖維降低 LDL 膽固醇，每增加 7g/day 冠心病風險降 9%", marketShare: "Meta-analysis", howTo: "可溶性纖維來源：燕麥（β-葡聚醣）、奇亞籽、亞麻籽、車前子、蘋果、豆類。每日早餐 1 碗燕麥 + 奇亞籽 1 湯匙是好開始。", frequency: "男性 35g/day、女性 25g/day", notes: "突然增加會脹氣腹瀉，每週逐步增加 5g。需配合多飲水。腸阻塞、嚴重 IBS 急性期需限制。" },
         ],
       },
       {
@@ -1680,10 +1683,10 @@ export const topics: Topic[] = [
         keyInfo: "Zone 2 有氧訓練 150 分鐘/週可降低全因死亡率 30%，VO2max 每提升 1 MET 死亡率降 12%",
         marketType: "monopoly",
         companies: [
-          { id: "zone2", name: "Zone 2 有氧訓練", ticker: "150-300min/週", country: "EX", role: "維持可對話強度的持續有氧，提升粒線體功能與脂肪氧化能力", marketShare: "Meta-analysis" },
-          { id: "vo2max", name: "VO2max 訓練", ticker: "HIIT 1-2次/週", country: "EX", role: "最大攝氧量是最強的全因死亡預測因子，高 VO2max 組死亡風險降 5 倍", marketShare: "Meta-analysis" },
-          { id: "walking", name: "每日步行", ticker: "8000-10000步/day", country: "EX", role: "每日 8000 步較 4000 步全因死亡率降低 51%（JAMA 2020）", marketShare: "Meta-analysis" },
-          { id: "swimming", name: "游泳", ticker: "2-3次/週", country: "EX", role: "低關節負擔的全身有氧運動，改善血壓與血管彈性", marketShare: "多項 RCT" },
+          { id: "zone2", name: "Zone 2 有氧訓練", ticker: "150-300min/週", country: "EX", role: "維持可對話強度的持續有氧，提升粒線體功能與脂肪氧化能力", marketShare: "Meta-analysis", howTo: "心率維持 60-70% 最大心率（簡式 180-年齡），可用心率錶監測。對話測試：能說完整句子但不能唱歌。快走、慢跑、騎車、划船機皆可。", frequency: "每週 150-300 分鐘，可拆成 3-5 次", notes: "初學者從每次 20 分鐘開始逐步增加。避免進入無氧區間（會喘到無法說話）。高血壓未控制者先諮詢醫師。" },
+          { id: "vo2max", name: "VO2max 訓練", ticker: "HIIT 1-2次/週", country: "EX", role: "最大攝氧量是最強的全因死亡預測因子，高 VO2max 組死亡風險降 5 倍", marketShare: "Meta-analysis", howTo: "Norwegian 4x4 模式：暖身 10 分鐘 → 4 分鐘 85-95% 最大心率 + 3 分鐘緩和 × 4 組 → 緩和 5 分鐘。或 30/30 短間歇。", frequency: "每週 1-2 次，需與 Zone 2 訓練分開日子", notes: "心血管疾病、未控制高血壓、近期心臟事件者禁止。需充分暖身降低受傷風險。連續日訓練無法完全恢復。" },
+          { id: "walking", name: "每日步行", ticker: "8000-10000步/day", country: "EX", role: "每日 8000 步較 4000 步全因死亡率降低 51%（JAMA 2020）", marketShare: "Meta-analysis", howTo: "用手機或穿戴裝置追蹤步數。可分散：午餐後散步 15 分鐘 + 通勤多走一站 + 晚餐後散步。配速 100 步/分鐘以上效益更佳。", frequency: "每日 8000-10000 步", notes: "步數最低有效閾值約 4400 步，邊際效益遞減至 7500 步。膝關節炎者選擇平坦路面。室外注意空氣品質。" },
+          { id: "swimming", name: "游泳", ticker: "2-3次/週", country: "EX", role: "低關節負擔的全身有氧運動，改善血壓與血管彈性", marketShare: "多項 RCT", howTo: "選擇自由式、蛙式或仰式輪替，避免單一姿勢造成肩部不平衡。從每次 20 分鐘開始，逐步延長至 45-60 分鐘。", frequency: "每週 2-3 次，每次 30-45 分鐘", notes: "氯化游泳池對氣喘者可能刺激。耳朵感染史需戴耳塞。心臟病、癲癇者應有人陪同。游泳後注意保暖避免感冒。" },
         ],
       },
       {
@@ -1693,10 +1696,10 @@ export const topics: Topic[] = [
         keyInfo: "CoQ10 200-300mg/day 可改善心衰竭患者預後（Q-SYMBIO 研究），Omega-3 4g/day 降低三酸甘油酯 25-30%",
         marketType: "oligopoly",
         companies: [
-          { id: "coq10", name: "輔酶 Q10 (CoQ10)", ticker: "200-300mg/day", country: "SP", role: "粒線體能量產生關鍵輔因子，改善心肌功能與降低氧化壓力", marketShare: "多項 RCT" },
-          { id: "omega3-heart", name: "Omega-3 (EPA/DHA)", ticker: "2-4g/day", country: "SP", role: "高劑量 EPA 可降低心血管事件 25%（REDUCE-IT 研究）", marketShare: "Meta-analysis" },
-          { id: "magnesium-heart", name: "鎂 (Magnesium)", ticker: "400mg/day", country: "SP", role: "維持正常心律與血管彈性，缺乏與心律不整及高血壓相關", marketShare: "Meta-analysis" },
-          { id: "k2d3", name: "維生素 K2 + D3", ticker: "K2:100mcg+D3:2000IU", country: "SP", role: "D3 促進鈣吸收，K2 引導鈣進入骨骼而非沉積於血管壁", marketShare: "多項 RCT" },
+          { id: "coq10", name: "輔酶 Q10 (CoQ10)", ticker: "200-300mg/day", country: "SP", role: "粒線體能量產生關鍵輔因子，改善心肌功能與降低氧化壓力", marketShare: "多項 RCT", howTo: "選擇 Ubiquinol（還原型）吸收率較佳，特別是 40 歲以上。隨含脂餐服用提升吸收。服用 statin 者尤其建議補充。", frequency: "每日 200-300mg，分 2 次隨餐", notes: "服用 warfarin 者需告知醫師（可能影響抗凝效果）。輕微副作用包括失眠、腸胃不適，避免睡前服用。" },
+          { id: "omega3-heart", name: "Omega-3 (EPA/DHA)", ticker: "2-4g/day", country: "SP", role: "高劑量 EPA 可降低心血管事件 25%（REDUCE-IT 研究）", marketShare: "Meta-analysis", howTo: "降三酸甘油酯需高劑量 EPA 為主（如 Vascepa 純 EPA 4g/day）。一般保健可選 EPA/DHA 混合配方 2-3g/day。隨餐服用減少打嗝。", frequency: "每日 2-4g 總 EPA+DHA，分早晚兩次", notes: "高劑量可能增加心房顫動風險（STRENGTH/REDUCE-IT 觀察）。服用抗凝血藥者諮詢醫師。選 IFOS 認證避免重金屬。" },
+          { id: "magnesium-heart", name: "鎂 (Magnesium)", ticker: "400mg/day", country: "SP", role: "維持正常心律與血管彈性，缺乏與心律不整及高血壓相關", marketShare: "Meta-analysis", howTo: "選擇甘胺酸鎂、檸檬酸鎂或蘇糖酸鎂吸收率佳。避免氧化鎂（吸收率僅 4%）。睡前服用兼具放鬆助眠效果。", frequency: "每日 400-600mg 元素鎂，睡前或分次", notes: "腎功能不全（eGFR<30）者慎用避免高鎂血症。可能與抗生素（喹諾酮類）、雙磷酸鹽藥物交互作用，間隔 2-4 小時。" },
+          { id: "k2d3", name: "維生素 K2 + D3", ticker: "K2:100mcg+D3:2000IU", country: "SP", role: "D3 促進鈣吸收，K2 引導鈣進入骨骼而非沉積於血管壁", marketShare: "多項 RCT", howTo: "選擇 K2 MK-7 形式（半衰期最長）100-200mcg + D3 2000-4000IU 組合產品。隨含脂餐服用以提升脂溶性吸收。", frequency: "每日 1 次隨午餐或晚餐", notes: "服用 warfarin 者禁用（K 拮抗 warfarin）。先檢測 25(OH)D 再決定 D3 劑量。MK-4 形式半衰期短需多次給藥。" },
         ],
       },
       {
@@ -1706,10 +1709,10 @@ export const topics: Topic[] = [
         keyInfo: "ApoB 是比 LDL-C 更準確的心血管風險預測因子，反映致動脈粥狀硬化脂蛋白顆粒總數",
         marketType: "monopoly",
         companies: [
-          { id: "statin", name: "他汀類藥物 (Statins)", ticker: "醫師處方", country: "MD", role: "降低 LDL-C 30-50%，心血管事件風險降低 25-35%，最強證據基礎", marketShare: "Meta-analysis" },
-          { id: "pcsk9", name: "PCSK9 抑制劑", ticker: "醫師處方", country: "MD", role: "可額外降低 LDL-C 50-60%，適用於 statin 不耐受或極高風險患者", marketShare: "多項 RCT" },
-          { id: "apob-track", name: "ApoB 追蹤", ticker: "<90mg/dL", country: "BM", role: "整合 LDL、VLDL、Lp(a) 顆粒數的單一指標，優於傳統血脂面板", marketShare: "Meta-analysis" },
-          { id: "plant-sterol", name: "植物固醇", ticker: "2g/day", country: "SP", role: "競爭性抑制膽固醇腸道吸收，可額外降低 LDL 5-15%", marketShare: "Meta-analysis" },
+          { id: "statin", name: "他汀類藥物 (Statins)", ticker: "醫師處方", country: "MD", role: "降低 LDL-C 30-50%，心血管事件風險降低 25-35%，最強證據基礎", marketShare: "Meta-analysis", howTo: "由醫師依風險分層處方。常見：Atorvastatin 20-80mg、Rosuvastatin 5-40mg、Simvastatin 10-40mg。睡前或晚間服用（膽固醇合成高峰在夜間）。", frequency: "每日 1 次，長期使用", notes: "肌肉痠痛為常見副作用（5-10%），可換藥或加 CoQ10。需定期監測肝功能、CK 值。與葡萄柚汁有交互作用。糖尿病風險微幅增加但獲益遠大於風險。" },
+          { id: "pcsk9", name: "PCSK9 抑制劑", ticker: "醫師處方", country: "MD", role: "可額外降低 LDL-C 50-60%，適用於 statin 不耐受或極高風險患者", marketShare: "多項 RCT", howTo: "醫師處方注射劑：Repatha (Evolocumab) 或 Praluent (Alirocumab)，每 2-4 週皮下注射一次。可自行注射或由護理人員施打。", frequency: "每 2 週或每月 1 次皮下注射", notes: "藥價昂貴（台灣健保有嚴格給付條件，自費月費約 1-2 萬）。常見副作用為注射部位反應。冷藏保存。" },
+          { id: "apob-track", name: "ApoB 追蹤", ticker: "<90mg/dL", country: "BM", role: "整合 LDL、VLDL、Lp(a) 顆粒數的單一指標，優於傳統血脂面板", marketShare: "Meta-analysis", howTo: "至診所或健診中心加做 ApoB 項目（健保不給付，自費約 200-500 元）。一般 <90 mg/dL；糖尿病或心血管疾病 <80 mg/dL；極高風險 <65 mg/dL。", frequency: "每年 1 次，治療中每 3-6 個月", notes: "不需空腹（穩定性優於 LDL-C）。比 LDL-C 更能反映致動脈粥狀硬化粒子總數，特別是高三酸甘油酯者。" },
+          { id: "plant-sterol", name: "植物固醇", ticker: "2g/day", country: "SP", role: "競爭性抑制膽固醇腸道吸收，可額外降低 LDL 5-15%", marketShare: "Meta-analysis", howTo: "選擇強化植物固醇的人造奶油（如 Benecol）、優格或補充劑。隨主餐服用發揮競爭性抑制作用。可與 statin 併用增強效果。", frequency: "每日 2-3g，分 2-3 次隨餐", notes: "罕見植物固醇血症（sitosterolemia）患者禁用。可能降低脂溶性維生素 (A/D/E/K) 與 β-胡蘿蔔素吸收，建議搭配多元蔬果。" },
         ],
       },
       {

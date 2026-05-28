@@ -10,6 +10,9 @@ interface SectionCompany {
   country: string;
   role: string;
   marketShare?: string;
+  howTo?: string;
+  frequency?: string;
+  notes?: string;
 }
 
 interface TopicSection {
@@ -105,11 +108,17 @@ export default function TopicSectionCard({
         <div className="flex flex-wrap gap-2.5">
           {section.companies.map((company) => {
             const isSelected = selectedCompany === company.id;
+            const isHealth = topicCategory === "hl";
+            const hasDetails = isHealth && (company.howTo || company.frequency || company.notes);
             return (
               <button
                 key={company.id}
                 onClick={() => onSelectCompany(company.id)}
-                className={`text-left p-3 rounded-lg transition-all duration-200 min-w-[140px] max-w-[180px] flex-1 basis-[140px] ${
+                className={`text-left p-3 rounded-lg transition-all duration-200 ${
+                  isHealth
+                    ? "min-w-[260px] max-w-[320px] basis-[260px]"
+                    : "min-w-[140px] max-w-[180px] basis-[140px]"
+                } flex-1 ${
                   isSelected
                     ? "bg-gray-50 scale-[1.02]"
                     : "bg-gray-50 hover:bg-gray-100 border border-gray-200 hover:border-gray-300"
@@ -129,7 +138,7 @@ export default function TopicSectionCard({
                 {company.ticker && (
                   <p className="text-xs text-gray-400 mb-1">{company.ticker}</p>
                 )}
-                <p className="text-xs text-gray-500 leading-snug line-clamp-2">
+                <p className={`text-xs text-gray-600 leading-snug ${isHealth ? "" : "line-clamp-2"}`}>
                   {company.role}
                 </p>
                 {company.marketShare && (
@@ -139,6 +148,55 @@ export default function TopicSectionCard({
                   >
                     {company.marketShare}
                   </p>
+                )}
+
+                {/* Health-specific details */}
+                {hasDetails && (
+                  <div className="mt-2 pt-2 border-t border-gray-200 space-y-1.5">
+                    {company.howTo && (
+                      <div>
+                        <p className="text-[10px] font-semibold text-gray-500 mb-0.5 flex items-center gap-1">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                            <polyline points="9 11 12 14 22 4" />
+                            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+                          </svg>
+                          如何實行
+                        </p>
+                        <p className="text-[11px] text-gray-700 leading-relaxed">
+                          {company.howTo}
+                        </p>
+                      </div>
+                    )}
+                    {company.frequency && (
+                      <div>
+                        <p className="text-[10px] font-semibold text-gray-500 mb-0.5 flex items-center gap-1">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                          </svg>
+                          頻率
+                        </p>
+                        <p className="text-[11px] text-gray-700 leading-relaxed">
+                          {company.frequency}
+                        </p>
+                      </div>
+                    )}
+                    {company.notes && (
+                      <div>
+                        <p className="text-[10px] font-semibold text-amber-700 mb-0.5 flex items-center gap-1">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                            <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                            <line x1="12" y1="9" x2="12" y2="13" />
+                            <line x1="12" y1="17" x2="12.01" y2="17" />
+                          </svg>
+                          注意事項
+                        </p>
+                        <p className="text-[11px] text-amber-700 leading-relaxed">
+                          {company.notes}
+                        </p>
+                      </div>
+                    )}
+                  </div>
                 )}
               </button>
             );
