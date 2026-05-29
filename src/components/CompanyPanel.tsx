@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { companies, type Company } from "@/data/companies";
 import { relations } from "@/data/relations";
 import { categories } from "@/data/categories";
+import { priceData } from "@/data/priceData";
 
 const ReactECharts = dynamic(() => import("echarts-for-react"), { ssr: false });
 
@@ -166,12 +167,59 @@ function OverviewTab({ company }: { company: Company }) {
     company.financials.annual.length > 0
       ? company.financials.annual[company.financials.annual.length - 1]
       : null;
+  const price = priceData[company.id];
 
   return (
     <div className="space-y-4">
       <p className="text-sm text-gray-700 leading-relaxed">
         {company.description}
       </p>
+
+      {/* Price & Technical Signals */}
+      {price && (
+        <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-gray-500">股價</span>
+              <span className="text-sm font-bold text-gray-900">
+                ${price.price.toLocaleString()}
+              </span>
+              {price.rapid_rise && (
+                <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded-full bg-rose-100 text-rose-700 flex items-center gap-0.5">
+                  🚀 快速上漲
+                </span>
+              )}
+            </div>
+            <span className="text-[10px] text-gray-400">更新: {price.updated}</span>
+          </div>
+          <div className="grid grid-cols-4 gap-1.5 mb-2">
+            <ReturnCell label="1週" value={price.return_1w} />
+            <ReturnCell label="1月" value={price.return_1m} />
+            <ReturnCell label="3月" value={price.return_3m} />
+            <ReturnCell label="1年" value={price.return_1y} />
+          </div>
+          {price.signals.length > 0 && (
+            <div className="flex flex-wrap gap-1 mt-2 pt-2 border-t border-gray-200">
+              {price.signals.map((s, i) => (
+                <span
+                  key={i}
+                  className={`text-[10px] px-1.5 py-0.5 rounded ${
+                    s.includes("超買") || s.includes("注意")
+                      ? "bg-amber-100 text-amber-700"
+                      : "bg-emerald-100 text-emerald-700"
+                  }`}
+                >
+                  {s}
+                </span>
+              ))}
+            </div>
+          )}
+          <div className="flex items-center gap-3 text-[10px] text-gray-500 mt-2">
+            <span>RSI: <span className="font-semibold text-gray-700">{price.rsi}</span></span>
+            <span>動能分數: <span className="font-semibold text-gray-700">{price.bullish_score}/8</span></span>
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-2 gap-3">
         <InfoCard label="股票代號" value={company.ticker} />
@@ -921,6 +969,21 @@ function MetricCard({
           </span>
         )}
       </p>
+    </div>
+  );
+}
+
+function ReturnCell({ label, value }: { label: string; value: number | null }) {
+  const isUp = value !== null && value >= 0;
+  return (
+    <div className="text-center p-1.5 rounded bg-white border border-gray-100">
+      <div className="text-[9px] text-gray-500">{label}</div>
+      <div
+        className="text-xs font-semibold"
+        style={{ color: value === null ? "#9ca3af" : isUp ? "#16a34a" : "#dc2626" }}
+      >
+        {value === null ? "—" : `${isUp ? "+" : ""}${value.toFixed(1)}%`}
+      </div>
     </div>
   );
 }

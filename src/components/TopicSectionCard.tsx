@@ -2,6 +2,7 @@
 
 import { marketTypeLabels, healthMarketTypeLabels } from "@/data/categories";
 import type { MarketType } from "@/data/categories";
+import { priceData } from "@/data/priceData";
 
 interface SectionCompany {
   id: string;
@@ -110,6 +111,7 @@ export default function TopicSectionCard({
             const isSelected = selectedCompany === company.id;
             const isHealth = topicCategory === "hl";
             const hasDetails = isHealth && (company.howTo || company.frequency || company.notes);
+            const price = !isHealth ? priceData[company.id] : null;
             return (
               <button
                 key={company.id}
@@ -131,12 +133,25 @@ export default function TopicSectionCard({
               >
                 <div className="flex items-center gap-1.5 mb-1">
                   <span className="text-base leading-none">{getFlag(company.country)}</span>
-                  <span className="text-sm font-semibold text-gray-900 truncate">
+                  <span className="text-sm font-semibold text-gray-900 truncate flex-1 min-w-0">
                     {company.name}
                   </span>
+                  {price?.rapid_rise && (
+                    <span className="text-[9px] shrink-0" title="技術分析: 快速上漲">🚀</span>
+                  )}
                 </div>
                 {company.ticker && (
-                  <p className="text-xs text-gray-400 mb-1">{company.ticker}</p>
+                  <div className="flex items-center gap-2 mb-1">
+                    <p className="text-xs text-gray-400">{company.ticker}</p>
+                    {price && price.return_1m !== null && (
+                      <span
+                        className="text-[10px] font-semibold"
+                        style={{ color: price.return_1m >= 0 ? "#16a34a" : "#dc2626" }}
+                      >
+                        {price.return_1m >= 0 ? "+" : ""}{price.return_1m.toFixed(1)}%
+                      </span>
+                    )}
+                  </div>
                 )}
                 <p className={`text-xs text-gray-600 leading-snug ${isHealth ? "" : "line-clamp-2"}`}>
                   {company.role}
