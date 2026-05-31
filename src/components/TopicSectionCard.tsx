@@ -137,7 +137,10 @@ export default function TopicSectionCard({
                     {company.name}
                   </span>
                   {price?.rapid_rise && (
-                    <span className="text-[9px] shrink-0" title="技術分析: 快速上漲">🚀</span>
+                    <span className="text-[9px] shrink-0" title="技術分析: 快速上漲中">🚀</span>
+                  )}
+                  {!price?.rapid_rise && price?.early_signal && (
+                    <span className="text-[9px] shrink-0" title="技術分析: 即將上漲訊號">👀</span>
                   )}
                 </div>
                 {company.ticker && (

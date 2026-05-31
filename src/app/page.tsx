@@ -3,6 +3,8 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import Link from "next/link";
 import { topics } from "@/data/topics";
+import { priceData } from "@/data/priceData";
+import { companies } from "@/data/companies";
 
 interface SearchResult {
   companyName: string;
@@ -254,6 +256,9 @@ export default function Home() {
 
       {/* Topic directory */}
       <main className="max-w-6xl mx-auto px-4 pb-16">
+        {/* Stock watchlist */}
+        <StockWatchlist />
+
         {/* HW section */}
         {hwTopics.length > 0 && (
           <section className="mb-12">
@@ -399,5 +404,147 @@ function TopicCard({ topic }: { topic: TopicCardTopic }) {
         </div>
       </div>
     </Link>
+  );
+}
+
+/* ── Stock Watchlist Component ─────────────────────────────── */
+function StockWatchlist() {
+  const watchlist = useMemo(() => {
+    const companyMap = Object.fromEntries(companies.map((c) => [c.id, c]));
+    const topicMap: Record<string, { topicSlug: string; topicCategory: string; topicName: string; sectionName: string }> = {};
+    for (const topic of topics) {
+      for (const section of topic.sections) {
+        for (const company of section.companies) {
+          if (!topicMap[company.id]) {
+            topicMap[company.id] = {
+              topicSlug: topic.slug,
+              topicCategory: topic.category,
+              topicName: topic.name,
+              sectionName: section.name,
+            };
+          }
+        }
+      }
+    }
+
+    type Entry = {
+      id: string;
+      name: string;
+      ticker: string;
+      return_1w: number | null;
+      return_1m: number | null;
+      return_3m: number | null;
+      bullish_score: number;
+      early_score?: number;
+      rapid_rise: boolean;
+      early_signal?: boolean;
+      topic: typeof topicMap[string];
+    };
+
+    const rapidRise: Entry[] = [];
+    const earlySignal: Entry[] = [];
+
+    for (const [id, p] of Object.entries(priceData)) {
+      const c = companyMap[id];
+      const t = topicMap[id];
+      if (!c || !t) continue;
+      const entry: Entry = {
+        id,
+        name: c.name,
+        ticker: c.ticker,
+        return_1w: p.return_1w,
+        return_1m: p.return_1m,
+        return_3m: p.return_3m,
+        bullish_score: p.bullish_score,
+        early_score: p.early_score,
+        rapid_rise: p.rapid_rise,
+        early_signal: p.early_signal,
+        topic: t,
+      };
+      if (p.rapid_rise) rapidRise.push(entry);
+      else if (p.early_signal) earlySignal.push(entry);
+    }
+
+    rapidRise.sort((a, b) => (b.return_1m || 0) - (a.return_1m || 0));
+    earlySignal.sort((a, b) => (b.early_score || 0) - (a.early_score || 0));
+
+    return {
+      rapidRise: rapidRise.slice(0, 8),
+      earlySignal: earlySignal.slice(0, 8),
+    };
+  }, []);
+
+  return (
+    <section className="mb-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        {/* Rapid rise */}
+        <div className="rounded-xl bg-white border border-gray-200 shadow-sm overflow-hidden">
+          <div className="px-5 py-3 bg-gradient-to-r from-rose-50 to-orange-50 border-b border-gray-200">
+            <h2 className="text-base font-bold text-gray-900 flex items-center gap-2">
+              <span>🚀</span>
+              快速上漲中
+              <span className="text-xs font-normal text-gray-500">技術分析強勢 Top 8</span>
+            </h2>
+          </div>
+          <div className="divide-y divide-gray-100">
+            {watchlist.rapidRise.map((e) => (
+              <Link
+                key={e.id}
+                href={`/${e.topic.topicCategory}/${e.topic.topicSlug}`}
+                className="flex items-center justify-between px-5 py-2.5 hover:bg-gray-50 transition-colors group"
+              >
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-semibold text-gray-900">{e.name}</span>
+                    <span className="text-[10px] text-gray-400">{e.ticker}</span>
+                  </div>
+                  <p className="text-[10px] text-gray-500 truncate">{e.topic.topicName} · {e.topic.sectionName}</p>
+                </div>
+                <div className="flex items-center gap-3 text-xs shrink-0">
+                  <span className="text-emerald-600 font-semibold">
+                    {e.return_1m !== null ? `+${e.return_1m.toFixed(1)}%` : "—"}
+                  </span>
+                  <span className="text-[10px] text-gray-400">1月</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Early signal */}
+        <div className="rounded-xl bg-white border border-gray-200 shadow-sm overflow-hidden">
+          <div className="px-5 py-3 bg-gradient-to-r from-blue-50 to-cyan-50 border-b border-gray-200">
+            <h2 className="text-base font-bold text-gray-900 flex items-center gap-2">
+              <span>👀</span>
+              預測即將上漲
+              <span className="text-xs font-normal text-gray-500">早期訊號 Top 8</span>
+            </h2>
+          </div>
+          <div className="divide-y divide-gray-100">
+            {watchlist.earlySignal.map((e) => (
+              <Link
+                key={e.id}
+                href={`/${e.topic.topicCategory}/${e.topic.topicSlug}`}
+                className="flex items-center justify-between px-5 py-2.5 hover:bg-gray-50 transition-colors group"
+              >
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-semibold text-gray-900">{e.name}</span>
+                    <span className="text-[10px] text-gray-400">{e.ticker}</span>
+                  </div>
+                  <p className="text-[10px] text-gray-500 truncate">{e.topic.topicName} · {e.topic.sectionName}</p>
+                </div>
+                <div className="flex items-center gap-3 text-xs shrink-0">
+                  <span className="text-blue-600 font-semibold">
+                    {e.early_score}/8
+                  </span>
+                  <span className="text-[10px] text-gray-400">訊號分</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }

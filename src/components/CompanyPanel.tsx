@@ -189,6 +189,11 @@ function OverviewTab({ company }: { company: Company }) {
                   🚀 快速上漲
                 </span>
               )}
+              {!price.rapid_rise && price.early_signal && (
+                <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded-full bg-blue-100 text-blue-700 flex items-center gap-0.5">
+                  👀 即將上漲
+                </span>
+              )}
             </div>
             <span className="text-[10px] text-gray-400">更新: {price.updated}</span>
           </div>
@@ -212,6 +217,23 @@ function OverviewTab({ company }: { company: Company }) {
                   {s}
                 </span>
               ))}
+            </div>
+          )}
+          {price.early_signals && price.early_signals.length > 0 && (
+            <div className="mt-2 pt-2 border-t border-gray-200">
+              <p className="text-[10px] font-semibold text-gray-500 mb-1 flex items-center gap-1">
+                👀 即將上漲訊號 ({price.early_score}/8)
+              </p>
+              <div className="flex flex-wrap gap-1">
+                {price.early_signals.map((s, i) => (
+                  <span
+                    key={i}
+                    className="text-[10px] px-1.5 py-0.5 rounded bg-blue-50 text-blue-700"
+                  >
+                    {s}
+                  </span>
+                ))}
+              </div>
             </div>
           )}
           <div className="flex items-center gap-3 text-[10px] text-gray-500 mt-2">
