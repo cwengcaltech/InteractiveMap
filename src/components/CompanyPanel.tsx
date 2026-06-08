@@ -236,6 +236,28 @@ function OverviewTab({ company }: { company: Company }) {
               </div>
             </div>
           )}
+          {price.view && (
+            <div className="mt-2 pt-2 border-t border-gray-200">
+              <p className="text-[10px] font-semibold text-gray-500 mb-1 flex items-center gap-1">
+                💡 技術觀點
+              </p>
+              <p
+                className={`text-xs leading-relaxed px-2 py-1.5 rounded ${
+                  price.view_type === "broken_trend" || price.view_type === "downtrend"
+                    ? "bg-rose-50 text-rose-800"
+                    : price.view_type === "healthy_pullback" || price.view_type === "oversold_rebound" || price.view_type === "deep_oversold"
+                    ? "bg-emerald-50 text-emerald-800"
+                    : price.view_type === "extended"
+                    ? "bg-amber-50 text-amber-800"
+                    : price.view_type === "strong_uptrend" || price.view_type === "steady"
+                    ? "bg-blue-50 text-blue-800"
+                    : "bg-gray-50 text-gray-700"
+                }`}
+              >
+                {price.view}
+              </p>
+            </div>
+          )}
           <div className="flex items-center gap-3 text-[10px] text-gray-500 mt-2">
             <span>RSI: <span className="font-semibold text-gray-700">{price.rsi}</span></span>
             <span>動能分數: <span className="font-semibold text-gray-700">{price.bullish_score}/8</span></span>

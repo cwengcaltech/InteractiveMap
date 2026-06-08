@@ -438,11 +438,14 @@ function StockWatchlist() {
       early_score?: number;
       rapid_rise: boolean;
       early_signal?: boolean;
+      view?: string;
+      view_type?: string;
       topic: typeof topicMap[string];
     };
 
     const rapidRise: Entry[] = [];
     const earlySignal: Entry[] = [];
+    const allEntries: Entry[] = [];
 
     for (const [id, p] of Object.entries(priceData)) {
       const c = companyMap[id];
@@ -459,18 +462,28 @@ function StockWatchlist() {
         early_score: p.early_score,
         rapid_rise: p.rapid_rise,
         early_signal: p.early_signal,
+        view: p.view,
+        view_type: p.view_type,
         topic: t,
       };
       if (p.rapid_rise) rapidRise.push(entry);
       else if (p.early_signal) earlySignal.push(entry);
+      allEntries.push(entry);
     }
 
     rapidRise.sort((a, b) => (b.return_1m || 0) - (a.return_1m || 0));
     earlySignal.sort((a, b) => (b.early_score || 0) - (a.early_score || 0));
 
+    // Biggest weekly drops with views (good buy opportunities + warnings)
+    const drops = allEntries
+      .filter((e) => e.return_1w !== null && e.return_1w < -5)
+      .sort((a, b) => (a.return_1w || 0) - (b.return_1w || 0))
+      .slice(0, 10);
+
     return {
       rapidRise: rapidRise.slice(0, 8),
       earlySignal: earlySignal.slice(0, 8),
+      drops,
     };
   }, []);
 
@@ -545,6 +558,76 @@ function StockWatchlist() {
           </div>
         </div>
       </div>
+
+      {/* Last week's biggest drops with views */}
+      {watchlist.drops.length > 0 && (
+        <div className="mt-4 rounded-xl bg-white border border-gray-200 shadow-sm overflow-hidden">
+          <div className="px-5 py-3 bg-gradient-to-r from-purple-50 to-pink-50 border-b border-gray-200">
+            <h2 className="text-base font-bold text-gray-900 flex items-center gap-2">
+              <span>📉</span>
+              上週跌幅前 10 + 技術觀點
+              <span className="text-xs font-normal text-gray-500">逢低買進機會 vs 警戒</span>
+            </h2>
+          </div>
+          <div className="divide-y divide-gray-100">
+            {watchlist.drops.map((e) => {
+              const isPullback =
+                e.view_type === "healthy_pullback" ||
+                e.view_type === "oversold_rebound" ||
+                e.view_type === "deep_oversold" ||
+                e.view_type === "shallow_pullback";
+              const isWarning =
+                e.view_type === "broken_trend" || e.view_type === "downtrend";
+              return (
+                <Link
+                  key={e.id}
+                  href={`/${e.topic.topicCategory}/${e.topic.topicSlug}`}
+                  className="block px-5 py-3 hover:bg-gray-50 transition-colors group"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-2 mb-0.5">
+                        <span className="text-sm font-semibold text-gray-900">
+                          {e.name}
+                        </span>
+                        <span className="text-[10px] text-gray-400">{e.ticker}</span>
+                        {isPullback && (
+                          <span className="text-[10px] font-medium px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-700">
+                            💎 機會
+                          </span>
+                        )}
+                        {isWarning && (
+                          <span className="text-[10px] font-medium px-1.5 py-0.5 rounded bg-rose-100 text-rose-700">
+                            ⚠ 警戒
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-[10px] text-gray-500 truncate mb-1">
+                        {e.topic.topicName} · {e.topic.sectionName}
+                      </p>
+                      {e.view && (
+                        <p
+                          className={`text-xs leading-snug ${
+                            isWarning ? "text-rose-700" : isPullback ? "text-emerald-700" : "text-gray-600"
+                          }`}
+                        >
+                          {e.view}
+                        </p>
+                      )}
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div className="text-sm font-bold text-rose-600">
+                        {e.return_1w !== null ? `${e.return_1w.toFixed(1)}%` : "—"}
+                      </div>
+                      <div className="text-[10px] text-gray-400">1週</div>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
