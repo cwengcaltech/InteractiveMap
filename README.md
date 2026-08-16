@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 資料更新
+
+股價與財務資料由 `scripts/` 下的 pipeline 自動更新，
+詳見 [`scripts/README.md`](scripts/README.md)。
+
+- 每日 21:00：股價與技術訊號（`src/data/generated/prices.json`）
+- 每月 1 號：公司財務資料（`src/data/generated/financials.json`）
+- 每日快照保存於 `data/history/prices/`
+- 人工修正的財務數字放在 `data/overrides/financials.json`，不會被自動更新覆蓋
