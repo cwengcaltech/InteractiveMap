@@ -58,20 +58,28 @@ def macd_hist(closes: list[float]) -> list[float]:
     return [m - s for m, s in zip(macd, signal_line)]
 
 
+TRADING_DAYS_1Y = 250
+
+
 def build_metrics(
     closes: list[float], volumes: list[float], highs: list[float]
 ) -> dict:
-    """把一年份日 K 轉成 prices.json 需要的數值欄位。"""
+    """把日 K 轉成 prices.json 需要的數值欄位。
+
+    輸入需涵蓋 1 年以上（pipeline 抓 15 個月），
+    52 週高點只取最近 TRADING_DAYS_1Y 根，避免被更早的高點污染。
+    """
     price = round(closes[-1], 2)
     hist = macd_hist(closes)
-    high_52w = max(highs) if highs else price
+    window = highs[-TRADING_DAYS_1Y:]
+    high_52w = max(window) if window else price
     vol_avg = sum(volumes[-20:]) / 20 if len(volumes) >= 20 else None
     return {
         "price": price,
         "return_1w": pct_change(closes, 5),
         "return_1m": pct_change(closes, 21),
         "return_3m": pct_change(closes, 63),
-        "return_1y": pct_change(closes, 250),
+        "return_1y": pct_change(closes, TRADING_DAYS_1Y),
         "rsi": rsi(closes),
         "ma_50": sma(closes, 50),
         "ma_200": sma(closes, 200),

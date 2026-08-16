@@ -4,6 +4,11 @@
 藉此驗證「規則」本身是否還原得出既有的 signals / score / view_type。
 MACD 與成交量欄位在既有資料中不存在，校準時以既有 early_signals 反推填入，
 因此 early 相關數字僅供參考。
+
+用途分兩階段：
+1. 遷移期對照人工產生的舊資料，確認規則語意一致（當時 signals 99.3%、view_type 94.1%）。
+2. 之後 prices.json 由本 pipeline 產生，此腳本成為迴歸檢查：
+   改動 signals.py 後若一致率掉下來，即代表既有資料會被大量重新分類。
 """
 import json
 import pathlib

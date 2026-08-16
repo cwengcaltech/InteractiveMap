@@ -45,3 +45,4 @@ scripts/.venv/
 scripts/logs/
 __pycache__/
 .pytest_cache/
+scripts/.tickers.json

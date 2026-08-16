@@ -1,0 +1,13 @@
+{
+  "prices_updated": "2026-08-16",
+  "financials_updated": null,
+  "stats": {
+    "total": 289,
+    "rapid_rise": 130,
+    "early_signal": 49,
+    "pullback": 6,
+    "broken_trend": 6,
+    "stale": 0,
+    "unavailable": 45
+  }
+}
