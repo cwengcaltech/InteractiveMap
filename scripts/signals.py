@@ -187,7 +187,8 @@ def compute_view(m: dict, rapid_rise: bool, early_signal: bool) -> tuple[str, st
             f"強勢但偏高:1月 +{r1m}%、RSI {rsi_v:.0f} 超買。技術面強但宜等回檔。3月 +{r3m}%",
             "extended",
         )
-    if rapid_rise:
+    # 動能足夠即視為強勢上漲；rapid_rise 另外要求站上 50 日均線，此處放寬
+    if rapid_rise or (r1m >= 5 and rsi_v >= 50):
         return (
             f"強勢上漲:1月 +{r1m}%、3月 +{r3m}%。距 52週高點 {dist}%,動能延續",
             "strong_uptrend",
@@ -197,12 +198,12 @@ def compute_view(m: dict, rapid_rise: bool, early_signal: bool) -> tuple[str, st
             f"突破前夕:MACD/量能轉強,RSI {rsi_v:.0f}。早期介入機會",
             "breakout_setup",
         )
-    if 0 <= r1m <= 5 and rsi_v >= 48 and above_50:
+    if 0 <= r1m <= 5 and rsi_v >= 48 and above_50 and r3m >= 5:
         return (
             f"穩健上升:1月 +{r1m}%、3月 +{r3m}%。RSI {rsi_v:.0f},可繼續持有",
             "steady",
         )
-    if -5 <= r1m <= 5 and not above_50:
+    if -5 <= r1m <= 5 and not above_50 and -7 <= r1w <= 7 and rsi_v >= 40:
         return (
             f"區間整理:1月 {r1m}%。等待方向訊號。在 50日均線下方需警戒",
             "consolidation",
