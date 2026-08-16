@@ -73,17 +73,20 @@ macOS 的隱私保護（TCC）預設不允許背景排程「讀取」~/Documents
 排程會啟動但立刻失敗，錯誤訊息見 scripts/logs/launchd.err.log 的
 "Operation not permitted"。
 
-兩種解法，擇一：
+解法（建議第一個）：
 
-  A. 授予完整取用權（不搬移 repo）
-     系統設定 → 隱私權與安全性 → 完整取用磁碟 → 「+」→ Cmd+Shift+G
-     輸入 /bin/bash → 加入並開啟開關，然後重新執行本腳本。
-     注意：這等於讓所有 bash 腳本都能讀取受保護目錄。
+  A. 建立機器人專用 clone —— 不搬 repo、不授權限
+     ./scripts/install_bot_clone.sh
+     會在 ~/.local/share/ 另外 clone 一份給排程用，你這份原地不動。
 
-  B. 把 repo 移到不受保護的位置（建議）
+  B. 把 repo 移到不受保護的位置
      mv <此 repo> ~/dev/InteractiveMap
      cd ~/dev/InteractiveMap && ./scripts/install_launchd.sh
-     ~ 底下自建的目錄（如 ~/dev、~/src）不受 TCC 限制。
+
+  C. 授予完整取用權
+     系統設定 → 隱私權與安全性 → 完整取用磁碟 → 「+」→ Cmd+Shift+G
+     輸入 /bin/bash → 加入並開啟開關，然後重新執行本腳本。
+     代價：所有 bash 腳本從此都能讀取受保護目錄。
 
 在此之前，仍可隨時手動執行 ./scripts/daily_update.sh。
 PERMEOF
