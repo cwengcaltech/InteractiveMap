@@ -6,11 +6,30 @@
 ## 首次設定
 
 ```bash
-./scripts/setup.sh              # 建立 python venv
-./scripts/install_launchd.sh    # 安裝每日 21:00 排程（可傳小時參數，如 ./scripts/install_launchd.sh 18）
+./scripts/setup.sh              # 建立 python venv（手動執行用）
+./scripts/install_bot_clone.sh  # 建立機器人 clone 並註冊每日 21:00 排程
 ```
 
-安裝腳本最後會做一次權限自檢。若顯示 ⚠️ 失敗，見下方「macOS 權限」。
+`install_bot_clone.sh` 會在 `~/.local/share/interactivemap-bot` 另外 clone
+一份專供排程使用，原因見下方「macOS 權限」。可傳入其他位置，
+或用 `IMAP_BOT_HOUR=18` 改執行時間。
+
+若你的 repo 本來就不在 `~/Documents`、`~/Desktop`、`~/Downloads` 底下，
+可以省略機器人 clone，直接 `./scripts/install_launchd.sh` 讓排程跑在原地。
+
+## 架構
+
+```
+GitHub (main)
+   ↑ push                        ↓ pull
+機器人 clone                   你的工作副本
+~/.local/share/…-bot          ~/Documents/…/InteractiveMap
+   ↑ launchd 每日 21:00           （手動 git pull 取得最新資料）
+```
+
+排程只動機器人 clone，你的工作副本永遠不會被背景程序修改。
+資料的最終去處是 GitHub → Vercel，所以就算工作副本沒 pull，
+網站上的數字仍是最新的。
 
 ## 手動執行
 
@@ -34,6 +53,8 @@ scripts/.venv/bin/pytest scripts/tests -q                            # 跑測試
 | `export_tickers.mjs` | 從 TS 資料檔匯出 ticker 清單（新增公司會自動納入） |
 | `daily_update.sh` | 排程進入點：pull → 抓取 → build → commit → push |
 | `calibrate.py` | 對照既有資料檢查訊號規則一致率（改動 signals.py 後的迴歸檢查） |
+| `install_bot_clone.sh` | 建立機器人專用 clone 並註冊排程（繞開 macOS TCC） |
+| `install_launchd.sh` | 註冊 launchd 排程並自檢讀取權限 |
 | `migrate/` | 一次性資料分離腳本，已執行完畢，保留供追溯 |
 
 ## 訊號規則
@@ -73,18 +94,28 @@ signals 99.3%、bullish_score 99.7%、rapid_rise 99.0%、view_type 94.1%。
 
 ## macOS 權限
 
-macOS 的隱私保護（TCC）預設不允許 launchd 背景排程「讀取」
+macOS 的隱私保護（TCC）不允許 launchd 背景排程「讀取」
 `~/Documents`、`~/Desktop`、`~/Downloads` 底下的檔案。
-若 repo 放在這些目錄，排程會啟動但立刻以 `Operation not permitted` 失敗
-（見 `scripts/logs/launchd.err.log`）。兩種解法擇一：
+實測結果：`~/.local/share`、`~/dev`、`~/Library/Application Support`、`/tmp`
+都正常，只有上述三個目錄被擋。
 
-- **A. 授予完整取用權**：系統設定 → 隱私權與安全性 → 完整取用磁碟 →
-  「+」→ `Cmd+Shift+G` 輸入 `/bin/bash` → 加入並開啟，然後重跑
-  `./scripts/install_launchd.sh`。代價是所有 bash 腳本都能讀取受保護目錄。
-- **B. 把 repo 移到不受保護的位置**（建議）：例如 `~/dev/InteractiveMap`，
+這個限制容易誤判——**寫入是允許的，只有讀取被擋**，所以只測寫入的
+權限檢查會誤報通過。`install_launchd.sh` 的自檢因此是測讀取。
+
+若 repo 位於受保護目錄，排程會啟動但立刻以 `Operation not permitted` 失敗
+（見 `scripts/logs/launchd.err.log`）。解法：
+
+- **A. 機器人專用 clone**（本專案採用）：`./scripts/install_bot_clone.sh`。
+  不搬 repo、不授予任何系統權限。
+- **B. 把 repo 移到不受保護的位置**：例如 `~/dev/InteractiveMap`，
   再於新位置執行 `./scripts/install_launchd.sh`。
+- **C. 授予完整取用權**：系統設定 → 隱私權與安全性 → 完整取用磁碟 →
+  「+」→ `Cmd+Shift+G` 輸入 `/bin/bash`。代價是所有 bash 腳本從此
+  都能讀取受保護目錄，不建議。
 
-在此之前手動執行 `./scripts/daily_update.sh` 不受影響。
+另外 launchd 不會載入 shell profile，`daily_update.sh` 因此自行組出 PATH
+（含 `$HOME/.local/bin`）；plist 也刻意不設 `WorkingDirectory`，
+否則會出現 `getcwd: Operation not permitted`。
 
 ## 故障排除
 

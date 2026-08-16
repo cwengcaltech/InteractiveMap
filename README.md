@@ -44,3 +44,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - 每月 1 號：公司財務資料（`src/data/generated/financials.json`）
 - 每日快照保存於 `data/history/prices/`
 - 人工修正的財務數字放在 `data/overrides/financials.json`，不會被自動更新覆蓋
+
+排程由 `~/.local/share/interactivemap-bot` 的機器人 clone 執行並 push 到
+GitHub（Vercel 隨即部署），本工作副本執行 `git pull` 即可取得最新資料。
