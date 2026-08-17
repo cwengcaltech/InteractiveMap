@@ -35,6 +35,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+## 線上版
+
+https://interactive-map-inky-nine.vercel.app
+
+- 首頁：主題目錄與股價榜單
+- `/compare`：同業比較（對照表、指標雷達、成長×獲利氣泡圖）
+
+專案已連結 GitHub，push 到 `main` 會自動部署。
+
 ## 資料更新
 
 股價與財務資料由 `scripts/` 下的 pipeline 自動更新，
