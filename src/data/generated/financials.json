@@ -86,7 +86,9 @@
         "growth_est": 0.103,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1813299480,
+    "quote_currency": "USD"
   },
   "abbott_libre": {
     "currency": "USD",
@@ -175,7 +177,9 @@
         "growth_est": 0.086,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1730383296,
+    "quote_currency": "USD"
   },
   "abbvie": {
     "currency": "USD",
@@ -264,7 +268,9 @@
         "growth_est": 0.088,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1767117285,
+    "quote_currency": "USD"
   },
   "absci": {
     "currency": "USD",
@@ -353,7 +359,9 @@
         "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 171614010,
+    "quote_currency": "USD"
   },
   "adobe": {
     "currency": "USD",
@@ -442,7 +450,9 @@
         "growth_est": 0.09,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 397500000,
+    "quote_currency": "USD"
   },
   "advantest": {
     "currency": "JPY",
@@ -495,7 +505,9 @@
         "growth_est": 0.16,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 724094138,
+    "quote_currency": "JPY"
   },
   "ajinomoto": {
     "currency": "JPY",
@@ -548,7 +560,9 @@
         "growth_est": 0.059,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 953335931,
+    "quote_currency": "JPY"
   },
   "akeso": {
     "currency": "USD",
@@ -601,7 +615,9 @@
         "growth_est": 0.502,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 921143176,
+    "quote_currency": "HKD"
   },
   "alchip": {
     "currency": "TWD",
@@ -680,17 +696,19 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 70.69,
-        "growth_est": 1.285,
+        "revenue_est": 73.42,
+        "growth_est": 1.374,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 113.52,
-        "growth_est": 0.606,
+        "revenue_est": 115.56,
+        "growth_est": 0.574,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 82091325,
+    "quote_currency": "TWD"
   },
   "altimmune_mech": {
     "currency": "USD",
@@ -766,7 +784,9 @@
         "growth_est": 0.1,
         "source": "yfinance + analyst est"
       }
-    ]
+    ],
+    "shares_outstanding": 194517701,
+    "quote_currency": "USD"
   },
   "amazon": {
     "currency": "USD",
@@ -855,7 +875,9 @@
         "growth_est": 0.143,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 10786313572,
+    "quote_currency": "USD"
   },
   "amd": {
     "currency": "USD",
@@ -944,7 +966,9 @@
         "growth_est": 0.72,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1632475042,
+    "quote_currency": "USD"
   },
   "amgen_mech": {
     "currency": "USD",
@@ -1033,7 +1057,9 @@
         "growth_est": 0.029,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 541000000,
+    "quote_currency": "USD"
   },
   "amkor": {
     "currency": "USD",
@@ -1122,7 +1148,9 @@
         "growth_est": 0.125,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 248452472,
+    "quote_currency": "USD"
   },
   "amphenol": {
     "currency": "USD",
@@ -1211,7 +1239,9 @@
         "growth_est": 0.17,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1232983457,
+    "quote_currency": "USD"
   },
   "amwell": {
     "currency": "USD",
@@ -1300,7 +1330,9 @@
         "growth_est": 0.05,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 15361463,
+    "quote_currency": "USD"
   },
   "analog_devices": {
     "currency": "USD",
@@ -1389,7 +1421,9 @@
         "growth_est": 0.159,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 487087040,
+    "quote_currency": "USD"
   },
   "andes": {
     "currency": "TWD",
@@ -1478,7 +1512,9 @@
         "growth_est": 0.08,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 50651000,
+    "quote_currency": "TWD"
   },
   "ansys": {
     "currency": "USD",
@@ -1567,7 +1603,9 @@
         "growth_est": 0.108,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 191479325,
+    "quote_currency": "USD"
   },
   "anthropic": {
     "currency": "USD",
@@ -1752,7 +1790,9 @@
         "growth_est": 0.095,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 14594180000,
+    "quote_currency": "USD"
   },
   "apple_health": {
     "currency": "USD",
@@ -1841,7 +1881,9 @@
         "growth_est": 0.095,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 14594180000,
+    "quote_currency": "USD"
   },
   "applied_materials": {
     "currency": "USD",
@@ -1930,7 +1972,9 @@
         "growth_est": 0.337,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 793959430,
+    "quote_currency": "USD"
   },
   "applovin": {
     "currency": "USD",
@@ -2019,7 +2063,9 @@
         "growth_est": 0.284,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 305732000,
+    "quote_currency": "USD"
   },
   "arcellx": {
     "currency": "USD",
@@ -2183,7 +2229,9 @@
         "growth_est": 0.275,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1261224648,
+    "quote_currency": "USD"
   },
   "arm": {
     "currency": "USD",
@@ -2272,7 +2320,9 @@
         "growth_est": 0.356,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1067998569,
+    "quote_currency": "USD"
   },
   "arvinas": {
     "currency": "USD",
@@ -2361,7 +2411,9 @@
         "growth_est": -0.8,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 64521198,
+    "quote_currency": "USD"
   },
   "ase": {
     "currency": "TWD",
@@ -2450,7 +2502,9 @@
         "growth_est": 0.24,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5207330777,
+    "quote_currency": "TWD"
   },
   "asia_vital": {
     "currency": "TWD",
@@ -2539,7 +2593,9 @@
         "growth_est": 0.383,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 392543007,
+    "quote_currency": "TWD"
   },
   "asm_international": {
     "currency": "USD",
@@ -2628,7 +2684,9 @@
         "growth_est": 0.269,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 48981548,
+    "quote_currency": "EUR"
   },
   "asml": {
     "currency": "USD",
@@ -2717,7 +2775,9 @@
         "growth_est": 0.257,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 384100000,
+    "quote_currency": "USD"
   },
   "asmpt": {
     "currency": "USD",
@@ -2778,7 +2838,9 @@
         "growth_est": 0.171,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 419389033,
+    "quote_currency": "HKD"
   },
   "astera_labs": {
     "currency": "USD",
@@ -2867,7 +2929,9 @@
         "growth_est": 0.555,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 173485104,
+    "quote_currency": "USD"
   },
   "astrazeneca_glp1": {
     "currency": "USD",
@@ -2956,7 +3020,9 @@
         "growth_est": 0.057,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1550885842,
+    "quote_currency": "USD"
   },
   "asts": {
     "currency": "USD",
@@ -3037,7 +3103,9 @@
         "growth_est": 2.824,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 299789305,
+    "quote_currency": "USD"
   },
   "atlassian": {
     "currency": "USD",
@@ -3126,7 +3194,9 @@
         "growth_est": 0.15,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 159634245,
+    "quote_currency": "USD"
   },
   "autodesk": {
     "currency": "USD",
@@ -3215,7 +3285,9 @@
         "growth_est": 0.105,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 211145251,
+    "quote_currency": "USD"
   },
   "autolus": {
     "currency": "USD",
@@ -3304,7 +3376,9 @@
         "growth_est": 0.267,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 266143286,
+    "quote_currency": "USD"
   },
   "bachem": {
     "currency": "USD",
@@ -3357,7 +3431,9 @@
         "growth_est": 0.245,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 74935540,
+    "quote_currency": "CHF"
   },
   "bae_systems": {
     "currency": "USD",
@@ -3410,7 +3486,9 @@
         "growth_est": 0.091,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 732461537,
+    "quote_currency": "USD"
   },
   "bayer_kerendia": {
     "currency": "USD",
@@ -3499,7 +3577,9 @@
         "growth_est": 0.026,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 982424082,
+    "quote_currency": "EUR"
   },
   "beam": {
     "currency": "USD",
@@ -3588,7 +3668,9 @@
         "growth_est": 0.2,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 103287665,
+    "quote_currency": "USD"
   },
   "besi": {
     "currency": "USD",
@@ -3677,7 +3759,9 @@
         "growth_est": 0.34,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 79168276,
+    "quote_currency": "EUR"
   },
   "bill_com": {
     "currency": "USD",
@@ -3766,7 +3850,9 @@
         "growth_est": 0.128,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 99596727,
+    "quote_currency": "USD"
   },
   "biogen_leqembi": {
     "currency": "USD",
@@ -3855,7 +3941,9 @@
         "growth_est": 0.02,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 147753998,
+    "quote_currency": "USD"
   },
   "biomarin": {
     "currency": "USD",
@@ -3944,7 +4032,9 @@
         "growth_est": 0.141,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 193573759,
+    "quote_currency": "USD"
   },
   "biontech_bntx": {
     "currency": "USD",
@@ -4033,7 +4123,9 @@
         "growth_est": 0.016,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 251204366,
+    "quote_currency": "USD"
   },
   "blackline": {
     "currency": "USD",
@@ -4122,7 +4214,9 @@
         "growth_est": 0.104,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 58125270,
+    "quote_currency": "USD"
   },
   "blacksky": {
     "currency": "USD",
@@ -4211,7 +4305,9 @@
         "growth_est": 0.357,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 40924846,
+    "quote_currency": "USD"
   },
   "bms_opdivo": {
     "currency": "USD",
@@ -4300,7 +4396,9 @@
         "growth_est": -0.035,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2042714656,
+    "quote_currency": "USD"
   },
   "booz_allen": {
     "currency": "USD",
@@ -4389,7 +4487,9 @@
         "growth_est": 0.042,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 120284973,
+    "quote_currency": "USD"
   },
   "boston_sci": {
     "currency": "USD",
@@ -4478,7 +4578,9 @@
         "growth_est": 0.045,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1449229526,
+    "quote_currency": "USD"
   },
   "broadcom": {
     "currency": "USD",
@@ -4567,7 +4669,9 @@
         "growth_est": 0.636,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 4757580198,
+    "quote_currency": "USD"
   },
   "brookfield_renew": {
     "currency": "USD",
@@ -4656,7 +4760,9 @@
         "growth_est": 0.147,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 150879577,
+    "quote_currency": "USD"
   },
   "bwxt": {
     "currency": "USD",
@@ -4745,7 +4851,9 @@
         "growth_est": 0.102,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 91621980,
+    "quote_currency": "USD"
   },
   "cadence": {
     "currency": "USD",
@@ -4834,7 +4942,9 @@
         "growth_est": 0.133,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 275393000,
+    "quote_currency": "USD"
   },
   "cameco": {
     "currency": "USD",
@@ -4923,7 +5033,9 @@
         "growth_est": 0.131,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 435532978,
+    "quote_currency": "USD"
   },
   "caribou": {
     "currency": "USD",
@@ -5012,7 +5124,9 @@
         "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 107207513,
+    "quote_currency": "USD"
   },
   "caterpillar": {
     "currency": "USD",
@@ -5101,7 +5215,9 @@
         "growth_est": 0.102,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 459674889,
+    "quote_currency": "USD"
   },
   "catl": {
     "currency": "USD",
@@ -5190,7 +5306,9 @@
         "growth_est": 0.194,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 4408354619,
+    "quote_currency": "CNY"
   },
   "celltrion": {
     "currency": "KRW",
@@ -5279,7 +5397,9 @@
         "growth_est": 0.161,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 229327192,
+    "quote_currency": "KRW"
   },
   "cgembio": {
     "currency": "USD",
@@ -5368,7 +5488,9 @@
         "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 123025136,
+    "quote_currency": "USD"
   },
   "chroma": {
     "currency": "TWD",
@@ -5457,7 +5579,9 @@
         "growth_est": 0.398,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 423591163,
+    "quote_currency": "TWD"
   },
   "cisco": {
     "currency": "USD",
@@ -5546,7 +5670,9 @@
         "growth_est": 0.058,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 3941434665,
+    "quote_currency": "USD"
   },
   "cloudflare": {
     "currency": "USD",
@@ -5635,7 +5761,9 @@
         "growth_est": 0.286,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 322618775,
+    "quote_currency": "USD"
   },
   "coherent": {
     "currency": "USD",
@@ -5724,7 +5852,9 @@
         "growth_est": 0.373,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 195639321,
+    "quote_currency": "USD"
   },
   "cohu": {
     "currency": "USD",
@@ -5813,7 +5943,9 @@
         "growth_est": 0.262,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 47338433,
+    "quote_currency": "USD"
   },
   "constellation": {
     "currency": "USD",
@@ -5902,7 +6034,9 @@
         "growth_est": -0.038,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 354307379,
+    "quote_currency": "USD"
   },
   "corning": {
     "currency": "USD",
@@ -5991,7 +6125,9 @@
         "growth_est": 0.19,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 861388331,
+    "quote_currency": "USD"
   },
   "credo": {
     "currency": "USD",
@@ -6080,7 +6216,9 @@
         "growth_est": 0.496,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 186477898,
+    "quote_currency": "USD"
   },
   "crispr_tx": {
     "currency": "USD",
@@ -6140,7 +6278,9 @@
         "growth_est": 3.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 96692653,
+    "quote_currency": "USD"
   },
   "croda": {
     "currency": "USD",
@@ -6193,7 +6333,9 @@
         "growth_est": 0.051,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 139354139,
+    "quote_currency": "GBP"
   },
   "crowdstrike": {
     "currency": "USD",
@@ -6282,7 +6424,9 @@
         "growth_est": 0.217,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1018259280,
+    "quote_currency": "USD"
   },
   "cvs": {
     "currency": "USD",
@@ -6371,7 +6515,9 @@
         "growth_est": 0.028,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1278970369,
+    "quote_currency": "USD"
   },
   "cymer": {
     "currency": "USD",
@@ -6460,7 +6606,9 @@
         "growth_est": 0.257,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 384100000,
+    "quote_currency": "USD"
   },
   "dai_nippon": {
     "currency": "JPY",
@@ -6542,7 +6690,9 @@
         "growth_est": 0.039,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 429178682,
+    "quote_currency": "JPY"
   },
   "daiichi_enhertu": {
     "currency": "JPY",
@@ -6595,7 +6745,9 @@
         "growth_est": 0.021,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1819653230,
+    "quote_currency": "JPY"
   },
   "danaher": {
     "currency": "USD",
@@ -6684,7 +6836,9 @@
         "growth_est": 0.08,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 702986054,
+    "quote_currency": "USD"
   },
   "dario": {
     "currency": "USD",
@@ -6773,7 +6927,9 @@
         "growth_est": 0.333,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 9799481,
+    "quote_currency": "USD"
   },
   "datadog": {
     "currency": "USD",
@@ -6862,7 +7018,9 @@
         "growth_est": 0.224,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 334904614,
+    "quote_currency": "USD"
   },
   "delta": {
     "currency": "TWD",
@@ -6951,7 +7109,9 @@
         "growth_est": 0.408,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2597543329,
+    "quote_currency": "TWD"
   },
   "dexcom": {
     "currency": "USD",
@@ -7040,7 +7200,9 @@
         "growth_est": 0.109,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 377360765,
+    "quote_currency": "USD"
   },
   "docusign": {
     "currency": "USD",
@@ -7129,7 +7291,9 @@
         "growth_est": 0.074,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 190944608,
+    "quote_currency": "USD"
   },
   "doubleverify": {
     "currency": "USD",
@@ -7218,7 +7382,9 @@
         "growth_est": 0.074,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 153464189,
+    "quote_currency": "USD"
   },
   "dropbox": {
     "currency": "USD",
@@ -7307,7 +7473,9 @@
         "growth_est": -0.004,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 142295014,
+    "quote_currency": "USD"
   },
   "dynatrace": {
     "currency": "USD",
@@ -7396,7 +7564,9 @@
         "growth_est": 0.147,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 290228871,
+    "quote_currency": "USD"
   },
   "eaton": {
     "currency": "USD",
@@ -7485,7 +7655,9 @@
         "growth_est": 0.115,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 388400000,
+    "quote_currency": "USD"
   },
   "editas": {
     "currency": "USD",
@@ -7574,7 +7746,9 @@
         "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 153580035,
+    "quote_currency": "USD"
   },
   "edwards": {
     "currency": "USD",
@@ -7663,7 +7837,9 @@
         "growth_est": 0.099,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 576400000,
+    "quote_currency": "USD"
   },
   "eight_x_eight": {
     "currency": "USD",
@@ -7752,7 +7928,9 @@
         "growth_est": 0.013,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 144435501,
+    "quote_currency": "USD"
   },
   "eisai": {
     "currency": "JPY",
@@ -7805,7 +7983,9 @@
         "growth_est": 0.062,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 282236007,
+    "quote_currency": "JPY"
   },
   "elastic": {
     "currency": "USD",
@@ -7894,7 +8074,9 @@
         "growth_est": 0.146,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 103951633,
+    "quote_currency": "USD"
   },
   "eoptolink": {
     "currency": "USD",
@@ -7983,7 +8165,9 @@
         "growth_est": 0.665,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1394256684,
+    "quote_currency": "CNY"
   },
   "equinix": {
     "currency": "USD",
@@ -8072,7 +8256,9 @@
         "growth_est": 0.108,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 98671686,
+    "quote_currency": "USD"
   },
   "faraday": {
     "currency": "TWD",
@@ -8161,7 +8347,9 @@
         "growth_est": 0.29,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 260550313,
+    "quote_currency": "TWD"
   },
   "figma": {
     "currency": "USD",
@@ -8242,7 +8430,9 @@
         "growth_est": 0.238,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 455113611,
+    "quote_currency": "USD"
   },
   "first_solar": {
     "currency": "USD",
@@ -8331,7 +8521,9 @@
         "growth_est": 0.17,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 107469788,
+    "quote_currency": "USD"
   },
   "five9": {
     "currency": "USD",
@@ -8420,7 +8612,9 @@
         "growth_est": 0.094,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 74723531,
+    "quote_currency": "USD"
   },
   "fluence": {
     "currency": "USD",
@@ -8509,7 +8703,9 @@
         "growth_est": 0.342,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 143163588,
+    "quote_currency": "USD"
   },
   "foghorn": {
     "currency": "USD",
@@ -8598,7 +8794,9 @@
         "growth_est": 0.333,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 59385315,
+    "quote_currency": "USD"
   },
   "fortinet": {
     "currency": "USD",
@@ -8687,7 +8885,9 @@
         "growth_est": 0.11,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 733713653,
+    "quote_currency": "USD"
   },
   "foxconn": {
     "currency": "TWD",
@@ -8776,7 +8976,9 @@
         "growth_est": 0.285,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 14001919922,
+    "quote_currency": "TWD"
   },
   "garmin": {
     "currency": "USD",
@@ -8865,7 +9067,9 @@
         "growth_est": 0.106,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 192852536,
+    "quote_currency": "USD"
   },
   "ge_health": {
     "currency": "USD",
@@ -8954,7 +9158,9 @@
         "growth_est": 0.046,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 451686252,
+    "quote_currency": "USD"
   },
   "ge_vernova": {
     "currency": "USD",
@@ -9043,7 +9249,9 @@
         "growth_est": 0.14,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 266333581,
+    "quote_currency": "USD"
   },
   "genmab": {
     "currency": "USD",
@@ -9132,7 +9340,9 @@
         "growth_est": 0.162,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 62353252,
+    "quote_currency": "DKK"
   },
   "gilead_trodelvy": {
     "currency": "USD",
@@ -9221,7 +9431,9 @@
         "growth_est": 0.065,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1239955155,
+    "quote_currency": "USD"
   },
   "ginkgo": {
     "currency": "USD",
@@ -9310,7 +9522,9 @@
         "growth_est": 0.125,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 55383808,
+    "quote_currency": "USD"
   },
   "gitlab": {
     "currency": "USD",
@@ -9399,7 +9613,9 @@
         "growth_est": 0.152,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 167800000,
+    "quote_currency": "USD"
   },
   "globalfoundries": {
     "currency": "USD",
@@ -9488,7 +9704,9 @@
         "growth_est": 0.127,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 548700833,
+    "quote_currency": "USD"
   },
   "google": {
     "currency": "USD",
@@ -9577,7 +9795,9 @@
         "growth_est": 0.22,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5867155790,
+    "quote_currency": "USD"
   },
   "google_deepmind": {
     "currency": "USD",
@@ -9666,7 +9886,9 @@
         "growth_est": 0.22,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5867155790,
+    "quote_currency": "USD"
   },
   "google_jax": {
     "currency": "USD",
@@ -9755,7 +9977,9 @@
         "growth_est": 0.22,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5867155790,
+    "quote_currency": "USD"
   },
   "grail": {
     "currency": "USD",
@@ -9844,7 +10068,9 @@
         "growth_est": 0.278,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 44666234,
+    "quote_currency": "USD"
   },
   "guardant": {
     "currency": "USD",
@@ -9933,7 +10159,9 @@
         "growth_est": 0.356,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 134196170,
+    "quote_currency": "USD"
   },
   "guc": {
     "currency": "TWD",
@@ -10012,17 +10240,19 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 59.56,
-        "growth_est": 0.745,
+        "revenue_est": 59.39,
+        "growth_est": 0.74,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 125.96,
-        "growth_est": 1.115,
+        "revenue_est": 124.99,
+        "growth_est": 1.105,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 134011000,
+    "quote_currency": "TWD"
   },
   "hims": {
     "currency": "USD",
@@ -10111,7 +10341,9 @@
         "growth_est": 0.246,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 224935790,
+    "quote_currency": "USD"
   },
   "hitachi_hi_tech": {
     "currency": "JPY",
@@ -10164,7 +10396,9 @@
         "growth_est": 0.068,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 4476140293,
+    "quote_currency": "JPY"
   },
   "hoya": {
     "currency": "JPY",
@@ -10217,7 +10451,9 @@
         "growth_est": 0.074,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 334520495,
+    "quote_currency": "JPY"
   },
   "hpe": {
     "currency": "USD",
@@ -10306,7 +10542,9 @@
         "growth_est": 0.116,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1324203521,
+    "quote_currency": "USD"
   },
   "hubbell": {
     "currency": "USD",
@@ -10395,7 +10633,9 @@
         "growth_est": 0.099,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 52832571,
+    "quote_currency": "USD"
   },
   "hubspot": {
     "currency": "USD",
@@ -10484,7 +10724,9 @@
         "growth_est": 0.141,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 51190708,
+    "quote_currency": "USD"
   },
   "iberdrola": {
     "currency": "USD",
@@ -10573,7 +10815,9 @@
         "growth_est": 0.021,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 6673141516,
+    "quote_currency": "EUR"
   },
   "ibiden": {
     "currency": "JPY",
@@ -10626,7 +10870,9 @@
         "growth_est": 0.263,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 279468441,
+    "quote_currency": "JPY"
   },
   "illumina": {
     "currency": "USD",
@@ -10715,7 +10961,9 @@
         "growth_est": 0.063,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 151000000,
+    "quote_currency": "USD"
   },
   "infineon": {
     "currency": "USD",
@@ -10804,7 +11052,9 @@
         "growth_est": 0.197,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1299499659,
+    "quote_currency": "EUR"
   },
   "innolight": {
     "currency": "USD",
@@ -10883,17 +11133,19 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 101.28,
-        "growth_est": 1.649,
+        "revenue_est": 101.88,
+        "growth_est": 1.664,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 174.73,
-        "growth_est": 0.725,
+        "revenue_est": 178.81,
+        "growth_est": 0.755,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1115234641,
+    "quote_currency": "CNY"
   },
   "intel": {
     "currency": "USD",
@@ -10982,7 +11234,9 @@
         "growth_est": 0.131,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5286105262,
+    "quote_currency": "USD"
   },
   "intellia": {
     "currency": "USD",
@@ -11071,7 +11325,9 @@
         "growth_est": 1.6,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 140126693,
+    "quote_currency": "USD"
   },
   "intuitive": {
     "currency": "USD",
@@ -11160,7 +11416,9 @@
         "growth_est": 0.126,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 358278038,
+    "quote_currency": "USD"
   },
   "inventec": {
     "currency": "TWD",
@@ -11249,7 +11507,9 @@
         "growth_est": 0.143,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 3587475066,
+    "quote_currency": "TWD"
   },
   "iovance": {
     "currency": "USD",
@@ -11330,7 +11590,9 @@
         "growth_est": 0.35,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 452971432,
+    "quote_currency": "USD"
   },
   "irhythm": {
     "currency": "USD",
@@ -11419,7 +11681,9 @@
         "growth_est": 0.169,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 32963003,
+    "quote_currency": "USD"
   },
   "iridium": {
     "currency": "USD",
@@ -11508,7 +11772,9 @@
         "growth_est": 0.085,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 105960383,
+    "quote_currency": "USD"
   },
   "jcet": {
     "currency": "USD",
@@ -11597,7 +11863,9 @@
         "growth_est": 0.147,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1789414570,
+    "quote_currency": "CNY"
   },
   "jnj_invokana": {
     "currency": "USD",
@@ -11686,7 +11954,9 @@
         "growth_est": 0.076,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2409898597,
+    "quote_currency": "USD"
   },
   "kaori": {
     "currency": "TWD",
@@ -11775,7 +12045,9 @@
         "growth_est": 0.762,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 93002000,
+    "quote_currency": "TWD"
   },
   "kilopass": {
     "currency": "USD",
@@ -11864,7 +12136,9 @@
         "growth_est": 0.108,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 191479325,
+    "quote_currency": "USD"
   },
   "kla": {
     "currency": "USD",
@@ -11953,7 +12227,9 @@
         "growth_est": 0.164,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1306546783,
+    "quote_currency": "USD"
   },
   "klaviyo": {
     "currency": "USD",
@@ -12042,7 +12318,9 @@
         "growth_est": 0.196,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 140897018,
+    "quote_currency": "USD"
   },
   "kulicke_soffa": {
     "currency": "USD",
@@ -12131,7 +12409,9 @@
         "growth_est": 0.322,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 52329115,
+    "quote_currency": "USD"
   },
   "kymera": {
     "currency": "USD",
@@ -12220,7 +12500,9 @@
         "growth_est": -0.545,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 82257588,
+    "quote_currency": "USD"
   },
   "l3harris": {
     "currency": "USD",
@@ -12309,7 +12591,9 @@
         "growth_est": 0.067,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 186214616,
+    "quote_currency": "USD"
   },
   "lam_research": {
     "currency": "USD",
@@ -12398,7 +12682,9 @@
         "growth_est": 0.157,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1251321000,
+    "quote_currency": "USD"
   },
   "lantheus": {
     "currency": "USD",
@@ -12487,7 +12773,9 @@
         "growth_est": 0.1,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 65272369,
+    "quote_currency": "USD"
   },
   "lattice": {
     "currency": "USD",
@@ -12576,7 +12864,9 @@
         "growth_est": 0.446,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 142030272,
+    "quote_currency": "USD"
   },
   "legalzoom": {
     "currency": "USD",
@@ -12665,7 +12955,9 @@
         "growth_est": 0.05,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 171264812,
+    "quote_currency": "USD"
   },
   "legend": {
     "currency": "USD",
@@ -12754,7 +13046,9 @@
         "growth_est": 0.28,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 193769462,
+    "quote_currency": "USD"
   },
   "lifestance": {
     "currency": "USD",
@@ -12843,7 +13137,9 @@
         "growth_est": 0.14,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 382055609,
+    "quote_currency": "USD"
   },
   "lilly_mech": {
     "currency": "USD",
@@ -12932,7 +13228,9 @@
         "growth_est": 0.154,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 891741406,
+    "quote_currency": "USD"
   },
   "lipoid_evo": {
     "currency": "USD",
@@ -13021,7 +13319,9 @@
         "growth_est": -0.01,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 466000000,
+    "quote_currency": "EUR"
   },
   "liteon": {
     "currency": "TWD",
@@ -13110,7 +13410,9 @@
         "growth_est": 0.29,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2269103542,
+    "quote_currency": "TWD"
   },
   "lockheed": {
     "currency": "USD",
@@ -13199,7 +13501,9 @@
         "growth_est": 0.054,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 230790753,
+    "quote_currency": "USD"
   },
   "lonza": {
     "currency": "USD",
@@ -13252,7 +13556,9 @@
         "growth_est": 0.116,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 69844229,
+    "quote_currency": "CHF"
   },
   "lumentum": {
     "currency": "USD",
@@ -13341,7 +13647,9 @@
         "growth_est": 0.533,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 88600000,
+    "quote_currency": "USD"
   },
   "macronix": {
     "currency": "TWD",
@@ -13430,7 +13738,9 @@
         "growth_est": 0.661,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1979352000,
+    "quote_currency": "TWD"
   },
   "madrigal": {
     "currency": "USD",
@@ -13503,7 +13813,9 @@
         "growth_est": 0.399,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 23104126,
+    "quote_currency": "USD"
   },
   "magnite": {
     "currency": "USD",
@@ -13592,7 +13904,9 @@
         "growth_est": 0.105,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 143424157,
+    "quote_currency": "USD"
   },
   "marvell": {
     "currency": "USD",
@@ -13681,7 +13995,9 @@
         "growth_est": 0.451,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 875766423,
+    "quote_currency": "USD"
   },
   "mchp": {
     "currency": "USD",
@@ -13770,7 +14086,9 @@
         "growth_est": 0.159,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 543008691,
+    "quote_currency": "USD"
   },
   "mediatek": {
     "currency": "TWD",
@@ -13859,7 +14177,9 @@
         "growth_est": 0.726,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1596094018,
+    "quote_currency": "TWD"
   },
   "medtronic_hugo": {
     "currency": "USD",
@@ -13948,7 +14268,9 @@
         "growth_est": 0.036,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1280045190,
+    "quote_currency": "USD"
   },
   "merck_kgaa": {
     "currency": "USD",
@@ -14037,7 +14359,9 @@
         "growth_est": 0.051,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 129242252,
+    "quote_currency": "EUR"
   },
   "merck_steglatro": {
     "currency": "USD",
@@ -14126,7 +14450,9 @@
         "growth_est": 0.048,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2467171638,
+    "quote_currency": "USD"
   },
   "meta": {
     "currency": "USD",
@@ -14215,7 +14541,9 @@
         "growth_est": 0.201,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2205128509,
+    "quote_currency": "USD"
   },
   "meta_ai": {
     "currency": "USD",
@@ -14304,7 +14632,9 @@
         "growth_est": 0.201,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2205128509,
+    "quote_currency": "USD"
   },
   "mhi": {
     "currency": "JPY",
@@ -14357,7 +14687,9 @@
         "growth_est": 0.081,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 3360209340,
+    "quote_currency": "JPY"
   },
   "micron": {
     "currency": "USD",
@@ -14446,7 +14778,9 @@
         "growth_est": 0.849,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1129393151,
+    "quote_currency": "USD"
   },
   "microsoft": {
     "currency": "USD",
@@ -14535,7 +14869,9 @@
         "growth_est": 0.197,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 7425545491,
+    "quote_currency": "USD"
   },
   "moderna_mrna4157": {
     "currency": "USD",
@@ -14624,7 +14960,9 @@
         "growth_est": 0.152,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 399235889,
+    "quote_currency": "USD"
   },
   "modine": {
     "currency": "USD",
@@ -14713,7 +15051,9 @@
         "growth_est": 0.244,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 53112708,
+    "quote_currency": "USD"
   },
   "mongodb": {
     "currency": "USD",
@@ -14802,7 +15142,9 @@
         "growth_est": 0.176,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 80431927,
+    "quote_currency": "USD"
   },
   "mps": {
     "currency": "USD",
@@ -14891,7 +15233,9 @@
         "growth_est": 0.257,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 49143000,
+    "quote_currency": "USD"
   },
   "munters": {
     "currency": "USD",
@@ -14980,7 +15324,9 @@
         "growth_est": 0.227,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 182541440,
+    "quote_currency": "SEK"
   },
   "myrg": {
     "currency": "USD",
@@ -15069,7 +15415,9 @@
         "growth_est": 0.155,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 15569250,
+    "quote_currency": "USD"
   },
   "nan_ya_pcb": {
     "currency": "TWD",
@@ -15158,7 +15506,9 @@
         "growth_est": 0.653,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 646165487,
+    "quote_currency": "TWD"
   },
   "natera": {
     "currency": "USD",
@@ -15247,7 +15597,9 @@
         "growth_est": 0.197,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 144144170,
+    "quote_currency": "USD"
   },
   "neophotonics": {
     "currency": "USD",
@@ -15336,7 +15688,9 @@
         "growth_est": 0.533,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 88600000,
+    "quote_currency": "USD"
   },
   "nextera": {
     "currency": "USD",
@@ -15425,7 +15779,9 @@
         "growth_est": 0.116,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2085978209,
+    "quote_currency": "USD"
   },
   "northrop": {
     "currency": "USD",
@@ -15514,7 +15870,9 @@
         "growth_est": 0.067,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 142063026,
+    "quote_currency": "USD"
   },
   "novartis_olpa": {
     "currency": "USD",
@@ -15603,7 +15961,9 @@
         "growth_est": 0.061,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1900714840,
+    "quote_currency": "USD"
   },
   "novo_mech": {
     "currency": "USD",
@@ -15692,7 +16052,9 @@
         "growth_est": 0.024,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 3306278248,
+    "quote_currency": "USD"
   },
   "nurix": {
     "currency": "USD",
@@ -15781,7 +16143,9 @@
         "growth_est": -0.842,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 103781683,
+    "quote_currency": "USD"
   },
   "nuscale": {
     "currency": "USD",
@@ -15870,7 +16234,9 @@
         "growth_est": 6.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 410389522,
+    "quote_currency": "USD"
   },
   "nvidia": {
     "currency": "USD",
@@ -15959,7 +16325,9 @@
         "growth_est": 0.427,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 24221000000,
+    "quote_currency": "USD"
   },
   "nvidia_nemo": {
     "currency": "USD",
@@ -16048,7 +16416,9 @@
         "growth_est": 0.427,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 24221000000,
+    "quote_currency": "USD"
   },
   "nvidia_triton": {
     "currency": "USD",
@@ -16137,7 +16507,9 @@
         "growth_est": 0.427,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 24221000000,
+    "quote_currency": "USD"
   },
   "nxp": {
     "currency": "USD",
@@ -16226,7 +16598,9 @@
         "growth_est": 0.114,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 252164174,
+    "quote_currency": "USD"
   },
   "okta": {
     "currency": "USD",
@@ -16315,7 +16689,9 @@
         "growth_est": 0.094,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 166119894,
+    "quote_currency": "USD"
   },
   "omada": {
     "currency": "USD",
@@ -16404,7 +16780,9 @@
         "growth_est": 0.206,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 60606000,
+    "quote_currency": "USD"
   },
   "oneweb": {
     "currency": "USD",
@@ -16457,7 +16835,9 @@
         "growth_est": 0.056,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1177820111,
+    "quote_currency": "EUR"
   },
   "onto_innovation": {
     "currency": "USD",
@@ -16546,7 +16926,9 @@
         "growth_est": 0.285,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 61123436,
+    "quote_currency": "USD"
   },
   "openai": {
     "currency": "USD",
@@ -16731,7 +17113,9 @@
         "growth_est": 0.462,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2880471000,
+    "quote_currency": "USD"
   },
   "palantir": {
     "currency": "USD",
@@ -16820,7 +17204,9 @@
         "growth_est": 0.487,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2300713329,
+    "quote_currency": "USD"
   },
   "palo_alto": {
     "currency": "USD",
@@ -16909,7 +17295,9 @@
         "growth_est": 0.211,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 815000000,
+    "quote_currency": "USD"
   },
   "pfizer_oral": {
     "currency": "USD",
@@ -16998,7 +17386,9 @@
         "growth_est": -0.039,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5699673589,
+    "quote_currency": "USD"
   },
   "philips_health": {
     "currency": "USD",
@@ -17087,7 +17477,9 @@
         "growth_est": 0.044,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 977427472,
+    "quote_currency": "USD"
   },
   "photronics": {
     "currency": "USD",
@@ -17176,7 +17568,9 @@
         "growth_est": 0.047,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 58963698,
+    "quote_currency": "USD"
   },
   "planet_labs": {
     "currency": "USD",
@@ -17265,7 +17659,9 @@
         "growth_est": 0.295,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 332908730,
+    "quote_currency": "USD"
   },
   "polypeptide": {
     "currency": "USD",
@@ -17318,7 +17714,9 @@
         "growth_est": 0.163,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 33016411,
+    "quote_currency": "CHF"
   },
   "prime_med": {
     "currency": "USD",
@@ -17391,7 +17789,9 @@
         "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 181376856,
+    "quote_currency": "USD"
   },
   "procore": {
     "currency": "USD",
@@ -17480,7 +17880,9 @@
         "growth_est": 0.132,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 151955338,
+    "quote_currency": "USD"
   },
   "pubmatic": {
     "currency": "USD",
@@ -17569,7 +17971,9 @@
         "growth_est": 0.065,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 37303647,
+    "quote_currency": "USD"
   },
   "pure_storage": {
     "currency": "USD",
@@ -17665,7 +18069,9 @@
         "growth_est": 0.051,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 206495000,
+    "quote_currency": "USD"
   },
   "qualcomm": {
     "currency": "USD",
@@ -17754,7 +18160,9 @@
         "growth_est": 0.043,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1050000000,
+    "quote_currency": "USD"
   },
   "quanta": {
     "currency": "TWD",
@@ -17843,7 +18251,9 @@
         "growth_est": 0.296,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 4099518400,
+    "quote_currency": "TWD"
   },
   "rambus": {
     "currency": "USD",
@@ -17932,7 +18342,9 @@
         "growth_est": 0.207,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 108461603,
+    "quote_currency": "USD"
   },
   "recursion_rxrx": {
     "currency": "USD",
@@ -18021,7 +18433,9 @@
         "growth_est": 0.2,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 535342170,
+    "quote_currency": "USD"
   },
   "regeneron_muscle": {
     "currency": "USD",
@@ -18110,7 +18524,9 @@
         "growth_est": 0.084,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 101137842,
+    "quote_currency": "USD"
   },
   "regenxbio": {
     "currency": "USD",
@@ -18199,7 +18615,9 @@
         "growth_est": 0.529,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 66013192,
+    "quote_currency": "USD"
   },
   "relay_tx": {
     "currency": "USD",
@@ -18281,7 +18699,9 @@
         "growth_est": 1.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 219141631,
+    "quote_currency": "USD"
   },
   "renesas": {
     "currency": "JPY",
@@ -18334,7 +18754,9 @@
         "growth_est": 0.079,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1827489239,
+    "quote_currency": "JPY"
   },
   "resonac": {
     "currency": "JPY",
@@ -18387,7 +18809,9 @@
         "growth_est": -0.026,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 189706990,
+    "quote_currency": "JPY"
   },
   "revolution": {
     "currency": "USD",
@@ -18424,7 +18848,9 @@
         "growth_est": 6.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 214336418,
+    "quote_currency": "USD"
   },
   "ringcentral": {
     "currency": "USD",
@@ -18513,7 +18939,9 @@
         "growth_est": 0.045,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 73736624,
+    "quote_currency": "USD"
   },
   "roche_oral": {
     "currency": "USD",
@@ -18566,7 +18994,9 @@
         "growth_est": 0.045,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5520599304,
+    "quote_currency": "USD"
   },
   "rocket_lab": {
     "currency": "USD",
@@ -18655,7 +19085,9 @@
         "growth_est": 0.421,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 598459739,
+    "quote_currency": "USD"
   },
   "roku": {
     "currency": "USD",
@@ -18744,7 +19176,9 @@
         "growth_est": 0.121,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 132050905,
+    "quote_currency": "USD"
   },
   "salesforce": {
     "currency": "USD",
@@ -18833,7 +19267,9 @@
         "growth_est": 0.096,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 819000000,
+    "quote_currency": "USD"
   },
   "samsung": {
     "currency": "USD",
@@ -18922,7 +19358,9 @@
         "growth_est": 0.304,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5764191903,
+    "quote_currency": "KRW"
   },
   "samsung_bio": {
     "currency": "KRW",
@@ -19011,7 +19449,9 @@
         "growth_est": 0.168,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 46290951,
+    "quote_currency": "KRW"
   },
   "samsung_health": {
     "currency": "KRW",
@@ -19100,7 +19540,9 @@
         "growth_est": 0.304,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5764191903,
+    "quote_currency": "KRW"
   },
   "samsung_lsi": {
     "currency": "KRW",
@@ -19189,7 +19631,9 @@
         "growth_est": 0.304,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5764191903,
+    "quote_currency": "KRW"
   },
   "sanofi_glp1": {
     "currency": "USD",
@@ -19278,7 +19722,9 @@
         "growth_est": 0.065,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 2396137370,
+    "quote_currency": "USD"
   },
   "sap": {
     "currency": "USD",
@@ -19367,7 +19813,9 @@
         "growth_est": 0.118,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1154204232,
+    "quote_currency": "USD"
   },
   "sarepta": {
     "currency": "USD",
@@ -19456,7 +19904,9 @@
         "growth_est": -0.25,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 105627021,
+    "quote_currency": "USD"
   },
   "schneider": {
     "currency": "USD",
@@ -19509,7 +19959,9 @@
         "growth_est": 0.093,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 562142934,
+    "quote_currency": "EUR"
   },
   "scholar_rock": {
     "currency": "USD",
@@ -19538,7 +19990,9 @@
         "growth_est": 14.0,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 121785282,
+    "quote_currency": "USD"
   },
   "schrodinger": {
     "currency": "USD",
@@ -19627,7 +20081,9 @@
         "growth_est": 0.042,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 65641435,
+    "quote_currency": "USD"
   },
   "senseonics": {
     "currency": "USD",
@@ -19716,7 +20172,9 @@
         "growth_est": 0.667,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 52874053,
+    "quote_currency": "USD"
   },
   "sentinelone": {
     "currency": "USD",
@@ -19805,7 +20263,9 @@
         "growth_est": 0.175,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 336745012,
+    "quote_currency": "USD"
   },
   "servicenow": {
     "currency": "USD",
@@ -19894,7 +20354,9 @@
         "growth_est": 0.187,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1033862000,
+    "quote_currency": "USD"
   },
   "shin_etsu": {
     "currency": "USD",
@@ -19990,7 +20452,9 @@
         "growth_est": 0.065,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1849696596,
+    "quote_currency": "JPY"
   },
   "shopify": {
     "currency": "USD",
@@ -20079,7 +20543,9 @@
         "growth_est": 0.25,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1219581025,
+    "quote_currency": "USD"
   },
   "siemens_eda": {
     "currency": "USD",
@@ -20168,7 +20634,9 @@
         "growth_est": 0.084,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 762743366,
+    "quote_currency": "EUR"
   },
   "siemens_energy": {
     "currency": "USD",
@@ -20257,7 +20725,9 @@
         "growth_est": 0.144,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 850848567,
+    "quote_currency": "EUR"
   },
   "siemens_health": {
     "currency": "USD",
@@ -20346,7 +20816,9 @@
         "growth_est": 0.06,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1119198976,
+    "quote_currency": "EUR"
   },
   "siltronic": {
     "currency": "USD",
@@ -20435,7 +20907,9 @@
         "growth_est": 0.144,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 33000000,
+    "quote_currency": "EUR"
   },
   "sk_hynix": {
     "currency": "USD",
@@ -20524,7 +20998,9 @@
         "growth_est": 0.511,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 709854891,
+    "quote_currency": "KRW"
   },
   "smith_n": {
     "currency": "USD",
@@ -20577,7 +21053,9 @@
         "growth_est": 0.054,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 419020307,
+    "quote_currency": "USD"
   },
   "snowflake": {
     "currency": "USD",
@@ -20666,7 +21144,9 @@
         "growth_est": 0.258,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 346600000,
+    "quote_currency": "USD"
   },
   "socionext": {
     "currency": "JPY",
@@ -20719,7 +21199,9 @@
         "growth_est": 0.178,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 175289136,
+    "quote_currency": "JPY"
   },
   "spil": {
     "currency": "TWD",
@@ -20808,7 +21290,9 @@
         "growth_est": 0.24,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 5207330777,
+    "quote_currency": "TWD"
   },
   "spire": {
     "currency": "USD",
@@ -20897,7 +21381,9 @@
         "growth_est": 0.25,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 38711549,
+    "quote_currency": "USD"
   },
   "splunk_cisco": {
     "currency": "USD",
@@ -20986,7 +21472,9 @@
         "growth_est": 0.058,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 3941434665,
+    "quote_currency": "USD"
   },
   "stem": {
     "currency": "USD",
@@ -21075,7 +21563,9 @@
         "growth_est": 0.125,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 8956953,
+    "quote_currency": "USD"
   },
   "stryker_robot": {
     "currency": "USD",
@@ -21164,7 +21654,9 @@
         "growth_est": 0.088,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 383573046,
+    "quote_currency": "USD"
   },
   "sumco": {
     "currency": "USD",
@@ -21260,7 +21752,9 @@
         "growth_est": 0.081,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 349732314,
+    "quote_currency": "JPY"
   },
   "supermicro": {
     "currency": "USD",
@@ -21349,7 +21843,9 @@
         "growth_est": 0.993,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 646873027,
+    "quote_currency": "USD"
   },
   "synopsys": {
     "currency": "USD",
@@ -21438,7 +21934,9 @@
         "growth_est": 0.108,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 191479325,
+    "quote_currency": "USD"
   },
   "tandem": {
     "currency": "USD",
@@ -21527,7 +22025,9 @@
         "growth_est": 0.131,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 69578707,
+    "quote_currency": "USD"
   },
   "te_connectivity": {
     "currency": "USD",
@@ -21616,7 +22116,9 @@
         "growth_est": 0.091,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 289513228,
+    "quote_currency": "USD"
   },
   "teladoc": {
     "currency": "USD",
@@ -21705,7 +22207,9 @@
         "growth_est": -0.008,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 181684021,
+    "quote_currency": "USD"
   },
   "telix": {
     "currency": "USD",
@@ -21758,7 +22262,9 @@
         "growth_est": 0.149,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 338777049,
+    "quote_currency": "USD"
   },
   "tempus_lb": {
     "currency": "USD",
@@ -21847,7 +22353,9 @@
         "growth_est": 0.231,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 175390967,
+    "quote_currency": "USD"
   },
   "teradata": {
     "currency": "USD",
@@ -21936,7 +22444,9 @@
         "growth_est": 0.012,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 93000000,
+    "quote_currency": "USD"
   },
   "teradyne": {
     "currency": "USD",
@@ -22025,7 +22535,9 @@
         "growth_est": 0.21,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 156340750,
+    "quote_currency": "USD"
   },
   "tesla": {
     "currency": "USD",
@@ -22114,7 +22626,9 @@
         "growth_est": 0.139,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 3949547394,
+    "quote_currency": "USD"
   },
   "teva_ajovy": {
     "currency": "USD",
@@ -22203,7 +22717,9 @@
         "growth_est": 0.043,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1165296084,
+    "quote_currency": "USD"
   },
   "texas_instruments": {
     "currency": "USD",
@@ -22292,7 +22808,9 @@
         "growth_est": 0.136,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 913247686,
+    "quote_currency": "USD"
   },
   "thermo_glp": {
     "currency": "USD",
@@ -22381,7 +22899,9 @@
         "growth_est": 0.051,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 369747286,
+    "quote_currency": "USD"
   },
   "ti": {
     "currency": "USD",
@@ -22470,7 +22990,9 @@
         "growth_est": 0.136,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 913247686,
+    "quote_currency": "USD"
   },
   "toast": {
     "currency": "USD",
@@ -22559,7 +23081,9 @@
         "growth_est": 0.183,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 514000000,
+    "quote_currency": "USD"
   },
   "tokyo_electron": {
     "currency": "USD",
@@ -22655,7 +23179,9 @@
         "growth_est": 0.214,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 454651196,
+    "quote_currency": "JPY"
   },
   "toppan": {
     "currency": "JPY",
@@ -22708,7 +23234,9 @@
         "growth_est": 0.036,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 280840121,
+    "quote_currency": "JPY"
   },
   "tower_semi": {
     "currency": "USD",
@@ -22797,7 +23325,9 @@
         "growth_est": 0.376,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 113031240,
+    "quote_currency": "USD"
   },
   "trade_desk": {
     "currency": "USD",
@@ -22886,7 +23416,9 @@
         "growth_est": -0.029,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 426771565,
+    "quote_currency": "USD"
   },
   "travere": {
     "currency": "USD",
@@ -22975,7 +23507,9 @@
         "growth_est": 0.486,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 94261082,
+    "quote_currency": "USD"
   },
   "tsmc": {
     "currency": "TWD",
@@ -23064,7 +23598,9 @@
         "growth_est": 0.335,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 25932370067,
+    "quote_currency": "TWD"
   },
   "twilio": {
     "currency": "USD",
@@ -23153,7 +23689,9 @@
         "growth_est": 0.11,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 153575220,
+    "quote_currency": "USD"
   },
   "tyler_tech": {
     "currency": "USD",
@@ -23242,7 +23780,9 @@
         "growth_est": 0.102,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 40952274,
+    "quote_currency": "USD"
   },
   "ucb_bimzelx": {
     "currency": "USD",
@@ -23295,7 +23835,9 @@
         "growth_est": 0.115,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 190662572,
+    "quote_currency": "EUR"
   },
   "umc": {
     "currency": "TWD",
@@ -23384,7 +23926,9 @@
         "growth_est": 0.216,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 12539542899,
+    "quote_currency": "TWD"
   },
   "unimicron": {
     "currency": "TWD",
@@ -23473,7 +24017,9 @@
         "growth_est": 0.425,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 1592870301,
+    "quote_currency": "TWD"
   },
   "vast_data": {
     "currency": "USD",
@@ -23569,7 +24115,9 @@
         "growth_est": 0.124,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 162443291,
+    "quote_currency": "USD"
   },
   "veracyte": {
     "currency": "USD",
@@ -23658,7 +24206,9 @@
         "growth_est": 0.119,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 80390731,
+    "quote_currency": "USD"
   },
   "vertex_ckd": {
     "currency": "USD",
@@ -23747,7 +24297,9 @@
         "growth_est": 0.105,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 253460924,
+    "quote_currency": "USD"
   },
   "vertiv": {
     "currency": "USD",
@@ -23836,7 +24388,9 @@
         "growth_est": 0.295,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 384988173,
+    "quote_currency": "USD"
   },
   "veru": {
     "currency": "USD",
@@ -23867,7 +24421,9 @@
         "growth_est": 0.1,
         "source": "yfinance + analyst est"
       }
-    ]
+    ],
+    "shares_outstanding": 17050320,
+    "quote_currency": "USD"
   },
   "vicor": {
     "currency": "USD",
@@ -23956,7 +24512,9 @@
         "growth_est": 0.567,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 34389014,
+    "quote_currency": "USD"
   },
   "vistra": {
     "currency": "USD",
@@ -24045,7 +24603,9 @@
         "growth_est": 0.11,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 335635195,
+    "quote_currency": "USD"
   },
   "weightwatchers": {
     "currency": "USD",
@@ -24126,7 +24686,9 @@
         "growth_est": 0.016,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 9998760,
+    "quote_currency": "USD"
   },
   "wistron": {
     "currency": "TWD",
@@ -24215,7 +24777,9 @@
         "growth_est": 0.473,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 3180052250,
+    "quote_currency": "TWD"
   },
   "workday": {
     "currency": "USD",
@@ -24304,7 +24868,9 @@
         "growth_est": 0.11,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 201000000,
+    "quote_currency": "USD"
   },
   "wuxi_bio": {
     "currency": "USD",
@@ -24357,7 +24923,9 @@
         "growth_est": 0.177,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 4106248617,
+    "quote_currency": "HKD"
   },
   "zimmer_rosa": {
     "currency": "USD",
@@ -24446,7 +25014,9 @@
         "growth_est": 0.035,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 190737689,
+    "quote_currency": "USD"
   },
   "zoom": {
     "currency": "USD",
@@ -24535,7 +25105,9 @@
         "growth_est": 0.039,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 264645644,
+    "quote_currency": "USD"
   },
   "zscaler": {
     "currency": "USD",
@@ -24624,6 +25196,8 @@
         "growth_est": 0.171,
         "source": "yfinance analyst consensus"
       }
-    ]
+    ],
+    "shares_outstanding": 161709525,
+    "quote_currency": "USD"
   }
 }

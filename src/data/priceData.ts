@@ -17,6 +17,8 @@ export interface PriceData {
   early_score?: number;
   early_signal?: boolean;
   dist_from_52w_high?: number;
+  /** 市值（十億美元），由股價 × 在外流通股數 × 匯率算得 */
+  market_cap_usd?: number | null;
   view?: string;
   view_type?: string;
   updated: string;

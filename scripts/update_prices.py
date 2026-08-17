@@ -16,11 +16,14 @@ import pandas as pd
 import yfinance as yf
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import fx  # noqa: E402
 import signals  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 TICKERS = ROOT / "scripts/.tickers.json"
 PRICES = ROOT / "src/data/generated/prices.json"
+FINANCIALS = ROOT / "src/data/generated/financials.json"
+FX = ROOT / "src/data/generated/fx.json"
 META = ROOT / "src/data/generated/meta.json"
 HISTORY = ROOT / "data/history/prices"
 
@@ -66,7 +69,30 @@ def fetch_chunk(tickers: list[str]) -> dict[str, dict]:
     return out
 
 
-def build_row(ticker: str, bars: dict, today: str) -> dict:
+def market_cap_usd(price: float, fin: dict | None, rates: dict[str, float]) -> float | None:
+    """市值（十億美元）＝ 股價 × 在外流通股數 × 該報價幣別兌美元匯率。
+
+    股數與報價幣別由每月的 update_financials.py 寫入 financials.json。
+    """
+    if not fin:
+        return None
+    shares = fin.get("shares_outstanding")
+    if not shares:
+        return None
+    ccy = fin.get("quote_currency") or fin.get("currency") or "USD"
+    rate = rates.get(ccy.upper())
+    if not rate:
+        return None
+    return round(price * shares * rate / 1e9, 2)
+
+
+def build_row(
+    ticker: str,
+    bars: dict,
+    today: str,
+    fin: dict | None = None,
+    rates: dict[str, float] | None = None,
+) -> dict:
     m = signals.build_metrics(bars["closes"], bars["volumes"], bars["highs"])
     sigs, score, rapid = signals.compute_signals(m)
     early, early_score, early_flag = signals.compute_early_signals(m)
@@ -88,6 +114,7 @@ def build_row(ticker: str, bars: dict, today: str) -> dict:
         "early_score": early_score,
         "early_signal": early_flag,
         "dist_from_52w_high": m["dist_from_52w_high"],
+        "market_cap_usd": market_cap_usd(m["price"], fin, rates or {}),
         "view": view,
         "view_type": view_type,
         "updated": today,
@@ -101,7 +128,16 @@ def main() -> int:
 
     tickers = json.loads(TICKERS.read_text(encoding="utf-8"))
     previous = json.loads(PRICES.read_text(encoding="utf-8")) if PRICES.exists() else {}
+    financials = (
+        json.loads(FINANCIALS.read_text(encoding="utf-8")) if FINANCIALS.exists() else {}
+    )
     today = dt.date.today().isoformat()
+
+    needed_ccy = {
+        f.get("quote_currency") or f.get("currency") or "USD" for f in financials.values()
+    }
+    rates = fx.fetch_usd_rates(sorted(needed_ccy))
+    print(f"匯率：{len(rates)} 種幣別")
 
     unique = sorted(set(tickers.values()))
     bars: dict[str, dict] = {}
@@ -120,7 +156,9 @@ def main() -> int:
     unavailable = 0  # 從未有行情（未上市公司等）→ 不納入結果
     for cid, ticker in tickers.items():
         if ticker in bars:
-            result[cid] = build_row(ticker, bars[ticker], today)
+            result[cid] = build_row(
+                ticker, bars[ticker], today, financials.get(cid), rates
+            )
         elif cid in previous:
             row = dict(previous[cid])
             row["stale"] = True
@@ -162,6 +200,11 @@ def main() -> int:
         print("dry-run: 未寫入任何檔案")
         return 0
 
+    FX.write_text(
+        json.dumps({"updated": today, "usd_per": rates}, ensure_ascii=False, indent=2)
+        + "\n",
+        encoding="utf-8",
+    )
     ordered = dict(sorted(result.items()))
     PRICES.write_text(
         json.dumps(ordered, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

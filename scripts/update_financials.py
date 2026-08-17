@@ -135,6 +135,25 @@ def build_predictions(tk, annual: list[dict]) -> list[dict]:
     return sorted(out, key=lambda r: r["year"])
 
 
+def fetch_share_info(tk) -> tuple[int | None, str | None]:
+    """回傳 (在外流通股數, 股票報價幣別)，供每日計算市值使用。
+
+    報價幣別可能與財報幣別不同（例如 ADR），因此分開存。
+    """
+    shares = None
+    quote_ccy = None
+    try:
+        shares = tk.info.get("sharesOutstanding")
+        shares = int(shares) if shares else None
+    except Exception:  # noqa: BLE001 — 部分市場無此欄位
+        pass
+    try:
+        quote_ccy = tk.fast_info.get("currency")
+    except Exception:  # noqa: BLE001
+        pass
+    return shares, (quote_ccy.upper() if quote_ccy else None)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true")
@@ -160,6 +179,7 @@ def main() -> int:
             annual = build_annual(tk.income_stmt)
             quarterly = build_quarterly(tk.quarterly_income_stmt)
             predictions = build_predictions(tk, annual)
+            shares, quote_ccy = fetch_share_info(tk)
         except Exception as exc:  # noqa: BLE001 — 單檔失敗不應中斷整批
             print(f"  {cid} ({ticker}) failed: {exc}", file=sys.stderr)
             failed += 1
@@ -173,6 +193,10 @@ def main() -> int:
             current["quarterly"] = quarterly
         if predictions:
             current["predictions"] = predictions
+        if shares:
+            current["shares_outstanding"] = shares
+        if quote_ccy:
+            current["quote_currency"] = quote_ccy
         updated += 1
 
     ratio = failed / max(len(existing), 1)

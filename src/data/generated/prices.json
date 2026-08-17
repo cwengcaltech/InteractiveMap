@@ -21,9 +21,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -7.5,
+    "market_cap_usd": 184.87,
     "view": "強勢上漲:1月 +5.53%、3月 +-4.73%。距 52週高點 -7.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "abbott_libre": {
     "ticker": "ABT",
@@ -47,9 +48,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -17.2,
+    "market_cap_usd": 192.51,
     "view": "強勢但偏高:1月 +12.57%、RSI 72 超買。技術面強但宜等回檔。3月 +31.97%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "abbvie": {
     "ticker": "ABBV",
@@ -76,9 +78,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -6.7,
+    "market_cap_usd": 440.83,
     "view": "突破前夕:MACD/量能轉強,RSI 41。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "absci": {
     "ticker": "ABSI",
@@ -105,9 +108,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -23.8,
+    "market_cap_usd": 1.58,
     "view": "強勢但偏高:1月 +11.54%、RSI 71 超買。技術面強但宜等回檔。3月 +65.7%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "adobe": {
     "ticker": "ADBE",
@@ -130,9 +134,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -28.8,
+    "market_cap_usd": 104.95,
     "view": "強勢上漲:1月 +12.2%、3月 +11.4%。距 52週高點 -28.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "adobe_acrobat": {
     "ticker": "ADBE",
@@ -155,54 +160,56 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -28.8,
+    "market_cap_usd": null,
     "view": "強勢上漲:1月 +12.2%、3月 +11.4%。距 52週高點 -28.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "advantest": {
     "ticker": "6857.T",
-    "price": 36870.0,
-    "return_1w": 11.96,
-    "return_1m": 23.83,
-    "return_3m": 39.87,
-    "return_1y": 268.1,
-    "rsi": 68.5,
-    "ma_50": 30146.2,
-    "ma_200": 25111.02,
+    "price": 38120.0,
+    "return_1w": 18.42,
+    "return_1m": 20.98,
+    "return_3m": 45.77,
+    "return_1y": 280.77,
+    "rsi": 72.0,
+    "ma_50": 30345.2,
+    "ma_200": 25214.18,
     "signals": [
       "黃金交叉 (50日 > 200日)",
       "價格突破 50日均線",
-      "1月強勢 +23.83%",
-      "3月動能 +39.87%",
-      "RSI 強勢區 (68)"
+      "1月強勢 +20.98%",
+      "3月動能 +45.77%",
+      "RSI 超買 (72) — 注意回檔"
     ],
-    "bullish_score": 6,
+    "bullish_score": 5,
     "rapid_rise": true,
     "early_signals": [
       "MACD 動能轉強",
-      "接近 52週高點 (-4.8%)"
+      "接近 52週高點 (-1.6%)"
     ],
     "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -4.8,
-    "view": "強勢上漲:1月 +23.83%、3月 +39.87%。距 52週高點 -4.8%,動能延續",
-    "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "dist_from_52w_high": -1.6,
+    "market_cap_usd": 173.5,
+    "view": "強勢但偏高:1月 +20.98%、RSI 72 超買。技術面強但宜等回檔。3月 +45.77%",
+    "view_type": "extended",
+    "updated": "2026-08-17"
   },
   "ajinomoto": {
     "ticker": "2802.T",
-    "price": 5566.0,
-    "return_1w": 7.12,
-    "return_1m": -1.59,
-    "return_3m": 5.64,
-    "return_1y": 40.26,
-    "rsi": 65.3,
-    "ma_50": 5397.36,
-    "ma_200": 4501.46,
+    "price": 5604.0,
+    "return_1w": 7.85,
+    "return_1m": -0.04,
+    "return_3m": 7.91,
+    "return_1y": 44.9,
+    "rsi": 67.3,
+    "ma_50": 5407.08,
+    "ma_200": 4508.08,
     "signals": [
       "黃金交叉 (50日 > 200日)",
       "價格突破 50日均線",
-      "RSI 強勢區 (65)"
+      "RSI 強勢區 (67)"
     ],
     "bullish_score": 4,
     "rapid_rise": false,
@@ -213,10 +220,11 @@
     ],
     "early_score": 3,
     "early_signal": true,
-    "dist_from_52w_high": -12.2,
-    "view": "突破前夕:MACD/量能轉強,RSI 65。早期介入機會",
+    "dist_from_52w_high": -11.6,
+    "market_cap_usd": 33.58,
+    "view": "突破前夕:MACD/量能轉強,RSI 67。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "akeso": {
     "ticker": "9926.HK",
@@ -240,9 +248,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -46.4,
+    "market_cap_usd": 11.27,
     "view": "中性:1月 -5.7%、3月 -22.46%。RSI 45",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "alchip": {
     "ticker": "3661.TW",
@@ -268,9 +277,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -25.4,
+    "market_cap_usd": 10.8,
     "view": "強勢上漲:1月 +11.67%、3月 +-8.28%。距 52週高點 -25.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "altimmune_mech": {
     "ticker": "ALT",
@@ -293,9 +303,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -54.3,
+    "market_cap_usd": 0.57,
     "view": "中性:1月 3.16%、3月 0.68%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "amazon": {
     "ticker": "AMZN",
@@ -320,9 +331,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -8.5,
+    "market_cap_usd": 2833.03,
     "view": "強勢上漲:1月 +5.11%、3月 +-1.71%。距 52週高點 -8.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "amd": {
     "ticker": "AMD",
@@ -350,9 +362,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -12.0,
+    "market_cap_usd": 839.73,
     "view": "突破前夕:MACD/量能轉強,RSI 54。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "amgen_mech": {
     "ticker": "AMGN",
@@ -378,9 +391,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -1.6,
+    "market_cap_usd": 224.63,
     "view": "強勢但偏高:1月 +11.74%、RSI 73 超買。技術面強但宜等回檔。3月 +24.42%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "amkor": {
     "ticker": "AMKR",
@@ -405,9 +419,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -39.0,
+    "market_cap_usd": 14.66,
     "view": "突破前夕:MACD/量能轉強,RSI 48。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "amphenol": {
     "ticker": "APH",
@@ -433,9 +448,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -6.4,
+    "market_cap_usd": 206.04,
     "view": "強勢上漲:1月 +9.12%、3月 +29.55%。距 52週高點 -6.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "amwell": {
     "ticker": "AMWL",
@@ -460,9 +476,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -12.3,
+    "market_cap_usd": 0.19,
     "view": "淺幅回檔:1週 -7.91% 但仍在 50日均線之上,趨勢未破。RSI 62",
     "view_type": "shallow_pullback",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "analog_devices": {
     "ticker": "ADI",
@@ -487,9 +504,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -12.7,
+    "market_cap_usd": 189.67,
     "view": "區間整理:1月 2.33%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "andes": {
     "ticker": "6533.TW",
@@ -511,9 +529,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -26.0,
+    "market_cap_usd": 0.39,
     "view": "強勢上漲:1月 +8.11%、3月 +10.29%。距 52週高點 -26.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ansys": {
     "ticker": "SNPS",
@@ -534,9 +553,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -32.7,
+    "market_cap_usd": 80.71,
     "view": "區間整理:1月 1.07%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "apple": {
     "ticker": "AAPL",
@@ -559,9 +579,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -11.1,
+    "market_cap_usd": 4464.8,
     "view": "中性:1月 -8.12%、3月 2.68%。RSI 26",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "apple_health": {
     "ticker": "AAPL",
@@ -584,9 +605,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -11.1,
+    "market_cap_usd": 4464.8,
     "view": "中性:1月 -8.12%、3月 2.68%。RSI 26",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "applied_materials": {
     "ticker": "AMAT",
@@ -609,9 +631,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -31.4,
+    "market_cap_usd": 402.68,
     "view": "中性:1月 -9.58%、3月 15.26%。RSI 48",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "applovin": {
     "ticker": "APP",
@@ -630,9 +653,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -57.7,
+    "market_cap_usd": 96.44,
     "view": "⚠ 趨勢轉弱:1週 -9.04% 跌破 200日均線。RSI 27。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "arista": {
     "ticker": "ANET",
@@ -660,9 +684,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -7.5,
+    "market_cap_usd": 250.76,
     "view": "強勢上漲:1月 +17.95%、3月 +34.51%。距 52週高點 -7.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "arm": {
     "ticker": "ARM",
@@ -686,9 +711,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -38.3,
+    "market_cap_usd": 298.44,
     "view": "強勢上漲:1月 +6.65%、3月 +22.29%。距 52週高點 -38.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "arvinas": {
     "ticker": "ARVN",
@@ -713,9 +739,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -38.2,
+    "market_cap_usd": 0.58,
     "view": "強勢上漲:1月 +11.71%、3月 +-4.78%。距 52週高點 -38.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ase": {
     "ticker": "3711.TW",
@@ -741,9 +768,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -14.7,
+    "market_cap_usd": 100.23,
     "view": "突破前夕:MACD/量能轉強,RSI 51。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "asia_vital": {
     "ticker": "3017.TW",
@@ -771,9 +799,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -2.6,
+    "market_cap_usd": 39.68,
     "view": "強勢但偏高:1月 +45.39%、RSI 73 超買。技術面強但宜等回檔。3月 +34.23%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "asm_international": {
     "ticker": "ASM.AS",
@@ -798,9 +827,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -18.2,
+    "market_cap_usd": 50.71,
     "view": "區間整理:1月 -1.35%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "asml": {
     "ticker": "ASML",
@@ -828,9 +858,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -7.7,
+    "market_cap_usd": 708.31,
     "view": "突破前夕:MACD/量能轉強,RSI 68。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "asmpt": {
     "ticker": "0522.HK",
@@ -856,9 +887,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -27.6,
+    "market_cap_usd": 9.41,
     "view": "突破前夕:MACD/量能轉強,RSI 60。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "astera_labs": {
     "ticker": "ALAB",
@@ -883,9 +915,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -35.6,
+    "market_cap_usd": 55.79,
     "view": "區間整理:1月 0.58%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "astrazeneca_glp1": {
     "ticker": "AZN",
@@ -906,9 +939,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -25.7,
+    "market_cap_usd": 242.64,
     "view": "中性:1月 -7.58%、3月 -15.41%。RSI 31",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "asts": {
     "ticker": "ASTS",
@@ -930,9 +964,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -47.0,
+    "market_cap_usd": 21.28,
     "view": "強勢上漲:1月 +29.03%、3月 +-14.49%。距 52週高點 -47.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "atlassian": {
     "ticker": "TEAM",
@@ -958,9 +993,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -11.8,
+    "market_cap_usd": 25.9,
     "view": "強勢但偏高:1月 +75.64%、RSI 86 超買。技術面強但宜等回檔。3月 +100.62%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "autodesk": {
     "ticker": "ADSK",
@@ -983,9 +1019,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -23.5,
+    "market_cap_usd": 53.14,
     "view": "強勢上漲:1月 +15.94%、3月 +7.61%。距 52週高點 -23.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "autolus": {
     "ticker": "AUTL",
@@ -1010,9 +1047,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -11.5,
+    "market_cap_usd": 0.57,
     "view": "強勢但偏高:1月 +47.26%、RSI 72 超買。技術面強但宜等回檔。3月 +35.22%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "bachem": {
     "ticker": "BANB.SW",
@@ -1039,9 +1077,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -9.6,
+    "market_cap_usd": 6.94,
     "view": "突破前夕:MACD/量能轉強,RSI 58。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "bae_systems": {
     "ticker": "BAESY",
@@ -1066,9 +1105,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -1.9,
+    "market_cap_usd": 89.53,
     "view": "強勢但偏高:1月 +23.38%、RSI 81 超買。技術面強但宜等回檔。3月 +18.22%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "bayer_kerendia": {
     "ticker": "BAYN.DE",
@@ -1094,9 +1134,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -11.4,
+    "market_cap_usd": 54.38,
     "view": "穩健上升:1月 +0.15%、3月 +24.07%。RSI 54,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "beam": {
     "ticker": "BEAM",
@@ -1118,9 +1159,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -30.1,
+    "market_cap_usd": 2.76,
     "view": "中性:1月 -5.78%、3月 -9.41%。RSI 60",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "besi": {
     "ticker": "BESI.AS",
@@ -1146,9 +1188,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -28.9,
+    "market_cap_usd": 21.41,
     "view": "強勢但偏高:1月 +-1.14%、RSI 70 超買。技術面強但宜等回檔。3月 +-8.4%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "bill_com": {
     "ticker": "BILL",
@@ -1174,9 +1217,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -13.0,
+    "market_cap_usd": 4.96,
     "view": "強勢上漲:1月 +11.46%、3月 +26.06%。距 52週高點 -13.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "biogen_leqembi": {
     "ticker": "BIIB",
@@ -1203,9 +1247,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -4.5,
+    "market_cap_usd": 31.0,
     "view": "突破前夕:MACD/量能轉強,RSI 63。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "biomarin": {
     "ticker": "BMRN",
@@ -1233,9 +1278,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -5.1,
+    "market_cap_usd": 13.04,
     "view": "強勢上漲:1月 +12.27%、3月 +26.52%。距 52週高點 -5.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "biontech_bntx": {
     "ticker": "BNTX",
@@ -1257,9 +1303,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -24.9,
+    "market_cap_usd": 23.38,
     "view": "中性:1月 1.67%、3月 1.2%。RSI 57",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "blackline": {
     "ticker": "BL",
@@ -1282,9 +1329,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -48.7,
+    "market_cap_usd": 1.77,
     "view": "穩健上升:1月 +0.83%、3月 +13.75%。RSI 50,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "blacksky": {
     "ticker": "BKSY",
@@ -1310,9 +1358,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -41.5,
+    "market_cap_usd": 1.27,
     "view": "強勢但偏高:1月 +44.08%、RSI 79 超買。技術面強但宜等回檔。3月 +-27.52%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "bms_opdivo": {
     "ticker": "BMY",
@@ -1337,9 +1386,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -6.3,
+    "market_cap_usd": 130.39,
     "view": "強勢上漲:1月 +5.49%、3月 +13.71%。距 52週高點 -6.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "booz_allen": {
     "ticker": "BAH",
@@ -1362,9 +1412,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -28.9,
+    "market_cap_usd": 9.32,
     "view": "強勢上漲:1月 +19.59%、3月 +7.16%。距 52週高點 -28.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "boston_sci": {
     "ticker": "BSX",
@@ -1387,9 +1438,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -52.7,
+    "market_cap_usd": 75.11,
     "view": "強勢但偏高:1月 +16.16%、RSI 85 超買。技術面強但宜等回檔。3月 +-3.21%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "broadcom": {
     "ticker": "AVGO",
@@ -1415,9 +1467,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -20.5,
+    "market_cap_usd": 1869.68,
     "view": "淺幅回檔:1週 -8.13% 但仍在 50日均線之上,趨勢未破。RSI 54",
     "view_type": "shallow_pullback",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "brookfield_renew": {
     "ticker": "BEPC",
@@ -1442,9 +1495,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -19.9,
+    "market_cap_usd": 5.36,
     "view": "中性:1月 4.17%、3月 -1.96%。RSI 70",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "bwxt": {
     "ticker": "BWXT",
@@ -1466,9 +1520,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -28.3,
+    "market_cap_usd": 15.87,
     "view": "區間整理:1月 -0.3%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cadence": {
     "ticker": "CDNS",
@@ -1489,9 +1544,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -22.0,
+    "market_cap_usd": 89.45,
     "view": "中性:1月 -10.92%、3月 -7.94%。RSI 38",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cameco": {
     "ticker": "CCJ",
@@ -1514,9 +1570,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -27.7,
+    "market_cap_usd": 42.57,
     "view": "強勢上漲:1月 +11.88%、3月 +-13.13%。距 52週高點 -27.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "caribou": {
     "ticker": "CRBU",
@@ -1537,9 +1594,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -55.3,
+    "market_cap_usd": 0.17,
     "view": "區間整理:1月 -4.82%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "caterpillar": {
     "ticker": "CAT",
@@ -1564,9 +1622,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -20.1,
+    "market_cap_usd": 393.74,
     "view": "突破前夕:MACD/量能轉強,RSI 47。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "catl": {
     "ticker": "300750.SZ",
@@ -1590,9 +1649,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -15.7,
+    "market_cap_usd": 257.95,
     "view": "中性:1月 7.96%、3月 -5.24%。RSI 47",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "celltrion": {
     "ticker": "068270.KS",
@@ -1615,9 +1675,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -15.9,
+    "market_cap_usd": 32.54,
     "view": "強勢上漲:1月 +14.4%、3月 +8.18%。距 52週高點 -15.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cgembio": {
     "ticker": "CCCC",
@@ -1643,9 +1704,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -18.0,
+    "market_cap_usd": 0.52,
     "view": "強勢但偏高:1月 +18.44%、RSI 74 超買。技術面強但宜等回檔。3月 +16.8%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "chroma": {
     "ticker": "2360.TW",
@@ -1671,9 +1733,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -17.0,
+    "market_cap_usd": 30.44,
     "view": "強勢上漲:1月 +15.58%、3月 +6.15%。距 52週高點 -17.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cisco": {
     "ticker": "CSCO",
@@ -1697,9 +1760,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -14.0,
+    "market_cap_usd": 440.18,
     "view": "回檔整理:1週 -8.03%,價格仍在 200日均線之上。RSI 46,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cloudflare": {
     "ticker": "NET",
@@ -1727,9 +1791,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -4.9,
+    "market_cap_usd": 101.88,
     "view": "強勢上漲:1月 +15.9%、3月 +58.04%。距 52週高點 -4.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "coherent": {
     "ticker": "COHR",
@@ -1752,9 +1817,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -25.9,
+    "market_cap_usd": 63.75,
     "view": "健康回檔:1週 -14.06% 但仍在長期上升趨勢,1年 +248.85%。RSI 58",
     "view_type": "healthy_pullback",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cohu": {
     "ticker": "COHU",
@@ -1780,9 +1846,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -20.5,
+    "market_cap_usd": 2.81,
     "view": "強勢上漲:1月 +15.12%、3月 +21.12%。距 52週高點 -20.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "constellation": {
     "ticker": "CEG",
@@ -1807,9 +1874,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -31.3,
+    "market_cap_usd": 100.09,
     "view": "強勢上漲:1月 +12.21%、3月 +2.79%。距 52週高點 -31.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "corning": {
     "ticker": "GLW",
@@ -1834,9 +1902,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -38.9,
+    "market_cap_usd": 142.98,
     "view": "區間整理:1月 4.8%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "credo": {
     "ticker": "CRDO",
@@ -1863,9 +1932,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -15.8,
+    "market_cap_usd": 48.47,
     "view": "強勢上漲:1月 +24.97%、3月 +40.84%。距 52週高點 -15.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "crispr_tx": {
     "ticker": "CRSP",
@@ -1888,9 +1958,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -31.8,
+    "market_cap_usd": 5.18,
     "view": "強勢但偏高:1月 +10.25%、RSI 79 超買。技術面強但宜等回檔。3月 +6.14%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "croda": {
     "ticker": "CRDA.L",
@@ -1917,9 +1988,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -2.8,
+    "market_cap_usd": 615.38,
     "view": "強勢但偏高:1月 +11.23%、RSI 74 超買。技術面強但宜等回檔。3月 +17.28%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "crowdstrike": {
     "ticker": "CRWD",
@@ -1945,9 +2017,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -4.6,
+    "market_cap_usd": 220.91,
     "view": "強勢但偏高:1月 +6.47%、RSI 75 超買。技術面強但宜等回檔。3月 +49.63%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cvs": {
     "ticker": "CVS",
@@ -1970,9 +2043,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -11.7,
+    "market_cap_usd": 124.26,
     "view": "中性:1月 -8.21%、3月 0.63%。RSI 29",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "cymer": {
     "ticker": "ASML",
@@ -2000,65 +2074,68 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -7.7,
+    "market_cap_usd": 708.31,
     "view": "突破前夕:MACD/量能轉強,RSI 68。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "dai_nippon": {
     "ticker": "7912.T",
-    "price": 3315.0,
-    "return_1w": 10.56,
-    "return_1m": 4.54,
-    "return_3m": 13.92,
-    "return_1y": 44.26,
-    "rsi": 62.6,
-    "ma_50": 2956.3,
-    "ma_200": 2847.76,
+    "price": 3325.0,
+    "return_1w": 9.74,
+    "return_1m": 3.42,
+    "return_3m": 18.1,
+    "return_1y": 43.83,
+    "rsi": 61.5,
+    "ma_50": 2969.22,
+    "ma_200": 2851.59,
     "signals": [
       "黃金交叉 (50日 > 200日)",
       "價格突破 50日均線",
-      "RSI 強勢區 (63)"
+      "RSI 強勢區 (62)"
     ],
     "bullish_score": 4,
     "rapid_rise": false,
     "early_signals": [
       "MACD 黃金交叉 (剛轉多)",
-      "接近 52週高點 (-1.5%)",
+      "接近 52週高點 (-1.2%)",
       "長期上升通道整理",
       "盤整後突破 (1週走強)"
     ],
     "early_score": 4,
     "early_signal": true,
-    "dist_from_52w_high": -1.5,
-    "view": "突破前夕:MACD/量能轉強,RSI 63。早期介入機會",
+    "dist_from_52w_high": -1.2,
+    "market_cap_usd": 8.97,
+    "view": "突破前夕:MACD/量能轉強,RSI 62。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "daiichi_enhertu": {
     "ticker": "4568.T",
-    "price": 2729.0,
-    "return_1w": 2.59,
-    "return_1m": 1.85,
-    "return_3m": 6.02,
-    "return_1y": -22.7,
-    "rsi": 46.0,
-    "ma_50": 2654.81,
-    "ma_200": 2985.28,
+    "price": 2692.0,
+    "return_1w": -2.18,
+    "return_1m": 0.56,
+    "return_3m": 2.73,
+    "return_1y": -22.59,
+    "rsi": 42.6,
+    "ma_50": 2660.81,
+    "ma_200": 2978.49,
     "signals": [
       "價格突破 50日均線"
     ],
     "bullish_score": 1,
     "rapid_rise": false,
     "early_signals": [
-      "RSI 中性回升區 (46)",
-      "MACD 黃金交叉 (剛轉多)"
+      "RSI 中性回升區 (43)",
+      "MACD 動能轉強"
     ],
     "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -33.8,
-    "view": "中性:1月 1.85%、3月 6.02%。RSI 46",
+    "dist_from_52w_high": -34.7,
+    "market_cap_usd": 30.79,
+    "view": "中性:1月 0.56%、3月 2.73%。RSI 43",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "danaher": {
     "ticker": "DHR",
@@ -2080,9 +2157,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -16.3,
+    "market_cap_usd": 142.32,
     "view": "中性:1月 -1.25%、3月 23.3%。RSI 59",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "dario": {
     "ticker": "DRIO",
@@ -2107,9 +2185,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -57.2,
+    "market_cap_usd": 0.07,
     "view": "強勢上漲:1月 +12.04%、3月 +-9.54%。距 52週高點 -57.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "datadog": {
     "ticker": "DDOG",
@@ -2138,9 +2217,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -12.7,
+    "market_cap_usd": 85.55,
     "view": "突破前夕:MACD/量能轉強,RSI 51。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "delta": {
     "ticker": "2308.TW",
@@ -2166,9 +2246,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -26.7,
+    "market_cap_usd": 152.99,
     "view": "突破前夕:MACD/量能轉強,RSI 57。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "dexcom": {
     "ticker": "DXCM",
@@ -2195,9 +2276,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -2.4,
+    "market_cap_usd": 33.87,
     "view": "強勢但偏高:1月 +15.09%、RSI 77 超買。技術面強但宜等回檔。3月 +55.22%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "docusign": {
     "ticker": "DOCU",
@@ -2221,9 +2303,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -28.4,
+    "market_cap_usd": 11.85,
     "view": "強勢上漲:1月 +16.22%、3月 +36.35%。距 52週高點 -28.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "doubleverify": {
     "ticker": "DV",
@@ -2250,9 +2333,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -19.2,
+    "market_cap_usd": 2.04,
     "view": "強勢但偏高:1月 +12.63%、RSI 80 超買。技術面強但宜等回檔。3月 +54.36%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "dropbox": {
     "ticker": "DBX",
@@ -2279,9 +2363,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -5.2,
+    "market_cap_usd": 4.9,
     "view": "強勢上漲:1月 +13.04%、3月 +31.37%。距 52週高點 -5.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "dynatrace": {
     "ticker": "DT",
@@ -2307,9 +2392,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -7.8,
+    "market_cap_usd": 14.26,
     "view": "強勢上漲:1月 +9.61%、3月 +32.38%。距 52週高點 -7.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "eaton": {
     "ticker": "ETN",
@@ -2335,9 +2421,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -5.5,
+    "market_cap_usd": 175.37,
     "view": "強勢上漲:1月 +14.22%、3月 +10.91%。距 52週高點 -5.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "editas": {
     "ticker": "EDIT",
@@ -2362,9 +2449,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -37.8,
+    "market_cap_usd": 0.43,
     "view": "區間整理:1月 -2.08%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "edwards": {
     "ticker": "EW",
@@ -2391,9 +2479,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -4.9,
+    "market_cap_usd": 52.8,
     "view": "強勢但偏高:1月 +4.28%、RSI 77 超買。技術面強但宜等回檔。3月 +12.61%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "eight_x_eight": {
     "ticker": "EGHT",
@@ -2415,37 +2504,40 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -27.8,
+    "market_cap_usd": 0.3,
     "view": "淺幅回檔:1週 -9.57% 但仍在 50日均線之上,趨勢未破。RSI 60",
     "view_type": "shallow_pullback",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "eisai": {
     "ticker": "4523.T",
-    "price": 4858.0,
-    "return_1w": 3.56,
-    "return_1m": 11.01,
-    "return_3m": 2.86,
-    "return_1y": 16.55,
-    "rsi": 56.2,
-    "ma_50": 4300.4,
-    "ma_200": 4541.46,
+    "price": 4782.0,
+    "return_1w": 0.08,
+    "return_1m": 12.36,
+    "return_3m": 7.97,
+    "return_1y": 14.33,
+    "rsi": 50.9,
+    "ma_50": 4319.74,
+    "ma_200": 4542.4,
     "signals": [
       "價格突破 50日均線",
-      "1月強勢 +11.01%",
-      "RSI 強勢區 (56)"
+      "1月強勢 +12.36%",
+      "RSI 強勢區 (51)"
     ],
     "bullish_score": 3,
     "rapid_rise": true,
     "early_signals": [
+      "RSI 中性回升區 (51)",
       "MACD 動能轉強",
-      "接近 52週高點 (-7.2%)"
+      "接近 52週高點 (-8.6%)"
     ],
-    "early_score": 2,
-    "early_signal": false,
-    "dist_from_52w_high": -7.2,
-    "view": "強勢上漲:1月 +11.01%、3月 +2.86%。距 52週高點 -7.2%,動能延續",
+    "early_score": 3,
+    "early_signal": true,
+    "dist_from_52w_high": -8.6,
+    "market_cap_usd": 8.48,
+    "view": "強勢上漲:1月 +12.36%、3月 +7.97%。距 52週高點 -8.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "elastic": {
     "ticker": "ESTC",
@@ -2472,9 +2564,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -9.8,
+    "market_cap_usd": 9.01,
     "view": "強勢但偏高:1月 +39.56%、RSI 95 超買。技術面強但宜等回檔。3月 +74.13%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "eoptolink": {
     "ticker": "300502.SZ",
@@ -2499,9 +2592,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -27.6,
+    "market_cap_usd": 92.8,
     "view": "突破前夕:MACD/量能轉強,RSI 43。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "equinix": {
     "ticker": "EQIX",
@@ -2527,9 +2621,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -1.9,
+    "market_cap_usd": 108.75,
     "view": "強勢上漲:1月 +9.21%、3月 +2.58%。距 52週高點 -1.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "faraday": {
     "ticker": "3035.TW",
@@ -2552,9 +2647,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -29.2,
+    "market_cap_usd": 1.41,
     "view": "中性:1月 -14.74%、3月 -9.3%。RSI 35",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "figma": {
     "ticker": "FIG",
@@ -2577,9 +2673,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -68.5,
+    "market_cap_usd": 11.57,
     "view": "強勢上漲:1月 +8.59%、3月 +25.59%。距 52週高點 -68.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "first_solar": {
     "ticker": "FSLR",
@@ -2601,9 +2698,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -29.7,
+    "market_cap_usd": 24.24,
     "view": "⚠ 趨勢轉弱:1週 -9.79% 跌破 200日均線。RSI 60。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "five9": {
     "ticker": "FIVN",
@@ -2630,9 +2728,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -4.6,
+    "market_cap_usd": 2.47,
     "view": "強勢上漲:1月 +30.64%、3月 +59.04%。距 52週高點 -4.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "fluence": {
     "ticker": "FLNC",
@@ -2653,9 +2752,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -60.8,
+    "market_cap_usd": 1.88,
     "view": "中性:1月 -8.88%、3月 -37.25%。RSI 48",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "foghorn": {
     "ticker": "FHTX",
@@ -2682,9 +2782,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -9.9,
+    "market_cap_usd": 0.37,
     "view": "強勢上漲:1月 +23.47%、3月 +54.95%。距 52週高點 -9.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "fortinet": {
     "ticker": "FTNT",
@@ -2711,9 +2812,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -7.0,
+    "market_cap_usd": 117.4,
     "view": "中性:1月 -0.48%、3月 31.31%。RSI 58",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "foxconn": {
     "ticker": "2317.TW",
@@ -2738,9 +2840,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -14.9,
+    "market_cap_usd": 113.53,
     "view": "強勢上漲:1月 +7.01%、3月 +7.54%。距 52週高點 -14.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "garmin": {
     "ticker": "GRMN",
@@ -2767,9 +2870,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -1.3,
+    "market_cap_usd": 59.82,
     "view": "強勢但偏高:1月 +23.59%、RSI 85 超買。技術面強但宜等回檔。3月 +32.91%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ge_health": {
     "ticker": "GEHC",
@@ -2792,9 +2896,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -17.8,
+    "market_cap_usd": 33.28,
     "view": "強勢但偏高:1月 +12.22%、RSI 79 超買。技術面強但宜等回檔。3月 +17.65%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ge_vernova": {
     "ticker": "GEV",
@@ -2821,9 +2926,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -11.1,
+    "market_cap_usd": 283.18,
     "view": "突破前夕:MACD/量能轉強,RSI 61。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "genmab": {
     "ticker": "GMAB.CO",
@@ -2847,9 +2953,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -10.2,
+    "market_cap_usd": 19.58,
     "view": "強勢上漲:1月 +7.22%、3月 +20.37%。距 52週高點 -10.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "gilead_trodelvy": {
     "ticker": "GILD",
@@ -2873,9 +2980,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -11.0,
+    "market_cap_usd": 171.56,
     "view": "穩健上升:1月 +1.51%、3月 +5.46%。RSI 66,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ginkgo": {
     "ticker": "DNA",
@@ -2898,9 +3006,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -61.4,
+    "market_cap_usd": 0.38,
     "view": "⚠ 趨勢轉弱:1週 -14.81% 跌破 200日均線。RSI 43。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "gitlab": {
     "ticker": "GTLB",
@@ -2927,9 +3036,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -18.6,
+    "market_cap_usd": 7.15,
     "view": "強勢但偏高:1月 +34.22%、RSI 80 超買。技術面強但宜等回檔。3月 +88.58%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "globalfoundries": {
     "ticker": "GFS",
@@ -2954,9 +3064,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -40.9,
+    "market_cap_usd": 29.95,
     "view": "中性:1月 -6.28%、3月 -25.98%。RSI 52",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "google": {
     "ticker": "GOOGL",
@@ -2980,9 +3091,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -15.3,
+    "market_cap_usd": 2029.45,
     "view": "區間整理:1月 -2.41%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "google_deepmind": {
     "ticker": "GOOGL",
@@ -3006,9 +3118,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -15.3,
+    "market_cap_usd": 2029.45,
     "view": "區間整理:1月 -2.41%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "google_jax": {
     "ticker": "GOOGL",
@@ -3032,9 +3145,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -15.3,
+    "market_cap_usd": 2029.45,
     "view": "區間整理:1月 -2.41%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "grail": {
     "ticker": "GRAL",
@@ -3059,9 +3173,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -42.9,
+    "market_cap_usd": 3.03,
     "view": "中性:1月 -5.68%、3月 9.82%。RSI 51",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "guardant": {
     "ticker": "GH",
@@ -3087,9 +3202,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -11.0,
+    "market_cap_usd": 21.1,
     "view": "穩健上升:1月 +1.43%、3月 +59.35%。RSI 61,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "guc": {
     "ticker": "3443.TW",
@@ -3116,9 +3232,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -7.7,
+    "market_cap_usd": 22.88,
     "view": "強勢但偏高:1月 +30.59%、RSI 72 超買。技術面強但宜等回檔。3月 +15.82%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "hims": {
     "ticker": "HIMS",
@@ -3141,50 +3258,52 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -56.9,
+    "market_cap_usd": 6.33,
     "view": "⚠ 趨勢轉弱:1週 -10.89% 跌破 200日均線。RSI 45。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "hitachi_hi_tech": {
     "ticker": "6501.T",
-    "price": 5767.0,
-    "return_1w": 4.85,
-    "return_1m": 20.1,
-    "return_3m": 19.85,
-    "return_1y": 40.75,
-    "rsi": 88.8,
-    "ma_50": 4938.38,
-    "ma_200": 4959.62,
+    "price": 5592.0,
+    "return_1w": -0.5,
+    "return_1m": 16.6,
+    "return_3m": 16.31,
+    "return_1y": 37.11,
+    "rsi": 74.0,
+    "ma_50": 4946.56,
+    "ma_200": 4964.83,
     "signals": [
       "價格突破 50日均線",
-      "1月強勢 +20.1%",
-      "RSI 超買 (89) — 注意回檔"
+      "1月強勢 +16.6%",
+      "RSI 超買 (74) — 注意回檔"
     ],
     "bullish_score": 2,
     "rapid_rise": true,
     "early_signals": [
-      "接近 52週高點 (-4.0%)"
+      "接近 52週高點 (-6.9%)"
     ],
     "early_score": 1,
     "early_signal": false,
-    "dist_from_52w_high": -4.0,
-    "view": "強勢但偏高:1月 +20.1%、RSI 89 超買。技術面強但宜等回檔。3月 +19.85%",
+    "dist_from_52w_high": -6.9,
+    "market_cap_usd": 157.33,
+    "view": "強勢但偏高:1月 +16.6%、RSI 74 超買。技術面強但宜等回檔。3月 +16.31%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "hoya": {
     "ticker": "7741.T",
-    "price": 26645.0,
-    "return_1w": 4.59,
-    "return_1m": 4.2,
-    "return_3m": -4.86,
-    "return_1y": 49.34,
-    "rsi": 68.8,
-    "ma_50": 25699.5,
-    "ma_200": 25955.57,
+    "price": 26300.0,
+    "return_1w": 2.57,
+    "return_1m": 3.83,
+    "return_3m": -5.14,
+    "return_1y": 45.55,
+    "rsi": 63.8,
+    "ma_50": 25696.9,
+    "ma_200": 25974.85,
     "signals": [
       "價格突破 50日均線",
-      "RSI 強勢區 (69)"
+      "RSI 強勢區 (64)"
     ],
     "bullish_score": 2,
     "rapid_rise": false,
@@ -3193,10 +3312,11 @@
     ],
     "early_score": 1,
     "early_signal": false,
-    "dist_from_52w_high": -12.4,
-    "view": "中性:1月 4.2%、3月 -4.86%。RSI 69",
+    "dist_from_52w_high": -13.5,
+    "market_cap_usd": 55.3,
+    "view": "中性:1月 3.83%、3月 -5.14%。RSI 64",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "hpe": {
     "ticker": "HPE",
@@ -3224,9 +3344,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -8.4,
+    "market_cap_usd": 77.74,
     "view": "強勢但偏高:1月 +30.09%、RSI 74 超買。技術面強但宜等回檔。3月 +72.52%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "hubbell": {
     "ticker": "HUBB",
@@ -3252,9 +3373,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -9.3,
+    "market_cap_usd": 27.02,
     "view": "強勢上漲:1月 +6.09%、3月 +6.41%。距 52週高點 -9.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "hubspot": {
     "ticker": "HUBS",
@@ -3280,9 +3402,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -57.3,
+    "market_cap_usd": 11.47,
     "view": "突破前夕:MACD/量能轉強,RSI 50。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "iberdrola": {
     "ticker": "IBE.MC",
@@ -3306,38 +3429,39 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -6.7,
+    "market_cap_usd": 156.12,
     "view": "中性:1月 -3.67%、3月 5.31%。RSI 19",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ibiden": {
     "ticker": "4062.T",
-    "price": 20785.0,
-    "return_1w": 9.34,
-    "return_1m": 15.6,
-    "return_3m": 32.73,
-    "return_1y": 537.07,
-    "rsi": 59.7,
-    "ma_50": 20070.9,
-    "ma_200": 11863.7,
+    "price": 20680.0,
+    "return_1w": 8.22,
+    "return_1m": 6.93,
+    "return_3m": 32.27,
+    "return_1y": 504.1,
+    "rsi": 61.7,
+    "ma_50": 20081.4,
+    "ma_200": 11941.64,
     "signals": [
       "黃金交叉 (50日 > 200日)",
       "價格突破 50日均線",
-      "1月強勢 +15.6%",
-      "3月動能 +32.73%",
-      "RSI 強勢區 (60)"
+      "3月動能 +32.27%",
+      "RSI 強勢區 (62)"
     ],
-    "bullish_score": 6,
+    "bullish_score": 5,
     "rapid_rise": true,
     "early_signals": [
       "MACD 動能轉強"
     ],
     "early_score": 1,
     "early_signal": false,
-    "dist_from_52w_high": -24.4,
-    "view": "強勢上漲:1月 +15.6%、3月 +32.73%。距 52週高點 -24.4%,動能延續",
+    "dist_from_52w_high": -24.7,
+    "market_cap_usd": 36.33,
+    "view": "強勢上漲:1月 +6.93%、3月 +32.27%。距 52週高點 -24.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "illumina": {
     "ticker": "ILMN",
@@ -3365,9 +3489,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -7.8,
+    "market_cap_usd": 28.82,
     "view": "突破前夕:MACD/量能轉強,RSI 51。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "infineon": {
     "ticker": "IFX.DE",
@@ -3393,9 +3518,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -30.5,
+    "market_cap_usd": 92.91,
     "view": "突破前夕:MACD/量能轉強,RSI 50。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "innolight": {
     "ticker": "300308.SZ",
@@ -3419,9 +3545,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -33.4,
+    "market_cap_usd": 156.21,
     "view": "⚠ 下跌趨勢:1月 -15.27%、3月 -9.76%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "intel": {
     "ticker": "INTC",
@@ -3445,9 +3572,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -28.0,
+    "market_cap_usd": 541.83,
     "view": "強勢上漲:1月 +5.69%、3月 +-11.58%。距 52週高點 -28.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "intellia": {
     "ticker": "NTLA",
@@ -3471,9 +3599,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -57.8,
+    "market_cap_usd": 1.67,
     "view": "區間整理:1月 0.42%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "intuitive": {
     "ticker": "ISRG",
@@ -3497,9 +3626,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -34.7,
+    "market_cap_usd": 141.34,
     "view": "強勢但偏高:1月 +-1.94%、RSI 72 超買。技術面強但宜等回檔。3月 +-7.84%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "inventec": {
     "ticker": "2356.TW",
@@ -3526,9 +3656,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -18.5,
+    "market_cap_usd": 7.84,
     "view": "強勢上漲:1月 +15.16%、3月 +39.05%。距 52週高點 -18.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "iovance": {
     "ticker": "IOVA",
@@ -3557,9 +3688,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -0.3,
+    "market_cap_usd": 3.16,
     "view": "強勢但偏高:1月 +49.79%、RSI 73 超買。技術面強但宜等回檔。3月 +98.3%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "irhythm": {
     "ticker": "IRTC",
@@ -3581,9 +3713,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -40.4,
+    "market_cap_usd": 4.17,
     "view": "強勢上漲:1月 +9.61%、3月 +10.76%。距 52週高點 -40.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "iridium": {
     "ticker": "IRDM",
@@ -3608,9 +3741,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -12.2,
+    "market_cap_usd": 5.32,
     "view": "強勢上漲:1月 +7.7%、3月 +15.96%。距 52週高點 -12.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "jcet": {
     "ticker": "600584.SS",
@@ -3636,9 +3770,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -30.9,
+    "market_cap_usd": 20.92,
     "view": "突破前夕:MACD/量能轉強,RSI 46。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "jnj_invokana": {
     "ticker": "JNJ",
@@ -3665,9 +3800,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -5.3,
+    "market_cap_usd": 627.42,
     "view": "突破前夕:MACD/量能轉強,RSI 40。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "kaori": {
     "ticker": "8996.TW",
@@ -3693,9 +3829,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -23.8,
+    "market_cap_usd": 3.72,
     "view": "強勢上漲:1月 +13.78%、3月 +22.49%。距 52週高點 -23.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "kilopass": {
     "ticker": "SNPS",
@@ -3716,9 +3853,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -32.7,
+    "market_cap_usd": 80.71,
     "view": "區間整理:1月 1.07%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "kla": {
     "ticker": "KLAC",
@@ -3743,9 +3881,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -33.7,
+    "market_cap_usd": 266.17,
     "view": "中性:1月 -7.13%、3月 7.76%。RSI 50",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "klaviyo": {
     "ticker": "KVYO",
@@ -3772,9 +3911,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -49.0,
+    "market_cap_usd": 2.61,
     "view": "突破前夕:MACD/量能轉強,RSI 53。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "kulicke_soffa": {
     "ticker": "KLIC",
@@ -3801,9 +3941,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -27.0,
+    "market_cap_usd": 5.19,
     "view": "突破前夕:MACD/量能轉強,RSI 51。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "kymera": {
     "ticker": "KYMR",
@@ -3832,9 +3973,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -9.7,
+    "market_cap_usd": 9.66,
     "view": "突破前夕:MACD/量能轉強,RSI 62。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "l3harris": {
     "ticker": "LHX",
@@ -3856,9 +3998,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -22.5,
+    "market_cap_usd": 54.34,
     "view": "區間整理:1月 2.6%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lam_research": {
     "ticker": "LRCX",
@@ -3884,9 +4027,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -24.2,
+    "market_cap_usd": 415.89,
     "view": "突破前夕:MACD/量能轉強,RSI 62。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lantheus": {
     "ticker": "LNTH",
@@ -3911,9 +4055,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -9.8,
+    "market_cap_usd": 6.59,
     "view": "突破前夕:MACD/量能轉強,RSI 24。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lattice": {
     "ticker": "LSCC",
@@ -3937,9 +4082,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -16.9,
+    "market_cap_usd": 18.53,
     "view": "區間整理:1月 4.79%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "legalzoom": {
     "ticker": "LZ",
@@ -3958,9 +4104,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -54.7,
+    "market_cap_usd": 0.96,
     "view": "⚠ 下跌趨勢:1月 -28.68%、3月 -4.42%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "legend": {
     "ticker": "LEGN",
@@ -3984,9 +4131,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -46.6,
+    "market_cap_usd": 3.95,
     "view": "中性:1月 -10.3%、3月 -28.78%。RSI 59",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lifestance": {
     "ticker": "LFST",
@@ -4014,9 +4162,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -2.6,
+    "market_cap_usd": 4.75,
     "view": "強勢上漲:1月 +10.01%、3月 +57.41%。距 52週高點 -2.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lilly_mech": {
     "ticker": "LLY",
@@ -4043,9 +4192,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -5.4,
+    "market_cap_usd": 1052.4,
     "view": "突破前夕:MACD/量能轉強,RSI 48。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lipoid_evo": {
     "ticker": "EVK.DE",
@@ -4070,9 +4220,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -1.0,
+    "market_cap_usd": 9.74,
     "view": "強勢但偏高:1月 +6.31%、RSI 73 超買。技術面強但宜等回檔。3月 +10.56%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "liteon": {
     "ticker": "2301.TW",
@@ -4099,9 +4250,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -5.0,
+    "market_cap_usd": 18.93,
     "view": "強勢上漲:1月 +22.48%、3月 +28.67%。距 52週高點 -5.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lockheed": {
     "ticker": "LMT",
@@ -4124,9 +4276,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -11.5,
+    "market_cap_usd": 140.48,
     "view": "強勢上漲:1月 +18.53%、3月 +17.73%。距 52週高點 -11.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lonza": {
     "ticker": "LONN.SW",
@@ -4154,9 +4307,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -4.8,
+    "market_cap_usd": 48.39,
     "view": "突破前夕:MACD/量能轉強,RSI 52。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "lumentum": {
     "ticker": "LITE",
@@ -4180,9 +4334,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -14.7,
+    "market_cap_usd": 82.06,
     "view": "強勢上漲:1月 +31.14%、3月 +-7.55%。距 52週高點 -14.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "macronix": {
     "ticker": "2337.TW",
@@ -4208,9 +4363,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -28.6,
+    "market_cap_usd": 8.47,
     "view": "突破前夕:MACD/量能轉強,RSI 56。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "madrigal": {
     "ticker": "MDGL",
@@ -4233,9 +4389,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -17.5,
+    "market_cap_usd": 11.73,
     "view": "中性:1月 -6.96%、3月 -5.99%。RSI 39",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "magnite": {
     "ticker": "MGNI",
@@ -4262,9 +4419,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -7.2,
+    "market_cap_usd": 3.55,
     "view": "強勢但偏高:1月 +24.21%、RSI 86 超買。技術面強但宜等回檔。3月 +99.11%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "marvell": {
     "ticker": "MRVL",
@@ -4289,9 +4447,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -32.7,
+    "market_cap_usd": 194.44,
     "view": "強勢上漲:1月 +17.91%、3月 +21.63%。距 52週高點 -32.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "mchp": {
     "ticker": "MCHP",
@@ -4316,9 +4475,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -24.9,
+    "market_cap_usd": 42.99,
     "view": "區間整理:1月 -3.07%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "mediatek": {
     "ticker": "2454.TW",
@@ -4344,9 +4504,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -14.8,
+    "market_cap_usd": 209.96,
     "view": "強勢上漲:1月 +13.78%、3月 +24.56%。距 52週高點 -14.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "medtronic_hugo": {
     "ticker": "MDT",
@@ -4370,9 +4531,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -12.0,
+    "market_cap_usd": 116.83,
     "view": "強勢但偏高:1月 +9.23%、RSI 77 超買。技術面強但宜等回檔。3月 +19.65%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "merck_kgaa": {
     "ticker": "MRK.DE",
@@ -4396,9 +4558,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -8.4,
+    "market_cap_usd": 20.4,
     "view": "中性:1月 -1.2%、3月 13.25%。RSI 37",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "merck_steglatro": {
     "ticker": "MRK",
@@ -4425,9 +4588,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -0.1,
+    "market_cap_usd": 335.14,
     "view": "強勢上漲:1月 +6.43%、3月 +20.64%。距 52週高點 -0.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "meta": {
     "ticker": "META",
@@ -4449,9 +4613,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -25.2,
+    "market_cap_usd": 1300.7,
     "view": "中性:1月 -11.24%、3月 -4.53%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "meta_ai": {
     "ticker": "META",
@@ -4473,24 +4638,25 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -25.2,
+    "market_cap_usd": 1300.7,
     "view": "中性:1月 -11.24%、3月 -4.53%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "mhi": {
     "ticker": "7011.T",
-    "price": 4254.0,
-    "return_1w": 6.4,
-    "return_1m": 13.56,
-    "return_3m": 4.26,
-    "return_1y": 20.68,
-    "rsi": 65.5,
-    "ma_50": 3827.02,
-    "ma_200": 4264.68,
+    "price": 4234.0,
+    "return_1w": 4.7,
+    "return_1m": 10.61,
+    "return_3m": 3.22,
+    "return_1y": 13.61,
+    "rsi": 67.8,
+    "ma_50": 3837.68,
+    "ma_200": 4263.85,
     "signals": [
       "價格突破 50日均線",
-      "1月強勢 +13.56%",
-      "RSI 強勢區 (66)"
+      "1月強勢 +10.61%",
+      "RSI 強勢區 (68)"
     ],
     "bullish_score": 3,
     "rapid_rise": true,
@@ -4499,10 +4665,11 @@
     ],
     "early_score": 1,
     "early_signal": false,
-    "dist_from_52w_high": -18.1,
-    "view": "強勢上漲:1月 +13.56%、3月 +4.26%。距 52週高點 -18.1%,動能延續",
+    "dist_from_52w_high": -18.5,
+    "market_cap_usd": 89.43,
+    "view": "強勢上漲:1月 +10.61%、3月 +3.22%。距 52週高點 -18.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "micron": {
     "ticker": "MU",
@@ -4529,9 +4696,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -22.6,
+    "market_cap_usd": 1097.39,
     "view": "強勢上漲:1月 +13.88%、3月 +25.23%。距 52週高點 -22.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "microsoft": {
     "ticker": "MSFT",
@@ -4556,9 +4724,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -10.0,
+    "market_cap_usd": 3678.62,
     "view": "強勢但偏高:1月 +23.51%、RSI 85 超買。技術面強但宜等回檔。3月 +21.26%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "moderna_mrna4157": {
     "ticker": "MRNA",
@@ -4586,9 +4755,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -26.0,
+    "market_cap_usd": 25.28,
     "view": "突破前夕:MACD/量能轉強,RSI 66。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "modine": {
     "ticker": "MOD",
@@ -4613,9 +4783,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -35.2,
+    "market_cap_usd": 11.13,
     "view": "突破前夕:MACD/量能轉強,RSI 41。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "mongodb": {
     "ticker": "MDB",
@@ -4643,9 +4814,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -2.7,
+    "market_cap_usd": 37.03,
     "view": "強勢但偏高:1月 +40.09%、RSI 88 超買。技術面強但宜等回檔。3月 +51.88%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "mps": {
     "ticker": "MPWR",
@@ -4668,9 +4840,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -18.1,
+    "market_cap_usd": 68.9,
     "view": "強勢上漲:1月 +7.38%、3月 +-13.0%。距 52週高點 -18.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "munters": {
     "ticker": "MTRS.ST",
@@ -4696,9 +4869,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -12.6,
+    "market_cap_usd": 3.56,
     "view": "強勢上漲:1月 +12.1%、3月 +-8.02%。距 52週高點 -12.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "myrg": {
     "ticker": "MYRG",
@@ -4721,9 +4895,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -33.6,
+    "market_cap_usd": 5.21,
     "view": "⚠ 下跌趨勢:1月 -16.15%、3月 -29.31%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nan_ya_pcb": {
     "ticker": "8046.TW",
@@ -4752,9 +4927,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -7.8,
+    "market_cap_usd": 26.35,
     "view": "突破前夕:MACD/量能轉強,RSI 63。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "natera": {
     "ticker": "NTRA",
@@ -4782,9 +4958,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -4.9,
+    "market_cap_usd": 44.67,
     "view": "強勢但偏高:1月 +14.86%、RSI 72 超買。技術面強但宜等回檔。3月 +57.4%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "neophotonics": {
     "ticker": "LITE",
@@ -4808,9 +4985,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -14.7,
+    "market_cap_usd": 82.06,
     "view": "強勢上漲:1月 +31.14%、3月 +-7.55%。距 52週高點 -14.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nextera": {
     "ticker": "NEE",
@@ -4833,9 +5011,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -12.1,
+    "market_cap_usd": 179.79,
     "view": "中性:1月 -3.54%、3月 -9.26%。RSI 34",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "northrop": {
     "ticker": "NOC",
@@ -4858,9 +5037,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -24.0,
+    "market_cap_usd": 83.23,
     "view": "強勢但偏高:1月 +12.96%、RSI 75 超買。技術面強但宜等回檔。3月 +7.25%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "novartis_olpa": {
     "ticker": "NVS",
@@ -4884,9 +5064,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -8.8,
+    "market_cap_usd": 286.78,
     "view": "中性:1月 -1.21%、3月 0.74%。RSI 37",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "novo_mech": {
     "ticker": "NVO",
@@ -4909,9 +5090,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -25.9,
+    "market_cap_usd": 151.73,
     "view": "中性:1月 -10.86%、3月 0.2%。RSI 38",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nurix": {
     "ticker": "NRIX",
@@ -4939,9 +5121,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -1.1,
+    "market_cap_usd": 2.81,
     "view": "強勢但偏高:1月 +17.25%、RSI 81 超買。技術面強但宜等回檔。3月 +69.06%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nuscale": {
     "ticker": "SMR",
@@ -4963,9 +5146,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -83.6,
+    "market_cap_usd": 3.85,
     "view": "強勢上漲:1月 +22.91%、3月 +-22.14%。距 52週高點 -83.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nvidia": {
     "ticker": "NVDA",
@@ -4990,9 +5174,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -4.7,
+    "market_cap_usd": 5453.6,
     "view": "強勢但偏高:1月 +8.56%、RSI 75 超買。技術面強但宜等回檔。3月 +-4.38%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nvidia_nemo": {
     "ticker": "NVDA",
@@ -5017,9 +5202,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -4.7,
+    "market_cap_usd": 5453.6,
     "view": "強勢但偏高:1月 +8.56%、RSI 75 超買。技術面強但宜等回檔。3月 +-4.38%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nvidia_triton": {
     "ticker": "NVDA",
@@ -5044,9 +5230,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -4.7,
+    "market_cap_usd": 5453.6,
     "view": "強勢但偏高:1月 +8.56%、RSI 75 超買。技術面強但宜等回檔。3月 +-4.38%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "nxp": {
     "ticker": "NXPI",
@@ -5069,9 +5256,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -30.7,
+    "market_cap_usd": 59.19,
     "view": "中性:1月 -13.28%、3月 -19.94%。RSI 33",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "oklo": {
     "ticker": "OKLO",
@@ -5094,9 +5282,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -77.1,
+    "market_cap_usd": null,
     "view": "強勢上漲:1月 +6.43%、3月 +-33.97%。距 52週高點 -77.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "okta": {
     "ticker": "OKTA",
@@ -5124,9 +5313,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -6.1,
+    "market_cap_usd": 24.49,
     "view": "突破前夕:MACD/量能轉強,RSI 61。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "omada": {
     "ticker": "OMDA",
@@ -5153,9 +5343,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -10.7,
+    "market_cap_usd": 1.46,
     "view": "穩健上升:1月 +1.56%、3月 +44.99%。RSI 66,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "oneweb": {
     "ticker": "ETL.PA",
@@ -5179,9 +5370,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -53.0,
+    "market_cap_usd": 2.92,
     "view": "區間整理:1月 -0.23%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "onto_innovation": {
     "ticker": "ONTO",
@@ -5207,9 +5399,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -14.2,
+    "market_cap_usd": 20.28,
     "view": "強勢上漲:1月 +17.79%、3月 +19.63%。距 52週高點 -14.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "oracle": {
     "ticker": "ORCL",
@@ -5231,9 +5424,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -56.0,
+    "market_cap_usd": 433.57,
     "view": "強勢但偏高:1月 +21.18%、RSI 75 超買。技術面強但宜等回檔。3月 +-22.78%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "palantir": {
     "ticker": "PLTR",
@@ -5257,9 +5451,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -16.1,
+    "market_cap_usd": 400.42,
     "view": "強勢但偏高:1月 +29.46%、RSI 73 超買。技術面強但宜等回檔。3月 +30.14%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "palo_alto": {
     "ticker": "PANW",
@@ -5286,9 +5481,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -3.7,
+    "market_cap_usd": 313.18,
     "view": "強勢但偏高:1月 +8.55%、RSI 79 超買。技術面強但宜等回檔。3月 +61.32%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "pfizer_oral": {
     "ticker": "PFE",
@@ -5312,9 +5508,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -3.6,
+    "market_cap_usd": 152.69,
     "view": "強勢但偏高:1月 +8.43%、RSI 75 超買。技術面強但宜等回檔。3月 +5.86%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "philips_health": {
     "ticker": "PHG",
@@ -5338,9 +5535,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -15.2,
+    "market_cap_usd": 26.67,
     "view": "強勢但偏高:1月 +0.0%、RSI 79 超買。技術面強但宜等回檔。3月 +7.02%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "photronics": {
     "ticker": "PLAB",
@@ -5363,9 +5561,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -40.5,
+    "market_cap_usd": 1.96,
     "view": "強勢上漲:1月 +14.82%、3月 +-35.94%。距 52週高點 -40.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "planet_labs": {
     "ticker": "PL",
@@ -5390,9 +5589,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -52.3,
+    "market_cap_usd": 8.22,
     "view": "強勢上漲:1月 +11.77%、3月 +-42.63%。距 52週高點 -52.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "polypeptide": {
     "ticker": "PPGN.SW",
@@ -5418,9 +5618,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -12.0,
+    "market_cap_usd": 1.79,
     "view": "中性:1月 -2.65%、3月 19.03%。RSI 69",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "prime_med": {
     "ticker": "PRME",
@@ -5444,9 +5645,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -55.5,
+    "market_cap_usd": 0.56,
     "view": "區間整理:1月 -4.04%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "procore": {
     "ticker": "PCOR",
@@ -5470,9 +5672,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -27.4,
+    "market_cap_usd": 9.09,
     "view": "強勢但偏高:1月 +32.51%、RSI 83 超買。技術面強但宜等回檔。3月 +28.46%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "pubmatic": {
     "ticker": "PUBM",
@@ -5500,9 +5703,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -4.6,
+    "market_cap_usd": 0.66,
     "view": "強勢但偏高:1月 +29.05%、RSI 83 超買。技術面強但宜等回檔。3月 +84.77%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "qiagen": {
     "ticker": "QGEN",
@@ -5527,9 +5731,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -25.0,
+    "market_cap_usd": 8.87,
     "view": "穩健上升:1月 +3.47%、3月 +30.18%。RSI 62,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "qualcomm": {
     "ticker": "QCOM",
@@ -5553,9 +5758,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -36.0,
+    "market_cap_usd": 174.08,
     "view": "區間整理:1月 -2.83%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "quanta": {
     "ticker": "2382.TW",
@@ -5581,9 +5787,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -22.0,
+    "market_cap_usd": 41.95,
     "view": "突破前夕:MACD/量能轉強,RSI 53。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "rambus": {
     "ticker": "RMBS",
@@ -5608,9 +5815,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -42.1,
+    "market_cap_usd": 10.94,
     "view": "區間整理:1月 -0.56%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "recursion_rxrx": {
     "ticker": "RXRX",
@@ -5631,9 +5839,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -56.0,
+    "market_cap_usd": 1.69,
     "view": "區間整理:1月 4.64%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "regeneron_muscle": {
     "ticker": "REGN",
@@ -5658,9 +5867,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -1.9,
+    "market_cap_usd": 81.26,
     "view": "強勢但偏高:1月 +18.34%、RSI 90 超買。技術面強但宜等回檔。3月 +12.88%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "regenxbio": {
     "ticker": "RGNX",
@@ -5685,9 +5895,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -33.5,
+    "market_cap_usd": 0.71,
     "view": "中性:1月 -3.88%、3月 72.38%。RSI 62",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "relay_tx": {
     "ticker": "RLAY",
@@ -5715,62 +5926,66 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -4.5,
+    "market_cap_usd": 4.35,
     "view": "突破前夕:MACD/量能轉強,RSI 67。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "renesas": {
     "ticker": "6723.T",
-    "price": 3746.0,
-    "return_1w": 1.99,
-    "return_1m": -14.49,
-    "return_3m": 2.71,
-    "return_1y": 107.9,
-    "rsi": 45.3,
-    "ma_50": 4294.84,
-    "ma_200": 3013.71,
+    "price": 3829.0,
+    "return_1w": 1.92,
+    "return_1m": -14.13,
+    "return_3m": 3.49,
+    "return_1y": 108.56,
+    "rsi": 49.1,
+    "ma_50": 4274.66,
+    "ma_200": 3023.4,
     "signals": [
       "黃金交叉 (50日 > 200日)"
     ],
     "bullish_score": 2,
     "rapid_rise": false,
     "early_signals": [
-      "RSI 中性回升區 (45)",
-      "MACD 黃金交叉 (剛轉多)"
+      "RSI 中性回升區 (49)",
+      "MACD 動能轉強"
     ],
     "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -29.1,
-    "view": "中性:1月 -14.49%、3月 2.71%。RSI 45",
+    "dist_from_52w_high": -27.5,
+    "market_cap_usd": 43.98,
+    "view": "中性:1月 -14.13%、3月 3.49%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "resonac": {
     "ticker": "4004.T",
-    "price": 16465.0,
-    "return_1w": 8.64,
-    "return_1m": 6.81,
-    "return_3m": -4.27,
-    "return_1y": 365.13,
-    "rsi": 59.1,
-    "ma_50": 16230.9,
-    "ma_200": 11592.33,
+    "price": 16605.0,
+    "return_1w": 1.28,
+    "return_1m": 4.11,
+    "return_3m": -0.51,
+    "return_1y": 369.08,
+    "rsi": 62.7,
+    "ma_50": 16205.8,
+    "ma_200": 11645.97,
     "signals": [
       "黃金交叉 (50日 > 200日)",
       "價格突破 50日均線",
-      "RSI 強勢區 (59)"
+      "RSI 強勢區 (63)"
     ],
     "bullish_score": 4,
-    "rapid_rise": true,
+    "rapid_rise": false,
     "early_signals": [
-      "MACD 動能轉強"
+      "MACD 動能轉強",
+      "長期上升通道整理"
     ],
-    "early_score": 1,
+    "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -19.7,
-    "view": "強勢上漲:1月 +6.81%、3月 +-4.27%。距 52週高點 -19.7%,動能延續",
-    "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "dist_from_52w_high": -19.0,
+    "market_cap_usd": 19.8,
+    "view": "中性:1月 4.11%、3月 -0.51%。RSI 63",
+    "view_type": "neutral",
+    "updated": "2026-08-17"
   },
   "revolution": {
     "ticker": "RVMD",
@@ -5797,9 +6012,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -2.4,
+    "market_cap_usd": 43.66,
     "view": "強勢上漲:1月 +13.69%、3月 +36.29%。距 52週高點 -2.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ringcentral": {
     "ticker": "RNG",
@@ -5826,9 +6042,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -5.8,
+    "market_cap_usd": 4.76,
     "view": "強勢上漲:1月 +54.71%、3月 +64.47%。距 52週高點 -5.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "roche_oral": {
     "ticker": "RHHBY",
@@ -5853,9 +6070,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -7.6,
+    "market_cap_usd": 300.98,
     "view": "中性:1月 5.97%、3月 6.3%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "rocket_lab": {
     "ticker": "RKLB",
@@ -5878,9 +6096,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -46.9,
+    "market_cap_usd": 48.03,
     "view": "強勢上漲:1月 +19.15%、3月 +-39.46%。距 52週高點 -46.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "roku": {
     "ticker": "ROKU",
@@ -5908,9 +6127,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -0.1,
+    "market_cap_usd": 20.82,
     "view": "強勢但偏高:1月 +9.64%、RSI 86 超買。技術面強但宜等回檔。3月 +25.29%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "salesforce": {
     "ticker": "CRM",
@@ -5933,9 +6153,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -26.7,
+    "market_cap_usd": 160.7,
     "view": "強勢上漲:1月 +13.63%、3月 +17.39%。距 52週高點 -26.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "samsung": {
     "ticker": "005930.KS",
@@ -5961,9 +6182,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -26.6,
+    "market_cap_usd": 1117.05,
     "view": "突破前夕:MACD/量能轉強,RSI 55。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "samsung_bio": {
     "ticker": "207940.KS",
@@ -5988,9 +6210,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -22.1,
+    "market_cap_usd": 50.59,
     "view": "強勢上漲:1月 +11.93%、3月 +6.83%。距 52週高點 -22.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "samsung_health": {
     "ticker": "005930.KS",
@@ -6016,9 +6239,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -26.6,
+    "market_cap_usd": 1117.05,
     "view": "突破前夕:MACD/量能轉強,RSI 55。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "samsung_lsi": {
     "ticker": "005930.KS",
@@ -6044,9 +6268,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -26.6,
+    "market_cap_usd": 1117.05,
     "view": "突破前夕:MACD/量能轉強,RSI 55。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "sanofi_glp1": {
     "ticker": "SNY",
@@ -6070,9 +6295,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -12.4,
+    "market_cap_usd": 104.76,
     "view": "中性:1月 -1.11%、3月 2.03%。RSI 48",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "sap": {
     "ticker": "SAP",
@@ -6096,9 +6322,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -24.8,
+    "market_cap_usd": 240.04,
     "view": "強勢但偏高:1月 +28.66%、RSI 80 超買。技術面強但宜等回檔。3月 +26.67%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "sarepta": {
     "ticker": "SRPT",
@@ -6122,9 +6349,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -28.5,
+    "market_cap_usd": 1.91,
     "view": "強勢上漲:1月 +5.05%、3月 +-3.1%。距 52週高點 -28.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "schneider": {
     "ticker": "SU.PA",
@@ -6150,9 +6378,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -1.9,
+    "market_cap_usd": 199.49,
     "view": "強勢但偏高:1月 +15.91%、RSI 79 超買。技術面強但宜等回檔。3月 +19.78%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "scholar_rock": {
     "ticker": "SRRK",
@@ -6178,9 +6407,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -10.2,
+    "market_cap_usd": 6.4,
     "view": "中性:1月 1.53%、3月 2.42%。RSI 62",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "schrodinger": {
     "ticker": "SDGR",
@@ -6205,9 +6435,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -23.6,
+    "market_cap_usd": 1.15,
     "view": "強勢但偏高:1月 +12.76%、RSI 71 超買。技術面強但宜等回檔。3月 +39.38%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "senseonics": {
     "ticker": "SENS",
@@ -6233,9 +6464,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -32.6,
+    "market_cap_usd": 0.41,
     "view": "強勢但偏高:1月 +51.95%、RSI 84 超買。技術面強但宜等回檔。3月 +34.19%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "sentinelone": {
     "ticker": "S",
@@ -6263,9 +6495,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -3.5,
+    "market_cap_usd": 7.78,
     "view": "強勢但偏高:1月 +17.73%、RSI 83 超買。技術面強但宜等回檔。3月 +39.98%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "servicenow": {
     "ticker": "NOW",
@@ -6289,35 +6522,37 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -36.3,
+    "market_cap_usd": 128.2,
     "view": "強勢但偏高:1月 +19.22%、RSI 71 超買。技術面強但宜等回檔。3月 +37.02%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "shin_etsu": {
     "ticker": "4063.T",
-    "price": 6372.0,
-    "return_1w": 3.32,
-    "return_1m": -14.71,
-    "return_3m": -10.32,
-    "return_1y": 49.54,
-    "rsi": 41.2,
-    "ma_50": 6868.66,
-    "ma_200": 6010.72,
+    "price": 6332.0,
+    "return_1w": 3.53,
+    "return_1m": -17.66,
+    "return_3m": -9.71,
+    "return_1y": 48.98,
+    "rsi": 56.9,
+    "ma_50": 6842.48,
+    "ma_200": 6018.22,
     "signals": [
-      "黃金交叉 (50日 > 200日)"
+      "黃金交叉 (50日 > 200日)",
+      "RSI 強勢區 (57)"
     ],
-    "bullish_score": 2,
+    "bullish_score": 3,
     "rapid_rise": false,
     "early_signals": [
-      "RSI 中性回升區 (41)",
       "MACD 黃金交叉 (剛轉多)"
     ],
-    "early_score": 2,
+    "early_score": 1,
     "early_signal": false,
-    "dist_from_52w_high": -19.6,
-    "view": "中性:1月 -14.71%、3月 -10.32%。RSI 41",
-    "view_type": "neutral",
-    "updated": "2026-08-16"
+    "dist_from_52w_high": -20.2,
+    "market_cap_usd": 73.62,
+    "view": "⚠ 下跌趨勢:1月 -17.66%、3月 -9.71%。尚有 200日均線支撐",
+    "view_type": "downtrend",
+    "updated": "2026-08-17"
   },
   "shopify": {
     "ticker": "SHOP",
@@ -6341,9 +6576,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -15.3,
+    "market_cap_usd": 188.21,
     "view": "強勢上漲:1月 +23.4%、3月 +58.41%。距 52週高點 -15.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "siemens_eda": {
     "ticker": "SIE.DE",
@@ -6369,9 +6605,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -2.6,
+    "market_cap_usd": 250.89,
     "view": "穩健上升:1月 +4.91%、3月 +10.59%。RSI 62,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "siemens_energy": {
     "ticker": "ENR.DE",
@@ -6396,9 +6633,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -16.1,
+    "market_cap_usd": 158.38,
     "view": "強勢上漲:1月 +8.05%、3月 +-4.16%。距 52週高點 -16.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "siemens_health": {
     "ticker": "SHL.DE",
@@ -6421,9 +6659,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -19.0,
+    "market_cap_usd": 50.96,
     "view": "強勢但偏高:1月 +11.8%、RSI 75 超買。技術面強但宜等回檔。3月 +16.1%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "siltronic": {
     "ticker": "WAF.DE",
@@ -6450,9 +6689,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -19.4,
+    "market_cap_usd": 3.35,
     "view": "突破前夕:MACD/量能轉強,RSI 63。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "sk_hynix": {
     "ticker": "000660.KS",
@@ -6477,9 +6717,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -44.9,
+    "market_cap_usd": 824.38,
     "view": "突破前夕:MACD/量能轉強,RSI 45。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "smith_n": {
     "ticker": "SNN",
@@ -6501,9 +6742,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -21.3,
+    "market_cap_usd": 12.49,
     "view": "中性:1月 -5.09%、3月 0.3%。RSI 41",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "snowflake": {
     "ticker": "SNOW",
@@ -6530,20 +6772,21 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -3.8,
+    "market_cap_usd": 114.0,
     "view": "強勢但偏高:1月 +21.81%、RSI 80 超買。技術面強但宜等回檔。3月 +118.17%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "socionext": {
     "ticker": "6526.T",
-    "price": 2118.5,
-    "return_1w": 5.35,
-    "return_1m": -18.11,
-    "return_3m": -12.68,
-    "return_1y": -25.88,
-    "rsi": 36.1,
-    "ma_50": 2419.25,
-    "ma_200": 2243.63,
+    "price": 2128.0,
+    "return_1w": 7.42,
+    "return_1m": -17.26,
+    "return_3m": -11.02,
+    "return_1y": -25.8,
+    "rsi": 36.4,
+    "ma_50": 2404.24,
+    "ma_200": 2239.9,
     "signals": [
       "黃金交叉 (50日 > 200日)"
     ],
@@ -6555,10 +6798,11 @@
     ],
     "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -38.6,
-    "view": "⚠ 下跌趨勢:1月 -18.11%、3月 -12.68%。已破 200日均線",
+    "dist_from_52w_high": -38.3,
+    "market_cap_usd": 2.34,
+    "view": "⚠ 下跌趨勢:1月 -17.26%、3月 -11.02%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "spil": {
     "ticker": "3711.TW",
@@ -6584,9 +6828,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -14.7,
+    "market_cap_usd": 100.23,
     "view": "突破前夕:MACD/量能轉強,RSI 51。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "spire": {
     "ticker": "SPIR",
@@ -6609,9 +6854,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -46.2,
+    "market_cap_usd": 0.54,
     "view": "強勢上漲:1月 +14.81%、3月 +-23.44%。距 52週高點 -46.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "splunk_cisco": {
     "ticker": "CSCO",
@@ -6635,9 +6881,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -14.0,
+    "market_cap_usd": 440.18,
     "view": "回檔整理:1週 -8.03%,價格仍在 200日均線之上。RSI 46,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "stem": {
     "ticker": "STEM",
@@ -6661,9 +6908,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -80.3,
+    "market_cap_usd": 0.06,
     "view": "中性:1月 0.32%、3月 -32.12%。RSI 60",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "stryker_robot": {
     "ticker": "SYK",
@@ -6687,37 +6935,40 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -13.7,
+    "market_cap_usd": 130.11,
     "view": "穩健上升:1月 +2.42%、3月 +11.33%。RSI 52,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "sumco": {
     "ticker": "3436.T",
-    "price": 3920.0,
-    "return_1w": 10.61,
-    "return_1m": -26.14,
-    "return_3m": 27.19,
-    "return_1y": 236.27,
-    "rsi": 55.5,
-    "ma_50": 4004.23,
-    "ma_200": 2399.02,
+    "price": 3823.0,
+    "return_1w": 10.17,
+    "return_1m": -24.66,
+    "return_3m": 28.11,
+    "return_1y": 222.33,
+    "rsi": 51.2,
+    "ma_50": 3993.6,
+    "ma_200": 2409.65,
     "signals": [
       "黃金交叉 (50日 > 200日)",
-      "3月動能 +27.19%",
-      "RSI 強勢區 (56)"
+      "3月動能 +28.11%",
+      "RSI 強勢區 (51)"
     ],
     "bullish_score": 4,
     "rapid_rise": false,
     "early_signals": [
+      "RSI 中性回升區 (51)",
       "MACD 黃金交叉 (剛轉多)",
       "盤整後突破 (1週走強)"
     ],
-    "early_score": 2,
-    "early_signal": false,
-    "dist_from_52w_high": -34.0,
-    "view": "⚠ 下跌趨勢:1月 -26.14%、3月 27.19%。尚有 200日均線支撐",
-    "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "early_score": 3,
+    "early_signal": true,
+    "dist_from_52w_high": -35.6,
+    "market_cap_usd": 8.4,
+    "view": "突破前夕:MACD/量能轉強,RSI 51。早期介入機會",
+    "view_type": "breakout_setup",
+    "updated": "2026-08-17"
   },
   "supermicro": {
     "ticker": "SMCI",
@@ -6742,9 +6993,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -32.2,
+    "market_cap_usd": 25.77,
     "view": "強勢但偏高:1月 +61.43%、RSI 72 超買。技術面強但宜等回檔。3月 +20.62%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "synopsys": {
     "ticker": "SNPS",
@@ -6765,9 +7017,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -32.7,
+    "market_cap_usd": 80.71,
     "view": "區間整理:1月 1.07%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "tandem": {
     "ticker": "TNDM",
@@ -6793,9 +7046,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -23.4,
+    "market_cap_usd": 1.58,
     "view": "強勢但偏高:1月 +39.47%、RSI 78 超買。技術面強但宜等回檔。3月 +60.57%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "te_connectivity": {
     "ticker": "TEL",
@@ -6817,9 +7071,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -14.1,
+    "market_cap_usd": 62.6,
     "view": "強勢上漲:1月 +6.74%、3月 +5.02%。距 52週高點 -14.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "teladoc": {
     "ticker": "TDOC",
@@ -6842,9 +7097,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -31.1,
+    "market_cap_usd": 1.24,
     "view": "⚠ 下跌趨勢:1月 -28.09%、3月 3.03%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "telix": {
     "ticker": "TLX",
@@ -6870,9 +7126,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -6.2,
+    "market_cap_usd": 4.0,
     "view": "強勢但偏高:1月 +9.14%、RSI 76 超買。技術面強但宜等回檔。3月 +8.84%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "tempus_lb": {
     "ticker": "TEM",
@@ -6896,9 +7153,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -50.1,
+    "market_cap_usd": 9.14,
     "view": "強勢但偏高:1月 +-2.78%、RSI 71 超買。技術面強但宜等回檔。3月 +14.56%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "teradata": {
     "ticker": "TDC",
@@ -6922,9 +7180,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -33.7,
+    "market_cap_usd": 2.57,
     "view": "中性:1月 -10.51%、3月 -17.27%。RSI 44",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "teradyne": {
     "ticker": "TER",
@@ -6950,9 +7209,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -14.2,
+    "market_cap_usd": 65.47,
     "view": "強勢但偏高:1月 +29.94%、RSI 72 超買。技術面強但宜等回檔。3月 +17.5%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "tesla": {
     "ticker": "TSLA",
@@ -6975,9 +7235,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -31.4,
+    "market_cap_usd": 1351.81,
     "view": "強勢但偏高:1月 +-12.48%、RSI 70 超買。技術面強但宜等回檔。3月 +-22.79%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "teva_ajovy": {
     "ticker": "TEVA",
@@ -7003,9 +7264,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -1.7,
+    "market_cap_usd": 42.85,
     "view": "強勢但偏高:1月 +14.12%、RSI 85 超買。技術面強但宜等回檔。3月 +4.13%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "texas_instruments": {
     "ticker": "TXN",
@@ -7030,9 +7292,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -15.9,
+    "market_cap_usd": 255.33,
     "view": "區間整理:1月 -3.51%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "thermo_glp": {
     "ticker": "TMO",
@@ -7057,9 +7320,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -8.5,
+    "market_cap_usd": 217.52,
     "view": "強勢上漲:1月 +8.3%、3月 +31.38%。距 52週高點 -8.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ti": {
     "ticker": "TXN",
@@ -7084,9 +7348,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -15.9,
+    "market_cap_usd": 255.33,
     "view": "區間整理:1月 -3.51%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "toast": {
     "ticker": "TOST",
@@ -7110,63 +7375,67 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -23.9,
+    "market_cap_usd": 17.86,
     "view": "強勢上漲:1月 +14.57%、3月 +50.63%。距 52週高點 -23.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "tokyo_electron": {
     "ticker": "8035.T",
-    "price": 59130.0,
-    "return_1w": 6.87,
-    "return_1m": -16.87,
-    "return_3m": 17.58,
-    "return_1y": 168.1,
-    "rsi": 44.5,
-    "ma_50": 66034.8,
-    "ma_200": 46215.41,
+    "price": 59880.0,
+    "return_1w": 9.87,
+    "return_1m": -19.34,
+    "return_3m": 21.56,
+    "return_1y": 172.59,
+    "rsi": 45.5,
+    "ma_50": 65959.2,
+    "ma_200": 46359.21,
     "signals": [
       "黃金交叉 (50日 > 200日)"
     ],
     "bullish_score": 2,
     "rapid_rise": false,
     "early_signals": [
-      "RSI 中性回升區 (44)",
+      "RSI 中性回升區 (46)",
       "MACD 黃金交叉 (剛轉多)",
       "盤整後突破 (1週走強)"
     ],
     "early_score": 3,
     "early_signal": true,
-    "dist_from_52w_high": -27.2,
-    "view": "突破前夕:MACD/量能轉強,RSI 44。早期介入機會",
+    "dist_from_52w_high": -26.3,
+    "market_cap_usd": 171.13,
+    "view": "突破前夕:MACD/量能轉強,RSI 46。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "toppan": {
     "ticker": "7911.T",
-    "price": 5281.0,
-    "return_1w": 13.08,
-    "return_1m": 7.58,
-    "return_3m": 17.88,
-    "return_1y": 31.27,
-    "rsi": 60.6,
-    "ma_50": 4786.98,
-    "ma_200": 4639.93,
+    "price": 5351.0,
+    "return_1w": 13.9,
+    "return_1m": 9.49,
+    "return_3m": 18.57,
+    "return_1y": 32.13,
+    "rsi": 67.0,
+    "ma_50": 4808.88,
+    "ma_200": 4648.12,
     "signals": [
       "黃金交叉 (50日 > 200日)",
       "價格突破 50日均線",
-      "RSI 強勢區 (61)"
+      "RSI 強勢區 (67)"
     ],
     "bullish_score": 4,
     "rapid_rise": true,
     "early_signals": [
-      "MACD 黃金交叉 (剛轉多)"
+      "MACD 動能轉強",
+      "接近 52週高點 (-9.1%)"
     ],
-    "early_score": 1,
+    "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -10.3,
-    "view": "強勢上漲:1月 +7.58%、3月 +17.88%。距 52週高點 -10.3%,動能延續",
+    "dist_from_52w_high": -9.1,
+    "market_cap_usd": 9.45,
+    "view": "強勢上漲:1月 +9.49%、3月 +18.57%。距 52週高點 -9.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "tower_semi": {
     "ticker": "TSEM",
@@ -7192,9 +7461,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -17.0,
+    "market_cap_usd": 30.01,
     "view": "強勢上漲:1月 +11.58%、3月 +-5.42%。距 52週高點 -17.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "trade_desk": {
     "ticker": "TTD",
@@ -7213,9 +7483,10 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -74.9,
+    "market_cap_usd": 6.03,
     "view": "⚠ 下跌趨勢:1月 -26.05%、3月 -30.72%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "travere": {
     "ticker": "TVTX",
@@ -7242,9 +7513,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -6.2,
+    "market_cap_usd": 5.86,
     "view": "強勢上漲:1月 +12.41%、3月 +40.91%。距 52週高點 -6.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "tsmc": {
     "ticker": "2330.TW",
@@ -7272,9 +7544,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -5.5,
+    "market_cap_usd": 1940.63,
     "view": "突破前夕:MACD/量能轉強,RSI 53。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "twilio": {
     "ticker": "TWLO",
@@ -7301,9 +7574,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -7.8,
+    "market_cap_usd": 36.58,
     "view": "強勢但偏高:1月 +15.24%、RSI 71 超買。技術面強但宜等回檔。3月 +20.28%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "tyler_tech": {
     "ticker": "TYL",
@@ -7328,9 +7602,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -43.0,
+    "market_cap_usd": 13.46,
     "view": "穩健上升:1月 +3.92%、3月 +9.88%。RSI 57,可繼續持有",
     "view_type": "steady",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "ucb_bimzelx": {
     "ticker": "UCB.BR",
@@ -7351,9 +7626,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -26.2,
+    "market_cap_usd": 46.88,
     "view": "中性:1月 -10.69%、3月 -9.62%。RSI 28",
     "view_type": "neutral",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "umc": {
     "ticker": "2303.TW",
@@ -7377,9 +7653,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -33.7,
+    "market_cap_usd": 47.41,
     "view": "⚠ 下跌趨勢:1月 -24.38%、3月 10.87%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "unimicron": {
     "ticker": "3037.TW",
@@ -7406,9 +7683,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -9.5,
+    "market_cap_usd": 50.77,
     "view": "強勢上漲:1月 +15.65%、3月 +25.26%。距 52週高點 -9.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "veeva": {
     "ticker": "VEEV",
@@ -7434,9 +7712,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -21.5,
+    "market_cap_usd": 39.6,
     "view": "強勢但偏高:1月 +23.5%、RSI 81 超買。技術面強但宜等回檔。3月 +56.0%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "veracyte": {
     "ticker": "VCYT",
@@ -7459,9 +7738,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -32.3,
+    "market_cap_usd": 3.32,
     "view": "⚠ 趨勢轉弱:1週 -12.64% 跌破 200日均線。RSI 25。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "vertex_ckd": {
     "ticker": "VRTX",
@@ -7488,9 +7768,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -7.4,
+    "market_cap_usd": 128.19,
     "view": "突破前夕:MACD/量能轉強,RSI 62。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "vertiv": {
     "ticker": "VRT",
@@ -7517,9 +7798,10 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -22.6,
+    "market_cap_usd": 113.12,
     "view": "突破前夕:MACD/量能轉強,RSI 52。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "veru": {
     "ticker": "VERU",
@@ -7545,9 +7827,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -62.8,
+    "market_cap_usd": 0.05,
     "view": "強勢但偏高:1月 +16.17%、RSI 75 超買。技術面強但宜等回檔。3月 +30.62%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "vicor": {
     "ticker": "VICR",
@@ -7573,9 +7856,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -38.7,
+    "market_cap_usd": 8.07,
     "view": "突破前夕:MACD/量能轉強,RSI 62。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "vistra": {
     "ticker": "VST",
@@ -7598,9 +7882,10 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -32.3,
+    "market_cap_usd": 49.72,
     "view": "突破前夕:MACD/量能轉強,RSI 42。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "weightwatchers": {
     "ticker": "WW",
@@ -7624,9 +7909,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -63.4,
+    "market_cap_usd": 0.14,
     "view": "⚠ 趨勢轉弱:1週 -22.41% 跌破 200日均線。RSI 51。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "wistron": {
     "ticker": "3231.TW",
@@ -7653,9 +7939,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -6.1,
+    "market_cap_usd": 19.23,
     "view": "強勢上漲:1月 +32.08%、3月 +48.04%。距 52週高點 -6.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "workday": {
     "ticker": "WDAY",
@@ -7681,9 +7968,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -20.5,
+    "market_cap_usd": 39.93,
     "view": "強勢但偏高:1月 +36.62%、RSI 74 超買。技術面強但宜等回檔。3月 +67.31%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "wuxi_bio": {
     "ticker": "2269.HK",
@@ -7711,9 +7999,10 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -7.5,
+    "market_cap_usd": 23.62,
     "view": "強勢但偏高:1月 +14.8%、RSI 78 超買。技術面強但宜等回檔。3月 +38.3%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "zimmer_rosa": {
     "ticker": "ZBH",
@@ -7738,9 +8027,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -6.1,
+    "market_cap_usd": 19.2,
     "view": "強勢上漲:1月 +7.36%、3月 +22.1%。距 52週高點 -6.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "zoom": {
     "ticker": "ZM",
@@ -7766,9 +8056,10 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -7.7,
+    "market_cap_usd": 28.04,
     "view": "強勢但偏高:1月 +14.03%、RSI 75 超買。技術面強但宜等回檔。3月 +7.87%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "zscaler": {
     "ticker": "ZS",
@@ -7793,8 +8084,9 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -45.5,
+    "market_cap_usd": 29.69,
     "view": "強勢但偏高:1月 +25.38%、RSI 79 超買。技術面強但宜等回檔。3月 +19.45%",
     "view_type": "extended",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   }
 }
