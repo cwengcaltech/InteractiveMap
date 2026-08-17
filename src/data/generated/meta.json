@@ -3,10 +3,10 @@
   "financials_updated": "2026-08-17",
   "stats": {
     "total": 289,
-    "rapid_rise": 129,
-    "early_signal": 51,
+    "rapid_rise": 134,
+    "early_signal": 45,
     "pullback": 6,
-    "broken_trend": 6,
+    "broken_trend": 7,
     "stale": 0,
     "unavailable": 45
   }
