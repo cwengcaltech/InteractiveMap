@@ -56,8 +56,11 @@ export default function SupplyChainGraph({
     typeof import("@antv/g6").Graph
   > | null>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
+  // 同步必須放在 effect 裡，render 期間寫 ref 會讓 React 讀到過期的值
   const onSelectRef = useRef(onSelectCompany);
-  onSelectRef.current = onSelectCompany;
+  useEffect(() => {
+    onSelectRef.current = onSelectCompany;
+  }, [onSelectCompany]);
 
   const buildGraphData = useCallback(() => {
     const filteredCompanies = companies.filter((c) =>

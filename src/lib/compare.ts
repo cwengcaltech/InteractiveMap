@@ -25,6 +25,16 @@ export interface CompareRow {
   rsi: number | null;
   bullishScore: number | null;
   viewType: string | null;
+  /** 逐年財務，供時間軸回放使用；key 為西元年 */
+  byYear: Record<number, YearlyMetrics>;
+}
+
+export interface YearlyMetrics {
+  /** 十億美元 */
+  revenue: number | null;
+  growth: number | null;
+  grossMargin: number | null;
+  operatingMargin: number | null;
 }
 
 /** 同業群組：來自 topics.ts 的 section，是資料中語意最乾淨的分組依據。 */
@@ -47,7 +57,17 @@ function latestAnnual(company: Company) {
 function buildRow(company: Company, price: PriceData | undefined): CompareRow {
   const annual = latestAnnual(company);
   const currency = company.financials.currency;
+  const byYear: Record<number, YearlyMetrics> = {};
+  for (const row of company.financials.annual) {
+    byYear[row.year] = {
+      revenue: toUsd(row.revenue, currency),
+      growth: row.growth_rate,
+      grossMargin: row.gross_margin,
+      operatingMargin: row.operating_margin,
+    };
+  }
   return {
+    byYear,
     id: company.id,
     name: company.name,
     ticker: company.ticker,
@@ -112,3 +132,31 @@ export function getPeerGroup(id: string): PeerGroup | undefined {
 export function groupsForCompany(companyId: string): PeerGroup[] {
   return peerGroups.filter((g) => g.memberIds.includes(companyId));
 }
+
+/**
+ * 時間軸可用的年份。
+ *
+ * 兩個排除條件：
+ * 1. 覆蓋率不足一半的年份不收。最新一年只有少數會計年度提早結束的公司
+ *    （如輝達 FY2026）有數字，放進去會是一格幾乎空白的畫面。
+ * 2. 最早的一年不收。成長率是跟前一年比出來的，而資料只保留近四年，
+ *    因此最早那年的成長率一律是 0，畫成氣泡圖會讓所有公司擠在 x=0。
+ *
+ * 預估年度也不納入：分析師只預估營收、沒有毛利率，畫不出同一張圖。
+ */
+export const timelineYears: number[] = (() => {
+  const counts = new Map<number, number>();
+  for (const row of compareRows) {
+    for (const [year, metrics] of Object.entries(row.byYear)) {
+      if (metrics.revenue !== null && metrics.grossMargin !== null) {
+        counts.set(Number(year), (counts.get(Number(year)) ?? 0) + 1);
+      }
+    }
+  }
+  const max = Math.max(...counts.values(), 0);
+  const covered = [...counts.entries()]
+    .filter(([, n]) => n >= max * 0.5)
+    .map(([year]) => year)
+    .sort((a, b) => a - b);
+  return covered.slice(1);
+})();

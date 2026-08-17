@@ -28,13 +28,15 @@ interface Point {
   revenue: number | null;
 }
 
-function toPoint(row: CompareRow): Point | null {
-  if (row.growth === null || row.grossMargin === null) return null;
+/** year 為 null 時用最新一年的數字；指定年份則取該年度，供時間軸回放使用。 */
+function toPoint(row: CompareRow, year: number | null): Point | null {
+  const m = year === null ? row : row.byYear[year];
+  if (!m || m.growth === null || m.grossMargin === null) return null;
   return {
-    value: [row.growth * 100, row.grossMargin * 100, bubbleSize(row.revenue)],
+    value: [m.growth * 100, m.grossMargin * 100, bubbleSize(m.revenue)],
     name: row.name,
     ticker: row.ticker,
-    revenue: row.revenue,
+    revenue: m.revenue,
   };
 }
 
@@ -62,14 +64,16 @@ interface Props {
   universe: CompareRow[];
   /** 上色並標名的公司 */
   selected: CompareRow[];
+  /** 要呈現的年度；null 表示最新一年 */
+  year?: number | null;
 }
 
-export default function PeerBubble({ universe, selected }: Props) {
+export default function PeerBubble({ universe, selected, year = null }: Props) {
   const { option, hidden } = useMemo(() => {
     const selectedIds = new Set(selected.map((r) => r.id));
     const allBackground = universe
       .filter((r) => !selectedIds.has(r.id))
-      .map(toPoint)
+      .map((r) => toPoint(r, year))
       .filter((p): p is Point => p !== null);
     const background = allBackground.filter(inRange);
     const hiddenCount = allBackground.length - background.length;
@@ -82,11 +86,19 @@ export default function PeerBubble({ universe, selected }: Props) {
 
     // 大泡泡先畫、小泡泡後畫，否則小的會被大的整個蓋住看不見
     const ordered = selected
-      .map((row, i) => ({ row, color: SERIES_COLORS[i], point: toPoint(row) }))
+      .map((row, i) => ({
+        row,
+        color: SERIES_COLORS[i],
+        point: toPoint(row, year),
+      }))
       .sort((a, b) => (b.point?.value[2] ?? 0) - (a.point?.value[2] ?? 0));
 
     const option = {
       backgroundColor: "transparent",
+      // 換年時讓泡泡平移過去，看得出移動方向
+      animationDuration: 700,
+      animationDurationUpdate: 700,
+      animationEasingUpdate: "cubicInOut" as const,
       tooltip: {
         ...tooltipStyle,
         formatter: (params: { data: Point }) => tooltipFor(params.data),
@@ -162,7 +174,7 @@ export default function PeerBubble({ universe, selected }: Props) {
     };
 
     return { option, hidden: hiddenCount };
-  }, [universe, selected]);
+  }, [universe, selected, year]);
 
   return (
     <div>
@@ -171,7 +183,6 @@ export default function PeerBubble({ universe, selected }: Props) {
           option={option}
           style={{ height: "100%", width: "100%" }}
           opts={{ renderer: "svg" }}
-          notMerge
         />
       </div>
       {hidden > 0 && (

@@ -10,15 +10,18 @@ import FilterBar, {
 } from "@/components/compare/FilterBar";
 import PeerBubble from "@/components/compare/PeerBubble";
 import PeerRadar from "@/components/compare/PeerRadar";
+import TimelineControl from "@/components/compare/TimelineControl";
 import { MAX_COMPARE_SERIES } from "@/lib/chartTheme";
 import {
   compareRows,
   getPeerGroup,
   getRow,
   peerGroups,
+  timelineYears,
   type CompareRow,
 } from "@/lib/compare";
 import { countryFlag } from "@/lib/countryFlags";
+import { downloadCsv } from "@/lib/exportCsv";
 
 export default function ComparePage() {
   return (
@@ -37,6 +40,8 @@ function CompareView() {
 
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [groupQuery, setGroupQuery] = useState("");
+  const [year, setYear] = useState(timelineYears[timelineYears.length - 1]);
+  const [playing, setPlaying] = useState(false);
 
   const selectedIds = useMemo(() => {
     const raw = params.get("ids");
@@ -213,9 +218,24 @@ function CompareView() {
               <h2 className="text-sm font-medium text-gray-900">
                 成長 × 獲利分佈
               </h2>
-              <span className="text-xs text-gray-400">泡泡大小為年營收</span>
+              <span className="text-xs text-gray-400">
+                {year} 年度 · 泡泡大小為年營收
+              </span>
             </div>
-            <PeerBubble universe={displayRows} selected={selected} />
+            <div className="mb-2">
+              <TimelineControl
+                years={timelineYears}
+                value={year}
+                onChange={setYear}
+                playing={playing}
+                onPlayingChange={setPlaying}
+              />
+            </div>
+            <PeerBubble
+              universe={displayRows}
+              selected={selected}
+              year={year}
+            />
           </div>
         </section>
 
@@ -224,9 +244,22 @@ function CompareView() {
             <h2 className="text-sm font-medium text-gray-900">
               對照表（{displayRows.length} 家）
             </h2>
-            <span className="text-xs text-gray-400">
-              點選任一列即可加入／移出圖表
-            </span>
+            <div className="flex items-center gap-3">
+              <span className="text-xs text-gray-400">
+                點選任一列即可加入／移出圖表
+              </span>
+              <button
+                onClick={() =>
+                  downloadCsv(
+                    displayRows,
+                    group ? `${group.topicName}-${group.name}` : "全市場",
+                  )
+                }
+                className="px-2 py-1 rounded-lg text-xs bg-white border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors"
+              >
+                匯出 CSV
+              </button>
+            </div>
           </div>
           <CompareTable
             rows={displayRows}
