@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { marketTypeLabels, healthMarketTypeLabels } from "@/data/categories";
 import type { MarketType } from "@/data/categories";
 import { priceData } from "@/data/priceData";
@@ -83,6 +84,14 @@ export default function TopicSectionCard({
           <div>
             <h3 className="text-lg font-bold text-gray-900">{section.name}</h3>
             <p className="text-sm text-gray-400 mt-0.5">{section.name_en}</p>
+            {topicCategory !== "hl" && (
+              <Link
+                href={`/compare?group=${section.id}`}
+                className="inline-flex items-center gap-1 mt-1.5 text-xs text-gray-500 hover:text-[#4f6df5] transition-colors"
+              >
+                📊 比較本環節
+              </Link>
+            )}
           </div>
           <span
             className="shrink-0 px-2.5 py-1 rounded-full text-xs font-medium"

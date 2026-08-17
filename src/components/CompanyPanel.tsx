@@ -2,12 +2,28 @@
 
 import { useState, useMemo } from "react";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { companies, type Company } from "@/data/companies";
 import { relations } from "@/data/relations";
 import { categories } from "@/data/categories";
 import { priceData } from "@/data/priceData";
+import { groupsForCompany } from "@/lib/compare";
 
 const ReactECharts = dynamic(() => import("echarts-for-react"), { ssr: false });
+
+/** 連到同業比較頁，並預先選定這家公司所屬的環節。 */
+function CompareLink({ companyId }: { companyId: string }) {
+  const group = groupsForCompany(companyId)[0];
+  if (!group) return null;
+  return (
+    <Link
+      href={`/compare?group=${group.id}&ids=${companyId}`}
+      className="inline-flex items-center gap-1 mt-1.5 text-xs text-gray-500 hover:text-[#4f6df5] transition-colors"
+    >
+      📊 與同業比較
+    </Link>
+  );
+}
 
 interface CompanyPanelProps {
   companyId: string | null;
@@ -93,6 +109,7 @@ export default function CompanyPanel({
                   {company.name}
                 </h2>
                 <p className="text-sm text-gray-500">{company.name_en}</p>
+                <CompareLink companyId={company.id} />
               </div>
               <button
                 onClick={onClose}

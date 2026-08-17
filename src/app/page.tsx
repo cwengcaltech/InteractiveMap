@@ -256,6 +256,15 @@ export default function Home() {
 
       {/* Topic directory */}
       <main className="max-w-6xl mx-auto px-4 pb-16">
+        <div className="flex justify-end mb-4">
+          <Link
+            href="/compare"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm bg-white border border-gray-200 text-gray-600 hover:text-[#4f6df5] hover:shadow-md transition-all duration-200"
+          >
+            📊 同業比較
+          </Link>
+        </div>
+
         {/* Stock watchlist */}
         <StockWatchlist />
 
