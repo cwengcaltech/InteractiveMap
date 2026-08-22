@@ -1,12 +1,12 @@
 {
   "abb": {
     "ticker": "ABBNY",
-    "price": 100.22,
-    "return_1w": -1.7,
-    "return_1m": 2.48,
-    "return_3m": -4.92,
-    "return_1y": 50.42,
-    "rsi": 53.9,
+    "price": 100.18,
+    "return_1w": -1.74,
+    "return_1m": 2.44,
+    "return_3m": -4.96,
+    "return_1y": 50.36,
+    "rsi": 53.8,
     "ma_50": 102.01,
     "ma_200": 89.18,
     "signals": [
@@ -23,7 +23,7 @@
     "early_score": 3,
     "early_signal": true,
     "dist_from_52w_high": -9.1,
-    "market_cap_usd": 181.73,
+    "market_cap_usd": 181.66,
     "view": "突破前夕:MACD/量能轉強,RSI 54。早期介入機會",
     "view_type": "breakout_setup",
     "updated": "2026-08-22"
@@ -712,17 +712,17 @@
   },
   "arvinas": {
     "ticker": "ARVN",
-    "price": 9.36,
-    "return_1w": 4.4,
-    "return_1m": 15.33,
-    "return_3m": 2.91,
-    "return_1y": 27.94,
-    "rsi": 65.8,
+    "price": 9.37,
+    "return_1w": 4.46,
+    "return_1m": 15.39,
+    "return_3m": 2.97,
+    "return_1y": 28.01,
+    "rsi": 65.9,
     "ma_50": 8.34,
     "ma_200": 10.59,
     "signals": [
       "價格突破 50日均線",
-      "1月強勢 +15.33%",
+      "1月強勢 +15.39%",
       "RSI 強勢區 (66)"
     ],
     "bullish_score": 3,
@@ -730,9 +730,9 @@
     "early_signals": [],
     "early_score": 0,
     "early_signal": false,
-    "dist_from_52w_high": -35.5,
+    "dist_from_52w_high": -35.4,
     "market_cap_usd": 0.6,
-    "view": "強勢上漲:1月 +15.33%、3月 +2.91%。距 52週高點 -35.5%,動能延續",
+    "view": "強勢上漲:1月 +15.39%、3月 +2.97%。距 52週高點 -35.4%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
   },
@@ -975,7 +975,7 @@
   },
   "autodesk": {
     "ticker": "ADSK",
-    "price": 253.82,
+    "price": 253.83,
     "return_1w": 0.86,
     "return_1m": 23.66,
     "return_3m": 5.68,
@@ -1061,31 +1061,31 @@
   },
   "bae_systems": {
     "ticker": "BAESY",
-    "price": 116.04,
-    "return_1w": -5.06,
-    "return_1m": 10.62,
-    "return_3m": 10.26,
-    "return_1y": 23.58,
-    "rsi": 50.2,
+    "price": 116.16,
+    "return_1w": -4.97,
+    "return_1m": 10.73,
+    "return_3m": 10.38,
+    "return_1y": 23.71,
+    "rsi": 50.5,
     "ma_50": 106.86,
     "ma_200": 105.97,
     "signals": [
       "黃金交叉 (50日 > 200日)",
       "價格突破 50日均線",
-      "1月強勢 +10.62%",
+      "1月強勢 +10.73%",
       "RSI 強勢區 (50)"
     ],
     "bullish_score": 5,
     "rapid_rise": true,
     "early_signals": [
       "RSI 中性回升區 (50)",
-      "接近 52週高點 (-6.9%)"
+      "接近 52週高點 (-6.8%)"
     ],
     "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -6.9,
-    "market_cap_usd": 84.99,
-    "view": "強勢上漲:1月 +10.62%、3月 +10.26%。距 52週高點 -6.9%,動能延續",
+    "dist_from_52w_high": -6.8,
+    "market_cap_usd": 85.08,
+    "view": "強勢上漲:1月 +10.73%、3月 +10.38%。距 52週高點 -6.8%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
   },
@@ -1621,7 +1621,7 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -16.3,
-    "market_cap_usd": 256.91,
+    "market_cap_usd": 256.58,
     "view": "中性:1月 1.71%、3月 -2.56%。RSI 49",
     "view_type": "neutral",
     "updated": "2026-08-22"
@@ -1647,7 +1647,7 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -19.6,
-    "market_cap_usd": 31.84,
+    "market_cap_usd": 31.87,
     "view": "強勢上漲:1月 +13.05%、3月 +12.55%。距 52週高點 -19.6%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
@@ -2534,7 +2534,7 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -28.6,
-    "market_cap_usd": 91.82,
+    "market_cap_usd": 91.7,
     "view": "中性:1月 -11.12%、3月 -5.93%。RSI 59",
     "view_type": "neutral",
     "updated": "2026-08-22"
@@ -3454,7 +3454,7 @@
     "early_score": 2,
     "early_signal": false,
     "dist_from_52w_high": -33.4,
-    "market_cap_usd": 156.69,
+    "market_cap_usd": 156.49,
     "view": "中性:1月 -12.08%、3月 -13.72%。RSI 54",
     "view_type": "neutral",
     "updated": "2026-08-22"
@@ -3678,7 +3678,7 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -31.0,
-    "market_cap_usd": 20.95,
+    "market_cap_usd": 20.92,
     "view": "強勢但偏高:1月 +-2.77%、RSI 73 超買。技術面強但宜等回檔。3月 +-1.89%",
     "view_type": "extended",
     "updated": "2026-08-22"
@@ -5911,12 +5911,12 @@
   },
   "roche_oral": {
     "ticker": "RHHBY",
-    "price": 58.21,
-    "return_1w": 6.77,
-    "return_1m": 7.96,
-    "return_3m": 10.43,
-    "return_1y": 46.93,
-    "rsi": 63.8,
+    "price": 58.1,
+    "return_1w": 6.57,
+    "return_1m": 7.75,
+    "return_3m": 10.23,
+    "return_1y": 46.66,
+    "rsi": 63.5,
     "ma_50": 53.3,
     "ma_200": 51.39,
     "signals": [
@@ -5928,13 +5928,13 @@
     "rapid_rise": true,
     "early_signals": [
       "MACD 黃金交叉 (剛轉多)",
-      "接近 52週高點 (-1.3%)"
+      "接近 52週高點 (-1.5%)"
     ],
     "early_score": 2,
     "early_signal": false,
-    "dist_from_52w_high": -1.3,
-    "market_cap_usd": 321.35,
-    "view": "強勢上漲:1月 +7.96%、3月 +10.43%。距 52週高點 -1.3%,動能延續",
+    "dist_from_52w_high": -1.5,
+    "market_cap_usd": 320.75,
+    "view": "強勢上漲:1月 +7.75%、3月 +10.23%。距 52週高點 -1.5%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
   },
@@ -6043,7 +6043,7 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -24.8,
-    "market_cap_usd": 1171.56,
+    "market_cap_usd": 1172.51,
     "view": "強勢上漲:1月 +8.06%、3月 +2.11%。距 52週高點 -24.8%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
@@ -6069,7 +6069,7 @@
     "early_score": 0,
     "early_signal": false,
     "dist_from_52w_high": -21.9,
-    "market_cap_usd": 51.84,
+    "market_cap_usd": 51.88,
     "view": "強勢上漲:1月 +13.05%、3月 +16.01%。距 52週高點 -21.9%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
@@ -6096,7 +6096,7 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -24.8,
-    "market_cap_usd": 1171.56,
+    "market_cap_usd": 1172.51,
     "view": "強勢上漲:1月 +8.06%、3月 +2.11%。距 52週高點 -24.8%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
@@ -6123,7 +6123,7 @@
     "early_score": 1,
     "early_signal": false,
     "dist_from_52w_high": -24.8,
-    "market_cap_usd": 1171.56,
+    "market_cap_usd": 1172.51,
     "view": "強勢上漲:1月 +8.06%、3月 +2.11%。距 52週高點 -24.8%,動能延續",
     "view_type": "strong_uptrend",
     "updated": "2026-08-22"
@@ -6561,7 +6561,7 @@
     "early_score": 4,
     "early_signal": true,
     "dist_from_52w_high": -42.1,
-    "market_cap_usd": 886.68,
+    "market_cap_usd": 887.39,
     "view": "突破前夕:MACD/量能轉強,RSI 50。早期介入機會",
     "view_type": "breakout_setup",
     "updated": "2026-08-22"
