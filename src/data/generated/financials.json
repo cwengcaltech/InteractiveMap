@@ -76,18 +76,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 38.02,
-        "growth_est": 0.144,
+        "revenue_est": 38.05,
+        "growth_est": 0.145,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 41.92,
-        "growth_est": 0.103,
+        "revenue_est": 42.06,
+        "growth_est": 0.105,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 1813299480,
+    "shares_outstanding": 1811884899,
     "quote_currency": "USD"
   },
   "abbott_libre": {
@@ -264,7 +264,7 @@
       },
       {
         "year": 2027,
-        "revenue_est": 73.51,
+        "revenue_est": 73.52,
         "growth_est": 0.088,
         "source": "yfinance analyst consensus"
       }
@@ -495,18 +495,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 1741.91,
-        "growth_est": 0.543,
+        "revenue_est": 1757.39,
+        "growth_est": 0.557,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 2020.23,
-        "growth_est": 0.16,
+        "revenue_est": 2164.78,
+        "growth_est": 0.232,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 724094138,
+    "shares_outstanding": 722281552,
     "quote_currency": "JPY"
   },
   "ajinomoto": {
@@ -550,14 +550,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 1729.91,
+        "revenue_est": 1729.8,
         "growth_est": 0.092,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 1831.77,
-        "growth_est": 0.059,
+        "revenue_est": 1840.84,
+        "growth_est": 0.064,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -605,14 +605,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 4.98,
-        "growth_est": 0.627,
+        "revenue_est": 4.49,
+        "growth_est": 0.467,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 7.48,
-        "growth_est": 0.502,
+        "revenue_est": 7.37,
+        "growth_est": 0.641,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -696,14 +696,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 73.42,
-        "growth_est": 1.374,
+        "revenue_est": 76.72,
+        "growth_est": 1.48,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 115.56,
-        "growth_est": 0.574,
+        "revenue_est": 114.0,
+        "growth_est": 0.486,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -865,13 +865,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 828.28,
+        "revenue_est": 828.19,
         "growth_est": 0.155,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 946.36,
+        "revenue_est": 946.58,
         "growth_est": 0.143,
         "source": "yfinance analyst consensus"
       }
@@ -956,13 +956,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 50.78,
-        "growth_est": 0.466,
+        "revenue_est": 50.81,
+        "growth_est": 0.467,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 87.34,
+        "revenue_est": 87.39,
         "growth_est": 0.72,
         "source": "yfinance analyst consensus"
       }
@@ -1047,18 +1047,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 38.89,
-        "growth_est": 0.058,
+        "revenue_est": 38.94,
+        "growth_est": 0.06,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 40.0,
-        "growth_est": 0.029,
+        "revenue_est": 40.2,
+        "growth_est": 0.032,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 541000000,
+    "shares_outstanding": 540632005,
     "quote_currency": "USD"
   },
   "amkor": {
@@ -1144,8 +1144,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 8.63,
-        "growth_est": 0.125,
+        "revenue_est": 8.64,
+        "growth_est": 0.126,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -1229,14 +1229,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 35.41,
+        "revenue_est": 35.42,
         "growth_est": 0.534,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 41.43,
-        "growth_est": 0.17,
+        "revenue_est": 41.67,
+        "growth_est": 0.176,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -1411,18 +1411,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 14.81,
-        "growth_est": 0.344,
+        "revenue_est": 15.09,
+        "growth_est": 0.369,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 17.16,
-        "growth_est": 0.159,
+        "revenue_est": 18.18,
+        "growth_est": 0.205,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 487087040,
+    "shares_outstanding": 484565465,
     "quote_currency": "USD"
   },
   "andes": {
@@ -1593,18 +1593,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 9.68,
-        "growth_est": 0.373,
+        "revenue_est": 9.72,
+        "growth_est": 0.379,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 10.73,
-        "growth_est": 0.108,
+        "revenue_est": 10.78,
+        "growth_est": 0.109,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 191479325,
+    "shares_outstanding": 191636646,
     "quote_currency": "USD"
   },
   "anthropic": {
@@ -1780,14 +1780,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 477.61,
+        "revenue_est": 477.68,
         "growth_est": 0.148,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 523.2,
-        "growth_est": 0.095,
+        "revenue_est": 525.0,
+        "growth_est": 0.099,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -1871,14 +1871,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 477.61,
+        "revenue_est": 477.68,
         "growth_est": 0.148,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 523.2,
-        "growth_est": 0.095,
+        "revenue_est": 525.0,
+        "growth_est": 0.099,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -1962,18 +1962,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 34.15,
-        "growth_est": 0.204,
+        "revenue_est": 34.25,
+        "growth_est": 0.207,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 45.65,
-        "growth_est": 0.337,
+        "revenue_est": 46.13,
+        "growth_est": 0.347,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 793959430,
+    "shares_outstanding": 793597443,
     "quote_currency": "USD"
   },
   "applovin": {
@@ -2059,8 +2059,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 10.44,
-        "growth_est": 0.284,
+        "revenue_est": 10.37,
+        "growth_est": 0.276,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -2310,14 +2310,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 6.04,
-        "growth_est": 0.228,
+        "revenue_est": 6.05,
+        "growth_est": 0.23,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 8.19,
-        "growth_est": 0.356,
+        "revenue_est": 8.21,
+        "growth_est": 0.357,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -2492,14 +2492,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 838.21,
+        "revenue_est": 838.35,
         "growth_est": 0.299,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1039.06,
-        "growth_est": 0.24,
+        "revenue_est": 1037.12,
+        "growth_est": 0.237,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -2583,14 +2583,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 220.29,
-        "growth_est": 0.578,
+        "revenue_est": 220.54,
+        "growth_est": 0.579,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 304.57,
-        "growth_est": 0.383,
+        "revenue_est": 304.84,
+        "growth_est": 0.382,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -2674,18 +2674,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 4.12,
-        "growth_est": 0.3,
+        "revenue_est": 4.15,
+        "growth_est": 0.309,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 5.23,
-        "growth_est": 0.269,
+        "revenue_est": 5.33,
+        "growth_est": 0.284,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 48981548,
+    "shares_outstanding": 48951592,
     "quote_currency": "EUR"
   },
   "asml": {
@@ -2765,14 +2765,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 43.21,
-        "growth_est": 0.323,
+        "revenue_est": 42.82,
+        "growth_est": 0.311,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 54.33,
-        "growth_est": 0.257,
+        "revenue_est": 54.44,
+        "growth_est": 0.271,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -3016,7 +3016,7 @@
       },
       {
         "year": 2027,
-        "revenue_est": 66.85,
+        "revenue_est": 66.84,
         "growth_est": 0.057,
         "source": "yfinance analyst consensus"
       }
@@ -3112,20 +3112,12 @@
     "unit": "billion_usd",
     "annual": [
       {
-        "year": 2022,
-        "revenue": 2.8,
-        "net_income": -0.52,
-        "gross_margin": 0.838,
-        "operating_margin": 0.025,
-        "growth_rate": 0.0
-      },
-      {
         "year": 2023,
         "revenue": 3.53,
         "net_income": -0.49,
         "gross_margin": 0.821,
         "operating_margin": -0.098,
-        "growth_rate": 0.261
+        "growth_rate": 0.0
       },
       {
         "year": 2024,
@@ -3142,6 +3134,14 @@
         "gross_margin": 0.828,
         "operating_margin": -0.025,
         "growth_rate": 0.197
+      },
+      {
+        "year": 2026,
+        "revenue": 6.57,
+        "net_income": -0.05,
+        "gross_margin": 0.848,
+        "operating_margin": 0.002,
+        "growth_rate": 0.259
       }
     ],
     "quarterly": [
@@ -3183,19 +3183,19 @@
     ],
     "predictions": [
       {
-        "year": 2026,
-        "revenue_est": 7.45,
-        "growth_est": 0.427,
+        "year": 2027,
+        "revenue_est": 7.48,
+        "growth_est": 0.139,
         "source": "yfinance analyst consensus"
       },
       {
-        "year": 2027,
+        "year": 2028,
         "revenue_est": 8.57,
-        "growth_est": 0.15,
+        "growth_est": 0.146,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 159634245,
+    "shares_outstanding": 159005198,
     "quote_currency": "USD"
   },
   "autodesk": {
@@ -3275,18 +3275,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 8.2,
-        "growth_est": 0.137,
+        "revenue_est": 8.32,
+        "growth_est": 0.154,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 9.06,
-        "growth_est": 0.105,
+        "revenue_est": 9.21,
+        "growth_est": 0.107,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 211145251,
+    "shares_outstanding": 209000000,
     "quote_currency": "USD"
   },
   "autolus": {
@@ -3377,7 +3377,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 266143286,
+    "shares_outstanding": 266162540,
     "quote_currency": "USD"
   },
   "bachem": {
@@ -3487,7 +3487,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 732461537,
+    "shares_outstanding": 732226739,
     "quote_currency": "USD"
   },
   "bayer_kerendia": {
@@ -3567,14 +3567,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 45.7,
-        "growth_est": 0.003,
+        "revenue_est": 45.77,
+        "growth_est": 0.004,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 46.9,
-        "growth_est": 0.026,
+        "revenue_est": 47.01,
+        "growth_est": 0.027,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -3755,12 +3755,12 @@
       },
       {
         "year": 2027,
-        "revenue_est": 1.34,
-        "growth_est": 0.34,
+        "revenue_est": 1.35,
+        "growth_est": 0.35,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 79168276,
+    "shares_outstanding": 79152970,
     "quote_currency": "EUR"
   },
   "bill_com": {
@@ -3768,20 +3768,12 @@
     "unit": "billion_usd",
     "annual": [
       {
-        "year": 2022,
-        "revenue": 0.64,
-        "net_income": -0.33,
-        "gross_margin": 0.774,
-        "operating_margin": -0.494,
-        "growth_rate": 0.0
-      },
-      {
         "year": 2023,
         "revenue": 1.06,
         "net_income": -0.22,
         "gross_margin": 0.817,
         "operating_margin": -0.279,
-        "growth_rate": 0.656
+        "growth_rate": 0.0
       },
       {
         "year": 2024,
@@ -3798,6 +3790,14 @@
         "gross_margin": 0.814,
         "operating_margin": -0.055,
         "growth_rate": 0.132
+      },
+      {
+        "year": 2026,
+        "revenue": 1.65,
+        "net_income": -0.01,
+        "gross_margin": 0.809,
+        "operating_margin": 0.011,
+        "growth_rate": 0.13
       }
     ],
     "quarterly": [
@@ -3839,15 +3839,15 @@
     ],
     "predictions": [
       {
-        "year": 2026,
-        "revenue_est": 1.64,
-        "growth_est": 0.123,
+        "year": 2027,
+        "revenue_est": 1.79,
+        "growth_est": 0.085,
         "source": "yfinance analyst consensus"
       },
       {
-        "year": 2027,
-        "revenue_est": 1.85,
-        "growth_est": 0.128,
+        "year": 2028,
+        "revenue_est": 1.95,
+        "growth_est": 0.089,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -3931,14 +3931,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 10.43,
-        "growth_est": 0.055,
+        "revenue_est": 10.44,
+        "growth_est": 0.056,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 10.64,
-        "growth_est": 0.02,
+        "revenue_est": 10.66,
+        "growth_est": 0.021,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -4028,8 +4028,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 4.46,
-        "growth_est": 0.141,
+        "revenue_est": 4.45,
+        "growth_est": 0.138,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -4113,14 +4113,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 1.83,
-        "growth_est": -0.362,
+        "revenue_est": 1.81,
+        "growth_est": -0.369,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1.86,
-        "growth_est": 0.016,
+        "revenue_est": 1.81,
+        "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -4477,13 +4477,13 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 11.38,
-        "growth_est": 0.014,
+        "revenue_est": 11.39,
+        "growth_est": 0.015,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 11.86,
+        "revenue_est": 11.87,
         "growth_est": 0.042,
         "source": "yfinance analyst consensus"
       }
@@ -4574,7 +4574,7 @@
       },
       {
         "year": 2027,
-        "revenue_est": 22.34,
+        "revenue_est": 22.33,
         "growth_est": 0.045,
         "source": "yfinance analyst consensus"
       }
@@ -4659,14 +4659,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 106.04,
-        "growth_est": 0.66,
+        "revenue_est": 106.09,
+        "growth_est": 0.661,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 173.53,
-        "growth_est": 0.636,
+        "revenue_est": 173.43,
+        "growth_est": 0.635,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -4938,8 +4938,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 7.16,
-        "growth_est": 0.133,
+        "revenue_est": 7.17,
+        "growth_est": 0.134,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -5029,8 +5029,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 3.96,
-        "growth_est": 0.131,
+        "revenue_est": 3.93,
+        "growth_est": 0.123,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -5205,14 +5205,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 79.04,
-        "growth_est": 0.169,
+        "revenue_est": 79.14,
+        "growth_est": 0.171,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 87.14,
-        "growth_est": 0.102,
+        "revenue_est": 88.08,
+        "growth_est": 0.113,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -5387,14 +5387,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 5449.14,
-        "growth_est": 0.309,
+        "revenue_est": 5480.4,
+        "growth_est": 0.317,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 6324.73,
-        "growth_est": 0.161,
+        "revenue_est": 6293.77,
+        "growth_est": 0.148,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -5660,14 +5660,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 72.58,
-        "growth_est": 0.281,
+        "revenue_est": 73.18,
+        "growth_est": 0.292,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 76.78,
-        "growth_est": 0.058,
+        "revenue_est": 77.72,
+        "growth_est": 0.062,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -5770,20 +5770,12 @@
     "unit": "billion_usd",
     "annual": [
       {
-        "year": 2022,
-        "revenue": 3.32,
-        "net_income": 0.23,
-        "gross_margin": 0.382,
-        "operating_margin": 0.125,
-        "growth_rate": 0.0
-      },
-      {
         "year": 2023,
         "revenue": 5.16,
         "net_income": -0.26,
         "gross_margin": 0.314,
         "operating_margin": 0.016,
-        "growth_rate": 0.554
+        "growth_rate": 0.0
       },
       {
         "year": 2024,
@@ -5800,6 +5792,14 @@
         "gross_margin": 0.352,
         "operating_margin": 0.092,
         "growth_rate": 0.234
+      },
+      {
+        "year": 2026,
+        "revenue": 7.12,
+        "net_income": 0.8,
+        "gross_margin": 0.375,
+        "operating_margin": 0.127,
+        "growth_rate": 0.225
       }
     ],
     "quarterly": [
@@ -5841,19 +5841,19 @@
     ],
     "predictions": [
       {
-        "year": 2026,
-        "revenue_est": 10.52,
-        "growth_est": 0.811,
+        "year": 2027,
+        "revenue_est": 10.62,
+        "growth_est": 0.492,
         "source": "yfinance analyst consensus"
       },
       {
-        "year": 2027,
-        "revenue_est": 14.44,
-        "growth_est": 0.373,
+        "year": 2028,
+        "revenue_est": 14.69,
+        "growth_est": 0.383,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 195639321,
+    "shares_outstanding": 195832246,
     "quote_currency": "USD"
   },
   "cohu": {
@@ -6024,14 +6024,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 36.62,
-        "growth_est": 0.434,
+        "revenue_est": 35.13,
+        "growth_est": 0.376,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 35.23,
-        "growth_est": -0.038,
+        "revenue_est": 36.4,
+        "growth_est": 0.036,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -6212,12 +6212,12 @@
       },
       {
         "year": 2028,
-        "revenue_est": 3.68,
-        "growth_est": 0.496,
+        "revenue_est": 3.69,
+        "growth_est": 0.5,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 186477898,
+    "shares_outstanding": 187934666,
     "quote_currency": "USD"
   },
   "crispr_tx": {
@@ -6414,18 +6414,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 5.95,
-        "growth_est": 0.237,
+        "revenue_est": 6.01,
+        "growth_est": 0.249,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 7.24,
-        "growth_est": 0.217,
+        "revenue_est": 7.33,
+        "growth_est": 0.22,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 1018259280,
+    "shares_outstanding": 1023934842,
     "quote_currency": "USD"
   },
   "cvs": {
@@ -6511,7 +6511,7 @@
       },
       {
         "year": 2027,
-        "revenue_est": 429.63,
+        "revenue_est": 429.52,
         "growth_est": 0.028,
         "source": "yfinance analyst consensus"
       }
@@ -6596,14 +6596,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 43.21,
-        "growth_est": 0.323,
+        "revenue_est": 42.82,
+        "growth_est": 0.311,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 54.33,
-        "growth_est": 0.257,
+        "revenue_est": 54.44,
+        "growth_est": 0.271,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -6680,14 +6680,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 1540.1,
-        "growth_est": 0.018,
+        "revenue_est": 1542.61,
+        "growth_est": 0.02,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 1600.62,
-        "growth_est": 0.039,
+        "revenue_est": 1605.8,
+        "growth_est": 0.041,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -6735,14 +6735,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 2358.55,
+        "revenue_est": 2358.05,
         "growth_est": 0.111,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 2409.16,
-        "growth_est": 0.021,
+        "revenue_est": 2414.84,
+        "growth_est": 0.024,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -6832,8 +6832,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 28.46,
-        "growth_est": 0.08,
+        "revenue_est": 28.47,
+        "growth_est": 0.081,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -6917,14 +6917,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 0.03,
-        "growth_est": 0.5,
+        "revenue_est": 0.02,
+        "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 0.04,
-        "growth_est": 0.333,
+        "revenue_est": 0.03,
+        "growth_est": 0.5,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -7099,14 +7099,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 778.26,
+        "revenue_est": 778.37,
         "growth_est": 0.403,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1095.6,
-        "growth_est": 0.408,
+        "revenue_est": 1094.73,
+        "growth_est": 0.406,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -7383,7 +7383,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 153464189,
+    "shares_outstanding": 154987592,
     "quote_currency": "USD"
   },
   "dropbox": {
@@ -7645,13 +7645,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 32.74,
-        "growth_est": 0.193,
+        "revenue_est": 32.77,
+        "growth_est": 0.194,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 36.52,
+        "revenue_est": 36.54,
         "growth_est": 0.115,
         "source": "yfinance analyst consensus"
       }
@@ -7736,14 +7736,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 0.02,
-        "growth_est": -0.5,
+        "revenue_est": 0.03,
+        "growth_est": -0.25,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
         "revenue_est": 0.02,
-        "growth_est": 0.0,
+        "growth_est": -0.333,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -7973,14 +7973,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 903.25,
-        "growth_est": 0.094,
+        "revenue_est": 907.63,
+        "growth_est": 0.1,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 959.33,
-        "growth_est": 0.062,
+        "revenue_est": 962.68,
+        "growth_est": 0.061,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -8064,18 +8064,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 1.99,
-        "growth_est": 0.144,
+        "revenue_est": 2.01,
+        "growth_est": 0.155,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 2.28,
-        "growth_est": 0.146,
+        "revenue_est": 2.3,
+        "growth_est": 0.144,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 103951633,
+    "shares_outstanding": 104991280,
     "quote_currency": "USD"
   },
   "eoptolink": {
@@ -8155,14 +8155,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 53.41,
-        "growth_est": 1.15,
+        "revenue_est": 60.67,
+        "growth_est": 1.442,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 88.92,
-        "growth_est": 0.665,
+        "revenue_est": 91.49,
+        "growth_est": 0.508,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -8252,8 +8252,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 11.39,
-        "growth_est": 0.108,
+        "revenue_est": 11.38,
+        "growth_est": 0.107,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -8511,14 +8511,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 5.05,
-        "growth_est": -0.033,
+        "revenue_est": 5.04,
+        "growth_est": -0.034,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 5.91,
-        "growth_est": 0.17,
+        "revenue_est": 5.92,
+        "growth_est": 0.175,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -8693,14 +8693,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 3.01,
-        "growth_est": 0.332,
+        "revenue_est": 2.99,
+        "growth_est": 0.323,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
         "revenue_est": 4.04,
-        "growth_est": 0.342,
+        "growth_est": 0.351,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -8790,8 +8790,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 0.04,
-        "growth_est": 0.333,
+        "revenue_est": 0.03,
+        "growth_est": 0.0,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -8966,8 +8966,8 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 10870.12,
-        "growth_est": 0.341,
+        "revenue_est": 10870.86,
+        "growth_est": 0.342,
         "source": "yfinance analyst consensus"
       },
       {
@@ -8977,7 +8977,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 14001919922,
+    "shares_outstanding": 14025682922,
     "quote_currency": "TWD"
   },
   "garmin": {
@@ -9239,13 +9239,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 46.18,
-        "growth_est": 0.213,
+        "revenue_est": 46.22,
+        "growth_est": 0.214,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 52.64,
+        "revenue_est": 52.67,
         "growth_est": 0.14,
         "source": "yfinance analyst consensus"
       }
@@ -9330,14 +9330,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 29.01,
-        "growth_est": 6.798,
+        "revenue_est": 28.97,
+        "growth_est": 6.788,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 33.71,
-        "growth_est": 0.162,
+        "revenue_est": 33.74,
+        "growth_est": 0.165,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -9421,8 +9421,8 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 30.71,
-        "growth_est": 0.043,
+        "revenue_est": 30.69,
+        "growth_est": 0.042,
         "source": "yfinance analyst consensus"
       },
       {
@@ -9785,14 +9785,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 497.72,
+        "revenue_est": 498.01,
         "growth_est": 0.236,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 607.27,
-        "growth_est": 0.22,
+        "revenue_est": 609.99,
+        "growth_est": 0.225,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -9876,14 +9876,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 497.72,
+        "revenue_est": 498.01,
         "growth_est": 0.236,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 607.27,
-        "growth_est": 0.22,
+        "revenue_est": 609.99,
+        "growth_est": 0.225,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -9967,14 +9967,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 497.72,
+        "revenue_est": 498.01,
         "growth_est": 0.236,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 607.27,
-        "growth_est": 0.22,
+        "revenue_est": 609.99,
+        "growth_est": 0.225,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10149,14 +10149,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 1.35,
-        "growth_est": 0.378,
+        "revenue_est": 1.36,
+        "growth_est": 0.388,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1.83,
-        "growth_est": 0.356,
+        "revenue_est": 1.84,
+        "growth_est": 0.353,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10240,14 +10240,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 59.39,
-        "growth_est": 0.74,
+        "revenue_est": 59.5,
+        "growth_est": 0.743,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 124.99,
-        "growth_est": 1.105,
+        "revenue_est": 128.0,
+        "growth_est": 1.151,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10331,14 +10331,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 3.21,
-        "growth_est": 0.366,
+        "revenue_est": 3.2,
+        "growth_est": 0.362,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 4.0,
-        "growth_est": 0.246,
+        "revenue_est": 3.98,
+        "growth_est": 0.244,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10386,14 +10386,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 11432.67,
-        "growth_est": 0.08,
+        "revenue_est": 11704.08,
+        "growth_est": 0.106,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 12210.77,
-        "growth_est": 0.068,
+        "revenue_est": 12578.56,
+        "growth_est": 0.075,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10441,14 +10441,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 1040.43,
-        "growth_est": 0.045,
+        "revenue_est": 1043.39,
+        "growth_est": 0.048,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 1117.62,
-        "growth_est": 0.074,
+        "revenue_est": 1123.76,
+        "growth_est": 0.077,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10532,14 +10532,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 44.98,
-        "growth_est": 0.311,
+        "revenue_est": 45.04,
+        "growth_est": 0.313,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 50.21,
-        "growth_est": 0.116,
+        "revenue_est": 50.32,
+        "growth_est": 0.117,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10623,14 +10623,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 6.86,
-        "growth_est": 0.175,
+        "revenue_est": 6.87,
+        "growth_est": 0.176,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 7.54,
-        "growth_est": 0.099,
+        "revenue_est": 7.56,
+        "growth_est": 0.1,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10805,14 +10805,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 45.57,
-        "growth_est": 0.034,
+        "revenue_est": 45.76,
+        "growth_est": 0.038,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 46.51,
-        "growth_est": 0.021,
+        "revenue_est": 46.95,
+        "growth_est": 0.026,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -10860,18 +10860,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 533.21,
-        "growth_est": 0.281,
+        "revenue_est": 537.87,
+        "growth_est": 0.292,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 673.36,
-        "growth_est": 0.263,
+        "revenue_est": 678.38,
+        "growth_est": 0.261,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 279468441,
+    "shares_outstanding": 281095651,
     "quote_currency": "JPY"
   },
   "illumina": {
@@ -11048,8 +11048,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 19.56,
-        "growth_est": 0.197,
+        "revenue_est": 19.62,
+        "growth_est": 0.201,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -11133,14 +11133,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 101.88,
-        "growth_est": 1.664,
+        "revenue_est": 108.15,
+        "growth_est": 1.828,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 178.81,
-        "growth_est": 0.755,
+        "revenue_est": 190.94,
+        "growth_est": 0.766,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -11497,14 +11497,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 1016.04,
-        "growth_est": 0.47,
+        "revenue_est": 1000.5,
+        "growth_est": 0.448,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1161.76,
-        "growth_est": 0.143,
+        "revenue_est": 1172.51,
+        "growth_est": 0.172,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -11586,8 +11586,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 0.54,
-        "growth_est": 0.35,
+        "revenue_est": 0.56,
+        "growth_est": 0.4,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -11768,12 +11768,12 @@
       },
       {
         "year": 2027,
-        "revenue_est": 1.02,
-        "growth_est": 0.085,
+        "revenue_est": 1.0,
+        "growth_est": 0.064,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 105960383,
+    "shares_outstanding": 105981552,
     "quote_currency": "USD"
   },
   "jcet": {
@@ -11853,14 +11853,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 43.86,
-        "growth_est": 0.128,
+        "revenue_est": 44.02,
+        "growth_est": 0.132,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 50.29,
-        "growth_est": 0.147,
+        "revenue_est": 50.66,
+        "growth_est": 0.151,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -12035,14 +12035,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 13.64,
-        "growth_est": 1.073,
+        "revenue_est": 13.63,
+        "growth_est": 1.071,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 24.03,
-        "growth_est": 0.762,
+        "revenue_est": 23.54,
+        "growth_est": 0.727,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -12126,18 +12126,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 9.68,
-        "growth_est": 0.373,
+        "revenue_est": 9.72,
+        "growth_est": 0.379,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 10.73,
-        "growth_est": 0.108,
+        "revenue_est": 10.78,
+        "growth_est": 0.109,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 191479325,
+    "shares_outstanding": 191636646,
     "quote_currency": "USD"
   },
   "kla": {
@@ -12223,8 +12223,8 @@
       },
       {
         "year": 2028,
-        "revenue_est": 21.06,
-        "growth_est": 0.164,
+        "revenue_est": 21.34,
+        "growth_est": 0.179,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -12581,13 +12581,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 23.63,
-        "growth_est": 0.081,
+        "revenue_est": 23.61,
+        "growth_est": 0.08,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 25.21,
+        "revenue_est": 25.2,
         "growth_est": 0.067,
         "source": "yfinance analyst consensus"
       }
@@ -12672,14 +12672,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 34.76,
-        "growth_est": 0.496,
+        "revenue_est": 34.79,
+        "growth_est": 0.498,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 40.23,
-        "growth_est": 0.157,
+        "revenue_est": 40.66,
+        "growth_est": 0.169,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -13042,12 +13042,12 @@
       },
       {
         "year": 2027,
-        "revenue_est": 1.83,
-        "growth_est": 0.28,
+        "revenue_est": 1.81,
+        "growth_est": 0.266,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 193769462,
+    "shares_outstanding": 194488413,
     "quote_currency": "USD"
   },
   "lifestance": {
@@ -13218,13 +13218,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 88.19,
+        "revenue_est": 88.18,
         "growth_est": 0.353,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 101.77,
+        "revenue_est": 101.75,
         "growth_est": 0.154,
         "source": "yfinance analyst consensus"
       }
@@ -13309,13 +13309,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 14.63,
-        "growth_est": 0.04,
+        "revenue_est": 14.65,
+        "growth_est": 0.041,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 14.48,
+        "revenue_est": 14.51,
         "growth_est": -0.01,
         "source": "yfinance analyst consensus"
       }
@@ -13400,14 +13400,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 218.55,
-        "growth_est": 0.316,
+        "revenue_est": 218.91,
+        "growth_est": 0.318,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 281.89,
-        "growth_est": 0.29,
+        "revenue_est": 286.47,
+        "growth_est": 0.309,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -13497,8 +13497,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 85.31,
-        "growth_est": 0.054,
+        "revenue_est": 85.42,
+        "growth_est": 0.055,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -13565,20 +13565,12 @@
     "unit": "billion_usd",
     "annual": [
       {
-        "year": 2022,
-        "revenue": 1.71,
-        "net_income": 0.2,
-        "gross_margin": 0.46,
-        "operating_margin": 0.176,
-        "growth_rate": 0.0
-      },
-      {
         "year": 2023,
         "revenue": 1.77,
         "net_income": -0.13,
         "gross_margin": 0.322,
         "operating_margin": -0.05,
-        "growth_rate": 0.035
+        "growth_rate": 0.0
       },
       {
         "year": 2024,
@@ -13595,6 +13587,14 @@
         "gross_margin": 0.28,
         "operating_margin": -0.117,
         "growth_rate": 0.213
+      },
+      {
+        "year": 2026,
+        "revenue": 3.01,
+        "net_income": -6.94,
+        "gross_margin": 0.417,
+        "operating_margin": 0.178,
+        "growth_rate": 0.824
       }
     ],
     "quarterly": [
@@ -13636,19 +13636,19 @@
     ],
     "predictions": [
       {
-        "year": 2026,
-        "revenue_est": 5.69,
-        "growth_est": 2.448,
+        "year": 2027,
+        "revenue_est": 2.99,
+        "growth_est": -0.007,
         "source": "yfinance analyst consensus"
       },
       {
-        "year": 2027,
-        "revenue_est": 8.72,
-        "growth_est": 0.533,
+        "year": 2028,
+        "revenue_est": 9.37,
+        "growth_est": 2.134,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 88600000,
+    "shares_outstanding": 89700000,
     "quote_currency": "USD"
   },
   "macronix": {
@@ -13728,14 +13728,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 83.45,
-        "growth_est": 1.89,
+        "revenue_est": 85.96,
+        "growth_est": 1.976,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 138.61,
-        "growth_est": 0.661,
+        "revenue_est": 143.54,
+        "growth_est": 0.67,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -13985,18 +13985,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 11.54,
-        "growth_est": 0.409,
+        "revenue_est": 12.05,
+        "growth_est": 0.471,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 16.75,
-        "growth_est": 0.451,
+        "revenue_est": 18.25,
+        "growth_est": 0.515,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 875766423,
+    "shares_outstanding": 876926613,
     "quote_currency": "USD"
   },
   "mchp": {
@@ -14173,12 +14173,12 @@
       },
       {
         "year": 2027,
-        "revenue_est": 1143.35,
+        "revenue_est": 1143.64,
         "growth_est": 0.726,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 1596094018,
+    "shares_outstanding": 1597167411,
     "quote_currency": "TWD"
   },
   "medtronic_hugo": {
@@ -14258,7 +14258,7 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 38.83,
+        "revenue_est": 38.85,
         "growth_est": 0.068,
         "source": "yfinance analyst consensus"
       },
@@ -14269,7 +14269,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 1280045190,
+    "shares_outstanding": 1279980861,
     "quote_currency": "USD"
   },
   "merck_kgaa": {
@@ -14349,14 +14349,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 21.35,
-        "growth_est": 0.012,
+        "revenue_est": 21.5,
+        "growth_est": 0.019,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 22.44,
-        "growth_est": 0.051,
+        "revenue_est": 22.61,
+        "growth_est": 0.052,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -14446,8 +14446,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 70.34,
-        "growth_est": 0.048,
+        "revenue_est": 70.3,
+        "growth_est": 0.047,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -14531,14 +14531,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 254.31,
+        "revenue_est": 254.2,
         "growth_est": 0.265,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 305.53,
-        "growth_est": 0.201,
+        "revenue_est": 305.45,
+        "growth_est": 0.202,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -14622,14 +14622,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 254.31,
+        "revenue_est": 254.2,
         "growth_est": 0.265,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 305.53,
-        "growth_est": 0.201,
+        "revenue_est": 305.45,
+        "growth_est": 0.202,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -14677,13 +14677,13 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 5556.86,
-        "growth_est": 0.274,
+        "revenue_est": 5582.5,
+        "growth_est": 0.28,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 6008.07,
+        "revenue_est": 6035.34,
         "growth_est": 0.081,
         "source": "yfinance analyst consensus"
       }
@@ -14768,14 +14768,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 129.74,
-        "growth_est": 2.471,
+        "revenue_est": 129.72,
+        "growth_est": 2.47,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 239.84,
-        "growth_est": 0.849,
+        "revenue_est": 240.32,
+        "growth_est": 0.853,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -14859,14 +14859,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 391.17,
+        "revenue_est": 391.08,
         "growth_est": 0.179,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 468.37,
-        "growth_est": 0.197,
+        "revenue_est": 467.33,
+        "growth_est": 0.195,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -14950,14 +14950,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 2.11,
-        "growth_est": 0.099,
+        "revenue_est": 2.1,
+        "growth_est": 0.094,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 2.43,
-        "growth_est": 0.152,
+        "revenue_est": 2.44,
+        "growth_est": 0.162,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -15229,8 +15229,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 5.18,
-        "growth_est": 0.257,
+        "revenue_est": 5.28,
+        "growth_est": 0.282,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -15314,13 +15314,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 17.28,
-        "growth_est": 0.175,
+        "revenue_est": 17.26,
+        "growth_est": 0.173,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 21.2,
+        "revenue_est": 21.17,
         "growth_est": 0.227,
         "source": "yfinance analyst consensus"
       }
@@ -15496,14 +15496,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 59.31,
-        "growth_est": 0.476,
+        "revenue_est": 59.68,
+        "growth_est": 0.486,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 98.06,
-        "growth_est": 0.653,
+        "revenue_est": 99.52,
+        "growth_est": 0.668,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -15587,14 +15587,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 2.9,
-        "growth_est": 0.255,
+        "revenue_est": 2.91,
+        "growth_est": 0.26,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 3.47,
-        "growth_est": 0.197,
+        "revenue_est": 3.48,
+        "growth_est": 0.196,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -15606,20 +15606,12 @@
     "unit": "billion_usd",
     "annual": [
       {
-        "year": 2022,
-        "revenue": 1.71,
-        "net_income": 0.2,
-        "gross_margin": 0.46,
-        "operating_margin": 0.176,
-        "growth_rate": 0.0
-      },
-      {
         "year": 2023,
         "revenue": 1.77,
         "net_income": -0.13,
         "gross_margin": 0.322,
         "operating_margin": -0.05,
-        "growth_rate": 0.035
+        "growth_rate": 0.0
       },
       {
         "year": 2024,
@@ -15636,6 +15628,14 @@
         "gross_margin": 0.28,
         "operating_margin": -0.117,
         "growth_rate": 0.213
+      },
+      {
+        "year": 2026,
+        "revenue": 3.01,
+        "net_income": -6.94,
+        "gross_margin": 0.417,
+        "operating_margin": 0.178,
+        "growth_rate": 0.824
       }
     ],
     "quarterly": [
@@ -15677,19 +15677,19 @@
     ],
     "predictions": [
       {
-        "year": 2026,
-        "revenue_est": 5.69,
-        "growth_est": 2.448,
+        "year": 2027,
+        "revenue_est": 2.99,
+        "growth_est": -0.007,
         "source": "yfinance analyst consensus"
       },
       {
-        "year": 2027,
-        "revenue_est": 8.72,
-        "growth_est": 0.533,
+        "year": 2028,
+        "revenue_est": 9.37,
+        "growth_est": 2.134,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 88600000,
+    "shares_outstanding": 89700000,
     "quote_currency": "USD"
   },
   "nextera": {
@@ -15769,14 +15769,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 31.02,
-        "growth_est": 0.132,
+        "revenue_est": 31.08,
+        "growth_est": 0.134,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 34.63,
-        "growth_est": 0.116,
+        "revenue_est": 34.74,
+        "growth_est": 0.118,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -15860,13 +15860,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 44.05,
+        "revenue_est": 44.06,
         "growth_est": 0.05,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 47.0,
+        "revenue_est": 47.01,
         "growth_est": 0.067,
         "source": "yfinance analyst consensus"
       }
@@ -15951,14 +15951,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 57.71,
-        "growth_est": 0.018,
+        "revenue_est": 57.65,
+        "growth_est": 0.017,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 61.25,
-        "growth_est": 0.061,
+        "revenue_est": 61.31,
+        "growth_est": 0.063,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -16042,18 +16042,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 297.87,
-        "growth_est": -0.036,
+        "revenue_est": 299.47,
+        "growth_est": -0.031,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 304.87,
-        "growth_est": 0.024,
+        "revenue_est": 304.06,
+        "growth_est": 0.015,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 3306278248,
+    "shares_outstanding": 3346158124,
     "quote_currency": "USD"
   },
   "nurix": {
@@ -16315,18 +16315,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 393.93,
-        "growth_est": 0.824,
+        "revenue_est": 410.86,
+        "growth_est": 0.903,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 562.14,
-        "growth_est": 0.427,
+        "revenue_est": 665.41,
+        "growth_est": 0.62,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 24221000000,
+    "shares_outstanding": 24147000000,
     "quote_currency": "USD"
   },
   "nvidia_nemo": {
@@ -16406,18 +16406,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 393.93,
-        "growth_est": 0.824,
+        "revenue_est": 410.86,
+        "growth_est": 0.903,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 562.14,
-        "growth_est": 0.427,
+        "revenue_est": 665.41,
+        "growth_est": 0.62,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 24221000000,
+    "shares_outstanding": 24147000000,
     "quote_currency": "USD"
   },
   "nvidia_triton": {
@@ -16497,18 +16497,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 393.93,
-        "growth_est": 0.824,
+        "revenue_est": 410.86,
+        "growth_est": 0.903,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 562.14,
-        "growth_est": 0.427,
+        "revenue_est": 665.41,
+        "growth_est": 0.62,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 24221000000,
+    "shares_outstanding": 24147000000,
     "quote_currency": "USD"
   },
   "nxp": {
@@ -16679,18 +16679,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 3.2,
-        "growth_est": 0.096,
+        "revenue_est": 3.22,
+        "growth_est": 0.103,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 3.5,
-        "growth_est": 0.094,
+        "revenue_est": 3.55,
+        "growth_est": 0.102,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 166119894,
+    "shares_outstanding": 167139757,
     "quote_currency": "USD"
   },
   "omada": {
@@ -16781,7 +16781,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 60606000,
+    "shares_outstanding": 61216703,
     "quote_currency": "USD"
   },
   "oneweb": {
@@ -16922,8 +16922,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 1.85,
-        "growth_est": 0.285,
+        "revenue_est": 1.87,
+        "growth_est": 0.299,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -17109,8 +17109,8 @@
       },
       {
         "year": 2028,
-        "revenue_est": 130.64,
-        "growth_est": 0.462,
+        "revenue_est": 130.67,
+        "growth_est": 0.463,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -17558,14 +17558,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 0.86,
-        "growth_est": 0.012,
+        "revenue_est": 0.87,
+        "growth_est": 0.024,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 0.9,
-        "growth_est": 0.047,
+        "revenue_est": 0.89,
+        "growth_est": 0.023,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -17704,14 +17704,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 0.49,
-        "growth_est": 0.256,
+        "revenue_est": 0.5,
+        "growth_est": 0.282,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
         "revenue_est": 0.57,
-        "growth_est": 0.163,
+        "growth_est": 0.14,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -18161,7 +18161,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 1050000000,
+    "shares_outstanding": 1068060487,
     "quote_currency": "USD"
   },
   "quanta": {
@@ -18241,14 +18241,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 4010.47,
-        "growth_est": 0.888,
+        "revenue_est": 4052.35,
+        "growth_est": 0.908,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 5199.13,
-        "growth_est": 0.296,
+        "revenue_est": 5327.28,
+        "growth_est": 0.315,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -18423,14 +18423,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 0.05,
-        "growth_est": -0.286,
+        "revenue_est": 0.04,
+        "growth_est": -0.429,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
         "revenue_est": 0.06,
-        "growth_est": 0.2,
+        "growth_est": 0.5,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -18520,8 +18520,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 18.34,
-        "growth_est": 0.084,
+        "revenue_est": 18.42,
+        "growth_est": 0.089,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -18611,8 +18611,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 0.26,
-        "growth_est": 0.529,
+        "revenue_est": 0.22,
+        "growth_est": 0.294,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -18744,14 +18744,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 1652.87,
-        "growth_est": 0.251,
+        "revenue_est": 1657.43,
+        "growth_est": 0.254,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1783.08,
-        "growth_est": 0.079,
+        "revenue_est": 1792.82,
+        "growth_est": 0.082,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -18799,14 +18799,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 1392.01,
-        "growth_est": 0.033,
+        "revenue_est": 1339.07,
+        "growth_est": -0.006,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1355.54,
-        "growth_est": -0.026,
+        "revenue_est": 1342.03,
+        "growth_est": 0.002,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -18838,14 +18838,14 @@
     "predictions": [
       {
         "year": 2024,
-        "revenue_est": 0.14,
-        "growth_est": 13.0,
+        "revenue_est": 0.16,
+        "growth_est": 15.0,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2025,
-        "revenue_est": 0.98,
-        "growth_est": 6.0,
+        "revenue_est": 1.19,
+        "growth_est": 6.437,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -19081,8 +19081,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 1.35,
-        "growth_est": 0.421,
+        "revenue_est": 1.36,
+        "growth_est": 0.432,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -19166,13 +19166,13 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 5.62,
-        "growth_est": 0.186,
+        "revenue_est": 5.63,
+        "growth_est": 0.188,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 6.3,
+        "revenue_est": 6.31,
         "growth_est": 0.121,
         "source": "yfinance analyst consensus"
       }
@@ -19257,18 +19257,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 46.1,
-        "growth_est": 0.11,
+        "revenue_est": 46.25,
+        "growth_est": 0.114,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 50.51,
-        "growth_est": 0.096,
+        "revenue_est": 50.76,
+        "growth_est": 0.098,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 819000000,
+    "shares_outstanding": 823000000,
     "quote_currency": "USD"
   },
   "samsung": {
@@ -19348,14 +19348,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 732933.5,
-        "growth_est": 1.197,
+        "revenue_est": 732303.08,
+        "growth_est": 1.195,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 955514.72,
-        "growth_est": 0.304,
+        "revenue_est": 950760.54,
+        "growth_est": 0.298,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -19439,14 +19439,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 5457.92,
-        "growth_est": 0.198,
+        "revenue_est": 5467.42,
+        "growth_est": 0.2,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
         "revenue_est": 6377.51,
-        "growth_est": 0.168,
+        "growth_est": 0.166,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -19530,14 +19530,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 732933.5,
-        "growth_est": 1.197,
+        "revenue_est": 732303.08,
+        "growth_est": 1.195,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 955514.72,
-        "growth_est": 0.304,
+        "revenue_est": 950760.54,
+        "growth_est": 0.298,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -19621,14 +19621,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 732933.5,
-        "growth_est": 1.197,
+        "revenue_est": 732303.08,
+        "growth_est": 1.195,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 955514.72,
-        "growth_est": 0.304,
+        "revenue_est": 950760.54,
+        "growth_est": 0.298,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -19809,7 +19809,7 @@
       },
       {
         "year": 2027,
-        "revenue_est": 44.98,
+        "revenue_est": 44.99,
         "growth_est": 0.118,
         "source": "yfinance analyst consensus"
       }
@@ -19955,12 +19955,12 @@
       },
       {
         "year": 2027,
-        "revenue_est": 48.76,
+        "revenue_est": 48.77,
         "growth_est": 0.093,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 562142934,
+    "shares_outstanding": 562084034,
     "quote_currency": "EUR"
   },
   "scholar_rock": {
@@ -20259,12 +20259,12 @@
       },
       {
         "year": 2028,
-        "revenue_est": 1.41,
-        "growth_est": 0.175,
+        "revenue_est": 1.42,
+        "growth_est": 0.183,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 336745012,
+    "shares_outstanding": 342184493,
     "quote_currency": "USD"
   },
   "servicenow": {
@@ -20442,14 +20442,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 2801.98,
-        "growth_est": 0.089,
+        "revenue_est": 2792.61,
+        "growth_est": 0.085,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 2984.66,
-        "growth_est": 0.065,
+        "revenue_est": 2979.12,
+        "growth_est": 0.067,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -20533,14 +20533,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 15.24,
-        "growth_est": 0.318,
+        "revenue_est": 15.23,
+        "growth_est": 0.317,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 19.05,
-        "growth_est": 0.25,
+        "revenue_est": 19.13,
+        "growth_est": 0.256,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -20624,18 +20624,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 83.09,
+        "revenue_est": 83.07,
         "growth_est": 0.053,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 90.08,
-        "growth_est": 0.084,
+        "revenue_est": 90.15,
+        "growth_est": 0.085,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 762743366,
+    "shares_outstanding": 780264198,
     "quote_currency": "EUR"
   },
   "siemens_energy": {
@@ -20806,14 +20806,14 @@
     "predictions": [
       {
         "year": 2025,
-        "revenue_est": 23.6,
+        "revenue_est": 23.59,
         "growth_est": 0.055,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2026,
-        "revenue_est": 25.01,
-        "growth_est": 0.06,
+        "revenue_est": 24.97,
+        "growth_est": 0.058,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -20988,14 +20988,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 349930.05,
-        "growth_est": 2.602,
+        "revenue_est": 349310.72,
+        "growth_est": 2.596,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 528808.44,
-        "growth_est": 0.511,
+        "revenue_est": 534180.1,
+        "growth_est": 0.529,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -21043,18 +21043,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 6.49,
-        "growth_est": 0.054,
+        "revenue_est": 6.47,
+        "growth_est": 0.05,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 6.84,
-        "growth_est": 0.054,
+        "revenue_est": 6.83,
+        "growth_est": 0.056,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 419020307,
+    "shares_outstanding": 418506356,
     "quote_currency": "USD"
   },
   "snowflake": {
@@ -21134,14 +21134,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 6.08,
-        "growth_est": 0.299,
+        "revenue_est": 6.1,
+        "growth_est": 0.303,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 7.65,
-        "growth_est": 0.258,
+        "revenue_est": 7.67,
+        "growth_est": 0.257,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -21280,14 +21280,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 838.21,
+        "revenue_est": 838.35,
         "growth_est": 0.299,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1039.06,
-        "growth_est": 0.24,
+        "revenue_est": 1037.12,
+        "growth_est": 0.237,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -21382,7 +21382,7 @@
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 38711549,
+    "shares_outstanding": 39115046,
     "quote_currency": "USD"
   },
   "splunk_cisco": {
@@ -21462,14 +21462,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 72.58,
-        "growth_est": 0.281,
+        "revenue_est": 73.18,
+        "growth_est": 0.292,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 76.78,
-        "growth_est": 0.058,
+        "revenue_est": 77.72,
+        "growth_est": 0.062,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -21553,18 +21553,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 0.16,
-        "growth_est": 0.0,
+        "revenue_est": 0.15,
+        "growth_est": -0.062,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 0.18,
-        "growth_est": 0.125,
+        "revenue_est": 0.17,
+        "growth_est": 0.133,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 8956953,
+    "shares_outstanding": 9626744,
     "quote_currency": "USD"
   },
   "stryker_robot": {
@@ -21644,14 +21644,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 27.29,
-        "growth_est": 0.086,
+        "revenue_est": 27.3,
+        "growth_est": 0.087,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 29.68,
-        "growth_est": 0.088,
+        "revenue_est": 29.67,
+        "growth_est": 0.087,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -21742,14 +21742,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 450.41,
-        "growth_est": 0.099,
+        "revenue_est": 453.97,
+        "growth_est": 0.108,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 487.04,
-        "growth_est": 0.081,
+        "revenue_est": 489.6,
+        "growth_est": 0.078,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -21924,18 +21924,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 9.68,
-        "growth_est": 0.373,
+        "revenue_est": 9.72,
+        "growth_est": 0.379,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 10.73,
-        "growth_est": 0.108,
+        "revenue_est": 10.78,
+        "growth_est": 0.109,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 191479325,
+    "shares_outstanding": 191636646,
     "quote_currency": "USD"
   },
   "tandem": {
@@ -22203,8 +22203,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 2.4,
-        "growth_est": -0.008,
+        "revenue_est": 2.39,
+        "growth_est": -0.012,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -22252,18 +22252,18 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 1.41,
-        "growth_est": 0.762,
+        "revenue_est": 1.37,
+        "growth_est": 0.713,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 1.62,
-        "growth_est": 0.149,
+        "revenue_est": 1.58,
+        "growth_est": 0.153,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 338777049,
+    "shares_outstanding": 339784294,
     "quote_currency": "USD"
   },
   "tempus_lb": {
@@ -22531,8 +22531,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 6.22,
-        "growth_est": 0.21,
+        "revenue_est": 6.26,
+        "growth_est": 0.218,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -22616,7 +22616,7 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 106.02,
+        "revenue_est": 106.03,
         "growth_est": 0.118,
         "source": "yfinance analyst consensus"
       },
@@ -22798,14 +22798,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 21.9,
+        "revenue_est": 21.91,
         "growth_est": 0.239,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 24.87,
-        "growth_est": 0.136,
+        "revenue_est": 24.93,
+        "growth_est": 0.138,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -22980,14 +22980,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 21.9,
+        "revenue_est": 21.91,
         "growth_est": 0.239,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 24.87,
-        "growth_est": 0.136,
+        "revenue_est": 24.93,
+        "growth_est": 0.138,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -23169,18 +23169,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 3385.06,
-        "growth_est": 0.385,
+        "revenue_est": 3397.04,
+        "growth_est": 0.39,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 4108.65,
-        "growth_est": 0.214,
+        "revenue_est": 4126.88,
+        "growth_est": 0.215,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 454651196,
+    "shares_outstanding": 454296856,
     "quote_currency": "JPY"
   },
   "toppan": {
@@ -23224,14 +23224,14 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 1909.44,
-        "growth_est": 0.058,
+        "revenue_est": 1912.74,
+        "growth_est": 0.06,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 1978.2,
-        "growth_est": 0.036,
+        "revenue_est": 1978.06,
+        "growth_est": 0.034,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -23503,8 +23503,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 1.07,
-        "growth_est": 0.486,
+        "revenue_est": 1.08,
+        "growth_est": 0.5,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -23588,14 +23588,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 5427.78,
-        "growth_est": 0.425,
+        "revenue_est": 5435.18,
+        "growth_est": 0.427,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 7243.96,
-        "growth_est": 0.335,
+        "revenue_est": 7291.24,
+        "growth_est": 0.341,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -23831,8 +23831,8 @@
       },
       {
         "year": 2027,
-        "revenue_est": 9.69,
-        "growth_est": 0.115,
+        "revenue_est": 9.68,
+        "growth_est": 0.114,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -23916,14 +23916,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 283.45,
-        "growth_est": 0.193,
+        "revenue_est": 283.25,
+        "growth_est": 0.192,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 344.74,
-        "growth_est": 0.216,
+        "revenue_est": 343.37,
+        "growth_est": 0.212,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -24007,14 +24007,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 185.65,
-        "growth_est": 0.415,
+        "revenue_est": 184.16,
+        "growth_est": 0.403,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 264.59,
-        "growth_est": 0.425,
+        "revenue_est": 264.64,
+        "growth_est": 0.437,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -24105,18 +24105,18 @@
     "predictions": [
       {
         "year": 2027,
-        "revenue_est": 3.64,
-        "growth_est": 0.137,
+        "revenue_est": 3.69,
+        "growth_est": 0.153,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2028,
-        "revenue_est": 4.09,
-        "growth_est": 0.124,
+        "revenue_est": 4.14,
+        "growth_est": 0.122,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 162443291,
+    "shares_outstanding": 161908850,
     "quote_currency": "USD"
   },
   "veracyte": {
@@ -24287,14 +24287,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 13.19,
-        "growth_est": 0.099,
+        "revenue_est": 13.2,
+        "growth_est": 0.1,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 14.58,
-        "growth_est": 0.105,
+        "revenue_est": 14.62,
+        "growth_est": 0.108,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -24593,14 +24593,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 22.09,
-        "growth_est": 0.245,
+        "revenue_est": 22.83,
+        "growth_est": 0.287,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 24.53,
-        "growth_est": 0.11,
+        "revenue_est": 23.97,
+        "growth_est": 0.05,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -24767,14 +24767,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 4014.5,
-        "growth_est": 0.836,
+        "revenue_est": 4047.18,
+        "growth_est": 0.851,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
         "revenue_est": 5911.77,
-        "growth_est": 0.473,
+        "growth_est": 0.461,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -24864,12 +24864,12 @@
       },
       {
         "year": 2028,
-        "revenue_est": 11.84,
-        "growth_est": 0.11,
+        "revenue_est": 11.79,
+        "growth_est": 0.105,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 201000000,
+    "shares_outstanding": 196000000,
     "quote_currency": "USD"
   },
   "wuxi_bio": {
@@ -24913,14 +24913,14 @@
     "predictions": [
       {
         "year": 2026,
-        "revenue_est": 25.28,
-        "growth_est": 0.16,
+        "revenue_est": 25.65,
+        "growth_est": 0.177,
         "source": "yfinance analyst consensus"
       },
       {
         "year": 2027,
-        "revenue_est": 29.75,
-        "growth_est": 0.177,
+        "revenue_est": 30.64,
+        "growth_est": 0.195,
         "source": "yfinance analyst consensus"
       }
     ],
@@ -25101,12 +25101,12 @@
       },
       {
         "year": 2028,
-        "revenue_est": 5.29,
-        "growth_est": 0.039,
+        "revenue_est": 5.31,
+        "growth_est": 0.043,
         "source": "yfinance analyst consensus"
       }
     ],
-    "shares_outstanding": 264645644,
+    "shares_outstanding": 263233141,
     "quote_currency": "USD"
   },
   "zscaler": {
