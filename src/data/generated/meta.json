@@ -1,12 +1,12 @@
 {
-  "prices_updated": "2026-11-04",
+  "prices_updated": "2026-11-05",
   "financials_updated": "2026-11-01",
   "stats": {
     "total": 289,
-    "rapid_rise": 71,
-    "early_signal": 17,
-    "pullback": 41,
-    "broken_trend": 41,
+    "rapid_rise": 83,
+    "early_signal": 24,
+    "pullback": 42,
+    "broken_trend": 80,
     "stale": 0,
     "unavailable": 45
   }
