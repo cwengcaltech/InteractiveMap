@@ -21,7 +21,7 @@
     "market_cap_usd": 146.81,
     "view": "中性:1月 -13.8%、3月 -19.24%。RSI 35",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "abbott_libre": {
     "ticker": "ABT",
@@ -50,7 +50,7 @@
     "market_cap_usd": 190.22,
     "view": "強勢上漲:1月 +12.3%、3月 +1.83%。距 52週高點 -14.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "abbvie": {
     "ticker": "ABBV",
@@ -78,7 +78,7 @@
     "market_cap_usd": 514.78,
     "view": "強勢上漲:1月 +7.59%、3月 +18.2%。距 52週高點 -3.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "absci": {
     "ticker": "ABSI",
@@ -105,7 +105,7 @@
     "market_cap_usd": 1.75,
     "view": "淺幅回檔:1週 -8.63% 但仍在 50日均線之上,趨勢未破。RSI 58",
     "view_type": "shallow_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "adobe": {
     "ticker": "ADBE",
@@ -131,7 +131,7 @@
     "market_cap_usd": 93.14,
     "view": "區間整理:1月 -0.73%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "adobe_acrobat": {
     "ticker": "ADBE",
@@ -157,7 +157,7 @@
     "market_cap_usd": null,
     "view": "區間整理:1月 -0.73%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "advantest": {
     "ticker": "6857.T",
@@ -183,7 +183,7 @@
     "market_cap_usd": 127.69,
     "view": "⚠ 趨勢轉弱:1週 -24.35% 跌破 200日均線。RSI 35。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ajinomoto": {
     "ticker": "2802.T",
@@ -209,7 +209,7 @@
     "market_cap_usd": 25.64,
     "view": "⚠ 趨勢轉弱:1週 -16.93% 跌破 200日均線。RSI 14。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "akeso": {
     "ticker": "9926.HK",
@@ -234,7 +234,7 @@
     "market_cap_usd": 10.02,
     "view": "⚠ 下跌趨勢:1月 -21.86%、3月 -14.75%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "alchip": {
     "ticker": "3661.TW",
@@ -258,7 +258,7 @@
     "market_cap_usd": 7.38,
     "view": "⚠ 趨勢轉弱:1週 -17.37% 跌破 200日均線。RSI 26。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "altimmune_mech": {
     "ticker": "ALT",
@@ -283,7 +283,7 @@
     "market_cap_usd": 0.4,
     "view": "⚠ 下跌趨勢:1月 -20.0%、3月 -31.8%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "amazon": {
     "ticker": "AMZN",
@@ -314,7 +314,7 @@
     "market_cap_usd": 2803.85,
     "view": "突破前夕:MACD/量能轉強,RSI 48。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "amd": {
     "ticker": "AMD",
@@ -338,7 +338,7 @@
     "market_cap_usd": 733.05,
     "view": "回檔整理:1週 -11.05%,價格仍在 200日均線之上。RSI 39,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "amgen_mech": {
     "ticker": "AMGN",
@@ -367,7 +367,7 @@
     "market_cap_usd": 248.92,
     "view": "強勢上漲:1月 +13.0%、3月 +11.0%。距 52週高點 -4.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "amkor": {
     "ticker": "AMKR",
@@ -389,7 +389,7 @@
     "market_cap_usd": 8.13,
     "view": "⚠ 趨勢轉弱:1週 -16.91% 跌破 200日均線。RSI 35。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "amphenol": {
     "ticker": "APH",
@@ -415,7 +415,7 @@
     "market_cap_usd": 184.18,
     "view": "中性:1月 -12.58%、3月 -10.91%。RSI 43",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "amwell": {
     "ticker": "AMWL",
@@ -442,7 +442,7 @@
     "market_cap_usd": 0.18,
     "view": "區間整理:1月 -4.95%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "analog_devices": {
     "ticker": "ADI",
@@ -468,7 +468,7 @@
     "market_cap_usd": 176.17,
     "view": "⚠ 趨勢轉弱:1週 -12.84% 跌破 200日均線。RSI 41。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "andes": {
     "ticker": "6533.TW",
@@ -492,7 +492,7 @@
     "market_cap_usd": 0.35,
     "view": "⚠ 趨勢轉弱:1週 -27.21% 跌破 200日均線。RSI 19。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ansys": {
     "ticker": "SNPS",
@@ -518,7 +518,7 @@
     "market_cap_usd": 86.32,
     "view": "中性:1月 -9.5%、3月 9.42%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "apple": {
     "ticker": "AAPL",
@@ -547,7 +547,7 @@
     "market_cap_usd": 4996.61,
     "view": "突破前夕:MACD/量能轉強,RSI 50。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "apple_health": {
     "ticker": "AAPL",
@@ -576,7 +576,7 @@
     "market_cap_usd": 4996.61,
     "view": "突破前夕:MACD/量能轉強,RSI 50。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "applied_materials": {
     "ticker": "AMAT",
@@ -600,7 +600,7 @@
     "market_cap_usd": 264.05,
     "view": "⚠ 趨勢轉弱:1週 -14.71% 跌破 200日均線。RSI 32。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "applovin": {
     "ticker": "APP",
@@ -629,7 +629,7 @@
     "market_cap_usd": 119.61,
     "view": "強勢但偏高:1月 +39.66%、RSI 78 超買。技術面強但宜等回檔。3月 +15.4%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "arista": {
     "ticker": "ANET",
@@ -656,7 +656,7 @@
     "market_cap_usd": 215.42,
     "view": "⚠ 下跌趨勢:1月 -19.04%、3月 -10.82%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "arm": {
     "ticker": "ARM",
@@ -680,7 +680,7 @@
     "market_cap_usd": 186.49,
     "view": "⚠ 趨勢轉弱:1週 -15.22% 跌破 200日均線。RSI 31。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "arvinas": {
     "ticker": "ARVN",
@@ -702,7 +702,7 @@
     "market_cap_usd": 0.41,
     "view": "⚠ 趨勢轉弱:1週 -18.45% 跌破 200日均線。RSI 39。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ase": {
     "ticker": "3711.TW",
@@ -728,7 +728,7 @@
     "market_cap_usd": 70.28,
     "view": "健康回檔:1週 -21.11% 但仍在長期上升趨勢,1年 +162.63%。RSI 27",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "asia_vital": {
     "ticker": "3017.TW",
@@ -752,7 +752,7 @@
     "market_cap_usd": 27.39,
     "view": "⚠ 趨勢轉弱:1週 -25.36% 跌破 200日均線。RSI 8。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "asm_international": {
     "ticker": "ASM.AS",
@@ -774,7 +774,7 @@
     "market_cap_usd": 35.67,
     "view": "⚠ 趨勢轉弱:1週 -10.8% 跌破 200日均線。RSI 35。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "asml": {
     "ticker": "ASML",
@@ -798,7 +798,7 @@
     "market_cap_usd": 549.12,
     "view": "⚠ 趨勢轉弱:1週 -9.01% 跌破 200日均線。RSI 35。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "asmpt": {
     "ticker": "0522.HK",
@@ -824,7 +824,7 @@
     "market_cap_usd": 5.02,
     "view": "⚠ 趨勢轉弱:1週 -10.57% 跌破 200日均線。RSI 23。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "astera_labs": {
     "ticker": "ALAB",
@@ -848,7 +848,7 @@
     "market_cap_usd": 33.09,
     "view": "⚠ 趨勢轉弱:1週 -26.28% 跌破 200日均線。RSI 28。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "astrazeneca_glp1": {
     "ticker": "AZN",
@@ -874,7 +874,7 @@
     "market_cap_usd": 289.14,
     "view": "強勢但偏高:1月 +17.41%、RSI 77 超買。技術面強但宜等回檔。3月 +15.14%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "asts": {
     "ticker": "ASTS",
@@ -896,7 +896,7 @@
     "market_cap_usd": 9.69,
     "view": "⚠ 趨勢轉弱:1週 -21.09% 跌破 200日均線。RSI 31。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "atlassian": {
     "ticker": "TEAM",
@@ -922,7 +922,7 @@
     "market_cap_usd": 24.44,
     "view": "回檔整理:1週 -19.84%,價格仍在 200日均線之上。RSI 20,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "autodesk": {
     "ticker": "ADSK",
@@ -950,7 +950,7 @@
     "market_cap_usd": 54.7,
     "view": "強勢上漲:1月 +12.04%、3月 +2.21%。距 52週高點 -18.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "autolus": {
     "ticker": "AUTL",
@@ -974,7 +974,7 @@
     "market_cap_usd": 0.34,
     "view": "⚠ 趨勢轉弱:1週 -15.79% 跌破 200日均線。RSI 28。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "bachem": {
     "ticker": "BANB.SW",
@@ -1001,7 +1001,7 @@
     "market_cap_usd": 7.32,
     "view": "中性:1月 2.31%、3月 6.84%。RSI 36",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "bae_systems": {
     "ticker": "BAESY",
@@ -1025,7 +1025,7 @@
     "market_cap_usd": 72.37,
     "view": "⚠ 趨勢轉弱:1週 -10.2% 跌破 200日均線。RSI 42。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "bayer_kerendia": {
     "ticker": "BAYN.DE",
@@ -1055,7 +1055,7 @@
     "market_cap_usd": 61.31,
     "view": "強勢但偏高:1月 +30.5%、RSI 88 超買。技術面強但宜等回檔。3月 +13.54%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "beam": {
     "ticker": "BEAM",
@@ -1080,7 +1080,7 @@
     "market_cap_usd": 2.73,
     "view": "強勢上漲:1月 +7.36%、3月 +-3.19%。距 52週高點 -31.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "besi": {
     "ticker": "BESI.AS",
@@ -1102,7 +1102,7 @@
     "market_cap_usd": 12.74,
     "view": "⚠ 下跌趨勢:1月 -20.29%、3月 -36.27%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "bill_com": {
     "ticker": "BILL",
@@ -1132,7 +1132,7 @@
     "market_cap_usd": 4.5,
     "view": "強勢但偏高:1月 +16.52%、RSI 73 超買。技術面強但宜等回檔。3月 +6.39%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "biogen_leqembi": {
     "ticker": "BIIB",
@@ -1161,7 +1161,7 @@
     "market_cap_usd": 36.71,
     "view": "強勢上漲:1月 +13.7%、3月 +19.9%。距 52週高點 -4.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "biomarin": {
     "ticker": "BMRN",
@@ -1188,7 +1188,7 @@
     "market_cap_usd": 10.85,
     "view": "區間整理:1月 2.08%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "biontech_bntx": {
     "ticker": "BNTX",
@@ -1213,7 +1213,7 @@
     "market_cap_usd": 21.98,
     "view": "區間整理:1月 -4.94%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "blackline": {
     "ticker": "BL",
@@ -1237,7 +1237,7 @@
     "market_cap_usd": 1.5,
     "view": "⚠ 趨勢轉弱:1週 -23.43% 跌破 200日均線。RSI 37。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "blacksky": {
     "ticker": "BKSY",
@@ -1265,7 +1265,7 @@
     "market_cap_usd": 0.87,
     "view": "中性:1月 0.8%、3月 -25.45%。RSI 67",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "bms_opdivo": {
     "ticker": "BMY",
@@ -1294,7 +1294,7 @@
     "market_cap_usd": 127.02,
     "view": "中性:1月 4.3%、3月 -3.17%。RSI 60",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "booz_allen": {
     "ticker": "BAH",
@@ -1321,7 +1321,7 @@
     "market_cap_usd": 10.16,
     "view": "強勢但偏高:1月 +17.13%、RSI 75 超買。技術面強但宜等回檔。3月 +10.39%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "boston_sci": {
     "ticker": "BSX",
@@ -1346,7 +1346,7 @@
     "market_cap_usd": 61.95,
     "view": "區間整理:1月 1.69%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "broadcom": {
     "ticker": "AVGO",
@@ -1368,7 +1368,7 @@
     "market_cap_usd": 1401.97,
     "view": "⚠ 趨勢轉弱:1週 -9.93% 跌破 200日均線。RSI 34。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "brookfield_renew": {
     "ticker": "BEPC",
@@ -1395,7 +1395,7 @@
     "market_cap_usd": 4.79,
     "view": "強勢但偏高:1月 +8.03%、RSI 75 超買。技術面強但宜等回檔。3月 +-3.28%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "bwxt": {
     "ticker": "BWXT",
@@ -1417,7 +1417,7 @@
     "market_cap_usd": 10.95,
     "view": "⚠ 下跌趨勢:1月 -15.96%、3月 -29.12%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cadence": {
     "ticker": "CDNS",
@@ -1443,7 +1443,7 @@
     "market_cap_usd": 87.78,
     "view": "中性:1月 -8.29%、3月 -3.61%。RSI 48",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cameco": {
     "ticker": "CCJ",
@@ -1465,7 +1465,7 @@
     "market_cap_usd": 31.05,
     "view": "⚠ 下跌趨勢:1月 -18.16%、3月 -26.73%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "caribou": {
     "ticker": "CRBU",
@@ -1491,7 +1491,7 @@
     "market_cap_usd": 0.05,
     "view": "突破前夕:MACD/量能轉強,RSI 48。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "caterpillar": {
     "ticker": "CAT",
@@ -1513,7 +1513,7 @@
     "market_cap_usd": 256.79,
     "view": "⚠ 趨勢轉弱:1週 -10.3% 跌破 200日均線。RSI 21。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "catl": {
     "ticker": "300750.SZ",
@@ -1539,7 +1539,7 @@
     "market_cap_usd": 168.02,
     "view": "突破前夕:MACD/量能轉強,RSI 45。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "celltrion": {
     "ticker": "068270.KS",
@@ -1567,7 +1567,7 @@
     "market_cap_usd": 35.47,
     "view": "強勢上漲:1月 +14.99%、3月 +13.56%。距 52週高點 -11.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cgembio": {
     "ticker": "CCCC",
@@ -1591,7 +1591,7 @@
     "market_cap_usd": 0.38,
     "view": "強勢上漲:1月 +8.77%、3月 +-14.36%。距 52週高點 -40.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "chroma": {
     "ticker": "2360.TW",
@@ -1615,7 +1615,7 @@
     "market_cap_usd": 15.42,
     "view": "⚠ 趨勢轉弱:1週 -31.34% 跌破 200日均線。RSI 10。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cisco": {
     "ticker": "CSCO",
@@ -1639,7 +1639,7 @@
     "market_cap_usd": 370.01,
     "view": "⚠ 趨勢轉弱:1週 -10.2% 跌破 200日均線。RSI 30。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cloudflare": {
     "ticker": "NET",
@@ -1666,7 +1666,7 @@
     "market_cap_usd": 86.7,
     "view": "⚠ 下跌趨勢:1月 -21.39%、3月 -13.47%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "coherent": {
     "ticker": "COHR",
@@ -1688,7 +1688,7 @@
     "market_cap_usd": 37.97,
     "view": "⚠ 下跌趨勢:1月 -36.23%、3月 -40.7%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cohu": {
     "ticker": "COHU",
@@ -1712,7 +1712,7 @@
     "market_cap_usd": 1.82,
     "view": "⚠ 趨勢轉弱:1週 -24.22% 跌破 200日均線。RSI 33。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "constellation": {
     "ticker": "CEG",
@@ -1736,7 +1736,7 @@
     "market_cap_usd": 88.56,
     "view": "中性:1月 -12.32%、3月 -7.43%。RSI 43",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "corning": {
     "ticker": "GLW",
@@ -1758,7 +1758,7 @@
     "market_cap_usd": 91.42,
     "view": "⚠ 趨勢轉弱:1週 -13.93% 跌破 200日均線。RSI 28。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "credo": {
     "ticker": "CRDO",
@@ -1780,7 +1780,7 @@
     "market_cap_usd": 22.65,
     "view": "⚠ 趨勢轉弱:1週 -20.19% 跌破 200日均線。RSI 34。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "crispr_tx": {
     "ticker": "CRSP",
@@ -1807,7 +1807,7 @@
     "market_cap_usd": 4.84,
     "view": "區間整理:1月 -0.73%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "croda": {
     "ticker": "CRDA.L",
@@ -1835,7 +1835,7 @@
     "market_cap_usd": 687.43,
     "view": "強勢上漲:1月 +9.63%、3月 +11.38%。距 52週高點 -3.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "crowdstrike": {
     "ticker": "CRWD",
@@ -1861,7 +1861,7 @@
     "market_cap_usd": 222.09,
     "view": "健康回檔:1週 -13.39% 但仍在長期上升趨勢,1年 +60.72%。RSI 44",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cvs": {
     "ticker": "CVS",
@@ -1885,7 +1885,7 @@
     "market_cap_usd": 107.24,
     "view": "中性:1月 -3.81%、3月 -11.73%。RSI 36",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "cymer": {
     "ticker": "ASML",
@@ -1909,7 +1909,7 @@
     "market_cap_usd": 549.12,
     "view": "⚠ 趨勢轉弱:1週 -9.01% 跌破 200日均線。RSI 35。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "dai_nippon": {
     "ticker": "7912.T",
@@ -1933,7 +1933,7 @@
     "market_cap_usd": 6.89,
     "view": "⚠ 趨勢轉弱:1週 -11.85% 跌破 200日均線。RSI 34。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "daiichi_enhertu": {
     "ticker": "4568.T",
@@ -1963,7 +1963,7 @@
     "market_cap_usd": 31.78,
     "view": "突破前夕:MACD/量能轉強,RSI 51。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "danaher": {
     "ticker": "DHR",
@@ -1991,7 +1991,7 @@
     "market_cap_usd": 161.86,
     "view": "強勢上漲:1月 +5.88%、3月 +10.17%。距 52週高點 -4.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "dario": {
     "ticker": "DRIO",
@@ -2015,7 +2015,7 @@
     "market_cap_usd": 0.02,
     "view": "⚠ 趨勢轉弱:1週 -20.83% 跌破 200日均線。RSI 15。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "datadog": {
     "ticker": "DDOG",
@@ -2039,7 +2039,7 @@
     "market_cap_usd": 59.96,
     "view": "⚠ 趨勢轉弱:1週 -23.9% 跌破 200日均線。RSI 27。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "delta": {
     "ticker": "2308.TW",
@@ -2063,7 +2063,7 @@
     "market_cap_usd": 82.77,
     "view": "⚠ 趨勢轉弱:1週 -20.97% 跌破 200日均線。RSI 11。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "dexcom": {
     "ticker": "DXCM",
@@ -2090,7 +2090,7 @@
     "market_cap_usd": 29.62,
     "view": "中性:1月 -5.92%、3月 -9.4%。RSI 40",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "docusign": {
     "ticker": "DOCU",
@@ -2120,7 +2120,7 @@
     "market_cap_usd": 14.51,
     "view": "強勢上漲:1月 +8.65%、3月 +30.13%。距 52週高點 -9.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "doubleverify": {
     "ticker": "DV",
@@ -2150,7 +2150,7 @@
     "market_cap_usd": 2.12,
     "view": "突破前夕:MACD/量能轉強,RSI 63。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "dropbox": {
     "ticker": "DBX",
@@ -2178,7 +2178,7 @@
     "market_cap_usd": 4.93,
     "view": "突破前夕:MACD/量能轉強,RSI 41。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "dynatrace": {
     "ticker": "DT",
@@ -2202,7 +2202,7 @@
     "market_cap_usd": 12.61,
     "view": "⚠ 趨勢轉弱:1週 -24.7% 跌破 200日均線。RSI 16。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "eaton": {
     "ticker": "ETN",
@@ -2226,7 +2226,7 @@
     "market_cap_usd": 132.72,
     "view": "⚠ 下跌趨勢:1月 -19.5%、3月 -23.2%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "editas": {
     "ticker": "EDIT",
@@ -2253,7 +2253,7 @@
     "market_cap_usd": 0.39,
     "view": "中性:1月 -9.51%、3月 -8.54%。RSI 55",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "edwards": {
     "ticker": "EW",
@@ -2283,7 +2283,7 @@
     "market_cap_usd": 58.87,
     "view": "強勢但偏高:1月 +21.25%、RSI 84 超買。技術面強但宜等回檔。3月 +10.99%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "eight_x_eight": {
     "ticker": "EGHT",
@@ -2311,7 +2311,7 @@
     "market_cap_usd": 0.31,
     "view": "中性:1月 -1.39%、3月 -4.91%。RSI 57",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "eisai": {
     "ticker": "4523.T",
@@ -2340,7 +2340,7 @@
     "market_cap_usd": 8.65,
     "view": "突破前夕:MACD/量能轉強,RSI 47。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "elastic": {
     "ticker": "ESTC",
@@ -2364,7 +2364,7 @@
     "market_cap_usd": 9.04,
     "view": "回檔整理:1週 -11.51%,價格仍在 200日均線之上。RSI 39,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "eoptolink": {
     "ticker": "300502.SZ",
@@ -2388,7 +2388,7 @@
     "market_cap_usd": 35.98,
     "view": "⚠ 趨勢轉弱:1週 -12.19% 跌破 200日均線。RSI 20。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "equinix": {
     "ticker": "EQIX",
@@ -2416,7 +2416,7 @@
     "market_cap_usd": 100.25,
     "view": "區間整理:1月 0.15%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "faraday": {
     "ticker": "3035.TW",
@@ -2440,7 +2440,7 @@
     "market_cap_usd": 1.26,
     "view": "⚠ 趨勢轉弱:1週 -24.82% 跌破 200日均線。RSI 36。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "figma": {
     "ticker": "FIG",
@@ -2462,7 +2462,7 @@
     "market_cap_usd": 8.56,
     "view": "⚠ 趨勢轉弱:1週 -13.12% 跌破 200日均線。RSI 40。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "first_solar": {
     "ticker": "FSLR",
@@ -2490,7 +2490,7 @@
     "market_cap_usd": 21.62,
     "view": "強勢但偏高:1月 +12.46%、RSI 80 超買。技術面強但宜等回檔。3月 +-15.96%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "five9": {
     "ticker": "FIVN",
@@ -2516,7 +2516,7 @@
     "market_cap_usd": 2.1,
     "view": "回檔整理:1週 -22.62%,價格仍在 200日均線之上。RSI 34,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "fluence": {
     "ticker": "FLNC",
@@ -2540,7 +2540,7 @@
     "market_cap_usd": 0.75,
     "view": "⚠ 下跌趨勢:1月 -29.26%、3月 -58.34%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "foghorn": {
     "ticker": "FHTX",
@@ -2566,7 +2566,7 @@
     "market_cap_usd": 0.11,
     "view": "⚠ 趨勢轉弱:1週 -10.1% 跌破 200日均線。RSI 50。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "fortinet": {
     "ticker": "FTNT",
@@ -2590,7 +2590,7 @@
     "market_cap_usd": 87.31,
     "view": "⚠ 趨勢轉弱:1週 -12.67% 跌破 200日均線。RSI 20。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "foxconn": {
     "ticker": "2317.TW",
@@ -2616,7 +2616,7 @@
     "market_cap_usd": 95.43,
     "view": "中性:1月 -12.3%、3月 -13.15%。RSI 35",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "garmin": {
     "ticker": "GRMN",
@@ -2645,7 +2645,7 @@
     "market_cap_usd": 55.03,
     "view": "突破前夕:MACD/量能轉強,RSI 50。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ge_health": {
     "ticker": "GEHC",
@@ -2674,7 +2674,7 @@
     "market_cap_usd": 37.25,
     "view": "強勢但偏高:1月 +28.35%、RSI 77 超買。技術面強但宜等回檔。3月 +13.01%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ge_vernova": {
     "ticker": "GEV",
@@ -2696,7 +2696,7 @@
     "market_cap_usd": 204.89,
     "view": "⚠ 趨勢轉弱:1週 -9.76% 跌破 200日均線。RSI 37。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "genmab": {
     "ticker": "GMAB.CO",
@@ -2724,7 +2724,7 @@
     "market_cap_usd": 32.33,
     "view": "淺幅回檔:1週 -9.84% 但仍在 50日均線之上,趨勢未破。RSI 74",
     "view_type": "shallow_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "gilead_trodelvy": {
     "ticker": "GILD",
@@ -2754,7 +2754,7 @@
     "market_cap_usd": 207.0,
     "view": "強勢上漲:1月 +13.45%、3月 +26.13%。距 52週高點 -5.5%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ginkgo": {
     "ticker": "DNA",
@@ -2784,7 +2784,7 @@
     "market_cap_usd": 0.63,
     "view": "中性:1月 -0.44%、3月 47.58%。RSI 55",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "gitlab": {
     "ticker": "GTLB",
@@ -2808,7 +2808,7 @@
     "market_cap_usd": 7.96,
     "view": "回檔整理:1週 -11.09%,價格仍在 200日均線之上。RSI 35,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "globalfoundries": {
     "ticker": "GFS",
@@ -2830,7 +2830,7 @@
     "market_cap_usd": 21.53,
     "view": "⚠ 下跌趨勢:1月 -21.76%、3月 -22.64%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "google": {
     "ticker": "GOOGL",
@@ -2854,7 +2854,7 @@
     "market_cap_usd": 1676.78,
     "view": "⚠ 下跌趨勢:1月 -18.23%、3月 -20.29%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "google_deepmind": {
     "ticker": "GOOGL",
@@ -2878,7 +2878,7 @@
     "market_cap_usd": 1676.78,
     "view": "⚠ 下跌趨勢:1月 -18.23%、3月 -20.29%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "google_jax": {
     "ticker": "GOOGL",
@@ -2902,7 +2902,7 @@
     "market_cap_usd": 1676.78,
     "view": "⚠ 下跌趨勢:1月 -18.23%、3月 -20.29%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "grail": {
     "ticker": "GRAL",
@@ -2930,7 +2930,7 @@
     "market_cap_usd": 5.42,
     "view": "健康回檔:1週 -15.33% 但仍在長期上升趨勢,1年 +52.95%。RSI 50",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "guardant": {
     "ticker": "GH",
@@ -2957,7 +2957,7 @@
     "market_cap_usd": 20.25,
     "view": "健康回檔:1週 -15.62% 但仍在長期上升趨勢,1年 +55.99%。RSI 46",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "guc": {
     "ticker": "3443.TW",
@@ -2984,7 +2984,7 @@
     "market_cap_usd": 25.11,
     "view": "健康回檔:1週 -18.73% 但仍在長期上升趨勢,1年 +289.58%。RSI 36",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "hims": {
     "ticker": "HIMS",
@@ -3010,7 +3010,7 @@
     "market_cap_usd": 5.85,
     "view": "中性:1月 -7.34%、3月 -18.16%。RSI 43",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "hitachi_hi_tech": {
     "ticker": "6501.T",
@@ -3034,7 +3034,7 @@
     "market_cap_usd": 127.78,
     "view": "⚠ 趨勢轉弱:1週 -10.43% 跌破 200日均線。RSI 11。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "hoya": {
     "ticker": "7741.T",
@@ -3058,7 +3058,7 @@
     "market_cap_usd": 47.01,
     "view": "⚠ 趨勢轉弱:1週 -14.94% 跌破 200日均線。RSI 22。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "hpe": {
     "ticker": "HPE",
@@ -3082,7 +3082,7 @@
     "market_cap_usd": 59.43,
     "view": "健康回檔:1週 -18.73% 但仍在長期上升趨勢,1年 +94.36%。RSI 32",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "hubbell": {
     "ticker": "HUBB",
@@ -3106,7 +3106,7 @@
     "market_cap_usd": 22.69,
     "view": "中性:1月 -9.67%、3月 -14.68%。RSI 38",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "hubspot": {
     "ticker": "HUBS",
@@ -3130,7 +3130,7 @@
     "market_cap_usd": 10.27,
     "view": "⚠ 趨勢轉弱:1週 -14.59% 跌破 200日均線。RSI 34。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "iberdrola": {
     "ticker": "IBE.MC",
@@ -3159,7 +3159,7 @@
     "market_cap_usd": 169.68,
     "view": "強勢但偏高:1月 +7.3%、RSI 86 超買。技術面強但宜等回檔。3月 +10.0%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ibiden": {
     "ticker": "4062.T",
@@ -3183,7 +3183,7 @@
     "market_cap_usd": 22.02,
     "view": "⚠ 趨勢轉弱:1週 -37.65% 跌破 200日均線。RSI 26。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "illumina": {
     "ticker": "ILMN",
@@ -3207,7 +3207,7 @@
     "market_cap_usd": 32.23,
     "view": "回檔整理:1週 -9.69%,價格仍在 200日均線之上。RSI 35,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "infineon": {
     "ticker": "IFX.DE",
@@ -3229,7 +3229,7 @@
     "market_cap_usd": 66.77,
     "view": "⚠ 趨勢轉弱:1週 -9.5% 跌破 200日均線。RSI 35。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "innolight": {
     "ticker": "300308.SZ",
@@ -3251,7 +3251,7 @@
     "market_cap_usd": 74.9,
     "view": "⚠ 趨勢轉弱:1週 -18.99% 跌破 200日均線。RSI 28。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "intel": {
     "ticker": "INTC",
@@ -3275,7 +3275,7 @@
     "market_cap_usd": 299.13,
     "view": "⚠ 趨勢轉弱:1週 -14.42% 跌破 200日均線。RSI 24。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "intellia": {
     "ticker": "NTLA",
@@ -3299,7 +3299,7 @@
     "market_cap_usd": 1.59,
     "view": "中性:1月 -9.92%、3月 -5.57%。RSI 48",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "intuitive": {
     "ticker": "ISRG",
@@ -3326,7 +3326,7 @@
     "market_cap_usd": 159.96,
     "view": "強勢上漲:1月 +9.0%、3月 +15.1%。距 52週高點 -25.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "inventec": {
     "ticker": "2356.TW",
@@ -3350,7 +3350,7 @@
     "market_cap_usd": 5.7,
     "view": "⚠ 趨勢轉弱:1週 -11.6% 跌破 200日均線。RSI 32。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "iovance": {
     "ticker": "IOVA",
@@ -3375,7 +3375,7 @@
     "market_cap_usd": 3.64,
     "view": "⚠ 下跌趨勢:1月 -39.59%、3月 25.62%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "irhythm": {
     "ticker": "IRTC",
@@ -3399,7 +3399,7 @@
     "market_cap_usd": 2.97,
     "view": "⚠ 趨勢轉弱:1週 -26.87% 跌破 200日均線。RSI 38。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "iridium": {
     "ticker": "IRDM",
@@ -3425,7 +3425,7 @@
     "market_cap_usd": 4.67,
     "view": "中性:1月 -7.4%、3月 -10.41%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "jcet": {
     "ticker": "600584.SS",
@@ -3453,7 +3453,7 @@
     "market_cap_usd": 14.09,
     "view": "突破前夕:MACD/量能轉強,RSI 44。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "jnj_invokana": {
     "ticker": "JNJ",
@@ -3481,7 +3481,7 @@
     "market_cap_usd": 664.95,
     "view": "強勢上漲:1月 +7.7%、3月 +6.02%。距 52週高點 -2.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "kaori": {
     "ticker": "8996.TW",
@@ -3505,7 +3505,7 @@
     "market_cap_usd": 3.31,
     "view": "健康回檔:1週 -17.77% 但仍在長期上升趨勢,1年 +122.59%。RSI 34",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "kilopass": {
     "ticker": "SNPS",
@@ -3531,7 +3531,7 @@
     "market_cap_usd": 86.32,
     "view": "中性:1月 -9.5%、3月 9.42%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "kla": {
     "ticker": "KLAC",
@@ -3553,7 +3553,7 @@
     "market_cap_usd": 180.45,
     "view": "⚠ 趨勢轉弱:1週 -12.3% 跌破 200日均線。RSI 36。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "klaviyo": {
     "ticker": "KVYO",
@@ -3580,7 +3580,7 @@
     "market_cap_usd": 2.92,
     "view": "強勢上漲:1月 +17.87%、3月 +15.89%。距 52週高點 -37.9%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "kulicke_soffa": {
     "ticker": "KLIC",
@@ -3602,7 +3602,7 @@
     "market_cap_usd": 3.35,
     "view": "⚠ 趨勢轉弱:1週 -13.74% 跌破 200日均線。RSI 30。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "kymera": {
     "ticker": "KYMR",
@@ -3631,7 +3631,7 @@
     "market_cap_usd": 11.25,
     "view": "強勢但偏高:1月 +20.52%、RSI 76 超買。技術面強但宜等回檔。3月 +21.32%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "l3harris": {
     "ticker": "LHX",
@@ -3656,7 +3656,7 @@
     "market_cap_usd": 48.39,
     "view": "強勢上漲:1月 +9.7%、3月 +-9.87%。距 52週高點 -30.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lam_research": {
     "ticker": "LRCX",
@@ -3680,7 +3680,7 @@
     "market_cap_usd": 250.84,
     "view": "⚠ 趨勢轉弱:1週 -16.17% 跌破 200日均線。RSI 27。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lantheus": {
     "ticker": "LNTH",
@@ -3709,7 +3709,7 @@
     "market_cap_usd": 6.57,
     "view": "中性:1月 0.49%、3月 -0.37%。RSI 60",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lattice": {
     "ticker": "LSCC",
@@ -3735,7 +3735,7 @@
     "market_cap_usd": 14.92,
     "view": "突破前夕:MACD/量能轉強,RSI 47。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "legalzoom": {
     "ticker": "LZ",
@@ -3757,7 +3757,7 @@
     "market_cap_usd": 0.9,
     "view": "⚠ 趨勢轉弱:1週 -22.1% 跌破 200日均線。RSI 37。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "legend": {
     "ticker": "LEGN",
@@ -3783,7 +3783,7 @@
     "market_cap_usd": 4.55,
     "view": "強勢但偏高:1月 +25.07%、RSI 77 超買。技術面強但宜等回檔。3月 +13.26%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lifestance": {
     "ticker": "LFST",
@@ -3810,7 +3810,7 @@
     "market_cap_usd": 5.23,
     "view": "強勢但偏高:1月 +14.18%、RSI 73 超買。技術面強但宜等回檔。3月 +15.71%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lilly_mech": {
     "ticker": "LLY",
@@ -3839,7 +3839,7 @@
     "market_cap_usd": 1206.07,
     "view": "強勢上漲:1月 +15.77%、3月 +10.07%。距 52週高點 -6.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lipoid_evo": {
     "ticker": "EVK.DE",
@@ -3869,7 +3869,7 @@
     "market_cap_usd": 11.05,
     "view": "突破前夕:MACD/量能轉強,RSI 46。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "liteon": {
     "ticker": "2301.TW",
@@ -3893,7 +3893,7 @@
     "market_cap_usd": 13.57,
     "view": "⚠ 趨勢轉弱:1週 -17.67% 跌破 200日均線。RSI 14。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lockheed": {
     "ticker": "LMT",
@@ -3921,7 +3921,7 @@
     "market_cap_usd": 131.0,
     "view": "淺幅回檔:1週 -10.97% 但仍在 50日均線之上,趨勢未破。RSI 54",
     "view_type": "shallow_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lonza": {
     "ticker": "LONN.SW",
@@ -3950,7 +3950,7 @@
     "market_cap_usd": 56.83,
     "view": "強勢但偏高:1月 +17.75%、RSI 80 超買。技術面強但宜等回檔。3月 +15.29%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "lumentum": {
     "ticker": "LITE",
@@ -3974,7 +3974,7 @@
     "market_cap_usd": 48.79,
     "view": "⚠ 趨勢轉弱:1週 -35.94% 跌破 200日均線。RSI 30。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "macronix": {
     "ticker": "2337.TW",
@@ -3996,7 +3996,7 @@
     "market_cap_usd": 4.53,
     "view": "⚠ 趨勢轉弱:1週 -20.55% 跌破 200日均線。RSI 17。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "madrigal": {
     "ticker": "MDGL",
@@ -4018,7 +4018,7 @@
     "market_cap_usd": 9.23,
     "view": "⚠ 下跌趨勢:1月 -16.2%、3月 -22.45%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "magnite": {
     "ticker": "MGNI",
@@ -4047,7 +4047,7 @@
     "market_cap_usd": 3.93,
     "view": "強勢上漲:1月 +7.62%、3月 +13.14%。距 52週高點 -2.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "marvell": {
     "ticker": "MRVL",
@@ -4071,7 +4071,7 @@
     "market_cap_usd": 123.82,
     "view": "⚠ 趨勢轉弱:1週 -28.11% 跌破 200日均線。RSI 24。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "mchp": {
     "ticker": "MCHP",
@@ -4095,7 +4095,7 @@
     "market_cap_usd": 31.68,
     "view": "⚠ 趨勢轉弱:1週 -24.55% 跌破 200日均線。RSI 30。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "mediatek": {
     "ticker": "2454.TW",
@@ -4121,7 +4121,7 @@
     "market_cap_usd": 163.53,
     "view": "健康回檔:1週 -13.41% 但仍在長期上升趨勢,1年 +160.4%。RSI 23",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "medtronic_hugo": {
     "ticker": "MDT",
@@ -4151,7 +4151,7 @@
     "market_cap_usd": 130.22,
     "view": "強勢上漲:1月 +16.01%、3月 +14.79%。距 52週高點 -4.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "merck_kgaa": {
     "ticker": "MRK.DE",
@@ -4179,7 +4179,7 @@
     "market_cap_usd": 21.59,
     "view": "強勢上漲:1月 +9.62%、3月 +6.25%。距 52週高點 -2.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "merck_steglatro": {
     "ticker": "MRK",
@@ -4210,7 +4210,7 @@
     "market_cap_usd": 362.01,
     "view": "突破前夕:MACD/量能轉強,RSI 54。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "meta": {
     "ticker": "META",
@@ -4236,7 +4236,7 @@
     "market_cap_usd": 1351.15,
     "view": "⚠ 下跌趨勢:1月 -15.36%、3月 2.64%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "meta_ai": {
     "ticker": "META",
@@ -4262,7 +4262,7 @@
     "market_cap_usd": 1351.15,
     "view": "⚠ 下跌趨勢:1月 -15.36%、3月 2.64%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "mhi": {
     "ticker": "7011.T",
@@ -4286,7 +4286,7 @@
     "market_cap_usd": 61.77,
     "view": "⚠ 趨勢轉弱:1週 -16.76% 跌破 200日均線。RSI 8。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "micron": {
     "ticker": "MU",
@@ -4310,7 +4310,7 @@
     "market_cap_usd": 780.68,
     "view": "⚠ 趨勢轉弱:1週 -22.01% 跌破 200日均線。RSI 32。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "microsoft": {
     "ticker": "MSFT",
@@ -4340,7 +4340,7 @@
     "market_cap_usd": 3940.41,
     "view": "突破前夕:MACD/量能轉強,RSI 49。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "moderna_mrna4157": {
     "ticker": "MRNA",
@@ -4371,7 +4371,7 @@
     "market_cap_usd": 101.48,
     "view": "強勢上漲:1月 +29.03%、3月 +325.0%。距 52週高點 -5.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "modine": {
     "ticker": "MOD",
@@ -4393,7 +4393,7 @@
     "market_cap_usd": 5.14,
     "view": "⚠ 趨勢轉弱:1週 -25.55% 跌破 200日均線。RSI 24。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "mongodb": {
     "ticker": "MDB",
@@ -4419,7 +4419,7 @@
     "market_cap_usd": 25.16,
     "view": "⚠ 趨勢轉弱:1週 -11.37% 跌破 200日均線。RSI 41。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "mps": {
     "ticker": "MPWR",
@@ -4444,7 +4444,7 @@
     "market_cap_usd": 58.08,
     "view": "中性:1月 -13.09%、3月 -13.68%。RSI 45",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "munters": {
     "ticker": "MTRS.ST",
@@ -4468,7 +4468,7 @@
     "market_cap_usd": 2.38,
     "view": "區間整理:1月 2.43%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "myrg": {
     "ticker": "MYRG",
@@ -4492,7 +4492,7 @@
     "market_cap_usd": 4.09,
     "view": "⚠ 下跌趨勢:1月 -15.41%、3月 -20.41%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nan_ya_pcb": {
     "ticker": "8046.TW",
@@ -4516,7 +4516,7 @@
     "market_cap_usd": 17.08,
     "view": "⚠ 趨勢轉弱:1週 -26.47% 跌破 200日均線。RSI 16。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "natera": {
     "ticker": "NTRA",
@@ -4542,7 +4542,7 @@
     "market_cap_usd": 44.78,
     "view": "健康回檔:1週 -25.01% 但仍在長期上升趨勢,1年 +55.67%。RSI 29",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "neophotonics": {
     "ticker": "LITE",
@@ -4566,7 +4566,7 @@
     "market_cap_usd": 48.79,
     "view": "⚠ 趨勢轉弱:1週 -35.94% 跌破 200日均線。RSI 30。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nextera": {
     "ticker": "NEE",
@@ -4594,7 +4594,7 @@
     "market_cap_usd": 182.36,
     "view": "強勢但偏高:1月 +12.38%、RSI 75 超買。技術面強但宜等回檔。3月 +3.43%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "northrop": {
     "ticker": "NOC",
@@ -4619,7 +4619,7 @@
     "market_cap_usd": 74.59,
     "view": "強勢上漲:1月 +8.37%、3月 +-8.74%。距 52週高點 -31.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "novartis_olpa": {
     "ticker": "NVS",
@@ -4647,7 +4647,7 @@
     "market_cap_usd": 307.0,
     "view": "強勢上漲:1月 +13.58%、3月 +3.67%。距 52週高點 -2.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "novo_mech": {
     "ticker": "NVO",
@@ -4673,7 +4673,7 @@
     "market_cap_usd": 134.47,
     "view": "強勢上漲:1月 +5.58%、3月 +-14.47%。距 52週高點 -34.0%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nurix": {
     "ticker": "NRIX",
@@ -4697,7 +4697,7 @@
     "market_cap_usd": 1.67,
     "view": "⚠ 趨勢轉弱:1週 -42.91% 跌破 200日均線。RSI 22。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nuscale": {
     "ticker": "SMR",
@@ -4721,7 +4721,7 @@
     "market_cap_usd": 2.08,
     "view": "⚠ 趨勢轉弱:1週 -9.61% 跌破 200日均線。RSI 41。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nvidia": {
     "ticker": "NVDA",
@@ -4745,7 +4745,7 @@
     "market_cap_usd": 4506.8,
     "view": "⚠ 下跌趨勢:1月 -19.02%、3月 -14.11%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nvidia_nemo": {
     "ticker": "NVDA",
@@ -4769,7 +4769,7 @@
     "market_cap_usd": 4506.8,
     "view": "⚠ 下跌趨勢:1月 -19.02%、3月 -14.11%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nvidia_triton": {
     "ticker": "NVDA",
@@ -4793,7 +4793,7 @@
     "market_cap_usd": 4506.8,
     "view": "⚠ 下跌趨勢:1月 -19.02%、3月 -14.11%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "nxp": {
     "ticker": "NXPI",
@@ -4818,7 +4818,7 @@
     "market_cap_usd": 62.58,
     "view": "強勢上漲:1月 +7.45%、3月 +6.84%。距 52週高點 -26.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "oklo": {
     "ticker": "OKLO",
@@ -4842,7 +4842,7 @@
     "market_cap_usd": null,
     "view": "⚠ 下跌趨勢:1月 -31.88%、3月 -47.07%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "okta": {
     "ticker": "OKTA",
@@ -4868,7 +4868,7 @@
     "market_cap_usd": 28.19,
     "view": "健康回檔:1週 -18.99% 但仍在長期上升趨勢,1年 +97.97%。RSI 41",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "omada": {
     "ticker": "OMDA",
@@ -4894,7 +4894,7 @@
     "market_cap_usd": 0.92,
     "view": "⚠ 趨勢轉弱:1週 -19.43% 跌破 200日均線。RSI 37。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "oneweb": {
     "ticker": "ETL.PA",
@@ -4922,7 +4922,7 @@
     "market_cap_usd": 2.41,
     "view": "強勢上漲:1月 +29.45%、3月 +-13.74%。距 52週高點 -60.1%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "onto_innovation": {
     "ticker": "ONTO",
@@ -4944,7 +4944,7 @@
     "market_cap_usd": 8.5,
     "view": "⚠ 趨勢轉弱:1週 -14.03% 跌破 200日均線。RSI 34。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "oracle": {
     "ticker": "ORCL",
@@ -4968,7 +4968,7 @@
     "market_cap_usd": 351.96,
     "view": "⚠ 趨勢轉弱:1週 -11.15% 跌破 200日均線。RSI 40。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "palantir": {
     "ticker": "PLTR",
@@ -4992,7 +4992,7 @@
     "market_cap_usd": 368.99,
     "view": "回檔整理:1週 -12.89%,價格仍在 200日均線之上。RSI 25,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "palo_alto": {
     "ticker": "PANW",
@@ -5016,7 +5016,7 @@
     "market_cap_usd": 256.86,
     "view": "回檔整理:1週 -14.22%,價格仍在 200日均線之上。RSI 39,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "pfizer_oral": {
     "ticker": "PFE",
@@ -5045,7 +5045,7 @@
     "market_cap_usd": 167.51,
     "view": "強勢上漲:1月 +7.19%、3月 +10.24%。距 52週高點 -5.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "philips_health": {
     "ticker": "PHG",
@@ -5074,7 +5074,7 @@
     "market_cap_usd": 29.66,
     "view": "強勢但偏高:1月 +24.9%、RSI 82 超買。技術面強但宜等回檔。3月 +12.66%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "photronics": {
     "ticker": "PLAB",
@@ -5098,7 +5098,7 @@
     "market_cap_usd": 1.61,
     "view": "中性:1月 -7.91%、3月 -14.71%。RSI 45",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "planet_labs": {
     "ticker": "PL",
@@ -5122,7 +5122,7 @@
     "market_cap_usd": 4.27,
     "view": "⚠ 下跌趨勢:1月 -26.99%、3月 -45.67%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "polypeptide": {
     "ticker": "PPGN.SW",
@@ -5146,7 +5146,7 @@
     "market_cap_usd": 1.62,
     "view": "中性:1月 -8.77%、3月 -8.87%。RSI 20",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "prime_med": {
     "ticker": "PRME",
@@ -5174,7 +5174,7 @@
     "market_cap_usd": 0.84,
     "view": "強勢上漲:1月 +29.89%、3月 +47.62%。距 52週高點 -21.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "procore": {
     "ticker": "PCOR",
@@ -5205,7 +5205,7 @@
     "market_cap_usd": 11.45,
     "view": "強勢但偏高:1月 +37.51%、RSI 89 超買。技術面強但宜等回檔。3月 +29.46%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "pubmatic": {
     "ticker": "PUBM",
@@ -5236,7 +5236,7 @@
     "market_cap_usd": 0.66,
     "view": "突破前夕:MACD/量能轉強,RSI 57。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "qiagen": {
     "ticker": "QGEN",
@@ -5263,7 +5263,7 @@
     "market_cap_usd": 10.39,
     "view": "強勢但偏高:1月 +13.02%、RSI 84 超買。技術面強但宜等回檔。3月 +14.78%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "qualcomm": {
     "ticker": "QCOM",
@@ -5289,7 +5289,7 @@
     "market_cap_usd": 176.63,
     "view": "中性:1月 -6.02%、3月 2.55%。RSI 45",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "quanta": {
     "ticker": "2382.TW",
@@ -5315,7 +5315,7 @@
     "market_cap_usd": 35.97,
     "view": "中性:1月 -12.89%、3月 -4.44%。RSI 29",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "rambus": {
     "ticker": "RMBS",
@@ -5337,7 +5337,7 @@
     "market_cap_usd": 7.98,
     "view": "⚠ 趨勢轉弱:1週 -11.96% 跌破 200日均線。RSI 32。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "recursion_rxrx": {
     "ticker": "RXRX",
@@ -5363,7 +5363,7 @@
     "market_cap_usd": 2.1,
     "view": "回檔整理:1週 -12.66%,價格仍在 200日均線之上。RSI 48,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "regeneron_muscle": {
     "ticker": "REGN",
@@ -5392,7 +5392,7 @@
     "market_cap_usd": 91.91,
     "view": "強勢但偏高:1月 +22.28%、RSI 70 超買。技術面強但宜等回檔。3月 +12.05%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "regenxbio": {
     "ticker": "RGNX",
@@ -5419,7 +5419,7 @@
     "market_cap_usd": 0.5,
     "view": "中性:1月 -5.81%、3月 -26.87%。RSI 57",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "relay_tx": {
     "ticker": "RLAY",
@@ -5445,7 +5445,7 @@
     "market_cap_usd": 4.08,
     "view": "強勢上漲:1月 +6.84%、3月 +-6.72%。距 52週高點 -12.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "renesas": {
     "ticker": "6723.T",
@@ -5467,7 +5467,7 @@
     "market_cap_usd": 28.58,
     "view": "⚠ 趨勢轉弱:1週 -16.2% 跌破 200日均線。RSI 28。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "resonac": {
     "ticker": "4004.T",
@@ -5491,7 +5491,7 @@
     "market_cap_usd": 12.61,
     "view": "⚠ 趨勢轉弱:1週 -24.71% 跌破 200日均線。RSI 29。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "revolution": {
     "ticker": "RVMD",
@@ -5519,7 +5519,7 @@
     "market_cap_usd": 41.21,
     "view": "區間整理:1月 2.21%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ringcentral": {
     "ticker": "RNG",
@@ -5543,7 +5543,7 @@
     "market_cap_usd": 5.31,
     "view": "回檔整理:1週 -11.33%,價格仍在 200日均線之上。RSI 38,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "roche_oral": {
     "ticker": "RHHBY",
@@ -5572,7 +5572,7 @@
     "market_cap_usd": 327.76,
     "view": "強勢上漲:1月 +11.24%、3月 +3.38%。距 52週高點 -3.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "rocket_lab": {
     "ticker": "RKLB",
@@ -5598,7 +5598,7 @@
     "market_cap_usd": 31.76,
     "view": "⚠ 下跌趨勢:1月 -22.41%、3月 -33.7%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "roku": {
     "ticker": "ROKU",
@@ -5629,7 +5629,7 @@
     "market_cap_usd": 21.21,
     "view": "突破前夕:MACD/量能轉強,RSI 62。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "salesforce": {
     "ticker": "CRM",
@@ -5653,7 +5653,7 @@
     "market_cap_usd": 175.83,
     "view": "中性:1月 -6.21%、3月 8.36%。RSI 25",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "samsung": {
     "ticker": "005930.KS",
@@ -5677,7 +5677,7 @@
     "market_cap_usd": 794.34,
     "view": "⚠ 趨勢轉弱:1週 -16.13% 跌破 200日均線。RSI 38。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "samsung_bio": {
     "ticker": "207940.KS",
@@ -5705,7 +5705,7 @@
     "market_cap_usd": 52.03,
     "view": "強勢上漲:1月 +18.72%、3月 +2.71%。距 52週高點 -23.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "samsung_health": {
     "ticker": "005930.KS",
@@ -5729,7 +5729,7 @@
     "market_cap_usd": 794.34,
     "view": "⚠ 趨勢轉弱:1週 -16.13% 跌破 200日均線。RSI 38。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "samsung_lsi": {
     "ticker": "005930.KS",
@@ -5753,7 +5753,7 @@
     "market_cap_usd": 794.34,
     "view": "⚠ 趨勢轉弱:1週 -16.13% 跌破 200日均線。RSI 38。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "sanofi_glp1": {
     "ticker": "SNY",
@@ -5782,7 +5782,7 @@
     "market_cap_usd": 112.71,
     "view": "強勢但偏高:1月 +16.93%、RSI 85 超買。技術面強但宜等回檔。3月 +8.19%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "sap": {
     "ticker": "SAP",
@@ -5810,7 +5810,7 @@
     "market_cap_usd": 269.45,
     "view": "強勢上漲:1月 +9.91%、3月 +11.94%。距 52週高點 -7.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "sarepta": {
     "ticker": "SRPT",
@@ -5837,7 +5837,7 @@
     "market_cap_usd": 1.88,
     "view": "區間整理:1月 -2.14%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "schneider": {
     "ticker": "SU.PA",
@@ -5861,7 +5861,7 @@
     "market_cap_usd": 150.97,
     "view": "中性:1月 -12.43%、3月 -25.22%。RSI 34",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "scholar_rock": {
     "ticker": "SRRK",
@@ -5888,7 +5888,7 @@
     "market_cap_usd": 5.72,
     "view": "強勢但偏高:1月 +11.23%、RSI 75 超買。技術面強但宜等回檔。3月 +-9.54%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "schrodinger": {
     "ticker": "SDGR",
@@ -5918,7 +5918,7 @@
     "market_cap_usd": 1.96,
     "view": "強勢上漲:1月 +13.0%、3月 +58.87%。距 52週高點 -11.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "senseonics": {
     "ticker": "SENS",
@@ -5946,7 +5946,7 @@
     "market_cap_usd": 0.45,
     "view": "回檔整理:1週 -9.67%,價格仍在 200日均線之上。RSI 55,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "sentinelone": {
     "ticker": "S",
@@ -5973,7 +5973,7 @@
     "market_cap_usd": 7.45,
     "view": "回檔整理:1週 -13.44%,價格仍在 200日均線之上。RSI 50,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "servicenow": {
     "ticker": "NOW",
@@ -5997,7 +5997,7 @@
     "market_cap_usd": 105.84,
     "view": "⚠ 下跌趨勢:1月 -27.03%、3月 -19.99%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "shin_etsu": {
     "ticker": "4063.T",
@@ -6019,7 +6019,7 @@
     "market_cap_usd": 60.88,
     "view": "⚠ 趨勢轉弱:1週 -11.61% 跌破 200日均線。RSI 22。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "shopify": {
     "ticker": "SHOP",
@@ -6043,7 +6043,7 @@
     "market_cap_usd": 181.61,
     "view": "中性:1月 -9.51%、3月 -4.04%。RSI 33",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "siemens_eda": {
     "ticker": "SIE.DE",
@@ -6072,7 +6072,7 @@
     "market_cap_usd": 226.23,
     "view": "突破前夕:MACD/量能轉強,RSI 48。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "siemens_energy": {
     "ticker": "ENR.DE",
@@ -6094,7 +6094,7 @@
     "market_cap_usd": 112.83,
     "view": "⚠ 下跌趨勢:1月 -17.12%、3月 -25.52%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "siemens_health": {
     "ticker": "SHL.DE",
@@ -6124,7 +6124,7 @@
     "market_cap_usd": 56.12,
     "view": "強勢但偏高:1月 +16.73%、RSI 85 超買。技術面強但宜等回檔。3月 +12.81%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "siltronic": {
     "ticker": "WAF.DE",
@@ -6146,7 +6146,7 @@
     "market_cap_usd": 1.87,
     "view": "⚠ 趨勢轉弱:1週 -13.56% 跌破 200日均線。RSI 26。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "sk_hynix": {
     "ticker": "000660.KS",
@@ -6157,7 +6157,7 @@
     "return_1y": 103.47,
     "rsi": 42.8,
     "ma_50": 1590997.91,
-    "ma_200": 1507125.49,
+    "ma_200": 1507125.48,
     "signals": [
       "黃金交叉 (50日 > 200日)"
     ],
@@ -6172,18 +6172,18 @@
     "market_cap_usd": 588.54,
     "view": "⚠ 趨勢轉弱:1週 -20.17% 跌破 200日均線。RSI 43。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "smith_n": {
     "ticker": "SNN",
     "price": 31.15,
     "return_1w": 4.88,
     "return_1m": 15.54,
-    "return_3m": 3.56,
-    "return_1y": -4.84,
+    "return_3m": 4.79,
+    "return_1y": -3.71,
     "rsi": 64.0,
-    "ma_50": 28.5,
-    "ma_200": 30.92,
+    "ma_50": 28.35,
+    "ma_200": 30.6,
     "signals": [
       "價格突破 50日均線",
       "1月強勢 +15.54%",
@@ -6196,11 +6196,11 @@
     ],
     "early_score": 1,
     "early_signal": false,
-    "dist_from_52w_high": -14.7,
+    "dist_from_52w_high": -13.7,
     "market_cap_usd": 13.04,
-    "view": "強勢上漲:1月 +15.54%、3月 +3.56%。距 52週高點 -14.7%,動能延續",
+    "view": "強勢上漲:1月 +15.54%、3月 +4.79%。距 52週高點 -13.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "snowflake": {
     "ticker": "SNOW",
@@ -6224,7 +6224,7 @@
     "market_cap_usd": 97.33,
     "view": "回檔整理:1週 -9.87%,價格仍在 200日均線之上。RSI 34,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "socionext": {
     "ticker": "6526.T",
@@ -6246,7 +6246,7 @@
     "market_cap_usd": 1.72,
     "view": "⚠ 趨勢轉弱:1週 -20.69% 跌破 200日均線。RSI 29。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "spil": {
     "ticker": "3711.TW",
@@ -6272,7 +6272,7 @@
     "market_cap_usd": 70.28,
     "view": "健康回檔:1週 -21.11% 但仍在長期上升趨勢,1年 +162.63%。RSI 27",
     "view_type": "healthy_pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "spire": {
     "ticker": "SPIR",
@@ -6296,7 +6296,7 @@
     "market_cap_usd": 0.34,
     "view": "⚠ 下跌趨勢:1月 -16.67%、3月 -38.35%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "splunk_cisco": {
     "ticker": "CSCO",
@@ -6320,7 +6320,7 @@
     "market_cap_usd": 370.01,
     "view": "⚠ 趨勢轉弱:1週 -10.2% 跌破 200日均線。RSI 30。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "stem": {
     "ticker": "STEM",
@@ -6345,7 +6345,7 @@
     "market_cap_usd": 0.02,
     "view": "⚠ 下跌趨勢:1月 -40.0%、3月 -55.63%。已破 200日均線",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "stryker_robot": {
     "ticker": "SYK",
@@ -6373,7 +6373,7 @@
     "market_cap_usd": 124.06,
     "view": "強勢上漲:1月 +17.66%、3月 +-5.47%。距 52週高點 -15.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "sumco": {
     "ticker": "3436.T",
@@ -6397,7 +6397,7 @@
     "market_cap_usd": 3.94,
     "view": "⚠ 趨勢轉弱:1週 -29.23% 跌破 200日均線。RSI 22。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "supermicro": {
     "ticker": "SMCI",
@@ -6423,7 +6423,7 @@
     "market_cap_usd": 18.89,
     "view": "⚠ 趨勢轉弱:1週 -12.72% 跌破 200日均線。RSI 42。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "synopsys": {
     "ticker": "SNPS",
@@ -6449,7 +6449,7 @@
     "market_cap_usd": 86.32,
     "view": "中性:1月 -9.5%、3月 9.42%。RSI 49",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "tandem": {
     "ticker": "TNDM",
@@ -6476,7 +6476,7 @@
     "market_cap_usd": 1.18,
     "view": "⚠ 趨勢轉弱:1週 -11.51% 跌破 200日均線。RSI 53。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "te_connectivity": {
     "ticker": "TEL",
@@ -6502,7 +6502,7 @@
     "market_cap_usd": 59.52,
     "view": "區間整理:1月 -3.41%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "teladoc": {
     "ticker": "TDOC",
@@ -6528,7 +6528,7 @@
     "market_cap_usd": 1.6,
     "view": "強勢但偏高:1月 +58.3%、RSI 77 超買。技術面強但宜等回檔。3月 +23.87%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "telix": {
     "ticker": "TLX",
@@ -6555,7 +6555,7 @@
     "market_cap_usd": 3.27,
     "view": "中性:1月 -12.53%、3月 -18.32%。RSI 38",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "tempus_lb": {
     "ticker": "TEM",
@@ -6582,7 +6582,7 @@
     "market_cap_usd": 13.48,
     "view": "強勢上漲:1月 +9.77%、3月 +38.12%。距 52週高點 -14.6%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "teradata": {
     "ticker": "TDC",
@@ -6612,7 +6612,7 @@
     "market_cap_usd": 2.96,
     "view": "突破前夕:MACD/量能轉強,RSI 52。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "teradyne": {
     "ticker": "TER",
@@ -6636,7 +6636,7 @@
     "market_cap_usd": 34.07,
     "view": "⚠ 趨勢轉弱:1週 -20.47% 跌破 200日均線。RSI 20。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "tesla": {
     "ticker": "TSLA",
@@ -6660,7 +6660,7 @@
     "market_cap_usd": 1415.95,
     "view": "⚠ 趨勢轉弱:1週 -10.4% 跌破 200日均線。RSI 47。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "teva_ajovy": {
     "ticker": "TEVA",
@@ -6689,7 +6689,7 @@
     "market_cap_usd": 49.7,
     "view": "強勢上漲:1月 +8.56%、3月 +17.9%。距 52週高點 -1.7%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "texas_instruments": {
     "ticker": "TXN",
@@ -6717,7 +6717,7 @@
     "market_cap_usd": 253.58,
     "view": "回檔整理:1週 -7.8%,價格仍在 200日均線之上。RSI 51,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "thermo_glp": {
     "ticker": "TMO",
@@ -6746,7 +6746,7 @@
     "market_cap_usd": 257.42,
     "view": "強勢上漲:1月 +6.56%、3月 +15.94%。距 52週高點 -2.4%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ti": {
     "ticker": "TXN",
@@ -6774,7 +6774,7 @@
     "market_cap_usd": 253.58,
     "view": "回檔整理:1週 -7.8%,價格仍在 200日均線之上。RSI 51,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "toast": {
     "ticker": "TOST",
@@ -6803,7 +6803,7 @@
     "market_cap_usd": 17.82,
     "view": "強勢上漲:1月 +13.56%、3月 +-2.86%。距 52週高點 -10.3%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "tokyo_electron": {
     "ticker": "8035.T",
@@ -6829,7 +6829,7 @@
     "market_cap_usd": 118.06,
     "view": "⚠ 趨勢轉弱:1週 -17.66% 跌破 200日均線。RSI 28。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "toppan": {
     "ticker": "7911.T",
@@ -6851,7 +6851,7 @@
     "market_cap_usd": 6.66,
     "view": "⚠ 趨勢轉弱:1週 -15.74% 跌破 200日均線。RSI 21。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "tower_semi": {
     "ticker": "TSEM",
@@ -6875,7 +6875,7 @@
     "market_cap_usd": 15.59,
     "view": "⚠ 趨勢轉弱:1週 -17.5% 跌破 200日均線。RSI 30。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "trade_desk": {
     "ticker": "TTD",
@@ -6901,7 +6901,7 @@
     "market_cap_usd": 5.56,
     "view": "區間整理:1月 4.78%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "travere": {
     "ticker": "TVTX",
@@ -6929,7 +6929,7 @@
     "market_cap_usd": 4.68,
     "view": "突破前夕:MACD/量能轉強,RSI 47。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "tsmc": {
     "ticker": "2330.TW",
@@ -6955,7 +6955,7 @@
     "market_cap_usd": 1672.21,
     "view": "⚠ 趨勢轉弱:1週 -9.92% 跌破 200日均線。RSI 14。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "twilio": {
     "ticker": "TWLO",
@@ -6981,7 +6981,7 @@
     "market_cap_usd": 31.26,
     "view": "⚠ 下跌趨勢:1月 -26.74%、3月 -19.21%。尚有 200日均線支撐",
     "view_type": "downtrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "tyler_tech": {
     "ticker": "TYL",
@@ -7011,7 +7011,7 @@
     "market_cap_usd": 16.72,
     "view": "強勢但偏高:1月 +27.0%、RSI 71 超買。技術面強但宜等回檔。3月 +31.99%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "ucb_bimzelx": {
     "ticker": "UCB.BR",
@@ -7041,7 +7041,7 @@
     "market_cap_usd": 62.28,
     "view": "強勢但偏高:1月 +44.15%、RSI 87 超買。技術面強但宜等回檔。3月 +28.6%",
     "view_type": "extended",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "umc": {
     "ticker": "2303.TW",
@@ -7065,7 +7065,7 @@
     "market_cap_usd": 34.84,
     "view": "⚠ 趨勢轉弱:1週 -17.49% 跌破 200日均線。RSI 15。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "unimicron": {
     "ticker": "3037.TW",
@@ -7089,7 +7089,7 @@
     "market_cap_usd": 36.08,
     "view": "⚠ 趨勢轉弱:1週 -26.49% 跌破 200日均線。RSI 20。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "veeva": {
     "ticker": "VEEV",
@@ -7117,7 +7117,7 @@
     "market_cap_usd": 49.18,
     "view": "中性:1月 6.63%、3月 29.42%。RSI 38",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "veracyte": {
     "ticker": "VCYT",
@@ -7143,7 +7143,7 @@
     "market_cap_usd": 1.94,
     "view": "⚠ 趨勢轉弱:1週 -51.69% 跌破 200日均線。RSI 28。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "vertex_ckd": {
     "ticker": "VRTX",
@@ -7171,7 +7171,7 @@
     "market_cap_usd": 138.67,
     "view": "強勢上漲:1月 +8.71%、3月 +4.42%。距 52週高點 -3.8%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "vertiv": {
     "ticker": "VRT",
@@ -7195,7 +7195,7 @@
     "market_cap_usd": 70.41,
     "view": "⚠ 趨勢轉弱:1週 -21.35% 跌破 200日均線。RSI 44。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "veru": {
     "ticker": "VERU",
@@ -7217,7 +7217,7 @@
     "market_cap_usd": 0.04,
     "view": "中性:1月 -12.4%、3月 -23.47%。RSI 36",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "vicor": {
     "ticker": "VICR",
@@ -7239,7 +7239,7 @@
     "market_cap_usd": 5.06,
     "view": "⚠ 趨勢轉弱:1週 -23.14% 跌破 200日均線。RSI 39。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "vistra": {
     "ticker": "VST",
@@ -7261,7 +7261,7 @@
     "market_cap_usd": 41.89,
     "view": "⚠ 趨勢轉弱:1週 -9.81% 跌破 200日均線。RSI 35。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "weightwatchers": {
     "ticker": "WW",
@@ -7286,7 +7286,7 @@
     "market_cap_usd": 0.11,
     "view": "⚠ 趨勢轉弱:1週 -24.09% 跌破 200日均線。RSI 42。需確認支撐",
     "view_type": "broken_trend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "wistron": {
     "ticker": "3231.TW",
@@ -7310,7 +7310,7 @@
     "market_cap_usd": 16.57,
     "view": "回檔整理:1週 -12.81%,價格仍在 200日均線之上。RSI 32,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "workday": {
     "ticker": "WDAY",
@@ -7337,7 +7337,7 @@
     "market_cap_usd": 37.81,
     "view": "區間整理:1月 2.71%。等待方向訊號。在 50日均線下方需警戒",
     "view_type": "consolidation",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "wuxi_bio": {
     "ticker": "2269.HK",
@@ -7365,7 +7365,7 @@
     "market_cap_usd": 25.0,
     "view": "突破前夕:MACD/量能轉強,RSI 49。早期介入機會",
     "view_type": "breakout_setup",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "zimmer_rosa": {
     "ticker": "ZBH",
@@ -7395,7 +7395,7 @@
     "market_cap_usd": 20.14,
     "view": "強勢上漲:1月 +18.8%、3月 +8.27%。距 52週高點 -6.2%,動能延續",
     "view_type": "strong_uptrend",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "zoom": {
     "ticker": "ZM",
@@ -7419,7 +7419,7 @@
     "market_cap_usd": 23.66,
     "view": "中性:1月 -5.06%、3月 -16.16%。RSI 34",
     "view_type": "neutral",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "zscaler": {
     "ticker": "ZS",
@@ -7445,6 +7445,6 @@
     "market_cap_usd": 32.23,
     "view": "回檔整理:1週 -16.89%,價格仍在 200日均線之上。RSI 43,觀望為宜",
     "view_type": "pullback",
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   }
 }
